@@ -1,0 +1,24 @@
+19:10:58.561 > CAN Driver installed
+19:10:58.562 > CAN Driver started
+19:10:58.562 > Finished initialization
+19:11:08.006 > 送信したメッセージ: a
+19:11:10.032 > 送信したメッセージ: b
+19:11:10.829 > 送信したメッセージ: c
+19:11:11.196 > 送信したメッセージ: d
+19:11:11.579 > 送信したメッセージ: e
+19:11:11.914 > 送信したメッセージ: f
+19:11:13.606 > [ERROR] Failed to send message
+19:11:13.606 > 送信したメッセージ: g
+19:11:14.607 > [ERROR] Failed to send message
+19:11:14.607 > 送信したメッセージ: g
+19:11:15.874 > [ERROR] Failed to send message
+19:11:15.875 > 送信したメッセージ: e
+19:13:58.660 > ets Jul 29 2019 12:21:46
+19:13:58.660 > 
+19:13:58.660 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+19:13:58.665 > waiting for download
+19:13:58.885 > ␁ ␁␇␁␇␁␒ets Jul 29 2019 12:21:46
+19:14:11.355 > 
+19:14:11.355 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+19:14:11.375 > waiting for download
+19:14:12.230 > ␁ U␀␀␀␀��␁␄␀␒ UU␀␀␀␀��␁␄␀␒ UU␀␀␀␀��␁␄␀␒ UU␀␀␀␀�␁␒␀

@@ -1,18 +1,20 @@
 #ifndef DATA_LOGGER_H
 #define DATA_LOGGER_H
 
-#include <SPIflash.h>
+#include "utils/SensorData.h"
 #include "utils/SensorManager/SensorManager.h"
+#include <SdFat.h>
 
 class DataLogger {
 public:
   void begin();
-  void logData(const SensorData& data);
-  void retrieveData();
+  void logData(const LogData &data);
+  void end();
 
 private:
-  Flash flash;
-  uint32_t currentAddress;
+  SdFat sd;
+  SdFile file;
+  char filename[20];
 };
 
 #endif

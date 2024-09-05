@@ -1,0 +1,24 @@
+CAN Driver installed
+19:14:31.808 > CAN Driver started
+19:14:31.808 > Finished initialization
+19:15:02.911 > ets Jul 29 2019 12:21:46
+19:15:02.911 > 
+19:15:02.911 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+19:15:02.916 > waiting for download
+19:15:03.296 > ␁ ␁␇�␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀�ets Jul 29 2019 12:21:46
+19:15:09.658 > 
+19:15:09.658 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+19:15:09.664 > waiting for download
+19:15:10.538 > ␁U␁␒␁␇ets Jul 29 2019 12:21:46
+19:15:19.912 > 
+19:15:19.912 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+19:15:19.917 > waiting for download
+19:15:20.292 > �␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀��␁␄␀␇␇␒ ␀␀␀␀�ets Jul 29 2019 12:21:46
+19:15:20.602 > 
+19:15:20.602 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+19:15:20.607 > waiting for download
+19:15:21.483 > ␁␀␄␁␒␁␇ets Jul 29 2019 12:21:46
+19:15:46.116 > 
+19:15:46.116 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+19:15:46.121 > waiting for download
+19:15:46.344 > �␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀�␁ ␁

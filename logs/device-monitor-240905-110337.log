@@ -1,0 +1,22 @@
+11:03:37.940 > E (169) esp_core_dump_flash: C�����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�V�&␓�,Y�RH(�+�V␖�,ZY���][O���������RH�setup
+11:03:37.954 > dataLogger.begin
+11:03:37.954 > stateManager.begin
+11:03:37.959 > SERVO_PIN: 26
+11:03:37.959 > actuatorController.begin
+11:03:37.959 > [    31][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:37.965 > [    42][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:37.976 > [    49][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:37.981 > [    56][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:37.987 > [    63][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:37.997 > [    70][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.003 > [    77][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.009 > [    83][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.014 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.025 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.030 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.036 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.041 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.052 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+11:03:38.058 > SensorManager::begin
+11:03:38.058 > sensorManager.begin
+11:03:38.073 > dataQueue

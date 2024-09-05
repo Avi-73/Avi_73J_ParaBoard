@@ -1,0 +1,22 @@
+10:41:40.782 > E (168) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�V�&␓�,Y�RH(�+�V␖�,ZY���][O���������RH�setup
+10:41:40.796 > dataLogger.begin
+10:41:40.796 > stateManager.begin
+10:41:40.801 > SERVO_PIN: 26
+10:41:40.801 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+10:41:40.806 > 
+10:41:40.806 > Core  1 register dump:
+10:41:40.812 > PC      : 0x400d20c7  PS      : 0x00060230  A0      : 0x800d1fd8  A1      : 0x3ffb21f0  
+10:41:40.817 > A2      : 0x3ffc1598  A3      : 0x0000005a  A4      : 0x00000000  A5      : 0x000001f4  
+10:41:40.828 > A6      : 0x00000960  A7      : 0x00000000  A8      : 0x00000000  A9      : 0x00000000  
+10:41:40.833 > A10     : 0x00000000  A11     : 0x00000000  A12     : 0x00000000  A13     : 0x00000000  
+10:41:40.844 > A14     : 0x3f407a7c  A15     : 0x3ff49028  SAR     : 0x00000006  EXCCAUSE: 0x00000006  
+10:41:40.849 > EXCVADDR: 0x00000000  LBEG    : 0x400864b0  LEND    : 0x400864bb  LCOUNT  : 0xffffffff  
+10:41:40.854 > 
+10:41:40.854 > 
+10:41:40.854 > Backtrace: 0x400d20c4:0x3ffb21f0 0x400d1fd5:0x3ffb2210 0x400d1c5b:0x3ffb2240 0x400d4d06:0x3ffb2270 0x4008ae76:0x3ffb2290
+10:41:40.865 > 
+10:41:40.865 > 
+10:41:40.881 > 
+10:41:40.881 > 
+10:41:40.881 > ELF file SHA256: d26b2dfe9e3bbfad
+10:41:40.881 > 

@@ -1,0 +1,14 @@
+21:13:11.450 > ets Jul 29 2019 12:21:46
+21:13:11.451 > 
+21:13:11.451 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+21:13:11.456 > configsip: 0, SPIWP:0xee
+21:13:11.456 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+21:13:11.461 > mode:DIO, clock div:2
+21:13:11.466 > load:0x3fff0030,len:1184
+21:13:11.466 > load:0x40078000,len:12776
+21:13:11.482 > load:0x40080400,len:3032
+21:13:11.482 > entry 0x400805e4
+21:13:11.585 > [␀␘HH� 4][D][esp32-hal-cpu.c:211] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+21:13:11.599 > CAN Driver installed
+21:13:11.599 > CAN Driver started
+21:13:11.615 > Finished initialization

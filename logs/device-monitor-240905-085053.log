@@ -1,0 +1,1402 @@
+08:50:53.406 > 
+08:50:53.406 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:53.416 > 
+08:50:53.416 > 
+08:50:53.416 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:53.443 > 
+08:50:53.443 > 
+08:50:53.443 > 
+08:50:53.443 > 
+08:50:53.443 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:53.443 > 
+08:50:53.518 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:53.524 > Debug exception reason: BREAK instr 
+08:50:53.524 > Core  1 register dump:
+08:50:53.529 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:53.534 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:53.545 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:53.550 > A10     : 0x00000000  A11     : 0xe4d2aed4  A12     : 0xe4d2aed4  A13     : 0x00060f24  
+08:50:53.556 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:53.566 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:53.572 > 
+08:50:53.572 > 
+08:50:53.572 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:53.582 > 
+08:50:53.582 > 
+08:50:53.582 > 
+08:50:53.582 > 
+08:50:53.582 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:53.588 > 
+08:50:53.588 > Re-entered core dump! Exception happened during core dump!
+08:50:53.603 > Rebooting...
+08:50:53.750 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:50:53.755 > Calculated checksum='64911e0a'
+08:50:53.764 > Image checksum='ffffffff'
+08:50:53.764 > 
+08:50:53.764 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:53.774 > 
+08:50:53.774 > 
+08:50:53.774 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:53.790 > 
+08:50:53.790 > 
+08:50:53.790 > 
+08:50:53.790 > 
+08:50:53.790 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:53.806 > 
+08:50:53.912 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:53.917 > Debug exception reason: BREAK instr 
+08:50:53.917 > Core  1 register dump:
+08:50:53.922 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:53.928 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:53.938 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:53.944 > A10     : 0x00000000  A11     : 0xdb6eb0a9  A12     : 0xdb6eb0a9  A13     : 0x00060f24  
+08:50:53.949 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:53.960 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:53.965 > 
+08:50:53.965 > 
+08:50:53.965 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:53.976 > 
+08:50:53.976 > 
+08:50:53.976 > 
+08:50:53.976 > 
+08:50:53.976 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:53.981 > 
+08:50:53.981 > Re-entered core dump! Exception happened during core dump!
+08:50:53.997 > Rebooting...
+08:50:54.143 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:50:54.148 > Calculated checksum='64911e0a'
+08:50:54.157 > Image checksum='ffffffff'
+08:50:54.157 > 
+08:50:54.157 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:54.168 > 
+08:50:54.168 > 
+08:50:54.168 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:54.184 > 
+08:50:54.184 > 
+08:50:54.184 > 
+08:50:54.184 > 
+08:50:54.184 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:54.199 > 
+08:50:54.302 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:54.307 > Debug exception reason: BREAK instr 
+08:50:54.307 > Core  1 register dump:
+08:50:54.313 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:54.318 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:54.329 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:54.334 > A10     : 0x00000000  A11     : 0xd48ed101  A12     : 0xd48ed101  A13     : 0x00060f24  
+08:50:54.340 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:54.350 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:54.356 > 
+08:50:54.356 > 
+08:50:54.356 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:54.366 > 
+08:50:54.366 > 
+08:50:54.366 > 
+08:50:54.366 > 
+08:50:54.366 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:54.372 > 
+08:50:54.372 > Re-entered core dump! Exception happened during core dump!
+08:50:54.387 > Rebooting...
+08:50:54.534 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:54.548 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:54.558 > 
+08:50:54.558 > 
+08:50:54.558 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:54.574 > 
+08:50:54.574 > 
+08:50:54.574 > 
+08:50:54.574 > 
+08:50:54.574 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:54.590 > 
+08:50:54.693 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:54.698 > Debug exception reason: BREAK instr 
+08:50:54.698 > Core  1 register dump:
+08:50:54.703 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:54.709 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:54.720 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:54.725 > A10     : 0x00000000  A11     : 0x5173de35  A12     : 0x5173de35  A13     : 0x00060f24  
+08:50:54.730 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:54.741 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:54.746 > 
+08:50:54.746 > 
+08:50:54.746 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:54.757 > 
+08:50:54.757 > 
+08:50:54.757 > 
+08:50:54.757 > 
+08:50:54.757 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:54.762 > 
+08:50:54.762 > Re-entered core dump! Exception happened during core dump!
+08:50:54.778 > Rebooting...
+08:50:54.925 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:54.939 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:54.950 > 
+08:50:54.950 > 
+08:50:54.950 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:54.965 > 
+08:50:54.965 > 
+08:50:54.965 > 
+08:50:54.965 > 
+08:50:54.965 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:54.980 > 
+08:50:55.086 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:55.092 > Debug exception reason: BREAK instr 
+08:50:55.092 > Core  1 register dump:
+08:50:55.097 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:55.103 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:55.113 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:55.118 > A10     : 0x00000000  A11     : 0x74e20ca4  A12     : 0x74e20ca4  A13     : 0x00060f24  
+08:50:55.124 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:55.134 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:55.140 > 
+08:50:55.140 > 
+08:50:55.140 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:55.151 > 
+08:50:55.151 > 
+08:50:55.151 > 
+08:50:55.151 > 
+08:50:55.151 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:55.156 > 
+08:50:55.156 > Re-entered core dump! Exception happened during core dump!
+08:50:55.172 > Rebooting...
+08:50:55.318 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:55.332 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:55.343 > 
+08:50:55.343 > 
+08:50:55.343 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:55.359 > 
+08:50:55.359 > 
+08:50:55.359 > 
+08:50:55.359 > 
+08:50:55.359 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:55.374 > 
+08:50:55.480 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:55.485 > Debug exception reason: BREAK instr 
+08:50:55.485 > Core  1 register dump:
+08:50:55.491 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:55.496 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:55.507 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:55.512 > A10     : 0x00000000  A11     : 0x8822ae44  A12     : 0x8822ae44  A13     : 0x00060f24  
+08:50:55.517 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:55.528 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:55.533 > 
+08:50:55.533 > 
+08:50:55.533 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:55.544 > 
+08:50:55.544 > 
+08:50:55.544 > 
+08:50:55.544 > 
+08:50:55.544 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:55.549 > 
+08:50:55.549 > Re-entered core dump! Exception happened during core dump!
+08:50:55.564 > Rebooting...
+08:50:55.711 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:55.726 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:55.736 > 
+08:50:55.736 > 
+08:50:55.736 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:55.752 > 
+08:50:55.752 > 
+08:50:55.752 > 
+08:50:55.752 > 
+08:50:55.752 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:55.768 > 
+08:50:55.876 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:55.881 > Debug exception reason: BREAK instr 
+08:50:55.881 > Core  1 register dump:
+08:50:55.887 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:55.892 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:55.903 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:55.908 > A10     : 0x00000000  A11     : 0xdf50af9a  A12     : 0xdf50af9a  A13     : 0x00060f24  
+08:50:55.913 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:55.924 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:55.929 > 
+08:50:55.929 > 
+08:50:55.929 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:55.940 > 
+08:50:55.940 > 
+08:50:55.940 > 
+08:50:55.940 > 
+08:50:55.940 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:55.945 > 
+08:50:55.945 > Re-entered core dump! Exception happened during core dump!
+08:50:55.961 > Rebooting...
+08:50:56.107 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:56.121 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:56.132 > 
+08:50:56.132 > 
+08:50:56.132 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:56.148 > 
+08:50:56.148 > 
+08:50:56.148 > 
+08:50:56.148 > 
+08:50:56.148 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:56.163 > 
+08:50:56.272 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:56.277 > Debug exception reason: BREAK instr 
+08:50:56.277 > Core  1 register dump:
+08:50:56.283 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:56.289 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:56.299 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:56.304 > A10     : 0x00000000  A11     : 0xf34183a2  A12     : 0xf34183a2  A13     : 0x00060f24  
+08:50:56.310 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:56.320 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:56.326 > 
+08:50:56.326 > 
+08:50:56.326 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:56.336 > 
+08:50:56.336 > 
+08:50:56.336 > 
+08:50:56.336 > 
+08:50:56.336 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:56.342 > 
+08:50:56.342 > Re-entered core dump! Exception happened during core dump!
+08:50:56.357 > Rebooting...
+08:50:56.504 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:56.518 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:56.528 > 
+08:50:56.528 > 
+08:50:56.528 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:56.545 > 
+08:50:56.545 > 
+08:50:56.545 > 
+08:50:56.545 > 
+08:50:56.545 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:56.560 > 
+08:50:56.664 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:56.669 > Debug exception reason: BREAK instr 
+08:50:56.669 > Core  1 register dump:
+08:50:56.675 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:56.680 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:56.691 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:56.696 > A10     : 0x00000000  A11     : 0x97203c23  A12     : 0x97203c23  A13     : 0x00060f24  
+08:50:56.701 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:56.712 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:56.717 > 
+08:50:56.717 > 
+08:50:56.717 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:56.728 > 
+08:50:56.728 > 
+08:50:56.728 > 
+08:50:56.728 > 
+08:50:56.728 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:56.734 > 
+08:50:56.734 > Re-entered core dump! Exception happened during core dump!
+08:50:56.749 > Rebooting...
+08:50:56.896 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:56.910 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:56.920 > 
+08:50:56.920 > 
+08:50:56.920 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:56.936 > 
+08:50:56.936 > 
+08:50:56.936 > 
+08:50:56.936 > 
+08:50:56.936 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:56.952 > 
+08:50:57.061 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:57.066 > Debug exception reason: BREAK instr 
+08:50:57.066 > Core  1 register dump:
+08:50:57.071 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:57.077 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:57.087 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:57.092 > A10     : 0x00000000  A11     : 0x9a6ae011  A12     : 0x9a6ae011  A13     : 0x00060f24  
+08:50:57.098 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:57.108 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:57.114 > 
+08:50:57.114 > 
+08:50:57.114 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:57.124 > 
+08:50:57.124 > 
+08:50:57.124 > 
+08:50:57.124 > 
+08:50:57.124 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:57.130 > 
+08:50:57.130 > Re-entered core dump! Exception happened during core dump!
+08:50:57.146 > Rebooting...
+08:50:57.292 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:50:57.297 > Calculated checksum='64911e0a'
+08:50:57.297 > Image checksum='ffffffff'
+08:50:57.306 > 
+08:50:57.306 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:57.316 > 
+08:50:57.316 > 
+08:50:57.316 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:57.333 > 
+08:50:57.333 > 
+08:50:57.333 > 
+08:50:57.333 > 
+08:50:57.333 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:57.348 > 
+08:50:57.455 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:57.460 > Debug exception reason: BREAK instr 
+08:50:57.460 > Core  1 register dump:
+08:50:57.466 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:57.471 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:57.482 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:57.487 > A10     : 0x00000000  A11     : 0x95cbdc64  A12     : 0x95cbdc64  A13     : 0x00060f24  
+08:50:57.493 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:57.503 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:57.508 > 
+08:50:57.508 > 
+08:50:57.508 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:57.519 > 
+08:50:57.519 > 
+08:50:57.519 > 
+08:50:57.519 > 
+08:50:57.519 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:57.525 > 
+08:50:57.525 > Re-entered core dump! Exception happened during core dump!
+08:50:57.540 > Rebooting...
+08:50:57.687 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:50:57.692 > Calculated checksum='64911e0a'
+08:50:57.701 > Image checksum='ffffffff'
+08:50:57.701 > 
+08:50:57.701 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:57.711 > 
+08:50:57.711 > 
+08:50:57.711 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:57.727 > 
+08:50:57.727 > 
+08:50:57.727 > 
+08:50:57.727 > 
+08:50:57.727 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:57.743 > 
+08:50:57.849 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:57.854 > Debug exception reason: BREAK instr 
+08:50:57.854 > Core  1 register dump:
+08:50:57.859 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:57.865 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:57.875 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:57.880 > A10     : 0x00000000  A11     : 0xe1022bbb  A12     : 0xe1022bbb  A13     : 0x00060f24  
+08:50:57.886 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:57.897 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:57.902 > 
+08:50:57.902 > 
+08:50:57.902 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:57.913 > 
+08:50:57.913 > 
+08:50:57.913 > 
+08:50:57.913 > 
+08:50:57.913 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:57.918 > 
+08:50:57.918 > Re-entered core dump! Exception happened during core dump!
+08:50:57.933 > Rebooting...
+08:50:58.080 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:50:58.086 > Calculated checksum='64911e0a'
+08:50:58.086 > Image checksum='ffffffff'
+08:50:58.094 > 
+08:50:58.094 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:58.105 > 
+08:50:58.105 > 
+08:50:58.105 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:58.120 > 
+08:50:58.120 > 
+08:50:58.120 > 
+08:50:58.120 > 
+08:50:58.120 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:58.137 > 
+08:50:58.241 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:58.246 > Debug exception reason: BREAK instr 
+08:50:58.246 > Core  1 register dump:
+08:50:58.252 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:58.257 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:58.267 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:58.273 > A10     : 0x00000000  A11     : 0xbfe82933  A12     : 0xbfe82933  A13     : 0x00060f24  
+08:50:58.278 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:58.289 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:58.294 > 
+08:50:58.294 > 
+08:50:58.294 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:58.305 > 
+08:50:58.305 > 
+08:50:58.305 > 
+08:50:58.305 > 
+08:50:58.305 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:58.310 > 
+08:50:58.310 > Re-entered core dump! Exception happened during core dump!
+08:50:58.326 > Rebooting...
+08:50:58.472 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:50:58.477 > Calculated checksum='64911e0a'
+08:50:58.486 > Image checksum='ffffffff'
+08:50:58.487 > 
+08:50:58.487 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:58.497 > 
+08:50:58.497 > 
+08:50:58.497 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:58.513 > 
+08:50:58.513 > 
+08:50:58.513 > 
+08:50:58.513 > 
+08:50:58.513 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:58.528 > 
+08:50:58.632 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:58.637 > Debug exception reason: BREAK instr 
+08:50:58.637 > Core  1 register dump:
+08:50:58.643 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:58.648 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:58.659 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:58.664 > A10     : 0x00000000  A11     : 0xb4253172  A12     : 0xb4253172  A13     : 0x00060f24  
+08:50:58.670 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:58.680 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:58.686 > 
+08:50:58.686 > 
+08:50:58.686 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:58.696 > 
+08:50:58.696 > 
+08:50:58.696 > 
+08:50:58.696 > 
+08:50:58.696 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:58.702 > 
+08:50:58.702 > Re-entered core dump! Exception happened during core dump!
+08:50:58.717 > Rebooting...
+08:50:58.864 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:58.878 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:58.889 > 
+08:50:58.889 > 
+08:50:58.889 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:58.904 > 
+08:50:58.904 > 
+08:50:58.904 > 
+08:50:58.904 > 
+08:50:58.904 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:58.920 > 
+08:50:59.026 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:59.031 > Debug exception reason: BREAK instr 
+08:50:59.031 > Core  1 register dump:
+08:50:59.036 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:59.042 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:59.052 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:59.057 > A10     : 0x00000000  A11     : 0x6a7eadd4  A12     : 0x6a7eadd4  A13     : 0x00060f24  
+08:50:59.063 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:59.073 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:59.079 > 
+08:50:59.079 > 
+08:50:59.079 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:59.089 > 
+08:50:59.089 > 
+08:50:59.089 > 
+08:50:59.089 > 
+08:50:59.089 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:59.095 > 
+08:50:59.095 > Re-entered core dump! Exception happened during core dump!
+08:50:59.110 > Rebooting...
+08:50:59.257 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:50:59.262 > Calculated checksum='64911e0a'
+08:50:59.271 > Image checksum='ffffffff'
+08:50:59.271 > 
+08:50:59.271 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:59.281 > 
+08:50:59.281 > 
+08:50:59.281 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:59.297 > 
+08:50:59.297 > 
+08:50:59.297 > 
+08:50:59.297 > 
+08:50:59.297 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:59.313 > 
+08:50:59.423 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:59.429 > Debug exception reason: BREAK instr 
+08:50:59.429 > Core  1 register dump:
+08:50:59.434 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:59.439 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:59.450 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:59.455 > A10     : 0x00000000  A11     : 0xa2b25e39  A12     : 0xa2b25e39  A13     : 0x00060f24  
+08:50:59.460 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:59.471 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:59.477 > 
+08:50:59.477 > 
+08:50:59.477 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:59.487 > 
+08:50:59.487 > 
+08:50:59.487 > 
+08:50:59.487 > 
+08:50:59.487 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:59.493 > 
+08:50:59.493 > Re-entered core dump! Exception happened during core dump!
+08:50:59.508 > Rebooting...
+08:50:59.655 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:50:59.669 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:50:59.680 > 
+08:50:59.680 > 
+08:50:59.680 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:50:59.696 > 
+08:50:59.696 > 
+08:50:59.696 > 
+08:50:59.696 > 
+08:50:59.696 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:59.711 > 
+08:50:59.820 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:50:59.825 > Debug exception reason: BREAK instr 
+08:50:59.825 > Core  1 register dump:
+08:50:59.830 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:50:59.835 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:50:59.846 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:50:59.851 > A10     : 0x00000000  A11     : 0x7b01316b  A12     : 0x7b01316b  A13     : 0x00060f24  
+08:50:59.857 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:50:59.868 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:50:59.873 > 
+08:50:59.873 > 
+08:50:59.873 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:50:59.884 > 
+08:50:59.884 > 
+08:50:59.884 > 
+08:50:59.884 > 
+08:50:59.884 > ELF file SHA256: 0e4aa41c0bef80b0
+08:50:59.889 > 
+08:50:59.889 > Re-entered core dump! Exception happened during core dump!
+08:50:59.905 > Rebooting...
+08:51:00.049 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:00.056 > Calculated checksum='64911e0a'
+08:51:00.065 > Image checksum='ffffffff'
+08:51:00.065 > 
+08:51:00.065 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:00.075 > 
+08:51:00.075 > 
+08:51:00.075 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:00.091 > 
+08:51:00.091 > 
+08:51:00.091 > 
+08:51:00.091 > 
+08:51:00.091 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:00.107 > 
+08:51:00.216 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:00.221 > Debug exception reason: BREAK instr 
+08:51:00.221 > Core  1 register dump:
+08:51:00.227 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:00.232 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:00.243 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:00.248 > A10     : 0x00000000  A11     : 0x26024ef8  A12     : 0x26024ef8  A13     : 0x00060f24  
+08:51:00.253 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:00.264 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:00.270 > 
+08:51:00.270 > 
+08:51:00.270 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:00.280 > 
+08:51:00.280 > 
+08:51:00.280 > 
+08:51:00.280 > 
+08:51:00.280 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:00.286 > 
+08:51:00.286 > Re-entered core dump! Exception happened during core dump!
+08:51:00.301 > Rebooting...
+08:51:00.447 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:00.453 > Calculated checksum='64911e0a'
+08:51:00.461 > Image checksum='ffffffff'
+08:51:00.461 > 
+08:51:00.461 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:00.472 > 
+08:51:00.472 > 
+08:51:00.472 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:00.488 > 
+08:51:00.488 > 
+08:51:00.488 > 
+08:51:00.488 > 
+08:51:00.488 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:00.503 > 
+08:51:00.608 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:00.613 > Debug exception reason: BREAK instr 
+08:51:00.613 > Core  1 register dump:
+08:51:00.619 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:00.624 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:00.635 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:00.640 > A10     : 0x00000000  A11     : 0xf3d7cb12  A12     : 0xf3d7cb12  A13     : 0x00060f24  
+08:51:00.645 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:00.656 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:00.661 > 
+08:51:00.661 > 
+08:51:00.661 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:00.672 > 
+08:51:00.672 > 
+08:51:00.672 > 
+08:51:00.672 > 
+08:51:00.672 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:00.677 > 
+08:51:00.677 > Re-entered core dump! Exception happened during core dump!
+08:51:00.692 > Rebooting...
+08:51:00.839 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:00.845 > Calculated checksum='64911e0a'
+08:51:00.853 > Image checksum='ffffffff'
+08:51:00.853 > 
+08:51:00.853 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:00.864 > 
+08:51:00.864 > 
+08:51:00.864 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:00.880 > 
+08:51:00.880 > 
+08:51:00.880 > 
+08:51:00.880 > 
+08:51:00.880 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:00.895 > 
+08:51:01.001 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:01.006 > Debug exception reason: BREAK instr 
+08:51:01.006 > Core  1 register dump:
+08:51:01.012 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:01.017 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:01.028 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:01.033 > A10     : 0x00000000  A11     : 0x1ab9af3f  A12     : 0x1ab9af3f  A13     : 0x00060f24  
+08:51:01.038 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:01.049 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:01.055 > 
+08:51:01.055 > 
+08:51:01.055 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:01.065 > 
+08:51:01.065 > 
+08:51:01.065 > 
+08:51:01.065 > 
+08:51:01.065 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:01.071 > 
+08:51:01.071 > Re-entered core dump! Exception happened during core dump!
+08:51:01.086 > Rebooting...
+08:51:01.232 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:01.247 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:01.258 > 
+08:51:01.258 > 
+08:51:01.258 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:01.273 > 
+08:51:01.273 > 
+08:51:01.273 > 
+08:51:01.273 > 
+08:51:01.273 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:01.289 > 
+08:51:01.391 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:01.397 > Debug exception reason: BREAK instr 
+08:51:01.397 > Core  1 register dump:
+08:51:01.402 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:01.407 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:01.418 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:01.423 > A10     : 0x00000000  A11     : 0xa407b91b  A12     : 0xa407b91b  A13     : 0x00060f24  
+08:51:01.429 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:01.439 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:01.445 > 
+08:51:01.445 > 
+08:51:01.445 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:01.455 > 
+08:51:01.455 > 
+08:51:01.455 > 
+08:51:01.455 > 
+08:51:01.455 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:01.461 > 
+08:51:01.461 > Re-entered core dump! Exception happened during core dump!
+08:51:01.476 > Rebooting...
+08:51:01.623 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:01.637 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:01.648 > 
+08:51:01.648 > 
+08:51:01.648 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:01.664 > 
+08:51:01.664 > 
+08:51:01.664 > 
+08:51:01.664 > 
+08:51:01.664 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:01.680 > 
+08:51:01.783 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:01.788 > Debug exception reason: BREAK instr 
+08:51:01.788 > Core  1 register dump:
+08:51:01.794 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:01.799 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:01.810 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:01.815 > A10     : 0x00000000  A11     : 0xd07e11f2  A12     : 0xd07e11f2  A13     : 0x00060f24  
+08:51:01.820 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:01.831 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:01.837 > 
+08:51:01.837 > 
+08:51:01.837 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:01.847 > 
+08:51:01.847 > 
+08:51:01.847 > 
+08:51:01.847 > 
+08:51:01.847 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:01.853 > 
+08:51:01.853 > Re-entered core dump! Exception happened during core dump!
+08:51:01.868 > Rebooting...
+08:51:02.015 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:02.029 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:02.040 > 
+08:51:02.040 > 
+08:51:02.040 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:02.055 > 
+08:51:02.055 > 
+08:51:02.055 > 
+08:51:02.055 > 
+08:51:02.055 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:02.071 > 
+08:51:02.179 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:02.185 > Debug exception reason: BREAK instr 
+08:51:02.185 > Core  1 register dump:
+08:51:02.190 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:02.196 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:02.206 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:02.211 > A10     : 0x00000000  A11     : 0x19e738a4  A12     : 0x19e738a4  A13     : 0x00060f24  
+08:51:02.217 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:02.227 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:02.233 > 
+08:51:02.233 > 
+08:51:02.233 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:02.243 > 
+08:51:02.243 > 
+08:51:02.243 > 
+08:51:02.243 > 
+08:51:02.243 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:02.249 > 
+08:51:02.249 > Re-entered core dump! Exception happened during core dump!
+08:51:02.265 > Rebooting...
+08:51:02.408 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:02.416 > Calculated checksum='64911e0a'
+08:51:02.425 > Image checksum='ffffffff'
+08:51:02.425 > 
+08:51:02.425 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:02.436 > 
+08:51:02.436 > 
+08:51:02.436 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:02.451 > 
+08:51:02.451 > 
+08:51:02.451 > 
+08:51:02.451 > 
+08:51:02.451 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:02.467 > 
+08:51:02.574 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:02.579 > Debug exception reason: BREAK instr 
+08:51:02.579 > Core  1 register dump:
+08:51:02.585 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:02.590 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:02.601 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:02.606 > A10     : 0x00000000  A11     : 0xde384110  A12     : 0xde384110  A13     : 0x00060f24  
+08:51:02.611 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:02.622 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:02.627 > 
+08:51:02.627 > 
+08:51:02.627 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:02.638 > 
+08:51:02.638 > 
+08:51:02.638 > 
+08:51:02.638 > 
+08:51:02.638 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:02.644 > 
+08:51:02.644 > Re-entered core dump! Exception happened during core dump!
+08:51:02.659 > Rebooting...
+08:51:02.806 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:02.811 > Calculated checksum='64911e0a'
+08:51:02.811 > Image checksum='ffffffff'
+08:51:02.820 > 
+08:51:02.820 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:02.830 > 
+08:51:02.830 > 
+08:51:02.830 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:02.846 > 
+08:51:02.846 > 
+08:51:02.846 > 
+08:51:02.846 > 
+08:51:02.846 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:02.862 > 
+08:51:02.970 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:02.976 > Debug exception reason: BREAK instr 
+08:51:02.976 > Core  1 register dump:
+08:51:02.981 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:02.986 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:02.997 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:03.002 > A10     : 0x00000000  A11     : 0x599d0afe  A12     : 0x599d0afe  A13     : 0x00060f24  
+08:51:03.008 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:03.018 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:03.024 > 
+08:51:03.024 > 
+08:51:03.024 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:03.034 > 
+08:51:03.034 > 
+08:51:03.034 > 
+08:51:03.034 > 
+08:51:03.034 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:03.040 > 
+08:51:03.040 > Re-entered core dump! Exception happened during core dump!
+08:51:03.055 > Rebooting...
+08:51:03.202 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:03.207 > Calculated checksum='64911e0a'
+08:51:03.216 > Image checksum='ffffffff'
+08:51:03.216 > 
+08:51:03.216 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:03.226 > 
+08:51:03.226 > 
+08:51:03.226 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:03.242 > 
+08:51:03.242 > 
+08:51:03.242 > 
+08:51:03.242 > 
+08:51:03.242 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:03.258 > 
+08:51:03.367 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:03.372 > Debug exception reason: BREAK instr 
+08:51:03.372 > Core  1 register dump:
+08:51:03.377 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:03.383 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:03.393 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:03.399 > A10     : 0x00000000  A11     : 0x26656e48  A12     : 0x26656e48  A13     : 0x00060f24  
+08:51:03.404 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:03.415 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:03.420 > 
+08:51:03.420 > 
+08:51:03.420 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:03.431 > 
+08:51:03.431 > 
+08:51:03.431 > 
+08:51:03.431 > 
+08:51:03.431 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:03.436 > 
+08:51:03.436 > Re-entered core dump! Exception happened during core dump!
+08:51:03.452 > Rebooting...
+08:51:03.595 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:03.603 > Calculated checksum='64911e0a'
+08:51:03.603 > Image checksum='ffffffff'
+08:51:03.612 > 
+08:51:03.612 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:03.623 > 
+08:51:03.623 > 
+08:51:03.623 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:03.639 > 
+08:51:03.639 > 
+08:51:03.639 > 
+08:51:03.639 > 
+08:51:03.639 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:03.654 > 
+08:51:03.765 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:03.770 > Debug exception reason: BREAK instr 
+08:51:03.770 > Core  1 register dump:
+08:51:03.775 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:03.781 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:03.791 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:03.797 > A10     : 0x00000000  A11     : 0x00f253c4  A12     : 0x00f253c4  A13     : 0x00060f24  
+08:51:03.802 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:03.813 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:03.818 > 
+08:51:03.818 > 
+08:51:03.818 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:03.829 > 
+08:51:03.829 > 
+08:51:03.829 > 
+08:51:03.829 > 
+08:51:03.829 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:03.834 > 
+08:51:03.834 > Re-entered core dump! Exception happened during core dump!
+08:51:03.850 > Rebooting...
+08:51:03.996 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:04.010 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:04.021 > 
+08:51:04.021 > 
+08:51:04.021 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:04.037 > 
+08:51:04.037 > 
+08:51:04.037 > 
+08:51:04.037 > 
+08:51:04.037 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:04.052 > 
+08:51:04.162 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:04.167 > Debug exception reason: BREAK instr 
+08:51:04.167 > Core  1 register dump:
+08:51:04.173 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:04.178 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:04.189 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:04.194 > A10     : 0x00000000  A11     : 0x75dd8fb2  A12     : 0x75dd8fb2  A13     : 0x00060f24  
+08:51:04.199 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:04.210 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:04.215 > 
+08:51:04.215 > 
+08:51:04.215 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:04.226 > 
+08:51:04.226 > 
+08:51:04.226 > 
+08:51:04.226 > 
+08:51:04.226 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:04.231 > 
+08:51:04.231 > Re-entered core dump! Exception happened during core dump!
+08:51:04.247 > Rebooting...
+08:51:04.393 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:04.407 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:04.418 > 
+08:51:04.418 > 
+08:51:04.418 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:04.434 > 
+08:51:04.434 > 
+08:51:04.434 > 
+08:51:04.434 > 
+08:51:04.434 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:04.449 > 
+08:51:04.557 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:04.562 > Debug exception reason: BREAK instr 
+08:51:04.562 > Core  1 register dump:
+08:51:04.568 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:04.573 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:04.584 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:04.589 > A10     : 0x00000000  A11     : 0x2d94ed2a  A12     : 0x2d94ed2a  A13     : 0x00060f24  
+08:51:04.594 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:04.605 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:04.610 > 
+08:51:04.610 > 
+08:51:04.610 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:04.621 > 
+08:51:04.621 > 
+08:51:04.621 > 
+08:51:04.621 > 
+08:51:04.621 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:04.626 > 
+08:51:04.626 > Re-entered core dump! Exception happened during core dump!
+08:51:04.642 > Rebooting...
+08:51:04.788 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:04.794 > Calculated checksum='64911e0a'
+08:51:04.802 > Image checksum='ffffffff'
+08:51:04.802 > 
+08:51:04.802 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:04.813 > 
+08:51:04.813 > 
+08:51:04.813 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:04.829 > 
+08:51:04.829 > 
+08:51:04.829 > 
+08:51:04.829 > 
+08:51:04.829 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:04.845 > 
+08:51:04.955 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:04.960 > Debug exception reason: BREAK instr 
+08:51:04.960 > Core  1 register dump:
+08:51:04.965 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:04.971 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:04.981 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:04.987 > A10     : 0x00000000  A11     : 0xb880303d  A12     : 0xb880303d  A13     : 0x00060f24  
+08:51:04.992 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:05.003 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:05.008 > 
+08:51:05.008 > 
+08:51:05.008 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:05.019 > 
+08:51:05.019 > 
+08:51:05.019 > 
+08:51:05.019 > 
+08:51:05.019 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:05.024 > 
+08:51:05.024 > Re-entered core dump! Exception happened during core dump!
+08:51:05.039 > Rebooting...
+08:51:05.186 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:05.200 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:05.211 > 
+08:51:05.211 > 
+08:51:05.211 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:05.227 > 
+08:51:05.227 > 
+08:51:05.227 > 
+08:51:05.227 > 
+08:51:05.227 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:05.242 > 
+08:51:05.352 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:05.358 > Debug exception reason: BREAK instr 
+08:51:05.358 > Core  1 register dump:
+08:51:05.363 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:05.368 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:05.379 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:05.384 > A10     : 0x00000000  A11     : 0x137b21f9  A12     : 0x137b21f9  A13     : 0x00060f24  
+08:51:05.390 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:05.400 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:05.406 > 
+08:51:05.406 > 
+08:51:05.406 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:05.416 > 
+08:51:05.416 > 
+08:51:05.416 > 
+08:51:05.416 > 
+08:51:05.416 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:05.422 > 
+08:51:05.422 > Re-entered core dump! Exception happened during core dump!
+08:51:05.437 > Rebooting...
+08:51:05.584 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:05.589 > Calculated checksum='64911e0a'
+08:51:05.597 > Image checksum='ffffffff'
+08:51:05.597 > 
+08:51:05.597 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:05.608 > 
+08:51:05.608 > 
+08:51:05.608 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:05.624 > 
+08:51:05.624 > 
+08:51:05.624 > 
+08:51:05.624 > 
+08:51:05.624 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:05.640 > 
+08:51:05.750 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:05.755 > Debug exception reason: BREAK instr 
+08:51:05.755 > Core  1 register dump:
+08:51:05.760 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:05.766 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:05.777 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:05.782 > A10     : 0x00000000  A11     : 0x37b6638f  A12     : 0x37b6638f  A13     : 0x00060f24  
+08:51:05.787 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:05.798 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:05.803 > 
+08:51:05.803 > 
+08:51:05.803 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:05.814 > 
+08:51:05.814 > 
+08:51:05.814 > 
+08:51:05.814 > 
+08:51:05.814 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:05.819 > 
+08:51:05.819 > Re-entered core dump! Exception happened during core dump!
+08:51:05.835 > Rebooting...
+08:51:05.981 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:05.995 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:06.006 > 
+08:51:06.006 > 
+08:51:06.006 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:06.022 > 
+08:51:06.022 > 
+08:51:06.022 > 
+08:51:06.022 > 
+08:51:06.022 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:06.037 > 
+08:51:06.145 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:06.150 > Debug exception reason: BREAK instr 
+08:51:06.150 > Core  1 register dump:
+08:51:06.155 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:06.161 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:06.172 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:06.177 > A10     : 0x00000000  A11     : 0xfc3d42fc  A12     : 0xfc3d42fc  A13     : 0x00060f24  
+08:51:06.182 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:06.193 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:06.198 > 
+08:51:06.198 > 
+08:51:06.198 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:06.209 > 
+08:51:06.209 > 
+08:51:06.209 > 
+08:51:06.209 > 
+08:51:06.209 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:06.215 > 
+08:51:06.215 > Re-entered core dump! Exception happened during core dump!
+08:51:06.230 > Rebooting...
+08:51:06.376 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:06.382 > Calculated checksum='64911e0a'
+08:51:06.390 > Image checksum='ffffffff'
+08:51:06.390 > 
+08:51:06.390 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:06.401 > 
+08:51:06.401 > 
+08:51:06.401 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:06.417 > 
+08:51:06.417 > 
+08:51:06.417 > 
+08:51:06.417 > 
+08:51:06.417 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:06.432 > 
+08:51:06.541 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:06.547 > Debug exception reason: BREAK instr 
+08:51:06.547 > Core  1 register dump:
+08:51:06.552 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:06.557 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:06.568 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:06.573 > A10     : 0x00000000  A11     : 0x38ceff19  A12     : 0x38ceff19  A13     : 0x00060f24  
+08:51:06.579 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:06.589 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:06.595 > 
+08:51:06.595 > 
+08:51:06.595 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:06.605 > 
+08:51:06.605 > 
+08:51:06.605 > 
+08:51:06.605 > 
+08:51:06.605 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:06.611 > 
+08:51:06.611 > Re-entered core dump! Exception happened during core dump!
+08:51:06.627 > Rebooting...
+08:51:06.770 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:06.787 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:06.798 > 
+08:51:06.798 > 
+08:51:06.798 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:06.814 > 
+08:51:06.814 > 
+08:51:06.814 > 
+08:51:06.814 > 
+08:51:06.814 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:06.829 > 
+08:51:06.941 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:06.946 > Debug exception reason: BREAK instr 
+08:51:06.951 > Core  1 register dump:
+08:51:06.951 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:06.958 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:06.967 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:06.973 > A10     : 0x00000000  A11     : 0x35ff6fa8  A12     : 0x35ff6fa8  A13     : 0x00060f24  
+08:51:06.983 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:06.989 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:07.000 > 
+08:51:07.000 > 
+08:51:07.000 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:07.005 > 
+08:51:07.005 > 
+08:51:07.005 > 
+08:51:07.005 > 
+08:51:07.005 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:07.010 > 
+08:51:07.010 > Re-entered core dump! Exception happened during core dump!
+08:51:07.026 > Rebooting...
+08:51:07.174 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:07.179 > Calculated checksum='64911e0a'
+08:51:07.188 > Image checksum='ffffffff'
+08:51:07.188 > 
+08:51:07.188 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:07.199 > 
+08:51:07.199 > 
+08:51:07.199 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:07.228 > 
+08:51:07.228 > 
+08:51:07.228 > 
+08:51:07.228 > 
+08:51:07.228 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:07.230 > 
+08:51:07.338 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:07.343 > Debug exception reason: BREAK instr 
+08:51:07.343 > Core  1 register dump:
+08:51:07.348 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:07.354 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:07.364 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:07.370 > A10     : 0x00000000  A11     : 0xb64b3f2d  A12     : 0xb64b3f2d  A13     : 0x00060f24  
+08:51:07.375 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:07.386 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:07.391 > 
+08:51:07.391 > 
+08:51:07.391 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:07.402 > 
+08:51:07.402 > 
+08:51:07.402 > 
+08:51:07.402 > 
+08:51:07.402 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:07.407 > 
+08:51:07.407 > Re-entered core dump! Exception happened during core dump!
+08:51:07.422 > Rebooting...
+08:51:07.569 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:07.574 > Calculated checksum='64911e0a'
+08:51:07.583 > Image checksum='ffffffff'
+08:51:07.583 > 
+08:51:07.583 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:07.593 > 
+08:51:07.593 > 
+08:51:07.593 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:07.610 > 
+08:51:07.610 > 
+08:51:07.610 > 
+08:51:07.610 > 
+08:51:07.610 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:07.625 > 
+08:51:07.733 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:07.738 > Debug exception reason: BREAK instr 
+08:51:07.738 > Core  1 register dump:
+08:51:07.743 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:07.749 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:07.759 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:07.765 > A10     : 0x00000000  A11     : 0xa6059c06  A12     : 0xa6059c06  A13     : 0x00060f24  
+08:51:07.770 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:07.781 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:07.786 > 
+08:51:07.786 > 
+08:51:07.786 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:07.797 > 
+08:51:07.797 > 
+08:51:07.797 > 
+08:51:07.797 > 
+08:51:07.797 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:07.802 > 
+08:51:07.802 > Re-entered core dump! Exception happened during core dump!
+08:51:07.817 > Rebooting...
+08:51:07.964 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:07.978 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:07.989 > 
+08:51:07.989 > 
+08:51:07.989 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:08.005 > 
+08:51:08.005 > 
+08:51:08.005 > 
+08:51:08.005 > 
+08:51:08.005 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:08.020 > 
+08:51:08.129 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:08.134 > Debug exception reason: BREAK instr 
+08:51:08.134 > Core  1 register dump:
+08:51:08.140 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:08.145 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:08.156 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:08.161 > A10     : 0x00000000  A11     : 0x93cacccf  A12     : 0x93cacccf  A13     : 0x00060f24  
+08:51:08.166 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:08.177 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:08.183 > 
+08:51:08.183 > 
+08:51:08.183 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:08.193 > 
+08:51:08.193 > 
+08:51:08.193 > 
+08:51:08.193 > 
+08:51:08.193 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:08.199 > 
+08:51:08.199 > Re-entered core dump! Exception happened during core dump!
+08:51:08.214 > Rebooting...
+08:51:08.361 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:08.374 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:08.385 > 
+08:51:08.385 > 
+08:51:08.385 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:08.401 > 
+08:51:08.401 > 
+08:51:08.401 > 
+08:51:08.401 > 
+08:51:08.401 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:08.416 > 
+08:51:08.526 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:08.531 > Debug exception reason: BREAK instr 
+08:51:08.531 > Core  1 register dump:
+08:51:08.536 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:08.542 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:08.552 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:08.558 > A10     : 0x00000000  A11     : 0x5b68803e  A12     : 0x5b68803e  A13     : 0x00060f24  
+08:51:08.563 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:08.574 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:08.579 > 
+08:51:08.579 > 
+08:51:08.579 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:08.590 > 
+08:51:08.590 > 
+08:51:08.590 > 
+08:51:08.590 > 
+08:51:08.590 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:08.595 > 
+08:51:08.595 > Re-entered core dump! Exception happened during core dump!
+08:51:08.611 > Rebooting...
+08:51:08.757 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:08.771 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:08.782 > 
+08:51:08.782 > 
+08:51:08.782 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:08.798 > 
+08:51:08.798 > 
+08:51:08.798 > 
+08:51:08.798 > 
+08:51:08.798 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:08.813 > 
+08:51:08.921 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:08.926 > Debug exception reason: BREAK instr 
+08:51:08.926 > Core  1 register dump:
+08:51:08.931 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:08.937 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:08.948 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:08.953 > A10     : 0x00000000  A11     : 0xf2ca054d  A12     : 0xf2ca054d  A13     : 0x00060f24  
+08:51:08.958 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:08.969 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:08.974 > 
+08:51:08.974 > 
+08:51:08.974 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:08.985 > 
+08:51:08.985 > 
+08:51:08.985 > 
+08:51:08.985 > 
+08:51:08.985 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:08.990 > 
+08:51:08.990 > Re-entered core dump! Exception happened during core dump!
+08:51:09.006 > Rebooting...
+08:51:09.152 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:09.166 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:09.177 > 
+08:51:09.177 > 
+08:51:09.177 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:09.193 > 
+08:51:09.193 > 
+08:51:09.193 > 
+08:51:09.193 > 
+08:51:09.193 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:09.208 > 
+08:51:09.314 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:09.320 > Debug exception reason: BREAK instr 
+08:51:09.320 > Core  1 register dump:
+08:51:09.325 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:09.330 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:09.341 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:09.346 > A10     : 0x00000000  A11     : 0x1c1a4e08  A12     : 0x1c1a4e08  A13     : 0x00060f24  
+08:51:09.352 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:09.362 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:09.368 > 
+08:51:09.368 > 
+08:51:09.368 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:09.378 > 
+08:51:09.378 > 
+08:51:09.378 > 
+08:51:09.378 > 
+08:51:09.378 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:09.384 > 
+08:51:09.384 > Re-entered core dump! Exception happened during core dump!
+08:51:09.400 > Rebooting...
+08:51:09.543 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:09.560 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:09.570 > 
+08:51:09.570 > 
+08:51:09.570 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:09.586 > 
+08:51:09.586 > 
+08:51:09.586 > 
+08:51:09.586 > 
+08:51:09.586 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:09.602 > 
+08:51:09.708 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:09.713 > Debug exception reason: BREAK instr 
+08:51:09.713 > Core  1 register dump:
+08:51:09.719 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:09.724 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:09.735 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:09.740 > A10     : 0x00000000  A11     : 0x098cef61  A12     : 0x098cef61  A13     : 0x00060f24  
+08:51:09.746 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:09.756 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:09.761 > 
+08:51:09.761 > 
+08:51:09.761 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:09.772 > 
+08:51:09.772 > 
+08:51:09.772 > 
+08:51:09.772 > 
+08:51:09.772 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:09.777 > 
+08:51:09.777 > Re-entered core dump! Exception happened during core dump!
+08:51:09.793 > Rebooting...
+08:51:09.937 > E (157) esp_core_dump_flash: C��␘W␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+08:51:09.945 > Calculated checksum='64911e0a'
+08:51:09.953 > Image checksum='ffffffff'
+08:51:09.953 > 
+08:51:09.953 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:09.964 > 
+08:51:09.964 > 
+08:51:09.964 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x3ffb2240 0x400d3ea2:0x3ffb2270 0x4008a54d:0x3ffb2290
+08:51:09.980 > 
+08:51:09.980 > 
+08:51:09.980 > 
+08:51:09.980 > 
+08:51:09.980 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:09.996 > 
+08:51:10.100 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+08:51:10.105 > Debug exception reason: BREAK instr 
+08:51:10.105 > Core  1 register dump:
+08:51:10.111 > PC      : 0x40083878  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2660  
+08:51:10.116 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+08:51:10.127 > A6      : 0x00000000  A7      : 0x00000000  A8      : 0x00008000  A9      : 0x3ffb1e70  
+08:51:10.132 > A10     : 0x00000000  A11     : 0x72ce478b  A12     : 0x72ce478b  A13     : 0x00060f24  
+08:51:10.138 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+08:51:10.148 > EXCVADDR: 0x00000000  LBEG    : 0x40085c60  LEND    : 0x40085c76  LCOUNT  : 0xffffffff  
+08:51:10.154 > 
+08:51:10.154 > 
+08:51:10.154 > Backtrace: 0x40083875:0x3ffc2660 0x40080303:0x3ffc2690 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+08:51:10.164 > 
+08:51:10.164 > 
+08:51:10.164 > 
+08:51:10.164 > 
+08:51:10.164 > ELF file SHA256: 0e4aa41c0bef80b0
+08:51:10.170 > 
+08:51:10.170 > Re-entered core dump! Exception happened during core dump!
+08:51:10.185 > Rebooting...
+08:51:10.331 > E (157) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�␓S��LY�XRH(�+�V␖�,ZY���][O���������RH�
+08:51:10.346 > assert failed: timer_ll_set_clock_prescale /IDF/components/hal/esp32/include/hal/timer_ll.h:84 (divider >= 2 && divider <= 65536)
+08:51:10.356 > 
+08:51:10.356 > 
+08:51:10.356 > Backtrace: 0x40082f69:0x3ffb2030 0x40088189:0x3ffb2050 0x4008d242:0x3ffb2070 0x400f4298:0x3ffb21a0 0x400d1858:0x3ffb21f0 0x400d17e6:0x��r�Vets Jul 29 2019 12:21:46
+08:51:10.515 > 
+08:51:10.515 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+08:51:10.530 > waiting for download
+08:51:10.738 > �␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀�␁

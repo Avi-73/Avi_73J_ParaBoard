@@ -1,0 +1,5 @@
+␁␇ets Jul 29 2019 12:21:46
+19:14:21.598 > 
+19:14:21.598 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+19:14:21.603 > waiting for download
+19:14:21.969 > ␁ �␁␇

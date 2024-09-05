@@ -1,0 +1,14 @@
+20:42:05.126 > CAN Driver installed
+20:42:05.127 > CAN Driver started
+20:42:05.127 > Finished initialization
+20:42:05.132 > 送信したメッセージ: 
+20:42:05.132 > 送信したメッセージ: 
+20:42:05.147 > 
+20:42:26.790 > 送信したメッセージ: b
+20:42:30.219 > 送信したメッセージ: c
+20:42:30.554 > 送信したメッセージ: d
+20:42:30.809 > 送信したメッセージ: e
+20:42:31.957 > [ERROR] Failed to send message: ESP_ERR_TIMEOUT
+20:42:31.973 > 送信したメッセージ: f
+20:42:35.306 > [ERROR] Failed to send message: ESP_ERR_TIMEOUT
+20:42:35.307 > 送信したメッセージ: d

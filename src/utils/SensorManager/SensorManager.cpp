@@ -2,34 +2,32 @@
 #include "utils/Config.h"
 
 void SensorManager::begin() {
-    spi.begin(VSPI, SPICLOCK, SPIMISO, SPIMOSI);
-    lps.begin(&spi, LPSCS, SPI_FREQUENCY);
-    icm.begin(&spi, ICMCS, SPI_FREQUENCY);
-    _dataReady = false;
+  spi.begin(VSPI, SPICLOCK, SPIMISO, SPIMOSI, SPI_FREQUENCY);
+  Serial.println("SPI begin");
+  lps.begin(&spi, LPSCS, SPI_FREQUENCY);
+  Serial.println("LPS begin");
+  icm.begin(&spi, ICMCS, SPI_FREQUENCY);
+  Serial.println("ICM begin");
 }
 
-void SensorManager::triggerRead() {
-    int16_t ICM_data[6];
-    uint8_t LPS25_data[3];
-    
-    icm.Get(ICM_data);
-    lps.Get(LPS25_data);
-    
-    for (int i = 0; i < 3; i++) {
-        latestData.accel[i] = ICM_data[i];
-        latestData.gyro[i] = ICM_data[i+3];
-    }
-    
-    latestData.pressure = (LPS25_data[0] + LPS25_data[1] * 256 + LPS25_data[2] * 65536);
-    
-    _dataReady = true;
-}
+AccelAndGyroData SensorManager::getAccelAndGyroData() {
+  int16_t ICM_data[6];
+  icm.Get(ICM_data);
+  AccelAndGyroData accelAndGyroData;
+  accelAndGyroData.accel[0] = ICM_data[0];
+  accelAndGyroData.accel[1] = ICM_data[1];
+  accelAndGyroData.accel[2] = ICM_data[2];
+  accelAndGyroData.gyro[0] = ICM_data[3];
+  accelAndGyroData.gyro[1] = ICM_data[4];
+  accelAndGyroData.gyro[2] = ICM_data[5];
+  return AccelAndGyroData();
+};
 
-bool SensorManager::dataReady() {
-    return _dataReady;
-}
-
-SensorData SensorManager::getData() {
-    _dataReady = false;
-    return latestData;
-}
+PressureData SensorManager::getPressureData() {
+  uint8_t LPS25_data[3];
+  lps.Get(LPS25_data);
+  PressureData pressureData;
+  pressureData.pressure = (LPS25_data[0] + LPS25_data[1] * 256 + LPS25_data[2] * 65536);
+  return pressureData;
+  return PressureData();
+};

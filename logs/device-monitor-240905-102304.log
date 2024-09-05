@@ -1,0 +1,27 @@
+10:23:04.590 > setup
+10:23:04.590 > dataLogger.begin
+10:23:04.590 > stateManager.begin
+10:23:04.590 > ActuatorController::begin pinMode(LED_PIN, OUTPUT)
+10:23:04.595 > [    16][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+10:23:04.600 > [    31][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+10:23:04.606 > [    37][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+10:23:04.617 > ActuatorController::begin servo.attach(SERVO_PIN)
+10:23:04.622 > ActuatorController::begin servo.write(servo_close_angle)
+10:23:04.628 > actuatorController.begin
+10:23:04.634 > [    61][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.640 > [    68][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.645 > [    75][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.651 > [    81][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.662 > [    88][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.667 > [    95][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.672 > [   102][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.678 > [   109][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.689 > [   116][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.694 > [   123][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.700 > [   129][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.705 > [   136][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.716 > [   143][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.721 > [   150][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:23:04.727 > SensorManager::begin
+10:23:04.742 > sensorManager.begin
+10:23:04.742 > dataQueue

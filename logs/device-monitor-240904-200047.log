@@ -1,0 +1,8 @@
+20:00:48.077 > CAN Driver installed
+20:00:48.093 > CAN Driver started
+20:00:48.093 > Finished initialization
+20:01:03.118 > 送信したメッセージ: a
+20:01:04.057 > 送信したメッセージ: a
+20:01:29.747 > 送信したメッセージ: z
+20:02:24.371 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+20:02:24.371 > 送信したメッセージ: a

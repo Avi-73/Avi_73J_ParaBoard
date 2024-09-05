@@ -1,0 +1,24 @@
+10:20:21.412 > setup
+10:20:21.412 > dataLogger.begin
+10:20:21.412 > stateManager.begin
+10:20:21.412 > [    16][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+10:20:21.417 > [    26][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+10:20:21.428 > [    33][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+10:20:21.439 > actuatorController.begin
+10:20:21.439 > [    46][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.445 > [    53][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.456 > [    60][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.461 > [    67][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.467 > [    74][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.473 > [    81][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.483 > [    87][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.489 > [    94][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.494 > [   101][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.500 > [   108][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.510 > [   115][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.516 > [   122][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.521 > [   128][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.527 > [   135][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+10:20:21.548 > SensorManager::begin
+10:20:21.548 > sensorManager.begin
+10:20:21.548 > dataQueue
