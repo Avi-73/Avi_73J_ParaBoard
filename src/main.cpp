@@ -46,6 +46,7 @@ void StateControlTask(void *pvParameters) {
       case Command::LOG:
         // -> WAITING_LAUNCH MODE
         if (stateManager.getState() != State::FLIGHT) {
+          conditionChecker.begin();
           vTaskResume(conditionsCheckTaskHandle);
           vTaskResume(logTaskHandle);
           timer.start();
@@ -64,7 +65,6 @@ void StateControlTask(void *pvParameters) {
           stateManager.changeState(State::IDLE);
           Serial.println(Command::END_LOG);
           can.write(BoardId::COMMUNICATION, cmd);
-          conditionChecker.begin();
         }
         if (stateManager.getState() == State::DEBUG) {
           stateManager.changeState(State::IDLE);
