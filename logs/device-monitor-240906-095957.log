@@ -1,0 +1,9 @@
+09:59:57.958 > E (167) esp_core_dump_flash: ��䕁"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR&��,M�&�RH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+09:59:57.973 > CAN Driver started
+10:00:00.129 > twai_state: 1, tx_err_counter: 0, rx_err_counter: 0, tx_failed_count: 0, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 0, msgs_to_tx: 0, msgs_to_rx: 0
+10:00:00.140 > send: a
+10:00:00.145 > twai_state: 1, tx_err_counter: 0, rx_err_counter: 0, tx_failed_count: 0, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 0, msgs_to_tx: 1, msgs_to_rx: 0
+10:00:12.072 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:00:12.083 > send: b
+10:00:12.088 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:00:12.093 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0

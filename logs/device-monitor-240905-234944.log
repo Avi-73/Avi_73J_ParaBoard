@@ -1,0 +1,76 @@
+23:49:44.757 > ets Jul 29 2019 12:21:46
+23:49:44.757 > 
+23:49:44.757 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+23:49:44.763 > configsip: 0, SPIWP:0xee
+23:49:44.763 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+23:49:44.768 > mode:DIO, clock div:2
+23:49:44.773 > load:0x3fff0030,len:4604
+23:49:44.773 > ho 0 tail 12 room 4
+23:49:44.779 > load:0x40078000,len:15468
+23:49:44.779 > load:0x40080400,len:4
+23:49:44.779 > ho 8 tail 4 room 4
+23:49:44.795 > load:0x40080404,len:3180
+23:49:44.795 > entry 0x400805b8
+23:49:44.961 > E (206) esp_core_dump_flash: C␡��e dump data check failed:
+23:49:44.966 > Calculated checksum='2610b3ac'
+23:49:44.966 > Image checksum='ffffffff'
+23:49:45.038 > [ERR] Cannot Initialize SD Card.
+23:49:45.038 > SD Card Initialized.
+23:49:45.038 > [ERR] Cannot Create File.
+23:49:45.044 > SERVO_PIN: 26
+23:49:45.044 > [   101][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.049 > [   113][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.060 > [   120][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.066 > [   127][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.072 > [   134][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.077 > [   141][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.088 > [   148][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.093 > [   155][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.099 > [   162][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.104 > [   168][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.115 > [   175][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.121 > [   182][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.126 > [   189][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:45.132 > [   196][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:46.185 > 加速度の2乗和: 1.37
+23:49:46.185 > 加速度の2乗和: 1.34
+23:49:46.190 > 加速度の2乗和: 1.34
+23:49:46.190 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+23:49:46.196 > Debug exception reason: Stack canary watchpoint triggered (Log Task) 
+23:49:46.201 > Core  0 register dump:
+23:49:46.206 > PC      : 0x4008af76  PS      : 0x00060436  A0      : 0x8008cdb4  A1      : 0x3ffb4b60  
+23:49:46.212 > A2      : 0x3ffb0300  A3      : 0xffffffff  A4      : 0x00060420  A5      : 0x00060823  
+23:49:46.222 > A6      : 0x3ffb4cc0  A7      : 0x3ffb4cc4  A8      : 0x800f6b50  A9      : 0x3ffb4c60  
+23:49:46.228 > A10     : 0x3ffb9784  A11     : 0x00000001  A12     : 0x3ffb9994  A13     : 0x00000000  
+23:49:46.238 > A14     : 0x00000000  A15     : 0x00060123  SAR     : 0x0000001a  EXCCAUSE: 0x00000001  
+23:49:46.244 > EXCVADDR: 0x00000000  LBEG    : 0x40086961  LEND    : 0x40086971  LCOUNT  : 0xffffffff  
+23:49:46.249 > 
+23:49:46.249 > 
+23:49:46.249 > Backtrace: 0x4008af73:0x3ffb4b60 0x4008cdb1:0x3ffb4b90 0x4008cf15:0x3ffb4bb0 0x4008397a:0x3ffb4bd0 0x40083731:0x3ffb4c00 0x4008375d:0x3ffb4c20 0x4008ddb7:0x3ffb4c40 0x400f6337:0x3ffb4c60 0x400f6b4d:0x3ffb4c80 0x400f562b:0x3ffb4cc0 0x400efa55:0x3ffb4d50 0x400f53b2:0x3ffb5070 0x400f53ee:0x3ffb5100 0x400d4f2a:0x3ffb5140 0x400d4fa9:0x3ffb51c0 0x400d25d9:0x3ffb5210 0x400d1ddb:0x3ffb5260 0x4008ae76:0x3ffb52c0
+23:49:46.286 > 
+23:49:46.286 > 
+23:49:46.286 > 
+23:49:46.286 > 
+23:49:46.286 > ELF file SHA256: e2694e771339e5b9
+23:49:46.302 > 
+23:49:53.011 > *ר�*�,�l�P��␔�Չ� ��-�,�`␖ffn�bj�Ffp����␞�␔�␘�cVdJbV�J�h ��k�m�-�\�`e`��dN8|�t�X�P±B�X�P©B�X�P¥��Ut��␖�����X�P½�B�X�P�␚�t���␒��P�t��H~DX�R�t␂����XB�� �A,�h�h�P{~␅��Rk�-�.�V␋���al�Tː�ɪ���␔�␕��٫��R+e(�(A.���(%!�(�,T␂������X���
+23:49:53.043 > ��mP�T␂���� E (239) esp_core_dump_flash: C?����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OҬ�&NXL��'
+23:49:53.215 > Image checksum='ffffffff'
+23:49:53.288 > [ERR] Cannot Initialize SD Card.
+23:49:53.288 > SD Card Initialized.
+23:49:53.288 > [ERR] Cannot Create File.
+23:49:53.293 > SERVO_PIN: 26
+23:49:53.293 > [   102][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.299 > [   114][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.309 > [   121][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.315 > [   128][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.321 > [   135][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.326 > [   142][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.337 > [   149][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.343 > [   156][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.348 > [   163][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.354 > [   170][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.364 > [   176][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.370 > [   183][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.376 > [   190][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:49:53.381 > [   197][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

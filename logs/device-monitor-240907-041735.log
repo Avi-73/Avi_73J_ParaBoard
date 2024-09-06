@@ -1,0 +1,28 @@
+04:17:35.523 > E (190) esp_core_dump_flash: C��V␋�VW␋␗␒V,W,�,ZY�-HV�-[Y��
+04:17:35.528 > Calculated checksum='00d9289a'
+04:17:35.528 > Image checksum='ffffffff'
+04:17:35.537 > CAN Driver installed
+04:17:35.537 > CAN Driver started
+04:17:35.552 > SD Card Initialized.
+04:17:35.689 > [   185][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+04:17:35.694 > [   192][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+04:17:35.700 > [   198][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+04:17:35.714 > [   212][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.719 > [   219][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.725 > [   226][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.735 > [   233][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.741 > [   240][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.747 > [   247][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.752 > [   254][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.763 > [   261][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.769 > [   267][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.774 > [   274][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.780 > [   281][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.791 > [   288][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.796 > [   295][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:17:35.802 > [   302][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:18:26.503 > ets Jul 29 2019 12:21:46
+04:18:26.508 > 
+04:18:26.508 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+04:18:26.524 > waiting for download
+04:18:26.890 > �␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀��␁␄␀␇␒ U␀␀␀␀�␁␀␀␁�

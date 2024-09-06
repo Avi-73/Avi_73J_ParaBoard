@@ -2,8 +2,7 @@
 
 enum class State {
   IDLE,
-  WAITING_LAUNCH,
-  WAITING_APOGEE,
+  FLIGHT,
   DEBUG,
 };
 

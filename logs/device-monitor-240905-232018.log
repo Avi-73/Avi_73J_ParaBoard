@@ -1,0 +1,58 @@
+23:20:19.130 > E (183) esp_core_dump_flash: C��V␋�VW␋␗␒V,W,�,ZY�-HV�-[Y��
+23:20:19.135 > Calculated checksum='2f3abc3d'
+23:20:19.135 > Image checksum='ffffffff'
+23:20:19.151 > SD Card Initialized.
+23:20:19.151 > SERVO_PIN: 26
+23:20:19.158 > [    46][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.163 > [    53][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.169 > [    60][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.174 > [    67][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.186 > [    74][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.191 > [    81][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.196 > [    88][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.202 > [    95][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.213 > [   102][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.218 > [   109][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.224 > [   116][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.229 > [   123][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.240 > [   130][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:19.246 > [   136][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:20:22.074 > 加速度の2乗和: 1.37
+23:20:22.075 > 加速度の2乗和: 1.37
+23:20:22.079 > 加速度の2乗和: 1.37
+23:20:22.079 > 加速度の2乗和: 1.36
+23:20:22.088 > 加速度の2乗和: 1.36
+23:20:22.088 > 加速度の2乗和: 1.36
+23:20:22.088 > 加速度の2乗和: 1.36
+23:20:22.092 > 加速度の2乗和: 1.36
+23:20:22.092 > 加速度の2乗和: 1.36
+23:20:22.098 > 加速度の2乗和: 1.36
+23:20:22.098 > 加速度の2乗和: 1.37
+23:20:22.098 > 加速度の2乗和: 1.37
+23:20:22.103 > 加速度の2乗和: 1.36
+23:20:22.103 > 加速度の2乗和: 1.36
+23:20:22.108 > 加速度の2乗和: 1.36
+23:20:22.108 > 加速度の2乗和: 1.36
+23:20:22.114 > 加速度の2乗和: 1.36
+23:20:22.114 > 加速度の2乗和: 1.36
+23:20:22.114 > 加速度の2乗和: 1.36
+23:20:22.119 > 加速度の2乗和: 1.36
+23:20:22.119 > 加速度の2乗和: 1.36
+23:20:22.125 > 加速度の2乗和: 1.36
+23:20:22.125 > 加速度の2乗和: 1.36
+23:20:22.130 > 加速度の2乗和: 1.36
+23:20:22.130 > 加速度の2乗和: 1.36
+23:20:22.130 > 加速度の2乗和: 1.36
+23:20:22.135 > 加速度の2乗和: 1.36
+23:20:22.135 > 加速度の2乗和: 1.36
+23:20:22.141 > 
+23:20:22.141 > assert failed: spi_hal_setup_trans /IDF/components/hal/spi_hal_iram.c:61 (spi_ll_get_running_cmd(hw) == 0)
+23:20:22.146 > 
+23:20:22.146 > 
+23:20:22.146 > Backtrace: 0x400835ed:0x3ffb4750 0x400888c1:0x3ffb4770 0x4008dd32:0x3ffb4790 0x400e0f75:0x3ffb48c0 0x400dae06:0x3ffb4900 0x400daef5:0x3ffb4950 0x400db689:0x3ffb4980 0x400d47f0:0x3ffb49a0 0x400d4821:0x3ffb49c0 0x400d4883:0x3ffb4a10 0x400d2819:0x3ffb4a30 0x400d1d5e:0x3ffb4a60 0x4008ae76:0x3ffb4ab0
+23:20:22.173 > 
+23:20:22.173 > 
+23:20:22.173 > 
+23:20:22.173 > 
+23:20:22.173 > ELF file SHA256: 9cdf730cbc6e2b86
+23:20:22.188 > 

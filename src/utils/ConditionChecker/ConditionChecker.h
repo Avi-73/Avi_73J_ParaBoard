@@ -42,11 +42,14 @@ private:
 
   uint32_t launch_time;
 
-  double accel_square_sum_for_check_launch;
+  double accel_sum_for_check_launch[3];
   uint8_t pressure_decrease_count_for_check_launch;
   uint8_t pressure_increase_count_for_check_apogee;
   int16_t accel_data_count_for_check_launch;
   uint32_t pressure_sum_for_check_launch;
+  uint32_t pressure_sum_for_check_apogee;
+  uint32_t last_pressure_av_for_check_launch;
+  uint32_t last_pressure_av_for_check_apogee;
   uint32_t pressure_data_count_for_check_launch;
   uint32_t pressure_data_count_for_check_apogee;
   uint8_t last_pressure_for_check_apogee;

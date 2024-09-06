@@ -1,0 +1,125 @@
+02:15:55.931 > E (186) esp_core_dump_flash: C���␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+02:15:55.936 > Calculated checksum='c938a166'
+02:15:55.952 > Image checksum='ffffffff'
+02:15:55.952 > SD Card Initialized.
+02:15:55.984 > SERVO_PIN: 26
+02:15:55.984 > [    77][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:55.989 > [    84][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.000 > [    91][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.006 > [    98][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.012 > [   105][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.023 > [   112][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.028 > [   119][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.034 > [   126][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.039 > [   133][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.050 > [   140][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.055 > [   147][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.061 > [   154][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.066 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:56.077 > [   167][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:15:57.568 > accel_square_sum_for_check_launch: 0
+02:15:57.568 > detecting launch
+02:15:57.568 > accel_square_sum_for_check_launch: -1610612736
+02:15:57.573 > detecting launch
+02:15:57.573 > accel_square_sum_for_check_launch: 0
+02:15:57.578 > detecting launch
+02:15:57.578 > accel_square_sum_for_check_launch: 1073741824
+02:15:57.584 > detecting launch
+02:15:57.584 > accel_square_sum_for_check_launch: 1342177280
+02:15:57.589 > detecting launch
+02:15:57.589 > accel_square_sum_for_check_launch: 1610612736
+02:15:57.594 > detecting launch
+02:15:57.594 > accel_square_sum_for_check_launch: -1342177280
+02:15:57.600 > detecting launch
+02:15:57.600 > accel_square_sum_for_check_launch: 805306368
+02:15:57.605 > detecting launch
+02:15:57.605 > accel_square_sum_for_check_launch: 1073741824
+02:15:57.610 > detecting launch
+02:15:57.616 > accel_square_sum_for_check_launch: 671088640
+02:15:57.616 > detecting launch
+02:15:57.621 > accel_square_sum_for_check_launch: 268435456
+02:15:57.621 > detecting launch
+02:15:57.626 > accel_square_sum_for_check_launch: 402653184
+02:15:57.626 > detecting launch
+02:15:57.632 > accel_square_sum_for_check_launch: 1610612736
+02:15:57.632 > detecting launch
+02:15:57.637 > accel_square_sum_for_check_launch: -1073741824
+02:15:57.637 > detecting launch
+02:15:57.642 > accel_square_sum_for_check_launch: 1946157056
+02:15:57.642 > detecting launch
+02:15:57.648 > accel_square_sum_for_check_launch: 134217728
+02:15:57.648 > detecting launch
+02:15:57.653 > accel_square_sum_for_check_launch: 469762048
+02:15:57.653 > detecting launch
+02:15:57.658 > accel_square_sum_for_check_launch: -1543503872
+02:15:57.658 > detecting launch
+02:15:57.664 > accel_square_sum_for_check_launch: -1476395008
+02:15:57.669 > detecting launch
+02:15:57.669 > accel_square_sum_for_check_launch: -1207959552
+02:15:57.675 > detecting launch
+02:15:57.675 > accel_square_sum_for_check_launch: 402653184
+02:15:57.680 > detecting launch
+02:15:57.680 > launch detected
+02:15:57.680 > launch detected
+02:15:57.680 > launch detected
+02:15:57.685 > launch detected
+02:15:57.685 > launch detected
+02:15:57.685 > launch detected
+02:15:57.695 > launch detected
+02:15:57.695 > launch detected
+02:15:57.695 > launch detected
+02:15:57.695 > launch detected
+02:15:57.701 > launch detected
+02:15:57.701 > launch detected
+02:15:57.701 > launch detected
+02:15:57.701 > launch detected
+02:15:57.708 > launch detected
+02:15:57.708 > launch detected
+02:15:57.708 > launch detected
+02:15:57.720 > launch detected
+02:15:57.720 > launch detected
+02:15:57.720 > launch detected
+02:15:57.720 > launch detected
+02:15:57.730 > launch detected
+02:15:57.730 > launch detected
+02:15:57.730 > launch detected
+02:15:57.730 > launch detected
+02:15:57.746 > launch detected
+02:15:57.746 > reached apogee
+02:16:02.734 > E (13721) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+02:16:02.739 > E (13721) task_wdt:  - IDLE0 (CPU 0)
+02:16:02.745 > E (13721) task_wdt: Tasks currently running:
+02:16:02.750 > E (13721) task_wdt: CPU 0: Log Task
+02:16:02.750 > E (13721) task_wdt: CPU 1: Conditions Chec
+02:16:02.756 > E (13721) task_wdt: Aborting.
+02:16:02.756 > E (13721) task_wdt: Print CPU 0 (current core) backtrace
+02:16:02.761 > 
+02:16:02.761 > 
+02:16:02.761 > 
+02:16:02.766 > 
+02:16:02.766 > Backtrace: 0x4000bfed:0x3ffb50a0 0x4008b0f4:0x3ffb50b0 0x40089099:0x3ffb50d0 0x400ed134:0x3ffb5110 0x400d43dd:0x3ffb5140 0x400d3c5b:0x3ffb5160 0x400d3dd2:0x3ffb5180 0x400d4104:0x3ffb51b0 0x400d4168:0x3ffb51d0 0x400fb6d7:0x3ffb51f0 0x400d44ad:0x3ffb5210 0x400d307b:0x3ffb5230 0x400d1e33:0x3ffb5250 0x400fb78f:0x3ffb5280 0x400d4f4b:0x3ffb52a0 0x400d4f81:0x3ffb5320 0x400d2625:0x3ffb5370 0x400d1e0b:0x3ffb53c0 0x4008ae76:0x3ffb5420
+02:16:02.798 > 
+02:16:02.814 > 
+02:16:02.814 > 
+02:16:02.814 > 
+02:16:02.814 > ELF file SHA256: 8e440226bb01f416
+02:16:02.814 > 
+02:16:09.767 > E (184) esp_core_dump_flash: C���␋␒VW␋␗␒V,W,�,ZY�-HV�-[Y��
+02:16:09.772 > Calculated checksum='2610b3ac'
+02:16:09.788 > Image checksum='ffffffff'
+02:16:09.788 > SD Card Initialized.
+02:16:09.820 > SERVO_PIN: 26
+02:16:09.820 > [    76][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.830 > [    83][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.836 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.841 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.847 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.858 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.864 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.869 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.875 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.886 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.891 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.897 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.902 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:16:09.913 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

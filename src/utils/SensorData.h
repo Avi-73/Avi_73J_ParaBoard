@@ -2,11 +2,19 @@
 
 #include <Arduino.h>
 
+/**
+ * 加速度、各速度データ
+ * 変換後のデータを入れる
+ */
 struct AccelAndGyroData {
-  int16_t accel[3];
-  int16_t gyro[3];
+  double accel[3];
+  double gyro[3];
 };
 
+/**
+ * 気圧データ
+ * 変換後のデータを入れる
+ */
 struct PressureData {
   uint32_t pressure;
 };

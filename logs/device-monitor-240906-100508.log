@@ -1,0 +1,45 @@
+10:05:08.322 > E (167) esp_core_dump_flash: ��ȕ�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR&��,M�&�RH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+10:05:08.336 > CAN Driver started
+10:05:10.878 > twai_state: 1, tx_err_counter: 0, rx_err_counter: 0, tx_failed_count: 0, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 0, msgs_to_tx: 0, msgs_to_rx: 0
+10:05:10.899 > send: a
+10:05:10.899 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:05:17.080 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:05:17.091 > send: b
+10:05:17.096 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:05:17.102 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:40.772 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:40.783 > send: 
+10:07:40.788 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:07:40.803 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:40.814 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:40.830 > send: 
+10:07:40.839 > 
+10:07:40.839 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:07:40.839 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:41.290 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:41.300 > send: 
+10:07:41.306 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:07:41.320 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:41.331 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:41.347 > send: 
+10:07:41.356 > 
+10:07:41.356 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:07:41.356 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:41.713 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:41.723 > send: 
+10:07:41.729 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:07:41.743 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:41.754 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:41.770 > send: 
+10:07:41.779 > 
+10:07:41.779 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:07:41.779 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:42.027 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:42.043 > send: 
+10:07:42.043 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:07:42.058 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:42.074 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0
+10:07:42.090 > send: 
+10:07:42.090 > 
+10:07:42.090 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+10:07:42.099 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0

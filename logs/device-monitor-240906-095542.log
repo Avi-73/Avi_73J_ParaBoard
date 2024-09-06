@@ -1,0 +1,10 @@
+09:55:42.225 > E (167) esp_core_dump_flash: C␡��e dump data check failed:
+09:55:42.231 > Calculated checksum='18cc472b'
+09:55:42.231 > Image checksum='ffffffff'
+09:55:42.240 > CAN Driver installed
+09:55:42.240 > CAN Driver started
+09:55:44.297 > send: a
+09:55:44.297 > twai_state: 1, tx_err_counter: 8, rx_err_counter: 0, tx_failed_count: 0, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 0, msgs_to_tx: 1, msgs_to_rx: 0
+09:55:48.482 > send: b
+09:55:48.482 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:55:48.487 > twai_state: 2, tx_err_counter: 128, rx_err_counter: 0, tx_failed_count: 1, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 22, msgs_to_tx: 0, msgs_to_rx: 0

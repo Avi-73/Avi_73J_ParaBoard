@@ -1,0 +1,46 @@
+22:06:18.072 > E (177) esp_core_dump_flash: C���␖␒VW␋␗␒V,W,�,ZY�-HV�-[Y��
+22:06:18.077 > Calculated checksum='fe240ad2'
+22:06:18.093 > Image checksum='ffffffff'
+22:06:18.093 > setup
+22:06:18.150 > [ERR] Cannot Initialize SD Card.
+22:06:18.150 > SD Card Initialized.
+22:06:18.150 > [ERR] Cannot Create File.
+22:06:18.155 > SERVO_PIN: 26
+22:06:18.155 > [    93][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.161 > [   105][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.172 > [   112][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.177 > [   119][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.183 > [   126][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.189 > [   133][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.199 > [   140][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.205 > [   147][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.210 > [   154][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.216 > [   161][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.226 > [   167][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.232 > [   174][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.237 > [   181][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.243 > [   188][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:06:18.264 > dataQueue
+22:06:44.085 > accelAndGyroData.accel[0]: -554
+22:06:44.085 > accelAndGyroData.accel[1]: -125
+22:06:44.090 > accelAndGyroData.accel[2]: 2293
+22:06:44.090 > accelAndGyroData.gyro[0]: 8
+22:06:44.095 > accelAndGyroData.gyro[1]: 13
+22:06:44.095 > accelAndGyroData.gyro[2]: -2
+22:06:44.095 > accelAndGyroData.accel[0]: -593
+22:06:44.100 > accelAndGyroData.accel[1]: -33
+22:06:44.100 > accelAndGyroData.accel[2]: 2317
+22:06:44.106 > accelAndGyroData.gyro[0]: 11
+22:06:44.106 > accelAndGyroData.gyro[1]: 12
+22:06:44.111 > accelAndGyroData.gyro[2]: 20
+22:06:44.111 > 
+22:06:44.111 > assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+22:06:44.122 > 
+22:06:44.122 > 
+22:06:44.122 > Backtrace: 0x400835ed:0x3ffb30b0 0x400888c1:0x3ffb30d0 0x4008dd32:0x3ffb30f0 0x40088c2f:0x3ffb3220 0x400d1dc4:0x3ffb3260 0x4008ae76:0x3ffb32b0
+22:06:44.138 > 
+22:06:44.138 > 
+22:06:44.138 > 
+22:06:44.138 > 
+22:06:44.138 > ELF file SHA256: db98b1258577e580
+22:06:44.153 > 

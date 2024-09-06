@@ -1,0 +1,31 @@
+23:31:59.915 > E (185) esp_core_dump_flash: C��*�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�&S&&��X�RH(�+�V␖�,ZY���][O���������RH�SD Card Initialized.
+23:31:59.943 > SERVO_PIN: 26
+23:31:59.943 > [    49][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:31:59.949 > [    57][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:31:59.955 > [    64][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:31:59.965 > [    70][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:31:59.971 > [    78][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:31:59.977 > [    85][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:31:59.982 > [    92][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:31:59.993 > [    98][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:31:59.999 > [   105][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:32:00.004 > [   112][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:32:00.010 > [   119][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:32:00.020 > [   126][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:32:00.026 > [   133][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:32:00.031 > [   140][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:32:01.652 > 加速度の2乗和: 1.37
+23:32:01.652 > 加速度の2乗和: 1.34
+23:32:01.652 > 加速度の2乗和: 1.34
+23:32:01.657 > 加速度の2乗和: 1.35
+23:32:01.657 > 
+23:32:01.657 > assert failed: spi_hal_setup_trans /IDF/components/hal/spi_hal_iram.c:61 (spi_ll_get_running_cmd(hw) == 0)
+23:32:01.668 > 
+23:32:01.668 > 
+23:32:01.668 > Backtrace: 0x400835ed:0x3ffb4750 0x400888c1:0x3ffb4770 0x4008dd32:0x3ffb4790 0x400e0f95:0x3ffb48c0 0x400dae26:0x3ffb4900 0x400daf15:0x3ffb4950 0x400db6a9:0x3ffb4980 0x400d4810:0x3ffb49a0 0x400d4841:0x3ffb49c0 0x400d48a3:0x3ffb4a10 0x400d2839:0x3ffb4a30 0x400d1d62:0x3ffb4a60 0x4008ae76:0x3ffb4ab0
+23:32:01.694 > 
+23:32:01.694 > 
+23:32:01.694 > 
+23:32:01.694 > 
+23:32:01.694 > ELF file SHA256: edbc636a1227c79d
+23:32:01.710 > 

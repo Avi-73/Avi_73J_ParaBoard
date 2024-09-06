@@ -1,0 +1,2771 @@
+03:05:54.423 > ets Jul 29 2019 12:21:46
+03:05:54.424 > 
+03:05:54.424 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+03:05:54.429 > configsip: 0, SPIWP:0xee
+03:05:54.429 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+03:05:54.434 > mode:DIO, clock div:2
+03:05:54.440 > load:0x3fff0030,len:4604
+03:05:54.440 > ho 0 tail 12 room 4
+03:05:54.445 > load:0x40078000,len:15468
+03:05:54.445 > load:0x40080400,len:4
+03:05:54.445 > ho 8 tail 4 room 4
+03:05:54.460 > load:0x40080404,len:3180
+03:05:54.460 > entry 0x400805b8
+03:05:54.626 > E (205) esp_core_dump_flash: C���␖␒VW␋␗␒V,W,�,ZY�-HV�-[Y��
+03:05:54.631 > Calculated checksum='2f3abc3d'
+03:05:54.647 > Image checksum='ffffffff'
+03:05:54.647 > SD Card Initialized.
+03:05:54.691 > SERVO_PIN: 26
+03:05:54.691 > [    85][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.696 > [    92][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.702 > [    99][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.712 > [   106][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.719 > [   113][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.724 > [   120][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.729 > [   127][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.740 > [   134][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.746 > [   141][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.751 > [   147][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.757 > [   154][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.768 > [   161][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.773 > [   168][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:54.779 > [   175][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:05:56.328 > checking launch
+03:05:56.328 > checking launch
+03:05:56.328 > checking launch
+03:05:56.328 > checking launch
+03:05:56.339 > checking launch
+03:05:56.339 > pressure_av: 121914
+03:05:56.339 > pressure_diff: -121914
+03:05:56.344 > pressure_decrease_count_for_check_launch: 0
+03:05:56.344 > checking launch
+03:05:56.350 > checking launch
+03:05:56.350 > checking launch
+03:05:56.350 > checking launch
+03:05:56.350 > checking launch
+03:05:56.355 > pressure_av: 101581
+03:05:56.355 > pressure_diff: 20333
+03:05:56.355 > pressure_decrease_count_for_check_launch: 1
+03:05:56.360 > checking launch
+03:05:56.360 > checking launch
+03:05:56.366 > checking launch
+03:05:56.366 > checking launch
+03:05:56.366 > checking launch
+03:05:56.366 > pressure_av: 101581
+03:05:56.371 > pressure_diff: 0
+03:05:56.371 > pressure_decrease_count_for_check_launch: 0
+03:05:56.376 > checking launch
+03:05:56.376 > checking launch
+03:05:56.376 > checking launch
+03:05:56.386 > checking launch
+03:05:56.386 > checking launch
+03:05:56.386 > accel_av_square_sum: 1.2829
+03:05:56.392 > pressure_av: 101566
+03:05:56.392 > pressure_diff: 15
+03:05:56.392 > pressure_decrease_count_for_check_launch: 1
+03:05:56.397 > checking launch
+03:05:56.397 > checking launch
+03:05:56.397 > checking launch
+03:05:56.406 > checking launch
+03:05:56.406 > checking launch
+03:05:56.406 > pressure_av: 101563
+03:05:56.411 > pressure_diff: 3
+03:05:56.411 > pressure_decrease_count_for_check_launch: 0
+03:05:56.417 > checking launch
+03:05:56.417 > checking launch
+03:05:56.417 > checking launch
+03:05:56.417 > checking launch
+03:05:56.422 > checking launch
+03:05:56.422 > pressure_av: 101594
+03:05:56.422 > pressure_diff: -31
+03:05:56.427 > pressure_decrease_count_for_check_launch: 0
+03:05:56.427 > checking launch
+03:05:56.434 > checking launch
+03:05:56.434 > checking launch
+03:05:56.434 > checking launch
+03:05:56.434 > checking launch
+03:05:56.439 > pressure_av: 101594
+03:05:56.439 > pressure_diff: 0
+03:05:56.439 > pressure_decrease_count_for_check_launch: 0
+03:05:56.445 > checking launch
+03:05:56.445 > checking launch
+03:05:56.445 > checking launch
+03:05:56.450 > checking launch
+03:05:56.450 > checking launch
+03:05:56.450 > accel_av_square_sum: 1.1661
+03:05:56.455 > pressure_av: 101591
+03:05:56.455 > pressure_diff: 3
+03:05:56.455 > pressure_decrease_count_for_check_launch: 0
+03:05:56.461 > checking launch
+03:05:56.461 > checking launch
+03:05:56.474 > checking launch
+03:05:56.474 > checking launch
+03:05:56.474 > checking launch
+03:05:56.474 > pressure_av: 101581
+03:05:56.479 > pressure_diff: 10
+03:05:56.479 > pressure_decrease_count_for_check_launch: 0
+03:05:56.484 > checking launch
+03:05:56.484 > checking launch
+03:05:56.484 > checking launch
+03:05:56.490 > checking launch
+03:05:56.490 > checking launch
+03:05:56.490 > pressure_av: 101581
+03:05:56.490 > pressure_diff: 0
+03:05:56.495 > pressure_decrease_count_for_check_launch: 0
+03:05:56.495 > checking launch
+03:05:56.500 > checking launch
+03:05:56.500 > checking launch
+03:05:56.500 > checking launch
+03:05:56.507 > checking launch
+03:05:56.507 > pressure_av: 101577
+03:05:56.507 > pressure_diff: 4
+03:05:56.507 > pressure_decrease_count_for_check_launch: 0
+03:05:56.512 > checking launch
+03:05:56.512 > checking launch
+03:05:56.518 > checking launch
+03:05:56.518 > checking launch
+03:05:56.518 > checking launch
+03:05:56.518 > accel_av_square_sum: 1.1701
+03:05:56.524 > pressure_av: 101577
+03:05:56.524 > pressure_diff: 0
+03:05:56.529 > pressure_decrease_count_for_check_launch: 0
+03:05:56.529 > checking launch
+03:05:56.529 > checking launch
+03:05:56.540 > checking launch
+03:05:56.540 > checking launch
+03:05:56.540 > checking launch
+03:05:56.545 > pressure_av: 101565
+03:05:56.545 > pressure_diff: 12
+03:05:56.545 > pressure_decrease_count_for_check_launch: 1
+03:05:56.550 > checking launch
+03:05:56.550 > checking launch
+03:05:56.550 > checking launch
+03:05:56.556 > checking launch
+03:05:56.556 > checking launch
+03:05:56.556 > pressure_av: 101562
+03:05:56.561 > pressure_diff: 3
+03:05:56.561 > pressure_decrease_count_for_check_launch: 0
+03:05:56.572 > checking launch
+03:05:56.572 > checking launch
+03:05:56.572 > checking launch
+03:05:56.572 > checking launch
+03:05:56.580 > checking launch
+03:05:56.580 > pressure_av: 101588
+03:05:56.580 > pressure_diff: -26
+03:05:56.585 > pressure_decrease_count_for_check_launch: 0
+03:05:56.585 > checking launch
+03:05:56.591 > checking launch
+03:05:56.591 > checking launch
+03:05:56.591 > checking launch
+03:05:56.591 > checking launch
+03:05:56.596 > accel_av_square_sum: 1.1675
+03:05:56.596 > pressure_av: 101595
+03:05:56.596 > pressure_diff: -7
+03:05:56.601 > pressure_decrease_count_for_check_launch: 0
+03:05:56.601 > checking launch
+03:05:56.607 > checking launch
+03:05:56.607 > checking launch
+03:05:56.607 > checking launch
+03:05:56.612 > checking launch
+03:05:56.612 > pressure_av: 101584
+03:05:56.612 > pressure_diff: 11
+03:05:56.612 > pressure_decrease_count_for_check_launch: 1
+03:05:56.617 > checking launch
+03:05:56.617 > checking launch
+03:05:56.623 > checking launch
+03:05:56.623 > checking launch
+03:05:56.623 > checking launch
+03:05:56.628 > pressure_av: 101568
+03:05:56.628 > pressure_diff: 16
+03:05:56.628 > pressure_decrease_count_for_check_launch: 2
+03:05:56.634 > checking launch
+03:05:56.634 > checking launch
+03:05:56.634 > checking launch
+03:05:56.639 > checking launch
+03:05:56.639 > checking launch
+03:05:56.639 > pressure_av: 101568
+03:05:56.645 > pressure_diff: 0
+03:05:56.645 > pressure_decrease_count_for_check_launch: 0
+03:05:56.656 > checking launch
+03:05:56.656 > checking launch
+03:05:56.656 > checking launch
+03:05:56.656 > checking launch
+03:05:56.663 > checking launch
+03:05:56.663 > accel_av_square_sum: 1.1691
+03:05:56.663 > pressure_av: 101580
+03:05:56.668 > pressure_diff: -12
+03:05:56.668 > pressure_decrease_count_for_check_launch: 0
+03:05:56.676 > checking launch
+03:05:56.676 > checking launch
+03:05:56.676 > checking launch
+03:05:56.676 > checking launch
+03:05:56.687 > checking launch
+03:05:56.687 > pressure_av: 101580
+03:05:56.687 > pressure_diff: 0
+03:05:56.692 > pressure_decrease_count_for_check_launch: 0
+03:05:56.692 > checking launch
+03:05:56.697 > checking launch
+03:05:56.697 > checking launch
+03:05:56.697 > checking launch
+03:05:56.697 > checking launch
+03:05:56.703 > pressure_av: 101567
+03:05:56.703 > pressure_diff: 13
+03:05:56.703 > pressure_decrease_count_for_check_launch: 1
+03:05:56.708 > checking launch
+03:05:56.708 > checking launch
+03:05:56.713 > checking launch
+03:05:56.713 > checking launch
+03:05:56.713 > checking launch
+03:05:56.713 > pressure_av: 101567
+03:05:56.719 > pressure_diff: 0
+03:05:56.719 > pressure_decrease_count_for_check_launch: 0
+03:05:56.724 > checking launch
+03:05:56.724 > checking launch
+03:05:56.724 > checking launch
+03:05:56.729 > checking launch
+03:05:56.729 > checking launch
+03:05:56.729 > accel_av_square_sum: 1.1686
+03:05:56.735 > pressure_av: 101561
+03:05:56.735 > pressure_diff: 6
+03:05:56.735 > pressure_decrease_count_for_check_launch: 0
+03:05:56.740 > checking launch
+03:05:56.740 > checking launch
+03:05:56.740 > checking launch
+03:05:56.746 > checking launch
+03:05:56.746 > checking launch
+03:05:56.746 > pressure_av: 101557
+03:05:56.751 > pressure_diff: 4
+03:05:56.751 > pressure_decrease_count_for_check_launch: 0
+03:05:56.756 > checking launch
+03:05:56.756 > checking launch
+03:05:56.756 > checking launch
+03:05:56.756 > checking launch
+03:05:56.762 > checking launch
+03:05:56.762 > pressure_av: 101557
+03:05:56.762 > pressure_diff: 0
+03:05:56.762 > pressure_decrease_count_for_check_launch: 0
+03:05:56.767 > checking launch
+03:05:56.767 > checking launch
+03:05:56.772 > checking launch
+03:05:56.772 > checking launch
+03:05:56.772 > checking launch
+03:05:56.778 > pressure_av: 101565
+03:05:56.778 > pressure_diff: -8
+03:05:56.778 > pressure_decrease_count_for_check_launch: 0
+03:05:56.783 > checking launch
+03:05:56.783 > checking launch
+03:05:56.783 > checking launch
+03:05:56.792 > checking launch
+03:05:56.792 > checking launch
+03:05:56.792 > accel_av_square_sum: 1.1672
+03:05:56.797 > pressure_av: 101565
+03:05:56.797 > pressure_diff: 0
+03:05:56.797 > pressure_decrease_count_for_check_launch: 0
+03:05:56.803 > checking launch
+03:05:56.803 > checking launch
+03:05:56.819 > checking launch
+03:05:56.819 > checking launch
+03:05:56.819 > checking launch
+03:05:56.819 > pressure_av: 101598
+03:05:56.824 > pressure_diff: -33
+03:05:56.824 > pressure_decrease_count_for_check_launch: 0
+03:05:56.829 > checking launch
+03:05:56.829 > checking launch
+03:05:56.829 > checking launch
+03:05:56.834 > checking launch
+03:05:56.834 > checking launch
+03:05:56.834 > pressure_av: 101598
+03:05:56.834 > pressure_diff: 0
+03:05:56.840 > pressure_decrease_count_for_check_launch: 0
+03:05:56.840 > checking launch
+03:05:56.845 > checking launch
+03:05:56.845 > checking launch
+03:05:56.845 > checking launch
+03:05:56.856 > checking launch
+03:05:56.856 > pressure_av: 101601
+03:05:56.856 > pressure_diff: -3
+03:05:56.856 > pressure_decrease_count_for_check_launch: 0
+03:05:56.861 > checking launch
+03:05:56.861 > checking launch
+03:05:56.866 > checking launch
+03:05:56.866 > checking launch
+03:05:56.866 > checking launch
+03:05:56.872 > accel_av_square_sum: 1.1643
+03:05:56.872 > pressure_av: 101601
+03:05:56.872 > pressure_diff: 0
+03:05:56.877 > pressure_decrease_count_for_check_launch: 0
+03:05:56.877 > checking launch
+03:05:56.883 > checking launch
+03:05:56.883 > checking launch
+03:05:56.883 > checking launch
+03:05:56.883 > checking launch
+03:05:56.888 > pressure_av: 101587
+03:05:56.888 > pressure_diff: 14
+03:05:56.888 > pressure_decrease_count_for_check_launch: 1
+03:05:56.893 > checking launch
+03:05:56.893 > checking launch
+03:05:56.899 > checking launch
+03:05:56.899 > checking launch
+03:05:56.899 > checking launch
+03:05:56.899 > pressure_av: 101566
+03:05:56.904 > pressure_diff: 21
+03:05:56.904 > pressure_decrease_count_for_check_launch: 2
+03:05:56.910 > checking launch
+03:05:56.910 > checking launch
+03:05:56.910 > checking launch
+03:05:56.915 > checking launch
+03:05:56.915 > checking launch
+03:05:56.915 > pressure_av: 101566
+03:05:56.915 > pressure_diff: 0
+03:05:56.920 > pressure_decrease_count_for_check_launch: 0
+03:05:56.920 > checking launch
+03:05:56.927 > checking launch
+03:05:56.927 > checking launch
+03:05:56.927 > checking launch
+03:05:56.927 > checking launch
+03:05:56.934 > accel_av_square_sum: 1.1691
+03:05:56.934 > pressure_av: 101605
+03:05:56.939 > pressure_diff: -39
+03:05:56.940 > pressure_decrease_count_for_check_launch: 0
+03:05:56.950 > checking launch
+03:05:56.950 > checking launch
+03:05:56.950 > checking launch
+03:05:56.950 > checking launch
+03:05:56.955 > checking launch
+03:05:56.955 > pressure_av: 101605
+03:05:56.955 > pressure_diff: 0
+03:05:56.955 > pressure_decrease_count_for_check_launch: 0
+03:05:56.961 > checking launch
+03:05:56.961 > checking launch
+03:05:56.966 > checking launch
+03:05:56.966 > checking launch
+03:05:56.966 > checking launch
+03:05:56.971 > pressure_av: 101578
+03:05:56.971 > pressure_diff: 27
+03:05:56.971 > pressure_decrease_count_for_check_launch: 1
+03:05:56.977 > checking launch
+03:05:56.977 > checking launch
+03:05:56.977 > checking launch
+03:05:56.984 > checking launch
+03:05:56.984 > checking launch
+03:05:56.984 > pressure_av: 101578
+03:05:56.989 > pressure_diff: 0
+03:05:56.989 > pressure_decrease_count_for_check_launch: 0
+03:05:56.995 > checking launch
+03:05:56.995 > checking launch
+03:05:56.995 > checking launch
+03:05:56.995 > checking launch
+03:05:57.000 > checking launch
+03:05:57.000 > accel_av_square_sum: 1.1649
+03:05:57.000 > pressure_av: 101578
+03:05:57.005 > pressure_diff: 0
+03:05:57.005 > pressure_decrease_count_for_check_launch: 0
+03:05:57.011 > checking launch
+03:05:57.011 > checking launch
+03:05:57.011 > checking launch
+03:05:57.016 > checking launch
+03:05:57.016 > checking launch
+03:05:57.016 > pressure_av: 101566
+03:05:57.016 > pressure_diff: 12
+03:05:57.021 > pressure_decrease_count_for_check_launch: 1
+03:05:57.021 > checking launch
+03:05:57.029 > checking launch
+03:05:57.029 > checking launch
+03:05:57.029 > checking launch
+03:05:57.029 > checking launch
+03:05:57.038 > pressure_av: 101566
+03:05:57.038 > pressure_diff: 0
+03:05:57.038 > pressure_decrease_count_for_check_launch: 0
+03:05:57.044 > checking launch
+03:05:57.044 > checking launch
+03:05:57.049 > checking launch
+03:05:57.049 > checking launch
+03:05:57.049 > checking launch
+03:05:57.049 > pressure_av: 101588
+03:05:57.054 > pressure_diff: -22
+03:05:57.054 > pressure_decrease_count_for_check_launch: 0
+03:05:57.060 > checking launch
+03:05:57.060 > checking launch
+03:05:57.060 > checking launch
+03:05:57.068 > checking launch
+03:05:57.068 > checking launch
+03:05:57.068 > accel_av_square_sum: 1.1699
+03:05:57.073 > pressure_av: 101588
+03:05:57.073 > pressure_diff: 0
+03:05:57.073 > pressure_decrease_count_for_check_launch: 0
+03:05:57.079 > checking launch
+03:05:57.079 > checking launch
+03:05:57.079 > checking launch
+03:05:57.086 > checking launch
+03:05:57.086 > checking launch
+03:05:57.086 > pressure_av: 101582
+03:05:57.091 > pressure_diff: 6
+03:05:57.091 > pressure_decrease_count_for_check_launch: 0
+03:05:57.097 > checking launch
+03:05:57.097 > checking launch
+03:05:57.097 > checking launch
+03:05:57.097 > checking launch
+03:05:57.102 > checking launch
+03:05:57.102 > pressure_av: 101582
+03:05:57.102 > pressure_diff: 0
+03:05:57.107 > pressure_decrease_count_for_check_launch: 0
+03:05:57.107 > checking launch
+03:05:57.113 > checking launch
+03:05:57.113 > checking launch
+03:05:57.113 > checking launch
+03:05:57.113 > checking launch
+03:05:57.118 > pressure_av: 101581
+03:05:57.118 > pressure_diff: 1
+03:05:57.118 > pressure_decrease_count_for_check_launch: 0
+03:05:57.123 > checking launch
+03:05:57.123 > checking launch
+03:05:57.123 > checking launch
+03:05:57.129 > checking launch
+03:05:57.129 > checking launch
+03:05:57.129 > accel_av_square_sum: 1.1665
+03:05:57.134 > pressure_av: 101581
+03:05:57.134 > pressure_diff: 0
+03:05:57.134 > pressure_decrease_count_for_check_launch: 0
+03:05:57.139 > checking launch
+03:05:57.139 > checking launch
+03:05:57.147 > checking launch
+03:05:57.147 > checking launch
+03:05:57.147 > checking launch
+03:05:57.147 > pressure_av: 101581
+03:05:57.152 > pressure_diff: 0
+03:05:57.152 > pressure_decrease_count_for_check_launch: 0
+03:05:57.158 > checking launch
+03:05:57.158 > checking launch
+03:05:57.158 > checking launch
+03:05:57.163 > checking launch
+03:05:57.163 > checking launch
+03:05:57.163 > pressure_av: 101567
+03:05:57.163 > pressure_diff: 14
+03:05:57.168 > pressure_decrease_count_for_check_launch: 1
+03:05:57.168 > checking launch
+03:05:57.174 > checking launch
+03:05:57.174 > checking launch
+03:05:57.174 > checking launch
+03:05:57.186 > checking launch
+03:05:57.186 > pressure_av: 101559
+03:05:57.186 > pressure_diff: 8
+03:05:57.186 > pressure_decrease_count_for_check_launch: 0
+03:05:57.192 > checking launch
+03:05:57.192 > checking launch
+03:05:57.197 > checking launch
+03:05:57.197 > checking launch
+03:05:57.197 > checking launch
+03:05:57.197 > accel_av_square_sum: 1.1684
+03:05:57.202 > pressure_av: 101564
+03:05:57.202 > pressure_diff: -5
+03:05:57.208 > pressure_decrease_count_for_check_launch: 0
+03:05:57.208 > checking launch
+03:05:57.213 > checking launch
+03:05:57.213 > checking launch
+03:05:57.213 > checking launch
+03:05:57.213 > checking launch
+03:05:57.218 > pressure_av: 101588
+03:05:57.218 > pressure_diff: -24
+03:05:57.218 > pressure_decrease_count_for_check_launch: 0
+03:05:57.224 > checking launch
+03:05:57.224 > checking launch
+03:05:57.239 > checking launch
+03:05:57.239 > checking launch
+03:05:57.239 > checking launch
+03:05:57.239 > pressure_av: 101585
+03:05:57.244 > pressure_diff: 3
+03:05:57.244 > pressure_decrease_count_for_check_launch: 0
+03:05:57.250 > checking launch
+03:05:57.250 > checking launch
+03:05:57.250 > checking launch
+03:05:57.250 > checking launch
+03:05:57.255 > checking launch
+03:05:57.255 > pressure_av: 101581
+03:05:57.255 > pressure_diff: 4
+03:05:57.260 > pressure_decrease_count_for_check_launch: 0
+03:05:57.260 > checking launch
+03:05:57.266 > checking launch
+03:05:57.266 > checking launch
+03:05:57.266 > checking launch
+03:05:57.266 > checking launch
+03:05:57.271 > accel_av_square_sum: 1.1659
+03:05:57.271 > pressure_av: 101581
+03:05:57.271 > pressure_diff: 0
+03:05:57.277 > pressure_decrease_count_for_check_launch: 0
+03:05:57.277 > checking launch
+03:05:57.282 > checking launch
+03:05:57.282 > checking launch
+03:05:57.282 > checking launch
+03:05:57.288 > checking launch
+03:05:57.288 > pressure_av: 101558
+03:05:57.288 > pressure_diff: 23
+03:05:57.288 > pressure_decrease_count_for_check_launch: 1
+03:05:57.294 > checking launch
+03:05:57.294 > checking launch
+03:05:57.299 > checking launch
+03:05:57.299 > checking launch
+03:05:57.299 > checking launch
+03:05:57.304 > pressure_av: 101558
+03:05:57.304 > pressure_diff: 0
+03:05:57.304 > pressure_decrease_count_for_check_launch: 0
+03:05:57.310 > checking launch
+03:05:57.310 > checking launch
+03:05:57.310 > checking launch
+03:05:57.317 > checking launch
+03:05:57.317 > checking launch
+03:05:57.317 > pressure_av: 101552
+03:05:57.322 > pressure_diff: 6
+03:05:57.322 > pressure_decrease_count_for_check_launch: 0
+03:05:57.327 > checking launch
+03:05:57.328 > checking launch
+03:05:57.328 > checking launch
+03:05:57.328 > checking launch
+03:05:57.333 > checking launch
+03:05:57.333 > accel_av_square_sum: 1.1670
+03:05:57.333 > pressure_av: 101551
+03:05:57.338 > pressure_diff: 1
+03:05:57.338 > pressure_decrease_count_for_check_launch: 0
+03:05:57.354 > checking launch
+03:05:57.354 > checking launch
+03:05:57.363 > checking launch
+03:05:57.363 > checking launch
+03:05:57.363 > checking launch
+03:05:57.363 > pressure_av: 101544
+03:05:57.368 > pressure_diff: 7
+03:05:57.368 > pressure_decrease_count_for_check_launch: 0
+03:05:57.373 > checking launch
+03:05:57.373 > checking launch
+03:05:57.373 > checking launch
+03:05:57.373 > checking launch
+03:05:57.379 > checking launch
+03:05:57.379 > pressure_av: 101540
+03:05:57.379 > pressure_diff: 4
+03:05:57.384 > pressure_decrease_count_for_check_launch: 0
+03:05:57.384 > checking launch
+03:05:57.398 > checking launch
+03:05:57.398 > checking launch
+03:05:57.398 > checking launch
+03:05:57.398 > checking launch
+03:05:57.409 > pressure_av: 101562
+03:05:57.409 > pressure_diff: -22
+03:05:57.409 > pressure_decrease_count_for_check_launch: 0
+03:05:57.414 > checking launch
+03:05:57.414 > checking launch
+03:05:57.419 > checking launch
+03:05:57.419 > checking launch
+03:05:57.419 > checking launch
+03:05:57.419 > accel_av_square_sum: 1.1674
+03:05:57.425 > pressure_av: 101578
+03:05:57.425 > pressure_diff: -16
+03:05:57.425 > pressure_decrease_count_for_check_launch: 0
+03:05:57.430 > checking launch
+03:05:57.430 > checking launch
+03:05:57.435 > checking launch
+03:05:57.435 > checking launch
+03:05:57.435 > checking launch
+03:05:57.441 > pressure_av: 101589
+03:05:57.441 > pressure_diff: -11
+03:05:57.441 > pressure_decrease_count_for_check_launch: 0
+03:05:57.446 > checking launch
+03:05:57.446 > checking launch
+03:05:57.446 > checking launch
+03:05:57.456 > checking launch
+03:05:57.456 > checking launch
+03:05:57.456 > pressure_av: 101589
+03:05:57.461 > pressure_diff: 0
+03:05:57.461 > pressure_decrease_count_for_check_launch: 0
+03:05:57.466 > checking launch
+03:05:57.466 > checking launch
+03:05:57.466 > checking launch
+03:05:57.466 > checking launch
+03:05:57.472 > checking launch
+03:05:57.472 > pressure_av: 101589
+03:05:57.472 > pressure_diff: 0
+03:05:57.477 > pressure_decrease_count_for_check_launch: 0
+03:05:57.477 > checking launch
+03:05:57.482 > checking launch
+03:05:57.482 > checking launch
+03:05:57.482 > checking launch
+03:05:57.482 > checking launch
+03:05:57.488 > accel_av_square_sum: 1.1668
+03:05:57.488 > pressure_av: 101583
+03:05:57.488 > pressure_diff: 6
+03:05:57.493 > pressure_decrease_count_for_check_launch: 0
+03:05:57.493 > checking launch
+03:05:57.503 > checking launch
+03:05:57.503 > checking launch
+03:05:57.503 > checking launch
+03:05:57.503 > checking launch
+03:05:57.509 > pressure_av: 101579
+03:05:57.509 > pressure_diff: 4
+03:05:57.509 > pressure_decrease_count_for_check_launch: 0
+03:05:57.514 > checking launch
+03:05:57.514 > checking launch
+03:05:57.519 > checking launch
+03:05:57.519 > checking launch
+03:05:57.519 > checking launch
+03:05:57.519 > pressure_av: 101563
+03:05:57.525 > pressure_diff: 16
+03:05:57.525 > pressure_decrease_count_for_check_launch: 1
+03:05:57.530 > checking launch
+03:05:57.530 > checking launch
+03:05:57.530 > checking launch
+03:05:57.544 > checking launch
+03:05:57.544 > checking launch
+03:05:57.544 > pressure_av: 101563
+03:05:57.544 > pressure_diff: 0
+03:05:57.549 > pressure_decrease_count_for_check_launch: 0
+03:05:57.549 > checking launch
+03:05:57.555 > checking launch
+03:05:57.555 > checking launch
+03:05:57.555 > checking launch
+03:05:57.560 > checking launch
+03:05:57.560 > accel_av_square_sum: 1.1701
+03:05:57.560 > pressure_av: 101562
+03:05:57.565 > pressure_diff: 1
+03:05:57.565 > pressure_decrease_count_for_check_launch: 0
+03:05:57.571 > checking launch
+03:05:57.571 > checking launch
+03:05:57.571 > checking launch
+03:05:57.571 > checking launch
+03:05:57.576 > checking launch
+03:05:57.576 > pressure_av: 101562
+03:05:57.576 > pressure_diff: 0
+03:05:57.582 > pressure_decrease_count_for_check_launch: 0
+03:05:57.582 > checking launch
+03:05:57.595 > checking launch
+03:05:57.595 > checking launch
+03:05:57.595 > checking launch
+03:05:57.595 > checking launch
+03:05:57.600 > pressure_av: 101566
+03:05:57.600 > pressure_diff: -4
+03:05:57.600 > pressure_decrease_count_for_check_launch: 0
+03:05:57.606 > checking launch
+03:05:57.606 > checking launch
+03:05:57.606 > checking launch
+03:05:57.611 > checking launch
+03:05:57.611 > checking launch
+03:05:57.611 > pressure_av: 101568
+03:05:57.616 > pressure_diff: -2
+03:05:57.616 > pressure_decrease_count_for_check_launch: 0
+03:05:57.622 > checking launch
+03:05:57.622 > checking launch
+03:05:57.622 > checking launch
+03:05:57.622 > checking launch
+03:05:57.628 > checking launch
+03:05:57.628 > accel_av_square_sum: 1.1672
+03:05:57.628 > pressure_av: 101560
+03:05:57.633 > pressure_diff: 8
+03:05:57.633 > pressure_decrease_count_for_check_launch: 0
+03:05:57.644 > checking launch
+03:05:57.644 > checking launch
+03:05:57.644 > checking launch
+03:05:57.653 > checking launch
+03:05:57.653 > checking launch
+03:05:57.653 > pressure_av: 101549
+03:05:57.653 > pressure_diff: 11
+03:05:57.658 > pressure_decrease_count_for_check_launch: 1
+03:05:57.658 > checking launch
+03:05:57.663 > checking launch
+03:05:57.663 > checking launch
+03:05:57.663 > checking launch
+03:05:57.669 > checking launch
+03:05:57.669 > pressure_av: 101555
+03:05:57.669 > pressure_diff: -6
+03:05:57.669 > pressure_decrease_count_for_check_launch: 0
+03:05:57.674 > checking launch
+03:05:57.674 > checking launch
+03:05:57.684 > checking launch
+03:05:57.684 > checking launch
+03:05:57.684 > checking launch
+03:05:57.693 > pressure_av: 101579
+03:05:57.693 > pressure_diff: -24
+03:05:57.693 > pressure_decrease_count_for_check_launch: 0
+03:05:57.699 > checking launch
+03:05:57.699 > checking launch
+03:05:57.699 > checking launch
+03:05:57.704 > checking launch
+03:05:57.704 > checking launch
+03:05:57.704 > accel_av_square_sum: 1.1672
+03:05:57.709 > pressure_av: 101579
+03:05:57.709 > pressure_diff: 0
+03:05:57.709 > pressure_decrease_count_for_check_launch: 0
+03:05:57.715 > checking launch
+03:05:57.715 > checking launch
+03:05:57.720 > checking launch
+03:05:57.720 > checking launch
+03:05:57.720 > checking launch
+03:05:57.720 > pressure_av: 101568
+03:05:57.725 > pressure_diff: 11
+03:05:57.725 > pressure_decrease_count_for_check_launch: 1
+03:05:57.731 > checking launch
+03:05:57.731 > checking launch
+03:05:57.731 > checking launch
+03:05:57.731 > checking launch
+03:05:57.736 > checking launch
+03:05:57.736 > pressure_av: 101568
+03:05:57.736 > pressure_diff: 0
+03:05:57.742 > pressure_decrease_count_for_check_launch: 0
+03:05:57.742 > checking launch
+03:05:57.752 > checking launch
+03:05:57.752 > checking launch
+03:05:57.752 > checking launch
+03:05:57.752 > checking launch
+03:05:57.757 > pressure_av: 101602
+03:05:57.757 > pressure_diff: -34
+03:05:57.757 > pressure_decrease_count_for_check_launch: 0
+03:05:57.762 > checking launch
+03:05:57.762 > checking launch
+03:05:57.767 > checking launch
+03:05:57.767 > checking launch
+03:05:57.767 > checking launch
+03:05:57.767 > accel_av_square_sum: 1.1654
+03:05:57.773 > pressure_av: 101602
+03:05:57.773 > pressure_diff: 0
+03:05:57.773 > pressure_decrease_count_for_check_launch: 0
+03:05:57.778 > checking launch
+03:05:57.778 > checking launch
+03:05:57.784 > checking launch
+03:05:57.784 > checking launch
+03:05:57.784 > checking launch
+03:05:57.789 > pressure_av: 101583
+03:05:57.789 > pressure_diff: 19
+03:05:57.789 > pressure_decrease_count_for_check_launch: 1
+03:05:57.794 > checking launch
+03:05:57.794 > checking launch
+03:05:57.794 > checking launch
+03:05:57.800 > checking launch
+03:05:57.800 > checking launch
+03:05:57.800 > pressure_av: 101571
+03:05:57.805 > pressure_diff: 12
+03:05:57.805 > pressure_decrease_count_for_check_launch: 2
+03:05:57.810 > checking launch
+03:05:57.810 > checking launch
+03:05:57.810 > checking launch
+03:05:57.810 > checking launch
+03:05:57.820 > checking launch
+03:05:57.820 > pressure_av: 101571
+03:05:57.820 > pressure_diff: 0
+03:05:57.825 > pressure_decrease_count_for_check_launch: 0
+03:05:57.825 > checking launch
+03:05:57.830 > checking launch
+03:05:57.830 > checking launch
+03:05:57.830 > checking launch
+03:05:57.830 > checking launch
+03:05:57.836 > accel_av_square_sum: 1.1651
+03:05:57.836 > pressure_av: 101568
+03:05:57.836 > pressure_diff: 3
+03:05:57.841 > pressure_decrease_count_for_check_launch: 0
+03:05:57.841 > checking launch
+03:05:57.848 > checking launch
+03:05:57.848 > checking launch
+03:05:57.848 > checking launch
+03:05:57.848 > checking launch
+03:05:57.854 > pressure_av: 101568
+03:05:57.854 > pressure_diff: 0
+03:05:57.854 > pressure_decrease_count_for_check_launch: 0
+03:05:57.859 > checking launch
+03:05:57.859 > checking launch
+03:05:57.867 > checking launch
+03:05:57.867 > checking launch
+03:05:57.867 > checking launch
+03:05:57.867 > pressure_av: 101572
+03:05:57.872 > pressure_diff: -4
+03:05:57.872 > pressure_decrease_count_for_check_launch: 0
+03:05:57.877 > checking launch
+03:05:57.877 > checking launch
+03:05:57.877 > checking launch
+03:05:57.884 > checking launch
+03:05:57.884 > checking launch
+03:05:57.884 > pressure_av: 101578
+03:05:57.884 > pressure_diff: -6
+03:05:57.890 > pressure_decrease_count_for_check_launch: 0
+03:05:57.890 > checking launch
+03:05:57.895 > checking launch
+03:05:57.895 > checking launch
+03:05:57.895 > checking launch
+03:05:57.900 > checking launch
+03:05:57.900 > accel_av_square_sum: 1.1676
+03:05:57.900 > pressure_av: 101578
+03:05:57.905 > pressure_diff: 0
+03:05:57.905 > pressure_decrease_count_for_check_launch: 0
+03:05:57.911 > checking launch
+03:05:57.911 > checking launch
+03:05:57.911 > checking launch
+03:05:57.911 > checking launch
+03:05:57.920 > checking launch
+03:05:57.920 > pressure_av: 101584
+03:05:57.920 > pressure_diff: -6
+03:05:57.925 > pressure_decrease_count_for_check_launch: 0
+03:05:57.925 > checking launch
+03:05:57.931 > checking launch
+03:05:57.931 > checking launch
+03:05:57.931 > checking launch
+03:05:57.931 > checking launch
+03:05:57.944 > pressure_av: 101584
+03:05:57.944 > pressure_diff: 0
+03:05:57.944 > pressure_decrease_count_for_check_launch: 0
+03:05:57.949 > checking launch
+03:05:57.949 > checking launch
+03:05:57.949 > checking launch
+03:05:57.954 > checking launch
+03:05:57.954 > checking launch
+03:05:57.954 > pressure_av: 101588
+03:05:57.960 > pressure_diff: -4
+03:05:57.960 > pressure_decrease_count_for_check_launch: 0
+03:05:57.965 > checking launch
+03:05:57.965 > checking launch
+03:05:57.965 > checking launch
+03:05:57.965 > checking launch
+03:05:57.974 > checking launch
+03:05:57.974 > accel_av_square_sum: 1.1684
+03:05:57.974 > pressure_av: 101588
+03:05:57.980 > pressure_diff: 0
+03:05:57.980 > pressure_decrease_count_for_check_launch: 0
+03:05:57.986 > checking launch
+03:05:57.986 > checking launch
+03:05:57.986 > checking launch
+03:05:57.997 > checking launch
+03:05:57.997 > checking launch
+03:05:57.997 > pressure_av: 101573
+03:05:57.997 > pressure_diff: 15
+03:05:58.002 > pressure_decrease_count_for_check_launch: 1
+03:05:58.002 > checking launch
+03:05:58.007 > checking launch
+03:05:58.007 > checking launch
+03:05:58.007 > checking launch
+03:05:58.013 > checking launch
+03:05:58.013 > pressure_av: 101573
+03:05:58.013 > pressure_diff: 0
+03:05:58.013 > pressure_decrease_count_for_check_launch: 0
+03:05:58.018 > checking launch
+03:05:58.018 > checking launch
+03:05:58.026 > checking launch
+03:05:58.026 > checking launch
+03:05:58.026 > checking launch
+03:05:58.031 > pressure_av: 101590
+03:05:58.031 > pressure_diff: -17
+03:05:58.031 > pressure_decrease_count_for_check_launch: 0
+03:05:58.036 > checking launch
+03:05:58.036 > checking launch
+03:05:58.036 > checking launch
+03:05:58.042 > checking launch
+03:05:58.042 > checking launch
+03:05:58.042 > accel_av_square_sum: 1.1672
+03:05:58.047 > pressure_av: 101590
+03:05:58.047 > pressure_diff: 0
+03:05:58.047 > pressure_decrease_count_for_check_launch: 0
+03:05:58.052 > checking launch
+03:05:58.052 > checking launch
+03:05:58.058 > checking launch
+03:05:58.058 > checking launch
+03:05:58.058 > checking launch
+03:05:58.058 > pressure_av: 101595
+03:05:58.064 > pressure_diff: -5
+03:05:58.064 > pressure_decrease_count_for_check_launch: 0
+03:05:58.069 > checking launch
+03:05:58.069 > checking launch
+03:05:58.069 > checking launch
+03:05:58.069 > checking launch
+03:05:58.074 > checking launch
+03:05:58.074 > pressure_av: 101599
+03:05:58.074 > pressure_diff: -4
+03:05:58.080 > pressure_decrease_count_for_check_launch: 0
+03:05:58.080 > checking launch
+03:05:58.085 > checking launch
+03:05:58.085 > checking launch
+03:05:58.085 > checking launch
+03:05:58.085 > checking launch
+03:05:58.090 > pressure_av: 101599
+03:05:58.090 > pressure_diff: 0
+03:05:58.090 > pressure_decrease_count_for_check_launch: 0
+03:05:58.096 > checking launch
+03:05:58.096 > checking launch
+03:05:58.105 > checking launch
+03:05:58.105 > checking launch
+03:05:58.105 > checking launch
+03:05:58.105 > accel_av_square_sum: 1.1688
+03:05:58.110 > pressure_av: 101584
+03:05:58.110 > pressure_diff: 15
+03:05:58.110 > pressure_decrease_count_for_check_launch: 1
+03:05:58.115 > checking launch
+03:05:58.115 > checking launch
+03:05:58.121 > checking launch
+03:05:58.121 > checking launch
+03:05:58.121 > checking launch
+03:05:58.128 > pressure_av: 101584
+03:05:58.128 > pressure_diff: 0
+03:05:58.128 > pressure_decrease_count_for_check_launch: 0
+03:05:58.133 > checking launch
+03:05:58.133 > checking launch
+03:05:58.133 > checking launch
+03:05:58.139 > checking launch
+03:05:58.139 > checking launch
+03:05:58.139 > pressure_av: 101582
+03:05:58.144 > pressure_diff: 2
+03:05:58.144 > pressure_decrease_count_for_check_launch: 0
+03:05:58.151 > checking launch
+03:05:58.151 > checking launch
+03:05:58.151 > checking launch
+03:05:58.151 > checking launch
+03:05:58.156 > checking launch
+03:05:58.156 > pressure_av: 101577
+03:05:58.156 > pressure_diff: 5
+03:05:58.162 > pressure_decrease_count_for_check_launch: 0
+03:05:58.162 > checking launch
+03:05:58.162 > checking launch
+03:05:58.167 > checking launch
+03:05:58.167 > checking launch
+03:05:58.167 > checking launch
+03:05:58.172 > accel_av_square_sum: 1.1666
+03:05:58.172 > pressure_av: 101577
+03:05:58.172 > pressure_diff: 0
+03:05:58.178 > pressure_decrease_count_for_check_launch: 0
+03:05:58.178 > checking launch
+03:05:58.183 > checking launch
+03:05:58.183 > checking launch
+03:05:58.183 > checking launch
+03:05:58.183 > checking launch
+03:05:58.188 > pressure_av: 101593
+03:05:58.188 > pressure_diff: -16
+03:05:58.188 > pressure_decrease_count_for_check_launch: 0
+03:05:58.194 > checking launch
+03:05:58.194 > checking launch
+03:05:58.199 > checking launch
+03:05:58.199 > checking launch
+03:05:58.199 > checking launch
+03:05:58.199 > pressure_av: 101593
+03:05:58.205 > pressure_diff: 0
+03:05:58.205 > pressure_decrease_count_for_check_launch: 0
+03:05:58.210 > checking launch
+03:05:58.210 > checking launch
+03:05:58.210 > checking launch
+03:05:58.216 > checking launch
+03:05:58.216 > checking launch
+03:05:58.216 > pressure_av: 101593
+03:05:58.216 > pressure_diff: 0
+03:05:58.221 > pressure_decrease_count_for_check_launch: 0
+03:05:58.221 > checking launch
+03:05:58.226 > checking launch
+03:05:58.226 > checking launch
+03:05:58.226 > checking launch
+03:05:58.233 > checking launch
+03:05:58.234 > accel_av_square_sum: 1.1675
+03:05:58.234 > pressure_av: 101586
+03:05:58.239 > pressure_diff: 7
+03:05:58.239 > pressure_decrease_count_for_check_launch: 0
+03:05:58.245 > checking launch
+03:05:58.245 > checking launch
+03:05:58.245 > checking launch
+03:05:58.245 > checking launch
+03:05:58.252 > checking launch
+03:05:58.252 > pressure_av: 101586
+03:05:58.252 > pressure_diff: 0
+03:05:58.257 > pressure_decrease_count_for_check_launch: 0
+03:05:58.257 > checking launch
+03:05:58.257 > checking launch
+03:05:58.262 > checking launch
+03:05:58.262 > checking launch
+03:05:58.262 > checking launch
+03:05:58.268 > pressure_av: 101565
+03:05:58.268 > pressure_diff: 21
+03:05:58.268 > pressure_decrease_count_for_check_launch: 1
+03:05:58.273 > checking launch
+03:05:58.273 > checking launch
+03:05:58.273 > checking launch
+03:05:58.283 > checking launch
+03:05:58.283 > checking launch
+03:05:58.283 > pressure_av: 101565
+03:05:58.289 > pressure_diff: 0
+03:05:58.289 > pressure_decrease_count_for_check_launch: 0
+03:05:58.294 > checking launch
+03:05:58.294 > checking launch
+03:05:58.294 > checking launch
+03:05:58.294 > checking launch
+03:05:58.299 > checking launch
+03:05:58.299 > accel_av_square_sum: 1.1695
+03:05:58.299 > pressure_av: 101566
+03:05:58.305 > pressure_diff: -1
+03:05:58.305 > pressure_decrease_count_for_check_launch: 0
+03:05:58.310 > checking launch
+03:05:58.310 > checking launch
+03:05:58.310 > checking launch
+03:05:58.316 > checking launch
+03:05:58.316 > checking launch
+03:05:58.316 > pressure_av: 101567
+03:05:58.316 > pressure_diff: -1
+03:05:58.321 > pressure_decrease_count_for_check_launch: 0
+03:05:58.321 > checking launch
+03:05:58.326 > checking launch
+03:05:58.326 > checking launch
+03:05:58.326 > checking launch
+03:05:58.332 > checking launch
+03:05:58.332 > pressure_av: 101567
+03:05:58.332 > pressure_diff: 0
+03:05:58.332 > pressure_decrease_count_for_check_launch: 0
+03:05:58.337 > checking launch
+03:05:58.337 > checking launch
+03:05:58.342 > checking launch
+03:05:58.342 > checking launch
+03:05:58.342 > checking launch
+03:05:58.342 > pressure_av: 101561
+03:05:58.348 > pressure_diff: 6
+03:05:58.348 > pressure_decrease_count_for_check_launch: 0
+03:05:58.353 > checking launch
+03:05:58.353 > checking launch
+03:05:58.353 > checking launch
+03:05:58.359 > checking launch
+03:05:58.359 > checking launch
+03:05:58.359 > accel_av_square_sum: 1.1695
+03:05:58.364 > pressure_av: 101561
+03:05:58.364 > pressure_diff: 0
+03:05:58.364 > pressure_decrease_count_for_check_launch: 0
+03:05:58.369 > checking launch
+03:05:58.369 > checking launch
+03:05:58.369 > checking launch
+03:05:58.375 > checking launch
+03:05:58.375 > checking launch
+03:05:58.375 > pressure_av: 101569
+03:05:58.381 > pressure_diff: -8
+03:05:58.381 > pressure_decrease_count_for_check_launch: 0
+03:05:58.386 > checking launch
+03:05:58.386 > checking launch
+03:05:58.386 > checking launch
+03:05:58.386 > checking launch
+03:05:58.391 > checking launch
+03:05:58.391 > pressure_av: 101575
+03:05:58.391 > pressure_diff: -6
+03:05:58.397 > pressure_decrease_count_for_check_launch: 0
+03:05:58.397 > checking launch
+03:05:58.402 > checking launch
+03:05:58.402 > checking launch
+03:05:58.402 > checking launch
+03:05:58.402 > checking launch
+03:05:58.414 > pressure_av: 101575
+03:05:58.414 > pressure_diff: 0
+03:05:58.414 > pressure_decrease_count_for_check_launch: 0
+03:05:58.419 > checking launch
+03:05:58.419 > checking launch
+03:05:58.424 > checking launch
+03:05:58.424 > checking launch
+03:05:58.424 > checking launch
+03:05:58.424 > accel_av_square_sum: 1.1690
+03:05:58.430 > pressure_av: 101564
+03:05:58.430 > pressure_diff: 11
+03:05:58.430 > pressure_decrease_count_for_check_launch: 1
+03:05:58.435 > checking launch
+03:05:58.435 > checking launch
+03:05:58.441 > checking launch
+03:05:58.441 > checking launch
+03:05:58.441 > checking launch
+03:05:58.441 > pressure_av: 101564
+03:05:58.446 > pressure_diff: 0
+03:05:58.446 > pressure_decrease_count_for_check_launch: 0
+03:05:58.451 > checking launch
+03:05:58.451 > checking launch
+03:05:58.451 > checking launch
+03:05:58.462 > checking launch
+03:05:58.462 > checking launch
+03:05:58.462 > pressure_av: 101561
+03:05:58.462 > pressure_diff: 3
+03:05:58.467 > pressure_decrease_count_for_check_launch: 0
+03:05:58.467 > checking launch
+03:05:58.473 > checking launch
+03:05:58.473 > checking launch
+03:05:58.473 > checking launch
+03:05:58.478 > checking launch
+03:05:58.478 > pressure_av: 101561
+03:05:58.478 > pressure_diff: 0
+03:05:58.478 > pressure_decrease_count_for_check_launch: 0
+03:05:58.483 > checking launch
+03:05:58.483 > checking launch
+03:05:58.493 > checking launch
+03:05:58.493 > checking launch
+03:05:58.493 > checking launch
+03:05:58.498 > accel_av_square_sum: 1.1693
+03:05:58.498 > pressure_av: 101568
+03:05:58.498 > pressure_diff: -7
+03:05:58.503 > pressure_decrease_count_for_check_launch: 0
+03:05:58.503 > checking launch
+03:05:58.515 > checking launch
+03:05:58.515 > checking launch
+03:05:58.515 > checking launch
+03:05:58.515 > checking launch
+03:05:58.520 > pressure_av: 101573
+03:05:58.520 > pressure_diff: -5
+03:05:58.520 > pressure_decrease_count_for_check_launch: 0
+03:05:58.525 > checking launch
+03:05:58.525 > checking launch
+03:05:58.531 > checking launch
+03:05:58.531 > checking launch
+03:05:58.531 > checking launch
+03:05:58.531 > pressure_av: 101571
+03:05:58.536 > pressure_diff: 2
+03:05:58.536 > pressure_decrease_count_for_check_launch: 0
+03:05:58.545 > checking launch
+03:05:58.545 > checking launch
+03:05:58.545 > checking launch
+03:05:58.545 > checking launch
+03:05:58.552 > checking launch
+03:05:58.552 > pressure_av: 101565
+03:05:58.552 > pressure_diff: 6
+03:05:58.557 > pressure_decrease_count_for_check_launch: 0
+03:05:58.557 > checking launch
+03:05:58.562 > checking launch
+03:05:58.562 > checking launch
+03:05:58.562 > checking launch
+03:05:58.562 > checking launch
+03:05:58.568 > accel_av_square_sum: 1.1708
+03:05:58.568 > pressure_av: 101565
+03:05:58.568 > pressure_diff: 0
+03:05:58.573 > pressure_decrease_count_for_check_launch: 0
+03:05:58.573 > checking launch
+03:05:58.578 > checking launch
+03:05:58.578 > checking launch
+03:05:58.578 > checking launch
+03:05:58.586 > checking launch
+03:05:58.586 > pressure_av: 101573
+03:05:58.586 > pressure_diff: -8
+03:05:58.586 > pressure_decrease_count_for_check_launch: 0
+03:05:58.591 > checking launch
+03:05:58.591 > checking launch
+03:05:58.596 > checking launch
+03:05:58.596 > checking launch
+03:05:58.596 > checking launch
+03:05:58.602 > pressure_av: 101573
+03:05:58.602 > pressure_diff: 0
+03:05:58.602 > pressure_decrease_count_for_check_launch: 0
+03:05:58.616 > checking launch
+03:05:58.616 > checking launch
+03:05:58.616 > checking launch
+03:05:58.622 > checking launch
+03:05:58.622 > checking launch
+03:05:58.622 > pressure_av: 101604
+03:05:58.627 > pressure_diff: -31
+03:05:58.627 > pressure_decrease_count_for_check_launch: 0
+03:05:58.634 > checking launch
+03:05:58.634 > checking launch
+03:05:58.634 > checking launch
+03:05:58.634 > checking launch
+03:05:58.639 > checking launch
+03:05:58.639 > accel_av_square_sum: 1.1683
+03:05:58.639 > pressure_av: 101604
+03:05:58.645 > pressure_diff: 0
+03:05:58.645 > pressure_decrease_count_for_check_launch: 0
+03:05:58.650 > checking launch
+03:05:58.650 > checking launch
+03:05:58.650 > checking launch
+03:05:58.655 > checking launch
+03:05:58.655 > checking launch
+03:05:58.655 > pressure_av: 101580
+03:05:58.655 > pressure_diff: 24
+03:05:58.661 > pressure_decrease_count_for_check_launch: 1
+03:05:58.661 > checking launch
+03:05:58.666 > checking launch
+03:05:58.666 > checking launch
+03:05:58.666 > checking launch
+03:05:58.666 > checking launch
+03:05:58.671 > pressure_av: 101565
+03:05:58.671 > pressure_diff: 15
+03:05:58.671 > pressure_decrease_count_for_check_launch: 2
+03:05:58.677 > checking launch
+03:05:58.677 > checking launch
+03:05:58.682 > checking launch
+03:05:58.682 > checking launch
+03:05:58.682 > checking launch
+03:05:58.682 > pressure_av: 101565
+03:05:58.687 > pressure_diff: 0
+03:05:58.687 > pressure_decrease_count_for_check_launch: 0
+03:05:58.693 > checking launch
+03:05:58.693 > checking launch
+03:05:58.693 > checking launch
+03:05:58.698 > checking launch
+03:05:58.698 > checking launch
+03:05:58.698 > accel_av_square_sum: 1.1654
+03:05:58.703 > pressure_av: 101574
+03:05:58.703 > pressure_diff: -9
+03:05:58.703 > pressure_decrease_count_for_check_launch: 0
+03:05:58.709 > checking launch
+03:05:58.709 > checking launch
+03:05:58.709 > checking launch
+03:05:58.714 > checking launch
+03:05:58.714 > checking launch
+03:05:58.714 > pressure_av: 101574
+03:05:58.719 > pressure_diff: 0
+03:05:58.719 > pressure_decrease_count_for_check_launch: 0
+03:05:58.725 > checking launch
+03:05:58.725 > checking launch
+03:05:58.725 > checking launch
+03:05:58.725 > checking launch
+03:05:58.730 > checking launch
+03:05:58.730 > pressure_av: 101574
+03:05:58.730 > pressure_diff: 0
+03:05:58.735 > pressure_decrease_count_for_check_launch: 0
+03:05:58.735 > checking launch
+03:05:58.741 > checking launch
+03:05:58.741 > checking launch
+03:05:58.741 > checking launch
+03:05:58.741 > checking launch
+03:05:58.746 > pressure_av: 101591
+03:05:58.746 > pressure_diff: -17
+03:05:58.746 > pressure_decrease_count_for_check_launch: 0
+03:05:58.752 > checking launch
+03:05:58.752 > checking launch
+03:05:58.757 > checking launch
+03:05:58.757 > checking launch
+03:05:58.757 > checking launch
+03:05:58.757 > accel_av_square_sum: 1.1684
+03:05:58.762 > pressure_av: 101591
+03:05:58.762 > pressure_diff: 0
+03:05:58.762 > pressure_decrease_count_for_check_launch: 0
+03:05:58.768 > checking launch
+03:05:58.768 > checking launch
+03:05:58.783 > checking launch
+03:05:58.783 > checking launch
+03:05:58.783 > checking launch
+03:05:58.790 > pressure_av: 101604
+03:05:58.790 > pressure_diff: -13
+03:05:58.790 > pressure_decrease_count_for_check_launch: 0
+03:05:58.796 > checking launch
+03:05:58.796 > checking launch
+03:05:58.796 > checking launch
+03:05:58.801 > checking launch
+03:05:58.801 > checking launch
+03:05:58.801 > pressure_av: 101604
+03:05:58.806 > pressure_diff: 0
+03:05:58.806 > pressure_decrease_count_for_check_launch: 0
+03:05:58.812 > checking launch
+03:05:58.812 > checking launch
+03:05:58.812 > checking launch
+03:05:58.812 > checking launch
+03:05:58.817 > checking launch
+03:05:58.817 > pressure_av: 101579
+03:05:58.817 > pressure_diff: 25
+03:05:58.822 > pressure_decrease_count_for_check_launch: 1
+03:05:58.823 > checking launch
+03:05:58.823 > checking launch
+03:05:58.829 > checking launch
+03:05:58.829 > checking launch
+03:05:58.829 > checking launch
+03:05:58.836 > accel_av_square_sum: 1.1681
+03:05:58.836 > pressure_av: 101579
+03:05:58.836 > pressure_diff: 0
+03:05:58.841 > pressure_decrease_count_for_check_launch: 0
+03:05:58.841 > checking launch
+03:05:58.848 > checking launch
+03:05:58.848 > checking launch
+03:05:58.848 > checking launch
+03:05:58.848 > checking launch
+03:05:58.856 > pressure_av: 101611
+03:05:58.856 > pressure_diff: -32
+03:05:58.856 > pressure_decrease_count_for_check_launch: 0
+03:05:58.862 > checking launch
+03:05:58.862 > checking launch
+03:05:58.869 > checking launch
+03:05:58.869 > checking launch
+03:05:58.869 > checking launch
+03:05:58.869 > pressure_av: 101620
+03:05:58.874 > pressure_diff: -9
+03:05:58.874 > pressure_decrease_count_for_check_launch: 0
+03:05:58.879 > checking launch
+03:05:58.879 > checking launch
+03:05:58.879 > checking launch
+03:05:58.885 > checking launch
+03:05:58.885 > checking launch
+03:05:58.885 > pressure_av: 101609
+03:05:58.885 > pressure_diff: 11
+03:05:58.890 > pressure_decrease_count_for_check_launch: 1
+03:05:58.890 > checking launch
+03:05:58.895 > checking launch
+03:05:58.895 > checking launch
+03:05:58.895 > checking launch
+03:05:58.906 > checking launch
+03:05:58.906 > accel_av_square_sum: 1.1660
+03:05:58.906 > pressure_av: 101568
+03:05:58.911 > pressure_diff: 41
+03:05:58.911 > pressure_decrease_count_for_check_launch: 2
+03:05:58.916 > checking launch
+03:05:58.916 > checking launch
+03:05:58.916 > checking launch
+03:05:58.916 > checking launch
+03:05:58.923 > checking launch
+03:05:58.923 > pressure_av: 101556
+03:05:58.923 > pressure_diff: 12
+03:05:58.929 > pressure_decrease_count_for_check_launch: 3
+03:05:58.929 > checking launch
+03:05:58.934 > checking launch
+03:05:58.934 > checking launch
+03:05:58.934 > checking launch
+03:05:58.934 > checking launch
+03:05:58.940 > pressure_av: 101540
+03:05:58.940 > pressure_diff: 16
+03:05:58.940 > pressure_decrease_count_for_check_launch: 4
+03:05:58.945 > checking launch
+03:05:58.945 > checking launch
+03:05:58.950 > checking launch
+03:05:58.950 > checking launch
+03:05:58.950 > checking launch
+03:05:58.950 > pressure_av: 101540
+03:05:58.956 > pressure_diff: 0
+03:05:58.956 > pressure_decrease_count_for_check_launch: 0
+03:05:58.961 > checking launch
+03:05:58.961 > checking launch
+03:05:58.961 > checking launch
+03:05:58.961 > checking launch
+03:05:58.970 > checking launch
+03:05:58.970 > accel_av_square_sum: 1.1734
+03:05:58.970 > pressure_av: 101594
+03:05:58.975 > pressure_diff: -54
+03:05:58.975 > pressure_decrease_count_for_check_launch: 0
+03:05:58.981 > checking launch
+03:05:58.981 > checking launch
+03:05:58.981 > checking launch
+03:05:58.993 > checking launch
+03:05:58.993 > checking launch
+03:05:58.993 > pressure_av: 101594
+03:05:58.998 > pressure_diff: 0
+03:05:58.998 > pressure_decrease_count_for_check_launch: 0
+03:05:58.998 > checking launch
+03:05:59.005 > checking launch
+03:05:59.005 > checking launch
+03:05:59.005 > checking launch
+03:05:59.012 > checking launch
+03:05:59.012 > pressure_av: 101578
+03:05:59.012 > pressure_diff: 16
+03:05:59.012 > pressure_decrease_count_for_check_launch: 1
+03:05:59.017 > checking launch
+03:05:59.017 > checking launch
+03:05:59.023 > checking launch
+03:05:59.023 > checking launch
+03:05:59.023 > checking launch
+03:05:59.031 > pressure_av: 101575
+03:05:59.031 > pressure_diff: 3
+03:05:59.031 > pressure_decrease_count_for_check_launch: 0
+03:05:59.037 > checking launch
+03:05:59.037 > checking launch
+03:05:59.037 > checking launch
+03:05:59.042 > checking launch
+03:05:59.042 > checking launch
+03:05:59.042 > accel_av_square_sum: 1.1687
+03:05:59.047 > pressure_av: 101573
+03:05:59.047 > pressure_diff: 2
+03:05:59.047 > pressure_decrease_count_for_check_launch: 0
+03:05:59.053 > checking launch
+03:05:59.053 > checking launch
+03:05:59.058 > checking launch
+03:05:59.058 > checking launch
+03:05:59.058 > checking launch
+03:05:59.058 > pressure_av: 101566
+03:05:59.063 > pressure_diff: 7
+03:05:59.063 > pressure_decrease_count_for_check_launch: 0
+03:05:59.072 > checking launch
+03:05:59.072 > checking launch
+03:05:59.072 > checking launch
+03:05:59.072 > checking launch
+03:05:59.078 > checking launch
+03:05:59.078 > pressure_av: 101566
+03:05:59.078 > pressure_diff: 0
+03:05:59.083 > pressure_decrease_count_for_check_launch: 0
+03:05:59.083 > checking launch
+03:05:59.088 > checking launch
+03:05:59.088 > checking launch
+03:05:59.088 > checking launch
+03:05:59.088 > checking launch
+03:05:59.094 > pressure_av: 101567
+03:05:59.094 > pressure_diff: -1
+03:05:59.094 > pressure_decrease_count_for_check_launch: 0
+03:05:59.099 > checking launch
+03:05:59.099 > checking launch
+03:05:59.104 > checking launch
+03:05:59.104 > checking launch
+03:05:59.104 > checking launch
+03:05:59.104 > accel_av_square_sum: 1.1692
+03:05:59.110 > pressure_av: 101567
+03:05:59.110 > pressure_diff: 0
+03:05:59.110 > pressure_decrease_count_for_check_launch: 0
+03:05:59.115 > checking launch
+03:05:59.115 > checking launch
+03:05:59.125 > checking launch
+03:05:59.125 > checking launch
+03:05:59.125 > checking launch
+03:05:59.138 > pressure_av: 101600
+03:05:59.138 > pressure_diff: -33
+03:05:59.138 > pressure_decrease_count_for_check_launch: 0
+03:05:59.144 > checking launch
+03:05:59.144 > checking launch
+03:05:59.144 > checking launch
+03:05:59.152 > checking launch
+03:05:59.152 > checking launch
+03:05:59.152 > pressure_av: 101600
+03:05:59.157 > pressure_diff: 0
+03:05:59.157 > pressure_decrease_count_for_check_launch: 0
+03:05:59.163 > checking launch
+03:05:59.163 > checking launch
+03:05:59.163 > checking launch
+03:05:59.163 > checking launch
+03:05:59.170 > checking launch
+03:05:59.170 > pressure_av: 101566
+03:05:59.170 > pressure_diff: 34
+03:05:59.175 > pressure_decrease_count_for_check_launch: 1
+03:05:59.175 > checking launch
+03:05:59.180 > checking launch
+03:05:59.180 > checking launch
+03:05:59.180 > checking launch
+03:05:59.180 > checking launch
+03:05:59.186 > accel_av_square_sum: 1.1678
+03:05:59.186 > pressure_av: 101566
+03:05:59.186 > pressure_diff: 0
+03:05:59.191 > pressure_decrease_count_for_check_launch: 0
+03:05:59.191 > checking launch
+03:05:59.196 > checking launch
+03:05:59.196 > checking launch
+03:05:59.196 > checking launch
+03:05:59.196 > checking launch
+03:05:59.202 > pressure_av: 101567
+03:05:59.202 > pressure_diff: -1
+03:05:59.202 > pressure_decrease_count_for_check_launch: 0
+03:05:59.207 > checking launch
+03:05:59.207 > checking launch
+03:05:59.215 > checking launch
+03:05:59.215 > checking launch
+03:05:59.215 > checking launch
+03:05:59.215 > pressure_av: 101570
+03:05:59.221 > pressure_diff: -3
+03:05:59.221 > pressure_decrease_count_for_check_launch: 0
+03:05:59.226 > checking launch
+03:05:59.226 > checking launch
+03:05:59.226 > checking launch
+03:05:59.233 > checking launch
+03:05:59.233 > checking launch
+03:05:59.233 > pressure_av: 101570
+03:05:59.233 > pressure_diff: 0
+03:05:59.238 > pressure_decrease_count_for_check_launch: 0
+03:05:59.238 > checking launch
+03:05:59.244 > checking launch
+03:05:59.244 > checking launch
+03:05:59.244 > checking launch
+03:05:59.249 > checking launch
+03:05:59.249 > accel_av_square_sum: 1.1660
+03:05:59.249 > pressure_av: 101560
+03:05:59.254 > pressure_diff: 10
+03:05:59.254 > pressure_decrease_count_for_check_launch: 0
+03:05:59.260 > checking launch
+03:05:59.260 > checking launch
+03:05:59.260 > checking launch
+03:05:59.260 > checking launch
+03:05:59.266 > checking launch
+03:05:59.266 > pressure_av: 101560
+03:05:59.266 > pressure_diff: 0
+03:05:59.272 > pressure_decrease_count_for_check_launch: 0
+03:05:59.272 > checking launch
+03:05:59.277 > checking launch
+03:05:59.277 > checking launch
+03:05:59.277 > checking launch
+03:05:59.277 > checking launch
+03:05:59.282 > pressure_av: 101558
+03:05:59.282 > pressure_diff: 2
+03:05:59.282 > pressure_decrease_count_for_check_launch: 0
+03:05:59.288 > checking launch
+03:05:59.288 > checking launch
+03:05:59.288 > checking launch
+03:05:59.296 > checking launch
+03:05:59.296 > checking launch
+03:05:59.296 > pressure_av: 101557
+03:05:59.301 > pressure_diff: 1
+03:05:59.301 > pressure_decrease_count_for_check_launch: 0
+03:05:59.307 > checking launch
+03:05:59.307 > checking launch
+03:05:59.307 > checking launch
+03:05:59.307 > checking launch
+03:05:59.312 > checking launch
+03:05:59.312 > accel_av_square_sum: 1.1698
+03:05:59.312 > pressure_av: 101557
+03:05:59.317 > pressure_diff: 0
+03:05:59.317 > pressure_decrease_count_for_check_launch: 0
+03:05:59.325 > checking launch
+03:05:59.325 > checking launch
+03:05:59.325 > checking launch
+03:05:59.334 > checking launch
+03:05:59.334 > checking launch
+03:05:59.334 > pressure_av: 101572
+03:05:59.334 > pressure_diff: -15
+03:05:59.339 > pressure_decrease_count_for_check_launch: 0
+03:05:59.339 > checking launch
+03:05:59.344 > checking launch
+03:05:59.344 > checking launch
+03:05:59.344 > checking launch
+03:05:59.350 > checking launch
+03:05:59.350 > pressure_av: 101572
+03:05:59.350 > pressure_diff: 0
+03:05:59.350 > pressure_decrease_count_for_check_launch: 0
+03:05:59.355 > checking launch
+03:05:59.355 > checking launch
+03:05:59.365 > checking launch
+03:05:59.365 > checking launch
+03:05:59.365 > checking launch
+03:05:59.370 > pressure_av: 101562
+03:05:59.370 > pressure_diff: 10
+03:05:59.370 > pressure_decrease_count_for_check_launch: 0
+03:05:59.375 > checking launch
+03:05:59.375 > checking launch
+03:05:59.375 > checking launch
+03:05:59.381 > checking launch
+03:05:59.381 > checking launch
+03:05:59.381 > accel_av_square_sum: 1.1680
+03:05:59.386 > pressure_av: 101562
+03:05:59.386 > pressure_diff: 0
+03:05:59.386 > pressure_decrease_count_for_check_launch: 0
+03:05:59.391 > checking launch
+03:05:59.391 > checking launch
+03:05:59.399 > checking launch
+03:05:59.399 > checking launch
+03:05:59.399 > checking launch
+03:05:59.399 > pressure_av: 101601
+03:05:59.404 > pressure_diff: -39
+03:05:59.404 > pressure_decrease_count_for_check_launch: 0
+03:05:59.412 > checking launch
+03:05:59.412 > checking launch
+03:05:59.412 > checking launch
+03:05:59.412 > checking launch
+03:05:59.425 > checking launch
+03:05:59.425 > pressure_av: 101601
+03:05:59.425 > pressure_diff: 0
+03:05:59.430 > pressure_decrease_count_for_check_launch: 0
+03:05:59.430 > checking launch
+03:05:59.435 > checking launch
+03:05:59.435 > checking launch
+03:05:59.435 > checking launch
+03:05:59.435 > checking launch
+03:05:59.441 > pressure_av: 101574
+03:05:59.441 > pressure_diff: 27
+03:05:59.441 > pressure_decrease_count_for_check_launch: 1
+03:05:59.446 > checking launch
+03:05:59.446 > checking launch
+03:05:59.451 > checking launch
+03:05:59.451 > checking launch
+03:05:59.451 > checking launch
+03:05:59.451 > accel_av_square_sum: 1.1659
+03:05:59.457 > pressure_av: 101557
+03:05:59.457 > pressure_diff: 17
+03:05:59.457 > pressure_decrease_count_for_check_launch: 2
+03:05:59.462 > checking launch
+03:05:59.462 > checking launch
+03:05:59.467 > checking launch
+03:05:59.467 > checking launch
+03:05:59.467 > checking launch
+03:05:59.473 > pressure_av: 101560
+03:05:59.473 > pressure_diff: -3
+03:05:59.473 > pressure_decrease_count_for_check_launch: 0
+03:05:59.478 > checking launch
+03:05:59.478 > checking launch
+03:05:59.478 > checking launch
+03:05:59.483 > checking launch
+03:05:59.483 > checking launch
+03:05:59.483 > pressure_av: 101574
+03:05:59.489 > pressure_diff: -14
+03:05:59.489 > pressure_decrease_count_for_check_launch: 0
+03:05:59.495 > checking launch
+03:05:59.495 > checking launch
+03:05:59.495 > checking launch
+03:05:59.495 > checking launch
+03:05:59.500 > checking launch
+03:05:59.500 > pressure_av: 101574
+03:05:59.500 > pressure_diff: 0
+03:05:59.505 > pressure_decrease_count_for_check_launch: 0
+03:05:59.505 > checking launch
+03:05:59.511 > checking launch
+03:05:59.511 > checking launch
+03:05:59.511 > checking launch
+03:05:59.511 > checking launch
+03:05:59.523 > accel_av_square_sum: 1.1710
+03:05:59.523 > pressure_av: 101565
+03:05:59.523 > pressure_diff: 9
+03:05:59.528 > pressure_decrease_count_for_check_launch: 0
+03:05:59.528 > checking launch
+03:05:59.541 > checking launch
+03:05:59.541 > checking launch
+03:05:59.541 > checking launch
+03:05:59.541 > checking launch
+03:05:59.551 > pressure_av: 101553
+03:05:59.551 > pressure_diff: 12
+03:05:59.551 > pressure_decrease_count_for_check_launch: 1
+03:05:59.556 > checking launch
+03:05:59.556 > checking launch
+03:05:59.562 > checking launch
+03:05:59.562 > checking launch
+03:05:59.562 > checking launch
+03:05:59.562 > pressure_av: 101572
+03:05:59.567 > pressure_diff: -19
+03:05:59.567 > pressure_decrease_count_for_check_launch: 0
+03:05:59.572 > checking launch
+03:05:59.572 > checking launch
+03:05:59.572 > checking launch
+03:05:59.578 > checking launch
+03:05:59.578 > checking launch
+03:05:59.578 > pressure_av: 101572
+03:05:59.578 > pressure_diff: 0
+03:05:59.584 > pressure_decrease_count_for_check_launch: 0
+03:05:59.584 > checking launch
+03:05:59.589 > checking launch
+03:05:59.589 > checking launch
+03:05:59.589 > checking launch
+03:05:59.594 > checking launch
+03:05:59.594 > accel_av_square_sum: 0.9885
+03:05:59.594 > pressure_av: 101568
+03:05:59.600 > pressure_diff: 4
+03:05:59.600 > pressure_decrease_count_for_check_launch: 0
+03:05:59.605 > checking launch
+03:05:59.605 > checking launch
+03:05:59.605 > checking launch
+03:05:59.605 > checking launch
+03:05:59.613 > checking launch
+03:05:59.613 > pressure_av: 101562
+03:05:59.613 > pressure_diff: 6
+03:05:59.619 > pressure_decrease_count_for_check_launch: 0
+03:05:59.619 > checking launch
+03:05:59.624 > checking launch
+03:05:59.624 > checking launch
+03:05:59.624 > checking launch
+03:05:59.624 > checking launch
+03:05:59.630 > pressure_av: 101562
+03:05:59.630 > pressure_diff: 0
+03:05:59.630 > pressure_decrease_count_for_check_launch: 0
+03:05:59.635 > checking launch
+03:05:59.635 > checking launch
+03:05:59.640 > checking launch
+03:05:59.640 > checking launch
+03:05:59.640 > checking launch
+03:05:59.640 > pressure_av: 101567
+03:05:59.646 > pressure_diff: -5
+03:05:59.646 > pressure_decrease_count_for_check_launch: 0
+03:05:59.651 > checking launch
+03:05:59.651 > checking launch
+03:05:59.651 > checking launch
+03:05:59.651 > checking launch
+03:05:59.656 > checking launch
+03:05:59.656 > accel_av_square_sum: 1.2773
+03:05:59.656 > pressure_av: 101567
+03:05:59.662 > pressure_diff: 0
+03:05:59.662 > pressure_decrease_count_for_check_launch: 0
+03:05:59.668 > checking launch
+03:05:59.668 > checking launch
+03:05:59.668 > checking launch
+03:05:59.677 > checking launch
+03:05:59.677 > checking launch
+03:05:59.677 > pressure_av: 101590
+03:05:59.677 > pressure_diff: -23
+03:05:59.682 > pressure_decrease_count_for_check_launch: 0
+03:05:59.682 > checking launch
+03:05:59.687 > checking launch
+03:05:59.687 > checking launch
+03:05:59.687 > checking launch
+03:05:59.694 > checking launch
+03:05:59.694 > pressure_av: 101590
+03:05:59.694 > pressure_diff: 0
+03:05:59.694 > pressure_decrease_count_for_check_launch: 0
+03:05:59.699 > checking launch
+03:05:59.699 > checking launch
+03:05:59.705 > checking launch
+03:05:59.705 > checking launch
+03:05:59.705 > checking launch
+03:05:59.710 > pressure_av: 101590
+03:05:59.710 > pressure_diff: 0
+03:05:59.710 > pressure_decrease_count_for_check_launch: 0
+03:05:59.715 > checking launch
+03:05:59.715 > checking launch
+03:05:59.715 > checking launch
+03:05:59.726 > checking launch
+03:05:59.726 > checking launch
+03:05:59.726 > accel_av_square_sum: 1.1823
+03:05:59.731 > pressure_av: 101565
+03:05:59.731 > pressure_diff: 25
+03:05:59.731 > pressure_decrease_count_for_check_launch: 1
+03:05:59.736 > checking launch
+03:05:59.736 > checking launch
+03:05:59.750 > checking launch
+03:05:59.750 > checking launch
+03:05:59.750 > checking launch
+03:05:59.750 > pressure_av: 101564
+03:05:59.755 > pressure_diff: 1
+03:05:59.755 > pressure_decrease_count_for_check_launch: 0
+03:05:59.761 > checking launch
+03:05:59.761 > checking launch
+03:05:59.761 > checking launch
+03:05:59.761 > checking launch
+03:05:59.766 > checking launch
+03:05:59.766 > pressure_av: 101563
+03:05:59.766 > pressure_diff: 1
+03:05:59.771 > pressure_decrease_count_for_check_launch: 0
+03:05:59.771 > checking launch
+03:05:59.780 > checking launch
+03:05:59.780 > checking launch
+03:05:59.780 > checking launch
+03:05:59.780 > checking launch
+03:05:59.785 > pressure_av: 101566
+03:05:59.785 > pressure_diff: -3
+03:05:59.785 > pressure_decrease_count_for_check_launch: 0
+03:05:59.791 > checking launch
+03:05:59.791 > checking launch
+03:05:59.797 > checking launch
+03:05:59.797 > checking launch
+03:05:59.797 > checking launch
+03:05:59.797 > accel_av_square_sum: 1.1684
+03:05:59.802 > pressure_av: 101580
+03:05:59.802 > pressure_diff: -14
+03:05:59.802 > pressure_decrease_count_for_check_launch: 0
+03:05:59.807 > checking launch
+03:05:59.807 > checking launch
+03:05:59.814 > checking launch
+03:05:59.814 > checking launch
+03:05:59.814 > checking launch
+03:05:59.820 > pressure_av: 101580
+03:05:59.820 > pressure_diff: 0
+03:05:59.820 > pressure_decrease_count_for_check_launch: 0
+03:05:59.825 > checking launch
+03:05:59.825 > checking launch
+03:05:59.825 > checking launch
+03:05:59.831 > checking launch
+03:05:59.831 > checking launch
+03:05:59.831 > pressure_av: 101576
+03:05:59.836 > pressure_diff: 4
+03:05:59.836 > pressure_decrease_count_for_check_launch: 0
+03:05:59.842 > checking launch
+03:05:59.842 > checking launch
+03:05:59.842 > checking launch
+03:05:59.842 > checking launch
+03:05:59.849 > checking launch
+03:05:59.849 > pressure_av: 101574
+03:05:59.849 > pressure_diff: 2
+03:05:59.855 > pressure_decrease_count_for_check_launch: 0
+03:05:59.855 > checking launch
+03:05:59.860 > checking launch
+03:05:59.860 > checking launch
+03:05:59.860 > checking launch
+03:05:59.860 > checking launch
+03:05:59.865 > accel_av_square_sum: 1.1562
+03:05:59.865 > pressure_av: 101574
+03:05:59.865 > pressure_diff: 0
+03:05:59.871 > pressure_decrease_count_for_check_launch: 0
+03:05:59.871 > checking launch
+03:05:59.876 > checking launch
+03:05:59.876 > checking launch
+03:05:59.876 > checking launch
+03:05:59.876 > checking launch
+03:05:59.881 > pressure_av: 101552
+03:05:59.881 > pressure_diff: 22
+03:05:59.881 > pressure_decrease_count_for_check_launch: 1
+03:05:59.887 > checking launch
+03:05:59.887 > checking launch
+03:05:59.893 > checking launch
+03:05:59.893 > checking launch
+03:05:59.893 > checking launch
+03:05:59.893 > pressure_av: 101552
+03:05:59.898 > pressure_diff: 0
+03:05:59.898 > pressure_decrease_count_for_check_launch: 0
+03:05:59.904 > checking launch
+03:05:59.904 > checking launch
+03:05:59.904 > checking launch
+03:05:59.909 > checking launch
+03:05:59.909 > checking launch
+03:05:59.909 > pressure_av: 101563
+03:05:59.909 > pressure_diff: -11
+03:05:59.914 > pressure_decrease_count_for_check_launch: 0
+03:05:59.914 > checking launch
+03:05:59.920 > checking launch
+03:05:59.920 > checking launch
+03:05:59.920 > checking launch
+03:05:59.934 > checking launch
+03:05:59.934 > accel_av_square_sum: 1.3020
+03:05:59.934 > pressure_av: 101571
+03:05:59.940 > pressure_diff: -8
+03:05:59.940 > pressure_decrease_count_for_check_launch: 0
+03:05:59.946 > checking launch
+03:05:59.946 > checking launch
+03:05:59.946 > checking launch
+03:05:59.946 > checking launch
+03:05:59.951 > checking launch
+03:05:59.951 > pressure_av: 101609
+03:05:59.951 > pressure_diff: -38
+03:05:59.957 > pressure_decrease_count_for_check_launch: 0
+03:05:59.957 > checking launch
+03:05:59.962 > checking launch
+03:05:59.962 > checking launch
+03:05:59.962 > checking launch
+03:05:59.962 > checking launch
+03:05:59.967 > pressure_av: 101609
+03:05:59.967 > pressure_diff: 0
+03:05:59.967 > pressure_decrease_count_for_check_launch: 0
+03:05:59.973 > checking launch
+03:05:59.973 > checking launch
+03:05:59.978 > checking launch
+03:05:59.978 > checking launch
+03:05:59.978 > checking launch
+03:05:59.978 > pressure_av: 101609
+03:05:59.983 > pressure_diff: 0
+03:05:59.983 > pressure_decrease_count_for_check_launch: 0
+03:05:59.989 > checking launch
+03:05:59.989 > checking launch
+03:05:59.989 > checking launch
+03:05:59.989 > checking launch
+03:05:59.994 > checking launch
+03:05:59.994 > accel_av_square_sum: 1.0976
+03:05:59.994 > pressure_av: 101556
+03:06:00.000 > pressure_diff: 53
+03:06:00.000 > pressure_decrease_count_for_check_launch: 1
+03:06:00.005 > checking launch
+03:06:00.005 > checking launch
+03:06:00.005 > checking launch
+03:06:00.011 > checking launch
+03:06:00.011 > checking launch
+03:06:00.011 > pressure_av: 101556
+03:06:00.011 > pressure_diff: 0
+03:06:00.017 > pressure_decrease_count_for_check_launch: 0
+03:06:00.017 > checking launch
+03:06:00.022 > checking launch
+03:06:00.022 > checking launch
+03:06:00.022 > checking launch
+03:06:00.027 > checking launch
+03:06:00.027 > pressure_av: 101562
+03:06:00.027 > pressure_diff: -6
+03:06:00.027 > pressure_decrease_count_for_check_launch: 0
+03:06:00.033 > checking launch
+03:06:00.033 > checking launch
+03:06:00.039 > checking launch
+03:06:00.039 > checking launch
+03:06:00.039 > checking launch
+03:06:00.045 > pressure_av: 101572
+03:06:00.045 > pressure_diff: -10
+03:06:00.045 > pressure_decrease_count_for_check_launch: 0
+03:06:00.050 > checking launch
+03:06:00.050 > checking launch
+03:06:00.050 > checking launch
+03:06:00.055 > checking launch
+03:06:00.055 > checking launch
+03:06:00.055 > accel_av_square_sum: 1.1354
+03:06:00.061 > pressure_av: 101572
+03:06:00.061 > pressure_diff: 0
+03:06:00.061 > pressure_decrease_count_for_check_launch: 0
+03:06:00.066 > checking launch
+03:06:00.066 > checking launch
+03:06:00.071 > checking launch
+03:06:00.071 > checking launch
+03:06:00.071 > checking launch
+03:06:00.071 > pressure_av: 101575
+03:06:00.077 > pressure_diff: -3
+03:06:00.077 > pressure_decrease_count_for_check_launch: 0
+03:06:00.082 > checking launch
+03:06:00.082 > checking launch
+03:06:00.082 > checking launch
+03:06:00.088 > checking launch
+03:06:00.088 > checking launch
+03:06:00.088 > pressure_av: 101575
+03:06:00.088 > pressure_diff: 0
+03:06:00.093 > pressure_decrease_count_for_check_launch: 0
+03:06:00.093 > checking launch
+03:06:00.099 > checking launch
+03:06:00.099 > checking launch
+03:06:00.099 > checking launch
+03:06:00.099 > checking launch
+03:06:00.104 > pressure_av: 101581
+03:06:00.104 > pressure_diff: -6
+03:06:00.104 > pressure_decrease_count_for_check_launch: 0
+03:06:00.109 > checking launch
+03:06:00.109 > checking launch
+03:06:00.115 > checking launch
+03:06:00.115 > checking launch
+03:06:00.115 > checking launch
+03:06:00.115 > accel_av_square_sum: 1.1491
+03:06:00.120 > pressure_av: 101591
+03:06:00.120 > pressure_diff: -10
+03:06:00.126 > pressure_decrease_count_for_check_launch: 0
+03:06:00.126 > checking launch
+03:06:00.133 > checking launch
+03:06:00.133 > checking launch
+03:06:00.133 > checking launch
+03:06:00.133 > checking launch
+03:06:00.138 > pressure_av: 101591
+03:06:00.138 > pressure_diff: 0
+03:06:00.138 > pressure_decrease_count_for_check_launch: 0
+03:06:00.144 > checking launch
+03:06:00.144 > checking launch
+03:06:00.144 > checking launch
+03:06:00.149 > checking launch
+03:06:00.149 > checking launch
+03:06:00.149 > pressure_av: 101572
+03:06:00.154 > pressure_diff: 19
+03:06:00.154 > pressure_decrease_count_for_check_launch: 1
+03:06:00.160 > checking launch
+03:06:00.160 > checking launch
+03:06:00.160 > checking launch
+03:06:00.160 > checking launch
+03:06:00.165 > checking launch
+03:06:00.165 > pressure_av: 101572
+03:06:00.165 > pressure_diff: 0
+03:06:00.171 > pressure_decrease_count_for_check_launch: 0
+03:06:00.171 > checking launch
+03:06:00.185 > checking launch
+03:06:00.185 > checking launch
+03:06:00.185 > checking launch
+03:06:00.185 > checking launch
+03:06:00.191 > accel_av_square_sum: 1.2640
+03:06:00.191 > pressure_av: 101579
+03:06:00.191 > pressure_diff: -7
+03:06:00.196 > pressure_decrease_count_for_check_launch: 0
+03:06:00.196 > checking launch
+03:06:00.201 > checking launch
+03:06:00.201 > checking launch
+03:06:00.201 > checking launch
+03:06:00.207 > checking launch
+03:06:00.207 > pressure_av: 101590
+03:06:00.207 > pressure_diff: -11
+03:06:00.207 > pressure_decrease_count_for_check_launch: 0
+03:06:00.212 > checking launch
+03:06:00.212 > checking launch
+03:06:00.222 > checking launch
+03:06:00.222 > checking launch
+03:06:00.222 > checking launch
+03:06:00.227 > pressure_av: 101601
+03:06:00.227 > pressure_diff: -11
+03:06:00.227 > pressure_decrease_count_for_check_launch: 0
+03:06:00.232 > checking launch
+03:06:00.232 > checking launch
+03:06:00.232 > checking launch
+03:06:00.238 > checking launch
+03:06:00.238 > checking launch
+03:06:00.238 > pressure_av: 101604
+03:06:00.243 > pressure_diff: -3
+03:06:00.243 > pressure_decrease_count_for_check_launch: 0
+03:06:00.248 > checking launch
+03:06:00.248 > checking launch
+03:06:00.248 > checking launch
+03:06:00.248 > checking launch
+03:06:00.254 > checking launch
+03:06:00.254 > accel_av_square_sum: 1.6884
+03:06:00.254 > pressure_av: 101604
+03:06:00.259 > pressure_diff: 0
+03:06:00.259 > pressure_decrease_count_for_check_launch: 0
+03:06:00.265 > checking launch
+03:06:00.265 > checking launch
+03:06:00.265 > checking launch
+03:06:00.265 > checking launch
+03:06:00.272 > checking launch
+03:06:00.272 > pressure_av: 101572
+03:06:00.272 > pressure_diff: 32
+03:06:00.277 > pressure_decrease_count_for_check_launch: 1
+03:06:00.277 > checking launch
+03:06:00.282 > checking launch
+03:06:00.282 > checking launch
+03:06:00.282 > checking launch
+03:06:00.282 > checking launch
+03:06:00.288 > pressure_av: 101572
+03:06:00.288 > pressure_diff: 0
+03:06:00.288 > pressure_decrease_count_for_check_launch: 0
+03:06:00.293 > checking launch
+03:06:00.293 > checking launch
+03:06:00.298 > checking launch
+03:06:00.298 > checking launch
+03:06:00.298 > checking launch
+03:06:00.298 > pressure_av: 101572
+03:06:00.304 > pressure_diff: 0
+03:06:00.304 > pressure_decrease_count_for_check_launch: 0
+03:06:00.309 > checking launch
+03:06:00.309 > checking launch
+03:06:00.309 > checking launch
+03:06:00.314 > checking launch
+03:06:00.314 > checking launch
+03:06:00.314 > accel_av_square_sum: 2.4624
+03:06:00.320 > pressure_av: 101572
+03:06:00.320 > pressure_diff: 0
+03:06:00.320 > pressure_decrease_count_for_check_launch: 0
+03:06:00.330 > checking launch
+03:06:00.330 > checking launch
+03:06:00.330 > checking launch
+03:06:00.339 > checking launch
+03:06:00.339 > checking launch
+03:06:00.339 > pressure_av: 101583
+03:06:00.344 > pressure_diff: -11
+03:06:00.344 > pressure_decrease_count_for_check_launch: 0
+03:06:00.349 > checking launch
+03:06:00.349 > checking launch
+03:06:00.349 > checking launch
+03:06:00.349 > checking launch
+03:06:00.355 > checking launch
+03:06:00.355 > pressure_av: 101591
+03:06:00.355 > pressure_diff: -8
+03:06:00.360 > pressure_decrease_count_for_check_launch: 0
+03:06:00.360 > checking launch
+03:06:00.365 > checking launch
+03:06:00.365 > checking launch
+03:06:00.365 > checking launch
+03:06:00.365 > checking launch
+03:06:00.371 > pressure_av: 101591
+03:06:00.371 > pressure_diff: 0
+03:06:00.371 > pressure_decrease_count_for_check_launch: 0
+03:06:00.376 > checking launch
+03:06:00.376 > checking launch
+03:06:00.376 > checking launch
+03:06:00.386 > checking launch
+03:06:00.386 > checking launch
+03:06:00.386 > accel_av_square_sum: 0.6232
+03:06:00.392 > pressure_av: 101589
+03:06:00.392 > pressure_diff: 2
+03:06:00.392 > pressure_decrease_count_for_check_launch: 0
+03:06:00.397 > checking launch
+03:06:00.397 > checking launch
+03:06:00.409 > checking launch
+03:06:00.409 > checking launch
+03:06:00.409 > checking launch
+03:06:00.409 > pressure_av: 101589
+03:06:00.414 > pressure_diff: 0
+03:06:00.414 > pressure_decrease_count_for_check_launch: 0
+03:06:00.419 > checking launch
+03:06:00.419 > checking launch
+03:06:00.419 > checking launch
+03:06:00.425 > checking launch
+03:06:00.425 > checking launch
+03:06:00.425 > pressure_av: 101589
+03:06:00.425 > pressure_diff: 0
+03:06:00.430 > pressure_decrease_count_for_check_launch: 0
+03:06:00.430 > checking launch
+03:06:00.435 > checking launch
+03:06:00.435 > checking launch
+03:06:00.435 > checking launch
+03:06:00.441 > checking launch
+03:06:00.441 > pressure_av: 101589
+03:06:00.441 > pressure_diff: 0
+03:06:00.441 > pressure_decrease_count_for_check_launch: 0
+03:06:00.446 > checking launch
+03:06:00.446 > checking launch
+03:06:00.451 > checking launch
+03:06:00.451 > checking launch
+03:06:00.451 > checking launch
+03:06:00.451 > accel_av_square_sum: 0.3798
+03:06:00.457 > pressure_av: 101594
+03:06:00.457 > pressure_diff: -5
+03:06:00.462 > pressure_decrease_count_for_check_launch: 0
+03:06:00.462 > checking launch
+03:06:00.467 > checking launch
+03:06:00.467 > checking launch
+03:06:00.467 > checking launch
+03:06:00.467 > checking launch
+03:06:00.473 > pressure_av: 101602
+03:06:00.473 > pressure_diff: -8
+03:06:00.473 > pressure_decrease_count_for_check_launch: 0
+03:06:00.478 > checking launch
+03:06:00.478 > checking launch
+03:06:00.478 > checking launch
+03:06:00.488 > checking launch
+03:06:00.488 > checking launch
+03:06:00.488 > pressure_av: 101602
+03:06:00.494 > pressure_diff: 0
+03:06:00.494 > pressure_decrease_count_for_check_launch: 0
+03:06:00.499 > checking launch
+03:06:00.499 > checking launch
+03:06:00.499 > checking launch
+03:06:00.499 > checking launch
+03:06:00.504 > checking launch
+03:06:00.504 > pressure_av: 101590
+03:06:00.504 > pressure_diff: 12
+03:06:00.510 > pressure_decrease_count_for_check_launch: 1
+03:06:00.510 > checking launch
+03:06:00.515 > checking launch
+03:06:00.515 > checking launch
+03:06:00.515 > checking launch
+03:06:00.515 > checking launch
+03:06:00.523 > accel_av_square_sum: 3.1110
+03:06:00.523 > pressure_av: 101590
+03:06:00.523 > pressure_diff: 0
+03:06:00.528 > pressure_decrease_count_for_check_launch: 0
+03:06:00.528 > checking launch
+03:06:00.533 > checking launch
+03:06:00.533 > checking launch
+03:06:00.533 > checking launch
+03:06:00.539 > checking launch
+03:06:00.539 > pressure_av: 101582
+03:06:00.539 > pressure_diff: 8
+03:06:00.539 > pressure_decrease_count_for_check_launch: 0
+03:06:00.545 > checking launch
+03:06:00.545 > checking launch
+03:06:00.555 > checking launch
+03:06:00.555 > checking launch
+03:06:00.555 > checking launch
+03:06:00.555 > pressure_av: 101580
+03:06:00.561 > pressure_diff: 2
+03:06:00.561 > pressure_decrease_count_for_check_launch: 0
+03:06:00.570 > checking launch
+03:06:00.570 > checking launch
+03:06:00.570 > checking launch
+03:06:00.577 > checking launch
+03:06:00.577 > checking launch
+03:06:00.577 > pressure_av: 101578
+03:06:00.577 > pressure_diff: 2
+03:06:00.582 > pressure_decrease_count_for_check_launch: 0
+03:06:00.582 > checking launch
+03:06:00.587 > checking launch
+03:06:00.587 > checking launch
+03:06:00.587 > checking launch
+03:06:00.593 > checking launch
+03:06:00.593 > accel_av_square_sum: 2.9206
+03:06:00.593 > pressure_av: 101578
+03:06:00.598 > pressure_diff: 0
+03:06:00.598 > pressure_decrease_count_for_check_launch: 0
+03:06:00.603 > checking launch
+03:06:00.603 > checking launch
+03:06:00.603 > checking launch
+03:06:00.603 > checking launch
+03:06:00.613 > checking launch
+03:06:00.613 > pressure_av: 101577
+03:06:00.613 > pressure_diff: 1
+03:06:00.618 > pressure_decrease_count_for_check_launch: 0
+03:06:00.618 > checking launch
+03:06:00.624 > checking launch
+03:06:00.624 > checking launch
+03:06:00.624 > checking launch
+03:06:00.624 > checking launch
+03:06:00.629 > pressure_av: 101573
+03:06:00.629 > pressure_diff: 4
+03:06:00.629 > pressure_decrease_count_for_check_launch: 0
+03:06:00.634 > checking launch
+03:06:00.634 > checking launch
+03:06:00.634 > checking launch
+03:06:00.642 > checking launch
+03:06:00.642 > checking launch
+03:06:00.642 > pressure_av: 101573
+03:06:00.648 > pressure_diff: 0
+03:06:00.648 > pressure_decrease_count_for_check_launch: 0
+03:06:00.653 > checking launch
+03:06:00.653 > checking launch
+03:06:00.653 > checking launch
+03:06:00.653 > checking launch
+03:06:00.658 > checking launch
+03:06:00.658 > accel_av_square_sum: 0.8128
+03:06:00.658 > pressure_av: 101581
+03:06:00.664 > pressure_diff: -8
+03:06:00.664 > pressure_decrease_count_for_check_launch: 0
+03:06:00.669 > checking launch
+03:06:00.669 > checking launch
+03:06:00.669 > checking launch
+03:06:00.676 > checking launch
+03:06:00.676 > checking launch
+03:06:00.676 > pressure_av: 101584
+03:06:00.676 > pressure_diff: -3
+03:06:00.681 > pressure_decrease_count_for_check_launch: 0
+03:06:00.681 > checking launch
+03:06:00.686 > checking launch
+03:06:00.686 > checking launch
+03:06:00.686 > checking launch
+03:06:00.692 > checking launch
+03:06:00.692 > pressure_av: 101582
+03:06:00.692 > pressure_diff: 2
+03:06:00.692 > pressure_decrease_count_for_check_launch: 0
+03:06:00.697 > checking launch
+03:06:00.697 > checking launch
+03:06:00.704 > checking launch
+03:06:00.704 > checking launch
+03:06:00.704 > checking launch
+03:06:00.709 > pressure_av: 101577
+03:06:00.709 > pressure_diff: 5
+03:06:00.709 > pressure_decrease_count_for_check_launch: 0
+03:06:00.715 > checking launch
+03:06:00.715 > checking launch
+03:06:00.715 > checking launch
+03:06:00.720 > checking launch
+03:06:00.720 > checking launch
+03:06:00.720 > accel_av_square_sum: 1.7699
+03:06:00.726 > pressure_av: 101577
+03:06:00.726 > pressure_diff: 0
+03:06:00.726 > pressure_decrease_count_for_check_launch: 0
+03:06:00.731 > checking launch
+03:06:00.731 > checking launch
+03:06:00.731 > checking launch
+03:06:00.738 > checking launch
+03:06:00.738 > checking launch
+03:06:00.738 > pressure_av: 101611
+03:06:00.743 > pressure_diff: -34
+03:06:00.743 > pressure_decrease_count_for_check_launch: 0
+03:06:00.749 > checking launch
+03:06:00.749 > checking launch
+03:06:00.749 > checking launch
+03:06:00.749 > checking launch
+03:06:00.754 > checking launch
+03:06:00.754 > pressure_av: 101611
+03:06:00.754 > pressure_diff: 0
+03:06:00.760 > pressure_decrease_count_for_check_launch: 0
+03:06:00.760 > checking launch
+03:06:00.766 > checking launch
+03:06:00.766 > checking launch
+03:06:00.766 > checking launch
+03:06:00.766 > checking launch
+03:06:00.772 > pressure_av: 101604
+03:06:00.772 > pressure_diff: 7
+03:06:00.772 > pressure_decrease_count_for_check_launch: 0
+03:06:00.777 > checking launch
+03:06:00.777 > checking launch
+03:06:00.783 > checking launch
+03:06:00.783 > checking launch
+03:06:00.783 > checking launch
+03:06:00.783 > accel_av_square_sum: 4.2043
+03:06:00.788 > pressure_av: 101576
+03:06:00.788 > pressure_diff: 28
+03:06:00.788 > pressure_decrease_count_for_check_launch: 1
+03:06:00.793 > checking launch
+03:06:00.793 > launch detected, checking apogee
+03:06:00.799 > launch detected, checking apogee
+03:06:00.804 > launch detected, checking apogee
+03:06:00.804 > launch detected, checking apogee
+03:06:00.809 > launch detected, checking apogee
+03:06:00.809 > pressure_av: 121893
+03:06:00.809 > pressure_diff: 121893
+03:06:00.815 > pressure_increase_count_for_check_apogee: 1
+03:06:00.820 > launch detected, checking apogee
+03:06:00.820 > launch detected, checking apogee
+03:06:00.827 > launch detected, checking apogee
+03:06:00.827 > launch detected, checking apogee
+03:06:00.832 > launch detected, checking apogee
+03:06:00.832 > pressure_av: 101589
+03:06:00.837 > pressure_diff: -20304
+03:06:00.837 > pressure_increase_count_for_check_apogee: 0
+03:06:00.843 > launch detected, checking apogee
+03:06:00.843 > launch detected, checking apogee
+03:06:00.848 > launch detected, checking apogee
+03:06:00.848 > launch detected, checking apogee
+03:06:00.853 > launch detected, checking apogee
+03:06:00.853 > pressure_av: 101592
+03:06:00.859 > pressure_diff: 3
+03:06:00.859 > pressure_increase_count_for_check_apogee: 1
+03:06:00.864 > launch detected, checking apogee
+03:06:00.864 > launch detected, checking apogee
+03:06:00.869 > launch detected, checking apogee
+03:06:00.869 > launch detected, checking apogee
+03:06:00.875 > launch detected, checking apogee
+03:06:00.875 > pressure_av: 101595
+03:06:00.880 > pressure_diff: 3
+03:06:00.880 > pressure_increase_count_for_check_apogee: 2
+03:06:00.885 > launch detected, checking apogee
+03:06:00.885 > launch detected, checking apogee
+03:06:00.891 > launch detected, checking apogee
+03:06:00.891 > launch detected, checking apogee
+03:06:00.896 > launch detected, checking apogee
+03:06:00.902 > pressure_av: 101573
+03:06:00.902 > pressure_diff: -22
+03:06:00.902 > pressure_increase_count_for_check_apogee: 0
+03:06:00.907 > launch detected, checking apogee
+03:06:00.907 > launch detected, checking apogee
+03:06:00.912 > launch detected, checking apogee
+03:06:00.917 > launch detected, checking apogee
+03:06:00.918 > launch detected, checking apogee
+03:06:00.926 > pressure_av: 101573
+03:06:00.926 > pressure_diff: 0
+03:06:00.926 > pressure_increase_count_for_check_apogee: 0
+03:06:00.931 > launch detected, checking apogee
+03:06:00.931 > launch detected, checking apogee
+03:06:00.937 > launch detected, checking apogee
+03:06:00.942 > launch detected, checking apogee
+03:06:00.942 > launch detected, checking apogee
+03:06:00.947 > pressure_av: 101578
+03:06:00.947 > pressure_diff: 5
+03:06:00.947 > pressure_increase_count_for_check_apogee: 1
+03:06:00.953 > launch detected, checking apogee
+03:06:00.958 > launch detected, checking apogee
+03:06:00.958 > launch detected, checking apogee
+03:06:00.963 > launch detected, checking apogee
+03:06:00.963 > launch detected, checking apogee
+03:06:00.969 > pressure_av: 101578
+03:06:00.969 > pressure_diff: 0
+03:06:00.969 > pressure_increase_count_for_check_apogee: 0
+03:06:00.974 > launch detected, checking apogee
+03:06:00.980 > launch detected, checking apogee
+03:06:00.980 > launch detected, checking apogee
+03:06:00.988 > launch detected, checking apogee
+03:06:00.988 > launch detected, checking apogee
+03:06:00.993 > pressure_av: 101580
+03:06:00.993 > pressure_diff: 2
+03:06:00.993 > pressure_increase_count_for_check_apogee: 1
+03:06:00.998 > launch detected, checking apogee
+03:06:01.004 > launch detected, checking apogee
+03:06:01.004 > launch detected, checking apogee
+03:06:01.009 > launch detected, checking apogee
+03:06:01.009 > launch detected, checking apogee
+03:06:01.015 > pressure_av: 101608
+03:06:01.015 > pressure_diff: 28
+03:06:01.015 > pressure_increase_count_for_check_apogee: 2
+03:06:01.020 > launch detected, checking apogee
+03:06:01.025 > launch detected, checking apogee
+03:06:01.025 > launch detected, checking apogee
+03:06:01.031 > launch detected, checking apogee
+03:06:01.031 > launch detected, checking apogee
+03:06:01.036 > pressure_av: 101608
+03:06:01.036 > pressure_diff: 0
+03:06:01.036 > pressure_increase_count_for_check_apogee: 0
+03:06:01.041 > launch detected, checking apogee
+03:06:01.047 > launch detected, checking apogee
+03:06:01.047 > launch detected, checking apogee
+03:06:01.052 > launch detected, checking apogee
+03:06:01.052 > launch detected, checking apogee
+03:06:01.057 > pressure_av: 101577
+03:06:01.057 > pressure_diff: -31
+03:06:01.063 > pressure_increase_count_for_check_apogee: 0
+03:06:01.063 > launch detected, checking apogee
+03:06:01.068 > launch detected, checking apogee
+03:06:01.068 > launch detected, checking apogee
+03:06:01.073 > launch detected, checking apogee
+03:06:01.073 > launch detected, checking apogee
+03:06:01.079 > pressure_av: 101581
+03:06:01.079 > pressure_diff: 4
+03:06:01.084 > pressure_increase_count_for_check_apogee: 1
+03:06:01.084 > launch detected, checking apogee
+03:06:01.089 > launch detected, checking apogee
+03:06:01.089 > launch detected, checking apogee
+03:06:01.095 > launch detected, checking apogee
+03:06:01.095 > launch detected, checking apogee
+03:06:01.100 > pressure_av: 101597
+03:06:01.100 > pressure_diff: 16
+03:06:01.105 > pressure_increase_count_for_check_apogee: 2
+03:06:01.105 > launch detected, checking apogee
+03:06:01.111 > launch detected, checking apogee
+03:06:01.111 > launch detected, checking apogee
+03:06:01.116 > launch detected, checking apogee
+03:06:01.122 > launch detected, checking apogee
+03:06:01.122 > pressure_av: 101587
+03:06:01.122 > pressure_diff: -10
+03:06:01.127 > pressure_increase_count_for_check_apogee: 0
+03:06:01.127 > launch detected, checking apogee
+03:06:01.132 > launch detected, checking apogee
+03:06:01.137 > launch detected, checking apogee
+03:06:01.137 > launch detected, checking apogee
+03:06:01.143 > launch detected, checking apogee
+03:06:01.143 > pressure_av: 101549
+03:06:01.148 > pressure_diff: -38
+03:06:01.148 > pressure_increase_count_for_check_apogee: 0
+03:06:01.153 > launch detected, checking apogee
+03:06:01.153 > launch detected, checking apogee
+03:06:01.159 > launch detected, checking apogee
+03:06:01.159 > launch detected, checking apogee
+03:06:01.164 > launch detected, checking apogee
+03:06:01.164 > pressure_av: 101559
+03:06:01.169 > pressure_diff: 10
+03:06:01.169 > pressure_increase_count_for_check_apogee: 1
+03:06:01.175 > launch detected, checking apogee
+03:06:01.175 > launch detected, checking apogee
+03:06:01.180 > launch detected, checking apogee
+03:06:01.180 > launch detected, checking apogee
+03:06:01.185 > launch detected, checking apogee
+03:06:01.185 > pressure_av: 101602
+03:06:01.191 > pressure_diff: 43
+03:06:01.191 > pressure_increase_count_for_check_apogee: 2
+03:06:01.196 > launch detected, checking apogee
+03:06:01.196 > launch detected, checking apogee
+03:06:01.202 > launch detected, checking apogee
+03:06:01.202 > launch detected, checking apogee
+03:06:01.207 > launch detected, checking apogee
+03:06:01.207 > pressure_av: 101590
+03:06:01.212 > pressure_diff: -12
+03:06:01.212 > pressure_increase_count_for_check_apogee: 0
+03:06:01.218 > launch detected, checking apogee
+03:06:01.218 > launch detected, checking apogee
+03:06:01.225 > launch detected, checking apogee
+03:06:01.225 > launch detected, checking apogee
+03:06:01.230 > launch detected, checking apogee
+03:06:01.230 > pressure_av: 101582
+03:06:01.235 > pressure_diff: -8
+03:06:01.235 > pressure_increase_count_for_check_apogee: 0
+03:06:01.241 > launch detected, checking apogee
+03:06:01.241 > launch detected, checking apogee
+03:06:01.246 > launch detected, checking apogee
+03:06:01.246 > launch detected, checking apogee
+03:06:01.252 > launch detected, checking apogee
+03:06:01.257 > pressure_av: 101583
+03:06:01.257 > pressure_diff: 1
+03:06:01.257 > pressure_increase_count_for_check_apogee: 1
+03:06:01.262 > launch detected, checking apogee
+03:06:01.262 > launch detected, checking apogee
+03:06:01.268 > launch detected, checking apogee
+03:06:01.268 > launch detected, checking apogee
+03:06:01.273 > launch detected, checking apogee
+03:06:01.278 > pressure_av: 101583
+03:06:01.278 > pressure_diff: 0
+03:06:01.278 > pressure_increase_count_for_check_apogee: 0
+03:06:01.284 > launch detected, checking apogee
+03:06:01.284 > launch detected, checking apogee
+03:06:01.289 > launch detected, checking apogee
+03:06:01.294 > launch detected, checking apogee
+03:06:01.294 > launch detected, checking apogee
+03:06:01.300 > pressure_av: 101584
+03:06:01.300 > pressure_diff: 1
+03:06:01.300 > pressure_increase_count_for_check_apogee: 1
+03:06:01.305 > launch detected, checking apogee
+03:06:01.305 > launch detected, checking apogee
+03:06:01.310 > launch detected, checking apogee
+03:06:01.316 > launch detected, checking apogee
+03:06:01.316 > launch detected, checking apogee
+03:06:01.321 > pressure_av: 101583
+03:06:01.321 > pressure_diff: -1
+03:06:01.321 > pressure_increase_count_for_check_apogee: 0
+03:06:01.326 > launch detected, checking apogee
+03:06:01.332 > launch detected, checking apogee
+03:06:01.332 > launch detected, checking apogee
+03:06:01.337 > launch detected, checking apogee
+03:06:01.337 > launch detected, checking apogee
+03:06:01.343 > pressure_av: 101580
+03:06:01.343 > pressure_diff: -3
+03:06:01.343 > pressure_increase_count_for_check_apogee: 0
+03:06:01.348 > launch detected, checking apogee
+03:06:01.353 > launch detected, checking apogee
+03:06:01.353 > launch detected, checking apogee
+03:06:01.358 > launch detected, checking apogee
+03:06:01.358 > launch detected, checking apogee
+03:06:01.364 > pressure_av: 101587
+03:06:01.364 > pressure_diff: 7
+03:06:01.364 > pressure_increase_count_for_check_apogee: 1
+03:06:01.369 > launch detected, checking apogee
+03:06:01.375 > launch detected, checking apogee
+03:06:01.375 > launch detected, checking apogee
+03:06:01.380 > launch detected, checking apogee
+03:06:01.380 > launch detected, checking apogee
+03:06:01.385 > pressure_av: 101592
+03:06:01.385 > pressure_diff: 5
+03:06:01.385 > pressure_increase_count_for_check_apogee: 2
+03:06:01.391 > launch detected, checking apogee
+03:06:01.401 > launch detected, checking apogee
+03:06:01.401 > launch detected, checking apogee
+03:06:01.407 > launch detected, checking apogee
+03:06:01.407 > launch detected, checking apogee
+03:06:01.412 > pressure_av: 101587
+03:06:01.412 > pressure_diff: -5
+03:06:01.417 > pressure_increase_count_for_check_apogee: 0
+03:06:01.417 > launch detected, checking apogee
+03:06:01.423 > launch detected, checking apogee
+03:06:01.423 > launch detected, checking apogee
+03:06:01.428 > launch detected, checking apogee
+03:06:01.428 > launch detected, checking apogee
+03:06:01.433 > pressure_av: 101587
+03:06:01.433 > pressure_diff: 0
+03:06:01.439 > pressure_increase_count_for_check_apogee: 0
+03:06:01.439 > launch detected, checking apogee
+03:06:01.444 > launch detected, checking apogee
+03:06:01.444 > launch detected, checking apogee
+03:06:01.450 > launch detected, checking apogee
+03:06:01.450 > launch detected, checking apogee
+03:06:01.455 > pressure_av: 101600
+03:06:01.455 > pressure_diff: 13
+03:06:01.460 > pressure_increase_count_for_check_apogee: 1
+03:06:01.460 > launch detected, checking apogee
+03:06:01.466 > launch detected, checking apogee
+03:06:01.466 > launch detected, checking apogee
+03:06:01.471 > launch detected, checking apogee
+03:06:01.476 > launch detected, checking apogee
+03:06:01.476 > pressure_av: 101600
+03:06:01.476 > pressure_diff: 0
+03:06:01.482 > pressure_increase_count_for_check_apogee: 0
+03:06:01.482 > launch detected, checking apogee
+03:06:01.487 > launch detected, checking apogee
+03:06:01.487 > launch detected, checking apogee
+03:06:01.492 > launch detected, checking apogee
+03:06:01.498 > launch detected, checking apogee
+03:06:01.498 > pressure_av: 101570
+03:06:01.498 > pressure_diff: -30
+03:06:01.503 > pressure_increase_count_for_check_apogee: 0
+03:06:01.503 > launch detected, checking apogee
+03:06:01.508 > launch detected, checking apogee
+03:06:01.514 > launch detected, checking apogee
+03:06:01.514 > launch detected, checking apogee
+03:06:01.519 > launch detected, checking apogee
+03:06:01.519 > pressure_av: 101553
+03:06:01.524 > pressure_diff: -17
+03:06:01.524 > pressure_increase_count_for_check_apogee: 0
+03:06:01.530 > launch detected, checking apogee
+03:06:01.530 > launch detected, checking apogee
+03:06:01.535 > launch detected, checking apogee
+03:06:01.535 > launch detected, checking apogee
+03:06:01.540 > launch detected, checking apogee
+03:06:01.540 > pressure_av: 101549
+03:06:01.546 > pressure_diff: -4
+03:06:01.546 > pressure_increase_count_for_check_apogee: 0
+03:06:01.551 > launch detected, checking apogee
+03:06:01.551 > launch detected, checking apogee
+03:06:01.557 > launch detected, checking apogee
+03:06:01.557 > launch detected, checking apogee
+03:06:01.563 > launch detected, checking apogee
+03:06:01.563 > pressure_av: 101570
+03:06:01.568 > pressure_diff: 21
+03:06:01.568 > pressure_increase_count_for_check_apogee: 1
+03:06:01.574 > launch detected, checking apogee
+03:06:01.574 > launch detected, checking apogee
+03:06:01.583 > launch detected, checking apogee
+03:06:01.583 > launch detected, checking apogee
+03:06:01.588 > launch detected, checking apogee
+03:06:01.588 > pressure_av: 101585
+03:06:01.594 > pressure_diff: 15
+03:06:01.594 > pressure_increase_count_for_check_apogee: 2
+03:06:01.599 > launch detected, checking apogee
+03:06:01.599 > launch detected, checking apogee
+03:06:01.604 > launch detected, checking apogee
+03:06:01.604 > launch detected, checking apogee
+03:06:01.610 > launch detected, checking apogee
+03:06:01.610 > pressure_av: 101571
+03:06:01.615 > pressure_diff: -14
+03:06:01.615 > pressure_increase_count_for_check_apogee: 0
+03:06:01.620 > launch detected, checking apogee
+03:06:01.620 > launch detected, checking apogee
+03:06:01.626 > launch detected, checking apogee
+03:06:01.626 > launch detected, checking apogee
+03:06:01.631 > launch detected, checking apogee
+03:06:01.637 > pressure_av: 101568
+03:06:01.637 > pressure_diff: -3
+03:06:01.637 > pressure_increase_count_for_check_apogee: 0
+03:06:01.642 > launch detected, checking apogee
+03:06:01.642 > launch detected, checking apogee
+03:06:01.647 > launch detected, checking apogee
+03:06:01.661 > launch detected, checking apogee
+03:06:01.661 > launch detected, checking apogee
+03:06:01.667 > pressure_av: 101564
+03:06:01.667 > pressure_diff: -4
+03:06:01.667 > pressure_increase_count_for_check_apogee: 0
+03:06:01.672 > launch detected, checking apogee
+03:06:01.677 > launch detected, checking apogee
+03:06:01.677 > launch detected, checking apogee
+03:06:01.683 > launch detected, checking apogee
+03:06:01.683 > launch detected, checking apogee
+03:06:01.688 > pressure_av: 101568
+03:06:01.688 > pressure_diff: 4
+03:06:01.688 > pressure_increase_count_for_check_apogee: 1
+03:06:01.693 > launch detected, checking apogee
+03:06:01.699 > launch detected, checking apogee
+03:06:01.699 > launch detected, checking apogee
+03:06:01.704 > launch detected, checking apogee
+03:06:01.704 > launch detected, checking apogee
+03:06:01.709 > pressure_av: 101568
+03:06:01.709 > pressure_diff: 0
+03:06:01.709 > pressure_increase_count_for_check_apogee: 0
+03:06:01.715 > launch detected, checking apogee
+03:06:01.720 > launch detected, checking apogee
+03:06:01.720 > launch detected, checking apogee
+03:06:01.725 > launch detected, checking apogee
+03:06:01.725 > launch detected, checking apogee
+03:06:01.731 > pressure_av: 101569
+03:06:01.731 > pressure_diff: 1
+03:06:01.731 > pressure_increase_count_for_check_apogee: 1
+03:06:01.736 > launch detected, checking apogee
+03:06:01.742 > launch detected, checking apogee
+03:06:01.742 > launch detected, checking apogee
+03:06:01.747 > launch detected, checking apogee
+03:06:01.747 > launch detected, checking apogee
+03:06:01.752 > pressure_av: 101571
+03:06:01.752 > pressure_diff: 2
+03:06:01.752 > pressure_increase_count_for_check_apogee: 2
+03:06:01.758 > launch detected, checking apogee
+03:06:01.763 > launch detected, checking apogee
+03:06:01.763 > launch detected, checking apogee
+03:06:01.769 > launch detected, checking apogee
+03:06:01.769 > launch detected, checking apogee
+03:06:01.774 > pressure_av: 101581
+03:06:01.774 > pressure_diff: 10
+03:06:01.780 > pressure_increase_count_for_check_apogee: 3
+03:06:01.780 > launch detected, checking apogee
+03:06:01.785 > launch detected, checking apogee
+03:06:01.785 > launch detected, checking apogee
+03:06:01.794 > launch detected, checking apogee
+03:06:01.794 > launch detected, checking apogee
+03:06:01.803 > pressure_av: 101565
+03:06:01.803 > pressure_diff: -16
+03:06:01.808 > pressure_increase_count_for_check_apogee: 0
+03:06:01.808 > launch detected, checking apogee
+03:06:01.814 > launch detected, checking apogee
+03:06:01.814 > launch detected, checking apogee
+03:06:01.819 > launch detected, checking apogee
+03:06:01.819 > launch detected, checking apogee
+03:06:01.824 > pressure_av: 101542
+03:06:01.824 > pressure_diff: -23
+03:06:01.830 > pressure_increase_count_for_check_apogee: 0
+03:06:01.830 > launch detected, checking apogee
+03:06:01.835 > launch detected, checking apogee
+03:06:01.835 > launch detected, checking apogee
+03:06:01.840 > launch detected, checking apogee
+03:06:01.846 > launch detected, checking apogee
+03:06:01.846 > pressure_av: 101577
+03:06:01.846 > pressure_diff: 35
+03:06:01.851 > pressure_increase_count_for_check_apogee: 1
+03:06:01.851 > launch detected, checking apogee
+03:06:01.857 > launch detected, checking apogee
+03:06:01.862 > launch detected, checking apogee
+03:06:01.862 > launch detected, checking apogee
+03:06:01.867 > launch detected, checking apogee
+03:06:01.867 > pressure_av: 101577
+03:06:01.872 > pressure_diff: 0
+03:06:01.873 > pressure_increase_count_for_check_apogee: 0
+03:06:01.873 > launch detected, checking apogee
+03:06:01.878 > launch detected, checking apogee
+03:06:01.883 > launch detected, checking apogee
+03:06:01.883 > launch detected, checking apogee
+03:06:01.889 > launch detected, checking apogee
+03:06:01.889 > pressure_av: 101573
+03:06:01.894 > pressure_diff: -4
+03:06:01.894 > pressure_increase_count_for_check_apogee: 0
+03:06:01.899 > launch detected, checking apogee
+03:06:01.899 > launch detected, checking apogee
+03:06:01.905 > launch detected, checking apogee
+03:06:01.905 > launch detected, checking apogee
+03:06:01.910 > launch detected, checking apogee
+03:06:01.910 > pressure_av: 101575
+03:06:01.915 > pressure_diff: 2
+03:06:01.915 > pressure_increase_count_for_check_apogee: 1
+03:06:01.921 > launch detected, checking apogee
+03:06:01.921 > launch detected, checking apogee
+03:06:01.930 > launch detected, checking apogee
+03:06:01.930 > launch detected, checking apogee
+03:06:01.935 > launch detected, checking apogee
+03:06:01.935 > pressure_av: 101580
+03:06:01.940 > pressure_diff: 5
+03:06:01.940 > pressure_increase_count_for_check_apogee: 2
+03:06:01.946 > launch detected, checking apogee
+03:06:01.946 > launch detected, checking apogee
+03:06:01.951 > launch detected, checking apogee
+03:06:01.951 > launch detected, checking apogee
+03:06:01.956 > launch detected, checking apogee
+03:06:01.956 > pressure_av: 101575
+03:06:01.962 > pressure_diff: -5
+03:06:01.962 > pressure_increase_count_for_check_apogee: 0
+03:06:01.967 > launch detected, checking apogee
+03:06:01.967 > launch detected, checking apogee
+03:06:01.972 > launch detected, checking apogee
+03:06:01.972 > launch detected, checking apogee
+03:06:01.978 > launch detected, checking apogee
+03:06:01.978 > pressure_av: 101575
+03:06:01.983 > pressure_diff: 0
+03:06:01.983 > pressure_increase_count_for_check_apogee: 0
+03:06:01.988 > launch detected, checking apogee
+03:06:01.988 > launch detected, checking apogee
+03:06:01.994 > launch detected, checking apogee
+03:06:01.994 > launch detected, checking apogee
+03:06:01.999 > launch detected, checking apogee
+03:06:02.004 > pressure_av: 101565
+03:06:02.004 > pressure_diff: -10
+03:06:02.004 > pressure_increase_count_for_check_apogee: 0
+03:06:02.010 > launch detected, checking apogee
+03:06:02.010 > launch detected, checking apogee
+03:06:02.015 > launch detected, checking apogee
+03:06:02.015 > launch detected, checking apogee
+03:06:02.024 > launch detected, checking apogee
+03:06:02.029 > pressure_av: 101562
+03:06:02.029 > pressure_diff: -3
+03:06:02.029 > pressure_increase_count_for_check_apogee: 0
+03:06:02.034 > launch detected, checking apogee
+03:06:02.034 > launch detected, checking apogee
+03:06:02.040 > launch detected, checking apogee
+03:06:02.045 > launch detected, checking apogee
+03:06:02.045 > launch detected, checking apogee
+03:06:02.050 > pressure_av: 101554
+03:06:02.050 > pressure_diff: -8
+03:06:02.050 > pressure_increase_count_for_check_apogee: 0
+03:06:02.056 > launch detected, checking apogee
+03:06:02.061 > launch detected, checking apogee
+03:06:02.061 > launch detected, checking apogee
+03:06:02.066 > launch detected, checking apogee
+03:06:02.066 > launch detected, checking apogee
+03:06:02.072 > pressure_av: 101561
+03:06:02.072 > pressure_diff: 7
+03:06:02.072 > pressure_increase_count_for_check_apogee: 1
+03:06:02.077 > launch detected, checking apogee
+03:06:02.082 > launch detected, checking apogee
+03:06:02.082 > launch detected, checking apogee
+03:06:02.088 > launch detected, checking apogee
+03:06:02.088 > launch detected, checking apogee
+03:06:02.093 > pressure_av: 101567
+03:06:02.093 > pressure_diff: 6
+03:06:02.093 > pressure_increase_count_for_check_apogee: 2
+03:06:02.098 > launch detected, checking apogee
+03:06:02.104 > launch detected, checking apogee
+03:06:02.104 > launch detected, checking apogee
+03:06:02.109 > launch detected, checking apogee
+03:06:02.109 > launch detected, checking apogee
+03:06:02.115 > pressure_av: 101579
+03:06:02.115 > pressure_diff: 12
+03:06:02.115 > pressure_increase_count_for_check_apogee: 3
+03:06:02.120 > launch detected, checking apogee
+03:06:02.125 > launch detected, checking apogee
+03:06:02.125 > launch detected, checking apogee
+03:06:02.134 > launch detected, checking apogee
+03:06:02.134 > launch detected, checking apogee
+03:06:02.139 > pressure_av: 101582
+03:06:02.139 > pressure_diff: 3
+03:06:02.139 > pressure_increase_count_for_check_apogee: 4
+03:06:02.145 > launch detected, checking apogee
+03:06:02.150 > launch detected, checking apogee
+03:06:02.150 > launch detected, checking apogee
+03:06:02.156 > launch detected, checking apogee
+03:06:02.156 > launch detected, checking apogee
+03:06:02.165 > pressure_av: 101593
+03:06:02.165 > pressure_diff: 11
+03:06:02.171 > pressure_increase_count_for_check_apogee: 5
+03:06:02.171 > launch detected, checking apogee
+03:06:02.186 > reached apogee
+03:06:10.751 > E (32388) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+03:06:10.762 > E (32388) task_wdt:  - IDLE0 (CPU 0)
+03:06:10.767 > E (32388) task_wdt: Tasks currently running:
+03:06:10.773 > E (32388) task_wdt: CPU 0: Log Task
+03:06:10.773 > E (32388) task_wdt: CPU 1: Conditions Chec
+03:06:10.778 > E (32388) task_wdt: Aborting.
+03:06:10.778 > E (32388) task_wdt: Print CPU 0 (current core) backtrace
+03:06:10.783 > 
+03:06:10.783 > 
+03:06:10.783 > 
+03:06:10.783 > 
+03:06:10.783 > Backtrace: 0x4000d027:0x3ffb5150 0x400d5993:0x3ffb5170 0x400d3f04:0x3ffb5190 0x400d43b4:0x3ffb51b0 0x400d440c:0x3ffb51d0 0x400fb851:0x3ffb51f0 0x400d45dd:0x3ffb5210 0x400d31db:0x3ffb5230 0x400d1e57:0x3ffb5250 0x400fb8b3:0x3ffb5280 0x400d50ab:0x3ffb52a0 0x400d50e1:0x3ffb5320 0x400d2785:0x3ffb5370 0x400d1e2e:0x3ffb53c0 0x4008ae76:0x3ffb5420
+03:06:10.815 > 
+03:06:10.815 > 
+03:06:10.815 > 
+03:06:10.815 > 
+03:06:10.815 > ELF file SHA256: d07c37cc9e8b83a8
+03:06:10.831 > 
+03:06:10.990 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+03:06:10.995 > Debug exception reason: BREAK instr 
+03:06:10.995 > Core  0 register dump:
+03:06:11.000 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2be0  
+03:06:11.005 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+03:06:11.016 > A6      : 0x00000000  A7      : 0x3ffb5090  A8      : 0x00000800  A9      : 0x3ffbf03c  
+03:06:11.022 > A10     : 0x00000000  A11     : 0xab3fec06  A12     : 0xab3fec06  A13     : 0x00060b21  
+03:06:11.032 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+03:06:11.038 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+03:06:11.043 > 
+03:06:11.043 > 
+03:06:11.048 > Backtrace: 0x40083efd:0x3ffc2be0 0x40080303:0x3ffc2c10 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+03:06:11.054 > 
+03:06:11.054 > 
+03:06:11.054 > 
+03:06:11.054 > 
+03:06:11.054 > ELF file SHA256: d07c37cc9e8b83a8
+03:06:11.059 > 
+03:06:11.059 > Re-entered core dump! Exception happened during core dump!
+03:06:11.065 > Rebooting...
+03:06:11.065 > ets Jul 29 2019 12:21:46
+03:06:11.065 > 
+03:06:11.065 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+03:06:11.070 > configsip: 0, SPIWP:0xee
+03:06:11.076 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+03:06:11.081 > mode:DIO, clock div:2
+03:06:11.081 > load:0x3fff0030,len:4604
+03:06:11.087 > ho 0 tail 12 room 4
+03:06:11.087 > load:0x40078000,len:15468
+03:06:11.087 > load:0x40080400,len:4
+03:06:11.092 > ho 8 tail 4 room 4
+03:06:11.092 > load:0x40080404,len:3180
+03:06:11.108 > entry 0x400805b8
+03:06:11.267 > E (205) esp_core_dump_flash: C��f␖$VW␋␗␒V,W,�,ZY�-HV�-[Y��
+03:06:11.275 > Calculated checksum='524e3fb7'
+03:06:11.290 > Image checksum='ffffffff'
+03:06:11.290 > SD Card Initialized.
+03:06:11.337 > SERVO_PIN: 26
+03:06:11.337 > [    89][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.343 > [    96][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.348 > [   103][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.359 > [   110][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.365 > [   117][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.370 > [   124][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.381 > [   131][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.387 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.392 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.398 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.409 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.414 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.420 > [   172][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:06:11.425 > [   179][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

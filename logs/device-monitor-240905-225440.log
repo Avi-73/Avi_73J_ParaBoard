@@ -1,0 +1,33 @@
+22:54:40.284 > E (185) esp_core_dump_flash: C�����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OҬ�&NXL��'
+22:54:40.289 > Image checksum='ffffffff'
+22:54:40.361 > [ERR] Cannot Initialize SD Card.
+22:54:40.361 > SD Card Initialized.
+22:54:40.361 > [ERR] Cannot Create File.
+22:54:40.366 > SERVO_PIN: 26
+22:54:40.366 > [   101][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.371 > [   113][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.382 > [   120][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.388 > [   127][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.394 > [   134][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.399 > [   141][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.410 > [   148][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.416 > [   155][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.421 > [   162][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.427 > [   169][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.437 > [   175][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.443 > [   182][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.448 > [   189][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:40.454 > [   196][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:54:42.474 > 加速度の2乗和: 5715341.00
+22:54:42.474 > 加速度の2乗和: 5714493.00
+22:54:42.479 > 
+22:54:42.479 > assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+22:54:42.490 > 
+22:54:42.490 > 
+22:54:42.490 > Backtrace: 0x400835ed:0x3ffb38b0 0x400888c1:0x3ffb38d0 0x4008dd32:0x3ffb38f0 0x40088c2f:0x3ffb3a20 0x400d1da8:0x3ffb3a60 0x4008ae76:0x3ffb3ab0
+22:54:42.501 > 
+22:54:42.501 > 
+22:54:42.501 > 
+22:54:42.501 > 
+22:54:42.501 > ELF file SHA256: 75e89df68a319548
+22:54:42.516 > 

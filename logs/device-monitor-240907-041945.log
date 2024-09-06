@@ -1,0 +1,47 @@
+04:19:46.010 > E (190) esp_core_dump_flash: C��V␋�VW␋␗␒V,W,�,ZY�-HV�-[Y��
+04:19:46.015 > Calculated checksum='00d9289a'
+04:19:46.015 > Image checksum='ffffffff'
+04:19:46.024 > CAN Driver installed
+04:19:46.024 > CAN Driver started
+04:19:46.039 > SD Card Initialized.
+04:19:46.044 > [    54][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+04:19:46.050 > [    61][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+04:19:46.055 > [    67][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+04:19:46.069 > [    80][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.075 > [    87][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.080 > [    94][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.091 > [   101][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.097 > [   109][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.102 > [   116][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.108 > [   122][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.119 > [   129][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.125 > [   136][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.130 > [   143][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.136 > [   150][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.146 > [   157][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.152 > [   164][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:46.158 > [   171][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:19:51.249 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:19:58.267 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:19:58.951 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:19:59.190 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:19:59.397 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:19:59.588 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:19:59.779 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:19:59.954 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:00.192 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:00.463 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:00.654 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:00.877 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:01.067 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:01.322 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:01.656 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:01.911 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:02.086 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:02.245 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:02.404 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:02.579 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:02.723 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:03.216 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:03.566 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+04:20:03.773 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE

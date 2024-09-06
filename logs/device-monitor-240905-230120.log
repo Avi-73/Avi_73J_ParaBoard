@@ -1,0 +1,34 @@
+23:01:21.139 > E (183) esp_core_dump_flash: C��V␋�VW␋␗␒V,W,�,ZY�-HV�-[Y��
+23:01:21.144 > Calculated checksum='2f3abc3d'
+23:01:21.144 > Image checksum='ffffffff'
+23:01:21.216 > [ERR] Cannot Initialize SD Card.
+23:01:21.217 > SD Card Initialized.
+23:01:21.217 > [ERR] Cannot Create File.
+23:01:21.222 > SERVO_PIN: 26
+23:01:21.222 > [   100][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.227 > [   112][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.238 > [   119][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.243 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.250 > [   133][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.255 > [   140][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.266 > [   147][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.271 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.277 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.282 > [   167][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.293 > [   174][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.299 > [   181][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.304 > [   188][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:21.309 > [   195][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:01:23.857 > 加速度の2乗和: 1.36
+23:01:23.862 > 加速度の2乗和: 1.36
+23:01:23.862 > 
+23:01:23.862 > assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+23:01:23.873 > 
+23:01:23.873 > 
+23:01:23.873 > Backtrace: 0x400835ed:0x3ffb48b0 0x400888c1:0x3ffb48d0 0x4008dd32:0x3ffb48f0 0x40088c2f:0x3ffb4a20 0x400d1dac:0x3ffb4a60 0x4008ae76:0x3ffb4ab0
+23:01:23.899 > 
+23:01:23.899 > 
+23:01:23.899 > 
+23:01:23.899 > 
+23:01:23.899 > ELF file SHA256: e69fecda03946e9b
+23:01:23.899 > 

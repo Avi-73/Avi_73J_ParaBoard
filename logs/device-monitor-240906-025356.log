@@ -1,0 +1,620 @@
+02:53:56.911 > E (184) esp_core_dump_flash: C���*�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�&֦,��&YRH(�+�V␖�,ZY���][O���������RH�SD Card Initialized.
+02:53:56.973 > SERVO_PIN: 26
+02:53:56.973 > [    82][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:56.978 > [    89][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:56.984 > [    96][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:56.995 > [   103][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.001 > [   110][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.006 > [   117][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.012 > [   124][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.023 > [   131][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.028 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.033 > [   144][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.039 > [   151][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.050 > [   158][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.055 > [   165][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:57.061 > [   172][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:53:58.331 > detecting launch
+02:53:58.331 > detecting launch
+02:53:58.331 > detecting launch
+02:53:58.331 > detecting launch
+02:53:58.338 > detecting launch
+02:53:58.338 > pressure_av: 121905
+02:53:58.338 > pressure_diff: -121905
+02:53:58.343 > pressure_decrease_count_for_check_launch: 0
+02:53:58.343 > detecting launch
+02:53:58.348 > detecting launch
+02:53:58.348 > detecting launch
+02:53:58.348 > detecting launch
+02:53:58.354 > detecting launch
+02:53:58.354 > pressure_av: 101584
+02:53:58.354 > pressure_diff: 20321
+02:53:58.354 > pressure_decrease_count_for_check_launch: 0
+02:53:58.359 > detecting launch
+02:53:58.359 > detecting launch
+02:53:58.371 > detecting launch
+02:53:58.371 > detecting launch
+02:53:58.371 > detecting launch
+02:53:58.376 > pressure_av: 101584
+02:53:58.376 > pressure_diff: 0
+02:53:58.376 > pressure_decrease_count_for_check_launch: 1
+02:53:58.381 > detecting launch
+02:53:58.381 > detecting launch
+02:53:58.413 > detecting launch
+02:53:58.413 > detecting launch
+02:53:58.413 > detecting launch
+02:53:58.413 > accel_av_square_sum: 1.3047
+02:53:58.418 > pressure_av: 101580
+02:53:58.418 > pressure_diff: 4
+02:53:58.418 > pressure_decrease_count_for_check_launch: 2
+02:53:58.423 > detecting launch
+02:53:58.423 > detecting launch
+02:53:58.428 > detecting launch
+02:53:58.428 > detecting launch
+02:53:58.428 > detecting launch
+02:53:58.434 > pressure_av: 101574
+02:53:58.434 > pressure_diff: 6
+02:53:58.434 > pressure_decrease_count_for_check_launch: 3
+02:53:58.439 > detecting launch
+02:53:58.439 > detecting launch
+02:53:58.439 > detecting launch
+02:53:58.447 > detecting launch
+02:53:58.447 > detecting launch
+02:53:58.447 > pressure_av: 101574
+02:53:58.452 > pressure_diff: 0
+02:53:58.452 > pressure_decrease_count_for_check_launch: 4
+02:53:58.458 > detecting launch
+02:53:58.458 > detecting launch
+02:53:58.458 > detecting launch
+02:53:58.463 > detecting launch
+02:53:58.463 > detecting launch
+02:53:58.463 > pressure_av: 101566
+02:53:58.463 > pressure_diff: 8
+02:53:58.468 > pressure_decrease_count_for_check_launch: 5
+02:53:58.468 > detecting launch
+02:53:58.474 > launch detected
+02:53:58.474 > launch detected
+02:53:58.474 > launch detected
+02:53:58.481 > launch detected
+02:53:58.481 > launch detected
+02:53:58.481 > pressure_av: 121873
+02:53:58.481 > pressure_increase_count_for_check_apogee: 1
+02:53:58.486 > launch detected
+02:53:58.486 > launch detected
+02:53:58.492 > launch detected
+02:53:58.492 > launch detected
+02:53:58.492 > launch detected
+02:53:58.492 > pressure_av: 101561
+02:53:58.497 > pressure_increase_count_for_check_apogee: 2
+02:53:58.502 > launch detected
+02:53:58.502 > launch detected
+02:53:58.502 > launch detected
+02:53:58.502 > launch detected
+02:53:58.508 > launch detected
+02:53:58.508 > pressure_av: 101557
+02:53:58.508 > pressure_increase_count_for_check_apogee: 3
+02:53:58.513 > launch detected
+02:53:58.513 > launch detected
+02:53:58.513 > launch detected
+02:53:58.527 > launch detected
+02:53:58.527 > launch detected
+02:53:58.527 > pressure_av: 101557
+02:53:58.532 > pressure_increase_count_for_check_apogee: 0
+02:53:58.532 > launch detected
+02:53:58.537 > launch detected
+02:53:58.537 > launch detected
+02:53:58.537 > launch detected
+02:53:58.537 > launch detected
+02:53:58.542 > pressure_av: 101562
+02:53:58.542 > pressure_increase_count_for_check_apogee: 1
+02:53:58.548 > launch detected
+02:53:58.548 > launch detected
+02:53:58.548 > launch detected
+02:53:58.555 > launch detected
+02:53:58.555 > launch detected
+02:53:58.555 > pressure_av: 101566
+02:53:58.555 > pressure_increase_count_for_check_apogee: 2
+02:53:58.560 > launch detected
+02:53:58.560 > launch detected
+02:53:58.565 > launch detected
+02:53:58.565 > launch detected
+02:53:58.565 > launch detected
+02:53:58.565 > pressure_av: 101566
+02:53:58.571 > pressure_increase_count_for_check_apogee: 0
+02:53:58.576 > launch detected
+02:53:58.576 > launch detected
+02:53:58.576 > launch detected
+02:53:58.576 > launch detected
+02:53:58.581 > launch detected
+02:53:58.581 > pressure_av: 101567
+02:53:58.581 > pressure_increase_count_for_check_apogee: 1
+02:53:58.587 > launch detected
+02:53:58.587 > launch detected
+02:53:58.587 > launch detected
+02:53:58.592 > launch detected
+02:53:58.592 > launch detected
+02:53:58.592 > pressure_av: 101568
+02:53:58.597 > pressure_increase_count_for_check_apogee: 2
+02:53:58.597 > launch detected
+02:53:58.604 > launch detected
+02:53:58.604 > launch detected
+02:53:58.604 > launch detected
+02:53:58.604 > launch detected
+02:53:58.609 > pressure_av: 101568
+02:53:58.609 > pressure_increase_count_for_check_apogee: 0
+02:53:58.614 > launch detected
+02:53:58.614 > launch detected
+02:53:58.614 > launch detected
+02:53:58.621 > launch detected
+02:53:58.621 > launch detected
+02:53:58.621 > pressure_av: 101560
+02:53:58.621 > pressure_increase_count_for_check_apogee: 1
+02:53:58.626 > launch detected
+02:53:58.626 > launch detected
+02:53:58.631 > launch detected
+02:53:58.631 > launch detected
+02:53:58.631 > launch detected
+02:53:58.637 > pressure_av: 101558
+02:53:58.637 > pressure_increase_count_for_check_apogee: 2
+02:53:58.642 > launch detected
+02:53:58.642 > launch detected
+02:53:58.642 > launch detected
+02:53:58.642 > launch detected
+02:53:58.647 > launch detected
+02:53:58.647 > pressure_av: 101558
+02:53:58.647 > pressure_increase_count_for_check_apogee: 0
+02:53:58.653 > launch detected
+02:53:58.653 > launch detected
+02:53:58.653 > launch detected
+02:53:58.658 > launch detected
+02:53:58.658 > launch detected
+02:53:58.658 > pressure_av: 101602
+02:53:58.664 > pressure_increase_count_for_check_apogee: 1
+02:53:58.664 > launch detected
+02:53:58.675 > launch detected
+02:53:58.675 > launch detected
+02:53:58.675 > launch detected
+02:53:58.675 > launch detected
+02:53:58.691 > pressure_av: 101602
+02:53:58.691 > pressure_increase_count_for_check_apogee: 0
+02:53:58.696 > launch detected
+02:53:58.696 > launch detected
+02:53:58.712 > launch detected
+02:53:58.712 > launch detected
+02:53:58.712 > launch detected
+02:53:58.738 > pressure_av: 101592
+02:53:58.738 > pressure_increase_count_for_check_apogee: 1
+02:53:58.746 > launch detected
+02:53:58.746 > launch detected
+02:53:58.746 > launch detected
+02:53:58.746 > launch detected
+02:53:58.757 > launch detected
+02:53:58.757 > pressure_av: 101586
+02:53:58.757 > pressure_increase_count_for_check_apogee: 2
+02:53:58.762 > launch detected
+02:53:58.762 > launch detected
+02:53:58.762 > launch detected
+02:53:58.768 > launch detected
+02:53:58.768 > launch detected
+02:53:58.768 > pressure_av: 101586
+02:53:58.773 > pressure_increase_count_for_check_apogee: 0
+02:53:58.773 > launch detected
+02:53:58.778 > launch detected
+02:53:58.778 > launch detected
+02:53:58.778 > launch detected
+02:53:58.778 > launch detected
+02:53:58.783 > pressure_av: 101578
+02:53:58.783 > pressure_increase_count_for_check_apogee: 1
+02:53:58.789 > launch detected
+02:53:58.789 > launch detected
+02:53:58.789 > launch detected
+02:53:58.799 > launch detected
+02:53:58.799 > launch detected
+02:53:58.799 > pressure_av: 101578
+02:53:58.799 > pressure_increase_count_for_check_apogee: 0
+02:53:58.805 > launch detected
+02:53:58.805 > launch detected
+02:53:58.811 > launch detected
+02:53:58.811 > launch detected
+02:53:58.811 > launch detected
+02:53:58.816 > pressure_av: 101574
+02:53:58.816 > pressure_increase_count_for_check_apogee: 1
+02:53:58.821 > launch detected
+02:53:58.821 > launch detected
+02:53:58.821 > launch detected
+02:53:58.821 > launch detected
+02:53:58.827 > launch detected
+02:53:58.827 > pressure_av: 101558
+02:53:58.827 > pressure_increase_count_for_check_apogee: 2
+02:53:58.832 > launch detected
+02:53:58.832 > launch detected
+02:53:58.838 > launch detected
+02:53:58.838 > launch detected
+02:53:58.838 > launch detected
+02:53:58.838 > pressure_av: 101558
+02:53:58.843 > pressure_increase_count_for_check_apogee: 0
+02:53:58.843 > launch detected
+02:53:58.851 > launch detected
+02:53:58.851 > launch detected
+02:53:58.851 > launch detected
+02:53:58.851 > launch detected
+02:53:58.857 > pressure_av: 101562
+02:53:58.857 > pressure_increase_count_for_check_apogee: 1
+02:53:58.866 > launch detected
+02:53:58.866 > launch detected
+02:53:58.866 > launch detected
+02:53:58.879 > launch detected
+02:53:58.879 > launch detected
+02:53:58.879 > pressure_av: 101566
+02:53:58.879 > pressure_increase_count_for_check_apogee: 2
+02:53:58.884 > launch detected
+02:53:58.884 > launch detected
+02:53:58.890 > launch detected
+02:53:58.890 > launch detected
+02:53:58.890 > launch detected
+02:53:58.896 > pressure_av: 101564
+02:53:58.896 > pressure_increase_count_for_check_apogee: 3
+02:53:58.902 > launch detected
+02:53:58.902 > launch detected
+02:53:58.902 > launch detected
+02:53:58.902 > launch detected
+02:53:58.908 > launch detected
+02:53:58.908 > pressure_av: 101563
+02:53:58.908 > pressure_increase_count_for_check_apogee: 4
+02:53:58.913 > launch detected
+02:53:58.913 > launch detected
+02:53:58.920 > launch detected
+02:53:58.920 > launch detected
+02:53:58.920 > launch detected
+02:53:58.920 > pressure_av: 101563
+02:53:58.925 > pressure_increase_count_for_check_apogee: 0
+02:53:58.925 > launch detected
+02:53:58.930 > launch detected
+02:53:58.930 > launch detected
+02:53:58.930 > launch detected
+02:53:58.930 > launch detected
+02:53:58.936 > pressure_av: 101567
+02:53:58.936 > pressure_increase_count_for_check_apogee: 1
+02:53:58.941 > launch detected
+02:53:58.941 > launch detected
+02:53:58.941 > launch detected
+02:53:58.946 > launch detected
+02:53:58.946 > launch detected
+02:53:58.946 > pressure_av: 101568
+02:53:58.946 > pressure_increase_count_for_check_apogee: 2
+02:53:58.951 > launch detected
+02:53:58.951 > launch detected
+02:53:58.957 > launch detected
+02:53:58.957 > launch detected
+02:53:58.957 > launch detected
+02:53:58.962 > pressure_av: 101568
+02:53:58.962 > pressure_increase_count_for_check_apogee: 0
+02:53:58.968 > launch detected
+02:53:58.968 > launch detected
+02:53:58.968 > launch detected
+02:53:58.968 > launch detected
+02:53:58.973 > launch detected
+02:53:58.973 > pressure_av: 101560
+02:53:58.973 > pressure_increase_count_for_check_apogee: 1
+02:53:58.978 > launch detected
+02:53:58.978 > launch detected
+02:53:58.984 > launch detected
+02:53:58.984 > launch detected
+02:53:58.984 > launch detected
+02:53:58.984 > pressure_av: 101550
+02:53:58.990 > pressure_increase_count_for_check_apogee: 2
+02:53:58.990 > launch detected
+02:53:58.999 > launch detected
+02:53:58.999 > launch detected
+02:53:58.999 > launch detected
+02:53:58.999 > launch detected
+02:53:59.005 > pressure_av: 101550
+02:53:59.005 > pressure_increase_count_for_check_apogee: 0
+02:53:59.010 > launch detected
+02:53:59.010 > launch detected
+02:53:59.010 > launch detected
+02:53:59.021 > launch detected
+02:53:59.021 > launch detected
+02:53:59.021 > pressure_av: 101579
+02:53:59.021 > pressure_increase_count_for_check_apogee: 1
+02:53:59.026 > launch detected
+02:53:59.026 > launch detected
+02:53:59.057 > launch detected
+02:53:59.058 > launch detected
+02:53:59.067 > launch detected
+02:53:59.067 > pressure_av: 101585
+02:53:59.067 > pressure_increase_count_for_check_apogee: 2
+02:53:59.078 > launch detected
+02:53:59.078 > launch detected
+02:53:59.078 > launch detected
+02:53:59.088 > launch detected
+02:53:59.088 > launch detected
+02:53:59.088 > pressure_av: 101575
+02:53:59.094 > pressure_increase_count_for_check_apogee: 3
+02:53:59.094 > launch detected
+02:53:59.094 > launch detected
+02:53:59.100 > launch detected
+02:53:59.100 > launch detected
+02:53:59.100 > launch detected
+02:53:59.106 > pressure_av: 101554
+02:53:59.106 > pressure_increase_count_for_check_apogee: 4
+02:53:59.111 > launch detected
+02:53:59.111 > launch detected
+02:53:59.111 > launch detected
+02:53:59.111 > launch detected
+02:53:59.116 > launch detected
+02:53:59.116 > pressure_av: 101554
+02:53:59.116 > pressure_increase_count_for_check_apogee: 0
+02:53:59.122 > launch detected
+02:53:59.122 > launch detected
+02:53:59.130 > launch detected
+02:53:59.130 > launch detected
+02:53:59.130 > launch detected
+02:53:59.130 > pressure_av: 101562
+02:53:59.135 > pressure_increase_count_for_check_apogee: 1
+02:53:59.135 > launch detected
+02:53:59.140 > launch detected
+02:53:59.140 > launch detected
+02:53:59.140 > launch detected
+02:53:59.146 > launch detected
+02:53:59.146 > pressure_av: 101575
+02:53:59.146 > pressure_increase_count_for_check_apogee: 2
+02:53:59.153 > launch detected
+02:53:59.153 > launch detected
+02:53:59.153 > launch detected
+02:53:59.159 > launch detected
+02:53:59.159 > launch detected
+02:53:59.159 > pressure_av: 101574
+02:53:59.165 > pressure_increase_count_for_check_apogee: 3
+02:53:59.165 > launch detected
+02:53:59.176 > launch detected
+02:53:59.176 > launch detected
+02:53:59.176 > launch detected
+02:53:59.176 > launch detected
+02:53:59.181 > pressure_av: 101573
+02:53:59.181 > pressure_increase_count_for_check_apogee: 4
+02:53:59.187 > launch detected
+02:53:59.187 > launch detected
+02:53:59.187 > launch detected
+02:53:59.187 > launch detected
+02:53:59.196 > launch detected
+02:53:59.196 > pressure_av: 101573
+02:53:59.196 > pressure_increase_count_for_check_apogee: 0
+02:53:59.201 > launch detected
+02:53:59.201 > launch detected
+02:53:59.207 > launch detected
+02:53:59.207 > launch detected
+02:53:59.207 > launch detected
+02:53:59.207 > pressure_av: 101585
+02:53:59.212 > pressure_increase_count_for_check_apogee: 1
+02:53:59.212 > launch detected
+02:53:59.217 > launch detected
+02:53:59.217 > launch detected
+02:53:59.217 > launch detected
+02:53:59.223 > launch detected
+02:53:59.223 > pressure_av: 101593
+02:53:59.223 > pressure_increase_count_for_check_apogee: 2
+02:53:59.228 > launch detected
+02:53:59.228 > launch detected
+02:53:59.228 > launch detected
+02:53:59.237 > launch detected
+02:53:59.237 > launch detected
+02:53:59.237 > pressure_av: 101593
+02:53:59.242 > pressure_increase_count_for_check_apogee: 0
+02:53:59.242 > launch detected
+02:53:59.247 > launch detected
+02:53:59.247 > launch detected
+02:53:59.247 > launch detected
+02:53:59.247 > launch detected
+02:53:59.253 > pressure_av: 101558
+02:53:59.253 > pressure_increase_count_for_check_apogee: 1
+02:53:59.258 > launch detected
+02:53:59.258 > launch detected
+02:53:59.258 > launch detected
+02:53:59.258 > launch detected
+02:53:59.263 > launch detected
+02:53:59.263 > pressure_av: 101558
+02:53:59.263 > pressure_increase_count_for_check_apogee: 0
+02:53:59.269 > launch detected
+02:53:59.269 > launch detected
+02:53:59.274 > launch detected
+02:53:59.274 > launch detected
+02:53:59.274 > launch detected
+02:53:59.274 > pressure_av: 101558
+02:53:59.279 > pressure_increase_count_for_check_apogee: 0
+02:53:59.279 > launch detected
+02:53:59.285 > launch detected
+02:53:59.285 > launch detected
+02:53:59.285 > launch detected
+02:53:59.290 > launch detected
+02:53:59.290 > pressure_av: 101573
+02:53:59.290 > pressure_increase_count_for_check_apogee: 1
+02:53:59.295 > launch detected
+02:53:59.295 > launch detected
+02:53:59.295 > launch detected
+02:53:59.301 > launch detected
+02:53:59.301 > launch detected
+02:53:59.301 > pressure_av: 101573
+02:53:59.306 > pressure_increase_count_for_check_apogee: 0
+02:53:59.306 > launch detected
+02:53:59.312 > launch detected
+02:53:59.312 > launch detected
+02:53:59.312 > launch detected
+02:53:59.312 > launch detected
+02:53:59.317 > pressure_av: 101573
+02:53:59.317 > pressure_increase_count_for_check_apogee: 0
+02:53:59.322 > launch detected
+02:53:59.322 > launch detected
+02:53:59.322 > launch detected
+02:53:59.322 > launch detected
+02:53:59.328 > launch detected
+02:53:59.328 > pressure_av: 101578
+02:53:59.328 > pressure_increase_count_for_check_apogee: 1
+02:53:59.334 > launch detected
+02:53:59.334 > launch detected
+02:53:59.343 > launch detected
+02:53:59.343 > launch detected
+02:53:59.343 > launch detected
+02:53:59.343 > pressure_av: 101580
+02:53:59.349 > pressure_increase_count_for_check_apogee: 2
+02:53:59.349 > launch detected
+02:53:59.354 > launch detected
+02:53:59.354 > launch detected
+02:53:59.354 > launch detected
+02:53:59.362 > launch detected
+02:53:59.362 > pressure_av: 101568
+02:53:59.362 > pressure_increase_count_for_check_apogee: 3
+02:53:59.367 > launch detected
+02:53:59.367 > launch detected
+02:53:59.367 > launch detected
+02:53:59.373 > launch detected
+02:53:59.373 > launch detected
+02:53:59.373 > pressure_av: 101551
+02:53:59.379 > pressure_increase_count_for_check_apogee: 4
+02:53:59.379 > launch detected
+02:53:59.391 > launch detected
+02:53:59.391 > launch detected
+02:53:59.391 > launch detected
+02:53:59.391 > launch detected
+02:53:59.407 > pressure_av: 101551
+02:53:59.407 > pressure_increase_count_for_check_apogee: 0
+02:53:59.412 > launch detected
+02:53:59.412 > launch detected
+02:53:59.412 > launch detected
+02:53:59.418 > launch detected
+02:53:59.418 > launch detected
+02:53:59.418 > pressure_av: 101576
+02:53:59.423 > pressure_increase_count_for_check_apogee: 1
+02:53:59.423 > launch detected
+02:53:59.439 > launch detected
+02:53:59.439 > launch detected
+02:53:59.439 > launch detected
+02:53:59.444 > launch detected
+02:53:59.444 > pressure_av: 101583
+02:53:59.444 > pressure_increase_count_for_check_apogee: 2
+02:53:59.450 > launch detected
+02:53:59.450 > launch detected
+02:53:59.450 > launch detected
+02:53:59.455 > launch detected
+02:53:59.455 > launch detected
+02:53:59.455 > pressure_av: 101585
+02:53:59.460 > pressure_increase_count_for_check_apogee: 3
+02:53:59.460 > launch detected
+02:53:59.460 > launch detected
+02:53:59.466 > launch detected
+02:53:59.466 > launch detected
+02:53:59.466 > launch detected
+02:53:59.471 > pressure_av: 101585
+02:53:59.471 > pressure_increase_count_for_check_apogee: 0
+02:53:59.478 > launch detected
+02:53:59.478 > launch detected
+02:53:59.478 > launch detected
+02:53:59.478 > launch detected
+02:53:59.484 > launch detected
+02:53:59.484 > pressure_av: 101579
+02:53:59.484 > pressure_increase_count_for_check_apogee: 1
+02:53:59.489 > launch detected
+02:53:59.489 > launch detected
+02:53:59.494 > launch detected
+02:53:59.494 > launch detected
+02:53:59.494 > launch detected
+02:53:59.494 > pressure_av: 101575
+02:53:59.500 > pressure_increase_count_for_check_apogee: 2
+02:53:59.500 > launch detected
+02:53:59.505 > launch detected
+02:53:59.505 > launch detected
+02:53:59.505 > launch detected
+02:53:59.511 > launch detected
+02:53:59.511 > pressure_av: 101575
+02:53:59.511 > pressure_increase_count_for_check_apogee: 0
+02:53:59.516 > launch detected
+02:53:59.516 > launch detected
+02:53:59.516 > launch detected
+02:53:59.530 > launch detected
+02:53:59.530 > launch detected
+02:53:59.530 > pressure_av: 101569
+02:53:59.535 > pressure_increase_count_for_check_apogee: 1
+02:53:59.535 > launch detected
+02:53:59.543 > launch detected
+02:53:59.543 > launch detected
+02:53:59.543 > launch detected
+02:53:59.543 > launch detected
+02:53:59.548 > pressure_av: 101565
+02:53:59.548 > pressure_increase_count_for_check_apogee: 2
+02:53:59.554 > launch detected
+02:53:59.554 > launch detected
+02:53:59.554 > launch detected
+02:53:59.554 > launch detected
+02:53:59.559 > launch detected
+02:53:59.559 > pressure_av: 101566
+02:53:59.559 > pressure_increase_count_for_check_apogee: 3
+02:53:59.564 > launch detected
+02:53:59.564 > launch detected
+02:53:59.576 > launch detected
+02:53:59.576 > launch detected
+02:53:59.576 > launch detected
+02:53:59.576 > pressure_av: 101569
+02:53:59.581 > pressure_increase_count_for_check_apogee: 4
+02:53:59.581 > launch detected
+02:53:59.590 > launch detected
+02:53:59.590 > launch detected
+02:53:59.590 > launch detected
+02:53:59.596 > launch detected
+02:53:59.596 > pressure_av: 101565
+02:53:59.596 > pressure_increase_count_for_check_apogee: 5
+02:53:59.612 > launch detected
+02:53:59.612 > reached apogee
+02:54:09.042 > E (24376) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+02:54:09.047 > E (24376) task_wdt:  - IDLE0 (CPU 0)
+02:54:09.053 > E (24376) task_wdt: Tasks currently running:
+02:54:09.058 > E (24376) task_wdt: CPU 0: Log Task
+02:54:09.058 > E (24376) task_wdt: CPU 1: Conditions Chec
+02:54:09.063 > E (24376) task_wdt: Aborting.
+02:54:09.063 > E (24376) task_wdt: Print CPU 0 (current core) backtrace
+02:54:09.069 > 
+02:54:09.069 > 
+02:54:09.069 > 
+02:54:09.074 > 
+02:54:09.074 > Backtrace: 0x4000cffc:0x3ffb5260 0x400d597f:0x3ffb5280 0x400d3ef0:0x3ffb52a0 0x400d43a0:0x3ffb52c0 0x400d43f8:0x3ffb52e0 0x400fb80e:0x3ffb5300 0x400d293a:0x3ffb5320 0x400d2f97:0x3ffb5340 0x400d2779:0x3ffb5370 0x400d1e2a:0x3ffb53c0 0x4008ae76:0x3ffb5420
+02:54:09.105 > 
+02:54:09.105 > 
+02:54:09.105 > 
+02:54:09.105 > 
+02:54:09.105 > ELF file SHA256: ff55e2af2d236d0d
+02:54:09.105 > 
+02:54:09.265 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+02:54:09.270 > Debug exception reason: BREAK instr 
+02:54:09.275 > Core  0 register dump:
+02:54:09.275 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2be0  
+02:54:09.286 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+02:54:09.291 > A6      : 0x00000000  A7      : 0x3ffb51a0  A8      : 0x00000008  A9      : 0x3ffbf03c  
+02:54:09.301 > A10     : 0x00000000  A11     : 0x5c1e84bd  A12     : 0x5c1e84bd  A13     : 0x00060321  
+02:54:09.307 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+02:54:09.317 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+02:54:09.323 > 
+02:54:09.323 > 
+02:54:09.323 > Backtrace: 0x40083efd:0x3ffc2be0 0x40080303:0x3ffc2c10 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+02:54:09.333 > 
+02:54:09.333 > 
+02:54:09.333 > 
+02:54:09.333 > 
+02:54:09.333 > ELF file SHA256: ff55e2af2d236d0d
+02:54:09.333 > 
+02:54:09.333 > Re-entered core dump! Exception happened during core dump!
+02:54:09.339 > Rebooting...
+02:54:09.527 > E (183) esp_core_dump_flash: Cφ�*�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR'␖��SS'�RH(�+�V␖�,ZY���][O���������RH�SD Card Initialized.
+02:54:09.589 > SERVO_PIN: 26
+02:54:09.589 > [    82][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.594 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.600 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.611 > [   103][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.617 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.622 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.628 > [   124][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.639 > [   131][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.644 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.649 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.655 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.666 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.671 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+02:54:09.677 > [   172][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

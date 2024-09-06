@@ -48,6 +48,8 @@ public:
    */
   void write(BoardId id, char data);
 
+  void SerialPrintStatus();
+
 private:
   BoardId own_board_id;
   twai_general_config_t g_config;

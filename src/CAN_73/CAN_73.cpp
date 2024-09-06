@@ -50,8 +50,19 @@ void CAN_73::write(BoardId id, char data) {
   tx_msg.data[0] = own_board_id;
   tx_msg.data[1] = data;
 
-  esp_err_t ret = twai_transmit(&tx_msg, pdMS_TO_TICKS(1000));
+  esp_err_t ret = twai_transmit(&tx_msg, pdMS_TO_TICKS(10));
   if (ret != ESP_OK) {
     Serial.printf("[ERROR] Failed to send message: %s\n", esp_err_to_name(ret));
   }
+}
+
+void CAN_73::SerialPrintStatus() {
+  twai_status_info_t status;
+  twai_get_status_info(&status);
+  Serial.printf("twai_state: %d, tx_err_counter: %d, rx_err_counter: %d, tx_failed_count: %d, rx_missed_count: %d, "
+                "rx_overrun_count: "
+                "%d, arb_lost_count: %d, bus_error_count: %d, msgs_to_tx: %d, msgs_to_rx: %d\n",
+                status.state, status.tx_error_counter, status.rx_error_counter, status.tx_failed_count,
+                status.rx_missed_count, status.rx_overrun_count, status.arb_lost_count, status.bus_error_count,
+                status.msgs_to_tx, status.msgs_to_rx);
 }

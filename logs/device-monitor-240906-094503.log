@@ -1,0 +1,49 @@
+09:45:03.543 > E (167) esp_core_dump_flash: ��ȕ�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR&��,M�&�RH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+09:45:03.557 > CAN Driver started
+09:45:05.560 > send: a
+09:45:07.284 > send: b
+09:45:07.284 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:36.092 > send: 
+09:48:36.093 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:36.098 > send: 
+09:48:36.098 > 
+09:48:36.098 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:36.764 > send: 
+09:48:36.764 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:36.769 > send: 
+09:48:36.769 > 
+09:48:36.769 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:36.927 > send: 
+09:48:36.927 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:36.932 > send: 
+09:48:36.932 > 
+09:48:36.932 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:37.073 > send: 
+09:48:37.073 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:37.078 > send: 
+09:48:37.078 > 
+09:48:37.078 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:37.221 > send: 
+09:48:37.221 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:37.226 > send: 
+09:48:37.226 > 
+09:48:37.226 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:37.348 > send: 
+09:48:37.349 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:37.354 > send: 
+09:48:37.354 > 
+09:48:37.354 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:38.237 > send: a
+09:48:38.237 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:39.904 > send: b
+09:48:39.905 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:40.309 > send: c
+09:48:40.309 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:40.563 > send: d
+09:48:40.563 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:42.099 > send: e
+09:48:42.099 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:42.707 > send: f
+09:48:42.708 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE
+09:48:43.372 > send: g
+09:48:43.373 > [ERROR] Failed to send message: ESP_ERR_INVALID_STATE

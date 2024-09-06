@@ -1,0 +1,3746 @@
+03:48:29.295 > ets Jul 29 2019 12:21:46
+03:48:29.296 > 
+03:48:29.296 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+03:48:29.301 > configsip: 0, SPIWP:0xee
+03:48:29.301 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+03:48:29.306 > mode:DIO, clock div:2
+03:48:29.311 > load:0x3fff0030,len:4604
+03:48:29.311 > ho 0 tail 12 room 4
+03:48:29.317 > load:0x40078000,len:15468
+03:48:29.317 > load:0x40080400,len:4
+03:48:29.317 > ho 8 tail 4 room 4
+03:48:29.332 > load:0x40080404,len:3180
+03:48:29.332 > entry 0x400805b8
+03:48:29.499 > E (206) esp_core_dump_flash: Cφ�*�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR&��,M�&�RH(�+�V␖�,ZY���][O���������RH�SD Card Initialized.
+03:48:29.568 > [    89][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+03:48:29.573 > [    96][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+03:48:29.579 > [   103][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+03:48:29.592 > [   116][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.598 > [   123][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.609 > [   130][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.614 > [   137][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.620 > [   144][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.626 > [   151][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.637 > [   158][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.642 > [   164][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.648 > [   171][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.653 > [   178][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.664 > [   185][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.670 > [   192][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.675 > [   199][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:29.686 > [   206][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:48:32.021 > o
+03:48:34.484 > d
+03:48:35.279 > c
+03:48:35.898 > o
+03:48:36.280 > c
+03:48:36.502 > o
+03:48:36.741 > c
+03:48:36.931 > o
+03:48:37.106 > c
+03:48:37.281 > o
+03:48:37.472 > c
+03:48:37.647 > o
+03:48:37.869 > c
+03:48:38.075 > o
+03:48:44.051 > checking launch
+03:48:44.130 > checking launch
+03:48:44.130 > checking launch
+03:48:44.162 > checking launch
+03:48:44.162 > checking launch
+03:48:44.162 > checking launch
+03:48:44.167 > checking launch
+03:48:44.167 > checking launch
+03:48:44.167 > checking launch
+03:48:44.173 > checking launch
+03:48:44.173 > checking launch
+03:48:44.173 > checking launch
+03:48:44.173 > checking launch
+03:48:44.184 > checking launch
+03:48:44.184 > checking launch
+03:48:44.184 > checking launch
+03:48:44.199 > checking launch
+03:48:44.199 > checking launch
+03:48:44.199 > checking launch
+03:48:44.206 > checking launch
+03:48:44.206 > accel_av_square_sum: 1.5448
+03:48:44.206 > checking launch
+03:48:44.221 > checking launch
+03:48:44.221 > checking launch
+03:48:44.221 > checking launch
+03:48:44.233 > checking launch
+03:48:44.233 > checking launch
+03:48:44.233 > checking launch
+03:48:44.233 > checking launch
+03:48:44.274 > checking launch
+03:48:44.274 > checking launch
+03:48:44.274 > checking launch
+03:48:44.274 > checking launch
+03:48:44.279 > checking launch
+03:48:44.279 > checking launch
+03:48:44.279 > checking launch
+03:48:44.279 > checking launch
+03:48:44.293 > checking launch
+03:48:44.293 > checking launch
+03:48:44.293 > checking launch
+03:48:44.300 > checking launch
+03:48:44.300 > accel_av_square_sum: 1.4043
+03:48:44.300 > checking launch
+03:48:44.311 > checking launch
+03:48:44.311 > checking launch
+03:48:44.311 > checking launch
+03:48:44.311 > checking launch
+03:48:44.321 > checking launch
+03:48:44.321 > checking launch
+03:48:44.321 > checking launch
+03:48:44.321 > checking launch
+03:48:44.328 > checking launch
+03:48:44.328 > checking launch
+03:48:44.328 > checking launch
+03:48:44.334 > checking launch
+03:48:44.334 > checking launch
+03:48:44.334 > checking launch
+03:48:44.334 > checking launch
+03:48:44.356 > checking launch
+03:48:44.356 > checking launch
+03:48:44.356 > checking launch
+03:48:44.356 > checking launch
+03:48:44.377 > accel_av_square_sum: 1.4023
+03:48:44.378 > checking launch
+03:48:44.378 > checking launch
+03:48:44.405 > checking launch
+03:48:44.405 > checking launch
+03:48:44.405 > checking launch
+03:48:44.405 > checking launch
+03:48:44.437 > checking launch
+03:48:44.437 > checking launch
+03:48:44.446 > checking launch
+03:48:44.447 > checking launch
+03:48:44.447 > checking launch
+03:48:44.447 > checking launch
+03:48:44.478 > checking launch
+03:48:44.494 > checking launch
+03:48:44.494 > checking launch
+03:48:44.494 > checking launch
+03:48:44.520 > checking launch
+03:48:44.520 > checking launch
+03:48:44.520 > checking launch
+03:48:44.520 > checking launch
+03:48:44.531 > accel_av_square_sum: 1.4025
+03:48:44.531 > checking launch
+03:48:44.531 > checking launch
+03:48:44.547 > checking launch
+03:48:44.547 > checking launch
+03:48:44.611 > checking launch
+03:48:44.611 > checking launch
+03:48:44.626 > checking launch
+03:48:44.626 > checking launch
+03:48:44.641 > checking launch
+03:48:44.641 > checking launch
+03:48:44.641 > checking launch
+03:48:44.641 > checking launch
+03:48:44.651 > checking launch
+03:48:44.651 > checking launch
+03:48:44.651 > checking launch
+03:48:44.651 > checking launch
+03:48:44.658 > checking launch
+03:48:44.658 > checking launch
+03:48:44.658 > checking launch
+03:48:44.665 > checking launch
+03:48:44.665 > accel_av_square_sum: 1.4028
+03:48:44.665 > checking launch
+03:48:44.674 > checking launch
+03:48:44.674 > checking launch
+03:48:44.674 > checking launch
+03:48:44.674 > checking launch
+03:48:44.686 > checking launch
+03:48:44.686 > checking launch
+03:48:44.686 > checking launch
+03:48:44.686 > checking launch
+03:48:44.693 > checking launch
+03:48:44.693 > checking launch
+03:48:44.693 > checking launch
+03:48:44.709 > checking launch
+03:48:44.709 > checking launch
+03:48:44.709 > checking launch
+03:48:44.718 > checking launch
+03:48:44.718 > checking launch
+03:48:44.718 > checking launch
+03:48:44.724 > checking launch
+03:48:44.724 > checking launch
+03:48:44.724 > accel_av_square_sum: 1.4012
+03:48:44.729 > checking launch
+03:48:44.729 > checking launch
+03:48:44.729 > checking launch
+03:48:44.729 > checking launch
+03:48:44.741 > checking launch
+03:48:44.741 > checking launch
+03:48:44.741 > checking launch
+03:48:44.741 > checking launch
+03:48:44.746 > checking launch
+03:48:44.746 > checking launch
+03:48:44.746 > checking launch
+03:48:44.752 > checking launch
+03:48:44.752 > checking launch
+03:48:44.752 > checking launch
+03:48:44.752 > checking launch
+03:48:44.769 > checking launch
+03:48:44.769 > checking launch
+03:48:44.812 > checking launch
+03:48:44.812 > checking launch
+03:48:44.812 > checking launch
+03:48:44.812 > accel_av_square_sum: 1.4036
+03:48:44.817 > checking launch
+03:48:44.817 > checking launch
+03:48:44.817 > checking launch
+03:48:44.832 > checking launch
+03:48:44.832 > checking launch
+03:48:44.832 > checking launch
+03:48:44.832 > checking launch
+03:48:44.837 > checking launch
+03:48:44.837 > checking launch
+03:48:44.837 > checking launch
+03:48:44.848 > checking launch
+03:48:44.848 > checking launch
+03:48:44.848 > checking launch
+03:48:44.848 > checking launch
+03:48:44.854 > checking launch
+03:48:44.854 > checking launch
+03:48:44.854 > checking launch
+03:48:44.854 > checking launch
+03:48:44.868 > checking launch
+03:48:44.868 > checking launch
+03:48:44.868 > accel_av_square_sum: 1.4050
+03:48:44.876 > checking launch
+03:48:44.876 > checking launch
+03:48:44.876 > checking launch
+03:48:44.892 > checking launch
+03:48:44.907 > checking launch
+03:48:44.908 > checking launch
+03:48:44.923 > checking launch
+03:48:44.923 > checking launch
+03:48:44.939 > checking launch
+03:48:44.947 > checking launch
+03:48:44.947 > checking launch
+03:48:44.947 > checking launch
+03:48:44.947 > checking launch
+03:48:44.953 > checking launch
+03:48:44.953 > checking launch
+03:48:44.953 > checking launch
+03:48:44.959 > checking launch
+03:48:44.959 > checking launch
+03:48:44.959 > checking launch
+03:48:44.959 > checking launch
+03:48:44.964 > accel_av_square_sum: 1.4006
+03:48:44.964 > checking launch
+03:48:44.964 > checking launch
+03:48:44.974 > checking launch
+03:48:44.974 > checking launch
+03:48:44.974 > checking launch
+03:48:44.974 > checking launch
+03:48:44.979 > checking launch
+03:48:44.979 > checking launch
+03:48:44.979 > checking launch
+03:48:44.985 > checking launch
+03:48:44.985 > checking launch
+03:48:44.985 > checking launch
+03:48:44.985 > checking launch
+03:48:44.990 > checking launch
+03:48:44.990 > checking launch
+03:48:44.990 > checking launch
+03:48:44.990 > checking launch
+03:48:45.005 > checking launch
+03:48:45.005 > checking launch
+03:48:45.005 > checking launch
+03:48:45.011 > accel_av_square_sum: 1.4034
+03:48:45.011 > checking launch
+03:48:45.011 > checking launch
+03:48:45.027 > checking launch
+03:48:45.027 > checking launch
+03:48:45.027 > checking launch
+03:48:45.042 > checking launch
+03:48:45.043 > checking launch
+03:48:45.043 > checking launch
+03:48:45.043 > checking launch
+03:48:45.050 > checking launch
+03:48:45.050 > checking launch
+03:48:45.050 > checking launch
+03:48:45.050 > checking launch
+03:48:45.059 > checking launch
+03:48:45.059 > checking launch
+03:48:45.059 > checking launch
+03:48:45.065 > checking launch
+03:48:45.065 > checking launch
+03:48:45.065 > checking launch
+03:48:45.065 > checking launch
+03:48:45.072 > accel_av_square_sum: 1.4037
+03:48:45.072 > checking launch
+03:48:45.072 > checking launch
+03:48:45.088 > checking launch
+03:48:45.088 > checking launch
+03:48:45.120 > checking launch
+03:48:45.120 > checking launch
+03:48:45.120 > checking launch
+03:48:45.125 > checking launch
+03:48:45.125 > checking launch
+03:48:45.125 > checking launch
+03:48:45.135 > checking launch
+03:48:45.135 > checking launch
+03:48:45.135 > checking launch
+03:48:45.135 > checking launch
+03:48:45.167 > checking launch
+03:48:45.176 > checking launch
+03:48:45.176 > checking launch
+03:48:45.176 > checking launch
+03:48:45.191 > checking launch
+03:48:45.191 > checking launch
+03:48:45.191 > accel_av_square_sum: 1.4035
+03:48:45.197 > checking launch
+03:48:45.197 > checking launch
+03:48:45.197 > checking launch
+03:48:45.197 > checking launch
+03:48:45.202 > checking launch
+03:48:45.202 > checking launch
+03:48:45.202 > checking launch
+03:48:45.202 > checking launch
+03:48:45.209 > checking launch
+03:48:45.209 > checking launch
+03:48:45.209 > checking launch
+03:48:45.215 > checking launch
+03:48:45.215 > checking launch
+03:48:45.215 > checking launch
+03:48:45.215 > checking launch
+03:48:45.221 > checking launch
+03:48:45.221 > checking launch
+03:48:45.221 > checking launch
+03:48:45.221 > checking launch
+03:48:45.227 > checking launch
+03:48:45.227 > accel_av_square_sum: 1.4033
+03:48:45.227 > checking launch
+03:48:45.232 > checking launch
+03:48:45.232 > checking launch
+03:48:45.232 > checking launch
+03:48:45.237 > checking launch
+03:48:45.237 > checking launch
+03:48:45.237 > checking launch
+03:48:45.237 > checking launch
+03:48:45.243 > checking launch
+03:48:45.243 > checking launch
+03:48:45.243 > checking launch
+03:48:45.258 > checking launch
+03:48:45.258 > checking launch
+03:48:45.274 > checking launch
+03:48:45.274 > checking launch
+03:48:45.274 > checking launch
+03:48:45.282 > checking launch
+03:48:45.282 > checking launch
+03:48:45.282 > checking launch
+03:48:45.282 > checking launch
+03:48:45.288 > accel_av_square_sum: 1.4022
+03:48:45.288 > checking launch
+03:48:45.288 > checking launch
+03:48:45.303 > checking launch
+03:48:45.310 > checking launch
+03:48:45.311 > checking launch
+03:48:45.311 > checking launch
+03:48:45.311 > checking launch
+03:48:45.316 > checking launch
+03:48:45.316 > checking launch
+03:48:45.316 > checking launch
+03:48:45.316 > checking launch
+03:48:45.327 > checking launch
+03:48:45.327 > checking launch
+03:48:45.327 > checking launch
+03:48:45.342 > checking launch
+03:48:45.342 > checking launch
+03:48:45.342 > checking launch
+03:48:45.342 > checking launch
+03:48:45.348 > checking launch
+03:48:45.348 > checking launch
+03:48:45.348 > accel_av_square_sum: 1.4029
+03:48:45.353 > checking launch
+03:48:45.353 > checking launch
+03:48:45.353 > checking launch
+03:48:45.353 > checking launch
+03:48:45.358 > checking launch
+03:48:45.358 > checking launch
+03:48:45.358 > checking launch
+03:48:45.364 > checking launch
+03:48:45.364 > checking launch
+03:48:45.364 > checking launch
+03:48:45.364 > checking launch
+03:48:45.370 > checking launch
+03:48:45.370 > checking launch
+03:48:45.370 > checking launch
+03:48:45.370 > checking launch
+03:48:45.378 > checking launch
+03:48:45.378 > checking launch
+03:48:45.378 > checking launch
+03:48:45.383 > checking launch
+03:48:45.383 > checking launch
+03:48:45.383 > accel_av_square_sum: 1.4017
+03:48:45.389 > checking launch
+03:48:45.389 > checking launch
+03:48:45.389 > checking launch
+03:48:45.389 > checking launch
+03:48:45.402 > checking launch
+03:48:45.402 > checking launch
+03:48:45.402 > checking launch
+03:48:45.465 > checking launch
+03:48:45.465 > checking launch
+03:48:45.465 > checking launch
+03:48:45.471 > checking launch
+03:48:45.471 > checking launch
+03:48:45.471 > checking launch
+03:48:45.471 > checking launch
+03:48:45.484 > checking launch
+03:48:45.484 > checking launch
+03:48:45.484 > checking launch
+03:48:45.484 > checking launch
+03:48:45.494 > checking launch
+03:48:45.494 > checking launch
+03:48:45.494 > accel_av_square_sum: 1.4031
+03:48:45.502 > checking launch
+03:48:45.502 > checking launch
+03:48:45.502 > checking launch
+03:48:45.511 > checking launch
+03:48:45.511 > checking launch
+03:48:45.511 > checking launch
+03:48:45.511 > checking launch
+03:48:45.518 > checking launch
+03:48:45.518 > checking launch
+03:48:45.518 > checking launch
+03:48:45.518 > checking launch
+03:48:45.524 > checking launch
+03:48:45.524 > checking launch
+03:48:45.524 > checking launch
+03:48:45.530 > checking launch
+03:48:45.530 > checking launch
+03:48:45.530 > checking launch
+03:48:45.530 > checking launch
+03:48:45.536 > checking launch
+03:48:45.536 > checking launch
+03:48:45.536 > accel_av_square_sum: 1.4010
+03:48:45.541 > checking launch
+03:48:45.541 > checking launch
+03:48:45.541 > checking launch
+03:48:45.541 > checking launch
+03:48:45.549 > checking launch
+03:48:45.549 > checking launch
+03:48:45.549 > checking launch
+03:48:45.554 > checking launch
+03:48:45.554 > checking launch
+03:48:45.554 > checking launch
+03:48:45.554 > checking launch
+03:48:45.559 > checking launch
+03:48:45.559 > checking launch
+03:48:45.559 > checking launch
+03:48:45.559 > checking launch
+03:48:45.565 > checking launch
+03:48:45.565 > checking launch
+03:48:45.565 > checking launch
+03:48:45.575 > checking launch
+03:48:45.575 > checking launch
+03:48:45.575 > accel_av_square_sum: 1.4002
+03:48:45.588 > checking launch
+03:48:45.588 > checking launch
+03:48:45.588 > checking launch
+03:48:45.588 > checking launch
+03:48:45.593 > checking launch
+03:48:45.593 > checking launch
+03:48:45.593 > checking launch
+03:48:45.604 > checking launch
+03:48:45.604 > checking launch
+03:48:45.604 > checking launch
+03:48:45.604 > checking launch
+03:48:45.609 > checking launch
+03:48:45.609 > checking launch
+03:48:45.609 > checking launch
+03:48:45.609 > checking launch
+03:48:45.614 > checking launch
+03:48:45.614 > checking launch
+03:48:45.614 > checking launch
+03:48:45.620 > checking launch
+03:48:45.620 > checking launch
+03:48:45.620 > accel_av_square_sum: 1.4027
+03:48:45.626 > checking launch
+03:48:45.626 > checking launch
+03:48:45.626 > checking launch
+03:48:45.626 > checking launch
+03:48:45.637 > checking launch
+03:48:45.637 > checking launch
+03:48:45.637 > checking launch
+03:48:45.637 > checking launch
+03:48:45.642 > checking launch
+03:48:45.642 > checking launch
+03:48:45.642 > checking launch
+03:48:45.647 > checking launch
+03:48:45.647 > checking launch
+03:48:45.647 > checking launch
+03:48:45.647 > checking launch
+03:48:45.653 > checking launch
+03:48:45.653 > checking launch
+03:48:45.653 > checking launch
+03:48:45.653 > checking launch
+03:48:45.668 > checking launch
+03:48:45.677 > accel_av_square_sum: 1.4030
+03:48:45.678 > checking launch
+03:48:45.678 > checking launch
+03:48:45.685 > checking launch
+03:48:45.685 > checking launch
+03:48:45.685 > checking launch
+03:48:45.685 > checking launch
+03:48:45.699 > checking launch
+03:48:45.699 > checking launch
+03:48:45.699 > checking launch
+03:48:45.699 > checking launch
+03:48:45.704 > checking launch
+03:48:45.704 > checking launch
+03:48:45.704 > checking launch
+03:48:45.716 > checking launch
+03:48:45.716 > checking launch
+03:48:45.716 > checking launch
+03:48:45.716 > checking launch
+03:48:45.721 > checking launch
+03:48:45.721 > checking launch
+03:48:45.721 > checking launch
+03:48:45.721 > accel_av_square_sum: 1.4012
+03:48:45.737 > checking launch
+03:48:45.761 > checking launch
+03:48:45.761 > checking launch
+03:48:45.761 > checking launch
+03:48:45.761 > checking launch
+03:48:45.767 > checking launch
+03:48:45.767 > checking launch
+03:48:45.767 > checking launch
+03:48:45.767 > checking launch
+03:48:45.772 > checking launch
+03:48:45.772 > checking launch
+03:48:45.772 > checking launch
+03:48:45.785 > checking launch
+03:48:45.785 > checking launch
+03:48:45.785 > checking launch
+03:48:45.785 > checking launch
+03:48:45.794 > checking launch
+03:48:45.794 > checking launch
+03:48:45.794 > checking launch
+03:48:45.794 > checking launch
+03:48:45.799 > accel_av_square_sum: 1.4026
+03:48:45.799 > checking launch
+03:48:45.799 > checking launch
+03:48:45.805 > checking launch
+03:48:45.805 > checking launch
+03:48:45.805 > checking launch
+03:48:45.810 > checking launch
+03:48:45.810 > checking launch
+03:48:45.810 > checking launch
+03:48:45.810 > checking launch
+03:48:45.815 > checking launch
+03:48:45.815 > checking launch
+03:48:45.815 > checking launch
+03:48:45.815 > checking launch
+03:48:45.831 > checking launch
+03:48:45.831 > checking launch
+03:48:45.836 > checking launch
+03:48:45.836 > checking launch
+03:48:45.836 > checking launch
+03:48:45.836 > checking launch
+03:48:45.842 > checking launch
+03:48:45.842 > accel_av_square_sum: 1.4020
+03:48:45.842 > checking launch
+03:48:45.847 > checking launch
+03:48:45.847 > checking launch
+03:48:45.847 > checking launch
+03:48:45.847 > checking launch
+03:48:45.863 > checking launch
+03:48:45.863 > checking launch
+03:48:45.905 > checking launch
+03:48:45.905 > checking launch
+03:48:45.905 > checking launch
+03:48:45.905 > checking launch
+03:48:45.911 > checking launch
+03:48:45.911 > checking launch
+03:48:45.911 > checking launch
+03:48:45.911 > checking launch
+03:48:45.917 > checking launch
+03:48:45.917 > checking launch
+03:48:45.917 > checking launch
+03:48:45.932 > checking launch
+03:48:45.939 > checking launch
+03:48:45.939 > accel_av_square_sum: 1.4061
+03:48:45.939 > checking launch
+03:48:45.945 > checking launch
+03:48:45.945 > checking launch
+03:48:45.945 > checking launch
+03:48:45.945 > checking launch
+03:48:45.950 > checking launch
+03:48:45.950 > checking launch
+03:48:45.950 > checking launch
+03:48:45.950 > checking launch
+03:48:45.955 > checking launch
+03:48:45.955 > checking launch
+03:48:45.955 > checking launch
+03:48:45.961 > checking launch
+03:48:45.961 > checking launch
+03:48:45.961 > checking launch
+03:48:45.961 > checking launch
+03:48:45.966 > checking launch
+03:48:45.966 > checking launch
+03:48:45.966 > checking launch
+03:48:45.966 > checking launch
+03:48:45.979 > accel_av_square_sum: 1.4018
+03:48:45.979 > checking launch
+03:48:45.979 > checking launch
+03:48:46.005 > checking launch
+03:48:46.005 > checking launch
+03:48:46.005 > checking launch
+03:48:46.005 > checking launch
+03:48:46.010 > checking launch
+03:48:46.010 > checking launch
+03:48:46.010 > checking launch
+03:48:46.010 > checking launch
+03:48:46.015 > checking launch
+03:48:46.015 > checking launch
+03:48:46.015 > checking launch
+03:48:46.031 > checking launch
+03:48:46.031 > checking launch
+03:48:46.031 > checking launch
+03:48:46.031 > checking launch
+03:48:46.036 > checking launch
+03:48:46.036 > checking launch
+03:48:46.036 > checking launch
+03:48:46.036 > accel_av_square_sum: 1.4028
+03:48:46.041 > checking launch
+03:48:46.041 > checking launch
+03:48:46.041 > checking launch
+03:48:46.046 > checking launch
+03:48:46.046 > checking launch
+03:48:46.046 > checking launch
+03:48:46.062 > checking launch
+03:48:46.062 > checking launch
+03:48:46.062 > checking launch
+03:48:46.075 > checking launch
+03:48:46.075 > checking launch
+03:48:46.075 > checking launch
+03:48:46.075 > checking launch
+03:48:46.080 > checking launch
+03:48:46.080 > checking launch
+03:48:46.080 > checking launch
+03:48:46.080 > checking launch
+03:48:46.092 > checking launch
+03:48:46.092 > checking launch
+03:48:46.092 > checking launch
+03:48:46.097 > accel_av_square_sum: 1.4031
+03:48:46.097 > checking launch
+03:48:46.097 > checking launch
+03:48:46.106 > checking launch
+03:48:46.106 > checking launch
+03:48:46.106 > checking launch
+03:48:46.106 > checking launch
+03:48:46.111 > checking launch
+03:48:46.111 > checking launch
+03:48:46.111 > checking launch
+03:48:46.111 > checking launch
+03:48:46.126 > checking launch
+03:48:46.126 > checking launch
+03:48:46.126 > checking launch
+03:48:46.131 > checking launch
+03:48:46.131 > checking launch
+03:48:46.131 > checking launch
+03:48:46.131 > checking launch
+03:48:46.137 > checking launch
+03:48:46.137 > checking launch
+03:48:46.137 > checking launch
+03:48:46.137 > accel_av_square_sum: 1.4022
+03:48:46.142 > checking launch
+03:48:46.142 > checking launch
+03:48:46.142 > checking launch
+03:48:46.147 > checking launch
+03:48:46.147 > checking launch
+03:48:46.147 > checking launch
+03:48:46.163 > checking launch
+03:48:46.163 > checking launch
+03:48:46.163 > checking launch
+03:48:46.169 > checking launch
+03:48:46.169 > checking launch
+03:48:46.169 > checking launch
+03:48:46.174 > checking launch
+03:48:46.174 > checking launch
+03:48:46.174 > checking launch
+03:48:46.174 > checking launch
+03:48:46.180 > checking launch
+03:48:46.180 > checking launch
+03:48:46.180 > checking launch
+03:48:46.180 > checking launch
+03:48:46.185 > accel_av_square_sum: 1.4030
+03:48:46.185 > checking launch
+03:48:46.185 > checking launch
+03:48:46.200 > checking launch
+03:48:46.200 > checking launch
+03:48:46.200 > checking launch
+03:48:46.214 > checking launch
+03:48:46.214 > checking launch
+03:48:46.214 > checking launch
+03:48:46.214 > checking launch
+03:48:46.224 > checking launch
+03:48:46.224 > checking launch
+03:48:46.224 > checking launch
+03:48:46.224 > checking launch
+03:48:46.234 > checking launch
+03:48:46.234 > checking launch
+03:48:46.234 > checking launch
+03:48:46.244 > checking launch
+03:48:46.244 > checking launch
+03:48:46.244 > checking launch
+03:48:46.244 > checking launch
+03:48:46.250 > accel_av_square_sum: 1.4029
+03:48:46.250 > checking launch
+03:48:46.250 > checking launch
+03:48:46.256 > checking launch
+03:48:46.256 > checking launch
+03:48:46.256 > checking launch
+03:48:46.256 > checking launch
+03:48:46.261 > checking launch
+03:48:46.261 > checking launch
+03:48:46.261 > checking launch
+03:48:46.271 > checking launch
+03:48:46.271 > checking launch
+03:48:46.271 > checking launch
+03:48:46.271 > checking launch
+03:48:46.277 > checking launch
+03:48:46.277 > checking launch
+03:48:46.277 > checking launch
+03:48:46.277 > checking launch
+03:48:46.282 > checking launch
+03:48:46.282 > checking launch
+03:48:46.282 > checking launch
+03:48:46.298 > accel_av_square_sum: 1.4034
+03:48:46.329 > checking launch
+03:48:46.329 > checking launch
+03:48:46.329 > checking launch
+03:48:46.329 > checking launch
+03:48:46.334 > checking launch
+03:48:46.334 > checking launch
+03:48:46.334 > checking launch
+03:48:46.334 > checking launch
+03:48:46.342 > checking launch
+03:48:46.342 > checking launch
+03:48:46.342 > checking launch
+03:48:46.357 > checking launch
+03:48:46.357 > checking launch
+03:48:46.357 > checking launch
+03:48:46.357 > checking launch
+03:48:46.373 > checking launch
+03:48:46.373 > checking launch
+03:48:46.373 > checking launch
+03:48:46.404 > checking launch
+03:48:46.404 > checking launch
+03:48:46.404 > accel_av_square_sum: 1.4014
+03:48:46.409 > checking launch
+03:48:46.409 > checking launch
+03:48:46.409 > checking launch
+03:48:46.415 > checking launch
+03:48:46.415 > checking launch
+03:48:46.415 > checking launch
+03:48:46.415 > checking launch
+03:48:46.425 > checking launch
+03:48:46.425 > checking launch
+03:48:46.425 > checking launch
+03:48:46.430 > checking launch
+03:48:46.430 > checking launch
+03:48:46.430 > checking launch
+03:48:46.430 > checking launch
+03:48:46.442 > checking launch
+03:48:46.442 > checking launch
+03:48:46.442 > checking launch
+03:48:46.442 > checking launch
+03:48:46.448 > checking launch
+03:48:46.448 > checking launch
+03:48:46.448 > accel_av_square_sum: 1.4034
+03:48:46.453 > checking launch
+03:48:46.453 > checking launch
+03:48:46.453 > checking launch
+03:48:46.458 > checking launch
+03:48:46.458 > checking launch
+03:48:46.458 > checking launch
+03:48:46.458 > checking launch
+03:48:46.464 > checking launch
+03:48:46.464 > checking launch
+03:48:46.464 > checking launch
+03:48:46.464 > checking launch
+03:48:46.470 > checking launch
+03:48:46.470 > checking launch
+03:48:46.470 > checking launch
+03:48:46.476 > checking launch
+03:48:46.476 > checking launch
+03:48:46.476 > checking launch
+03:48:46.476 > checking launch
+03:48:46.484 > checking launch
+03:48:46.484 > checking launch
+03:48:46.484 > accel_av_square_sum: 1.4031
+03:48:46.489 > checking launch
+03:48:46.489 > checking launch
+03:48:46.489 > checking launch
+03:48:46.489 > checking launch
+03:48:46.494 > checking launch
+03:48:46.494 > checking launch
+03:48:46.494 > checking launch
+03:48:46.500 > checking launch
+03:48:46.500 > checking launch
+03:48:46.500 > checking launch
+03:48:46.500 > checking launch
+03:48:46.507 > checking launch
+03:48:46.507 > checking launch
+03:48:46.507 > checking launch
+03:48:46.512 > checking launch
+03:48:46.512 > checking launch
+03:48:46.512 > checking launch
+03:48:46.512 > checking launch
+03:48:46.518 > checking launch
+03:48:46.518 > checking launch
+03:48:46.518 > accel_av_square_sum: 1.4043
+03:48:46.533 > checking launch
+03:48:46.556 > checking launch
+03:48:46.556 > checking launch
+03:48:46.556 > checking launch
+03:48:46.556 > checking launch
+03:48:46.570 > checking launch
+03:48:46.570 > checking launch
+03:48:46.570 > checking launch
+03:48:46.570 > checking launch
+03:48:46.575 > checking launch
+03:48:46.575 > checking launch
+03:48:46.575 > checking launch
+03:48:46.589 > checking launch
+03:48:46.589 > checking launch
+03:48:46.589 > checking launch
+03:48:46.589 > checking launch
+03:48:46.594 > checking launch
+03:48:46.594 > checking launch
+03:48:46.594 > checking launch
+03:48:46.594 > checking launch
+03:48:46.600 > accel_av_square_sum: 1.4044
+03:48:46.600 > checking launch
+03:48:46.600 > checking launch
+03:48:46.605 > checking launch
+03:48:46.605 > checking launch
+03:48:46.605 > checking launch
+03:48:46.612 > checking launch
+03:48:46.612 > checking launch
+03:48:46.612 > checking launch
+03:48:46.612 > checking launch
+03:48:46.621 > checking launch
+03:48:46.621 > checking launch
+03:48:46.621 > checking launch
+03:48:46.621 > checking launch
+03:48:46.626 > checking launch
+03:48:46.626 > checking launch
+03:48:46.626 > checking launch
+03:48:46.642 > checking launch
+03:48:46.642 > checking launch
+03:48:46.652 > checking launch
+03:48:46.652 > checking launch
+03:48:46.652 > accel_av_square_sum: 1.4077
+03:48:46.658 > checking launch
+03:48:46.658 > checking launch
+03:48:46.658 > checking launch
+03:48:46.658 > checking launch
+03:48:46.673 > checking launch
+03:48:46.673 > checking launch
+03:48:46.673 > checking launch
+03:48:46.681 > checking launch
+03:48:46.681 > checking launch
+03:48:46.681 > checking launch
+03:48:46.681 > checking launch
+03:48:46.693 > checking launch
+03:48:46.693 > checking launch
+03:48:46.693 > checking launch
+03:48:46.693 > checking launch
+03:48:46.698 > checking launch
+03:48:46.698 > checking launch
+03:48:46.698 > checking launch
+03:48:46.706 > checking launch
+03:48:46.706 > checking launch
+03:48:46.706 > accel_av_square_sum: 1.3957
+03:48:46.714 > checking launch
+03:48:46.714 > checking launch
+03:48:46.714 > checking launch
+03:48:46.714 > checking launch
+03:48:46.722 > checking launch
+03:48:46.722 > checking launch
+03:48:46.722 > checking launch
+03:48:46.722 > checking launch
+03:48:46.728 > checking launch
+03:48:46.728 > checking launch
+03:48:46.728 > checking launch
+03:48:46.734 > checking launch
+03:48:46.734 > checking launch
+03:48:46.734 > checking launch
+03:48:46.734 > checking launch
+03:48:46.739 > checking launch
+03:48:46.739 > checking launch
+03:48:46.739 > checking launch
+03:48:46.739 > checking launch
+03:48:46.746 > checking launch
+03:48:46.746 > accel_av_square_sum: 1.4101
+03:48:46.746 > checking launch
+03:48:46.751 > checking launch
+03:48:46.751 > checking launch
+03:48:46.751 > checking launch
+03:48:46.756 > checking launch
+03:48:46.756 > checking launch
+03:48:46.756 > checking launch
+03:48:46.756 > checking launch
+03:48:46.761 > checking launch
+03:48:46.761 > checking launch
+03:48:46.761 > checking launch
+03:48:46.761 > checking launch
+03:48:46.767 > checking launch
+03:48:46.767 > checking launch
+03:48:46.767 > checking launch
+03:48:46.775 > checking launch
+03:48:46.775 > checking launch
+03:48:46.775 > checking launch
+03:48:46.775 > checking launch
+03:48:46.781 > checking launch
+03:48:46.781 > accel_av_square_sum: 1.3976
+03:48:46.781 > checking launch
+03:48:46.786 > checking launch
+03:48:46.786 > checking launch
+03:48:46.786 > checking launch
+03:48:46.786 > checking launch
+03:48:46.801 > checking launch
+03:48:46.801 > checking launch
+03:48:46.801 > checking launch
+03:48:46.817 > checking launch
+03:48:46.848 > checking launch
+03:48:46.848 > checking launch
+03:48:46.848 > checking launch
+03:48:46.848 > checking launch
+03:48:46.863 > checking launch
+03:48:46.871 > checking launch
+03:48:46.872 > checking launch
+03:48:46.872 > checking launch
+03:48:46.872 > checking launch
+03:48:46.877 > checking launch
+03:48:46.877 > checking launch
+03:48:46.877 > accel_av_square_sum: 1.4043
+03:48:46.884 > checking launch
+03:48:46.884 > checking launch
+03:48:46.884 > checking launch
+03:48:46.884 > checking launch
+03:48:46.899 > checking launch
+03:48:46.899 > checking launch
+03:48:46.899 > checking launch
+03:48:46.904 > checking launch
+03:48:46.904 > checking launch
+03:48:46.904 > checking launch
+03:48:46.910 > checking launch
+03:48:46.910 > checking launch
+03:48:46.910 > checking launch
+03:48:46.910 > checking launch
+03:48:46.916 > checking launch
+03:48:46.916 > checking launch
+03:48:46.916 > checking launch
+03:48:46.916 > checking launch
+03:48:46.922 > checking launch
+03:48:46.922 > checking launch
+03:48:46.922 > accel_av_square_sum: 1.4033
+03:48:46.927 > checking launch
+03:48:46.927 > checking launch
+03:48:46.927 > checking launch
+03:48:46.933 > checking launch
+03:48:46.933 > checking launch
+03:48:46.933 > checking launch
+03:48:46.933 > checking launch
+03:48:46.938 > checking launch
+03:48:46.938 > checking launch
+03:48:46.938 > checking launch
+03:48:46.938 > checking launch
+03:48:46.943 > checking launch
+03:48:46.943 > checking launch
+03:48:46.943 > checking launch
+03:48:46.949 > checking launch
+03:48:46.949 > checking launch
+03:48:46.949 > checking launch
+03:48:46.949 > checking launch
+03:48:46.964 > checking launch
+03:48:46.976 > checking launch
+03:48:46.976 > accel_av_square_sum: 1.4049
+03:48:46.976 > checking launch
+03:48:46.986 > checking launch
+03:48:46.986 > checking launch
+03:48:46.986 > checking launch
+03:48:46.986 > checking launch
+03:48:46.994 > checking launch
+03:48:46.994 > checking launch
+03:48:46.994 > checking launch
+03:48:46.994 > checking launch
+03:48:47.000 > checking launch
+03:48:47.000 > checking launch
+03:48:47.000 > checking launch
+03:48:47.031 > checking launch
+03:48:47.031 > checking launch
+03:48:47.036 > checking launch
+03:48:47.036 > checking launch
+03:48:47.036 > checking launch
+03:48:47.036 > checking launch
+03:48:47.044 > checking launch
+03:48:47.044 > checking launch
+03:48:47.044 > accel_av_square_sum: 1.4006
+03:48:47.052 > checking launch
+03:48:47.052 > checking launch
+03:48:47.052 > checking launch
+03:48:47.057 > checking launch
+03:48:47.057 > checking launch
+03:48:47.057 > checking launch
+03:48:47.057 > checking launch
+03:48:47.066 > checking launch
+03:48:47.066 > checking launch
+03:48:47.066 > checking launch
+03:48:47.066 > checking launch
+03:48:47.071 > checking launch
+03:48:47.071 > checking launch
+03:48:47.071 > checking launch
+03:48:47.076 > checking launch
+03:48:47.076 > checking launch
+03:48:47.076 > checking launch
+03:48:47.076 > checking launch
+03:48:47.083 > checking launch
+03:48:47.083 > checking launch
+03:48:47.083 > accel_av_square_sum: 1.3325
+03:48:47.088 > checking launch
+03:48:47.088 > checking launch
+03:48:47.088 > checking launch
+03:48:47.088 > checking launch
+03:48:47.099 > checking launch
+03:48:47.099 > checking launch
+03:48:47.099 > checking launch
+03:48:47.104 > checking launch
+03:48:47.104 > checking launch
+03:48:47.104 > checking launch
+03:48:47.104 > checking launch
+03:48:47.149 > checking launch
+03:48:47.149 > checking launch
+03:48:47.149 > checking launch
+03:48:47.149 > checking launch
+03:48:47.154 > checking launch
+03:48:47.154 > checking launch
+03:48:47.154 > checking launch
+03:48:47.154 > checking launch
+03:48:47.169 > checking launch
+03:48:47.181 > accel_av_square_sum: 1.5528
+03:48:47.181 > checking launch
+03:48:47.181 > checking launch
+03:48:47.190 > checking launch
+03:48:47.190 > checking launch
+03:48:47.190 > checking launch
+03:48:47.190 > checking launch
+03:48:47.195 > checking launch
+03:48:47.195 > checking launch
+03:48:47.195 > checking launch
+03:48:47.195 > checking launch
+03:48:47.208 > checking launch
+03:48:47.208 > checking launch
+03:48:47.208 > checking launch
+03:48:47.213 > checking launch
+03:48:47.213 > checking launch
+03:48:47.213 > checking launch
+03:48:47.213 > checking launch
+03:48:47.219 > checking launch
+03:48:47.219 > checking launch
+03:48:47.219 > checking launch
+03:48:47.219 > accel_av_square_sum: 1.5395
+03:48:47.225 > checking launch
+03:48:47.225 > checking launch
+03:48:47.225 > checking launch
+03:48:47.233 > checking launch
+03:48:47.233 > checking launch
+03:48:47.233 > checking launch
+03:48:47.249 > checking launch
+03:48:47.264 > checking launch
+03:48:47.265 > checking launch
+03:48:47.265 > checking launch
+03:48:47.286 > checking launch
+03:48:47.286 > checking launch
+03:48:47.286 > checking launch
+03:48:47.286 > checking launch
+03:48:47.294 > checking launch
+03:48:47.294 > checking launch
+03:48:47.294 > checking launch
+03:48:47.294 > checking launch
+03:48:47.300 > checking launch
+03:48:47.300 > checking launch
+03:48:47.300 > accel_av_square_sum: 2.1258
+03:48:47.305 > checking launch
+03:48:47.305 > checking launch
+03:48:47.305 > checking launch
+03:48:47.310 > checking launch
+03:48:47.310 > checking launch
+03:48:47.310 > checking launch
+03:48:47.310 > checking launch
+03:48:47.320 > checking launch
+03:48:47.320 > checking launch
+03:48:47.320 > checking launch
+03:48:47.320 > checking launch
+03:48:47.328 > checking launch
+03:48:47.328 > checking launch
+03:48:47.328 > checking launch
+03:48:47.334 > checking launch
+03:48:47.334 > checking launch
+03:48:47.334 > checking launch
+03:48:47.334 > checking launch
+03:48:47.348 > checking launch
+03:48:47.348 > checking launch
+03:48:47.348 > accel_av_square_sum: 2.0500
+03:48:47.355 > checking launch
+03:48:47.355 > checking launch
+03:48:47.355 > checking launch
+03:48:47.355 > checking launch
+03:48:47.360 > checking launch
+03:48:47.360 > checking launch
+03:48:47.360 > checking launch
+03:48:47.366 > checking launch
+03:48:47.366 > checking launch
+03:48:47.366 > checking launch
+03:48:47.366 > checking launch
+03:48:47.381 > checking launch
+03:48:47.381 > checking launch
+03:48:47.394 > checking launch
+03:48:47.394 > checking launch
+03:48:47.394 > checking launch
+03:48:47.394 > checking launch
+03:48:47.400 > checking launch
+03:48:47.400 > checking launch
+03:48:47.400 > checking launch
+03:48:47.400 > accel_av_square_sum: 0.9620
+03:48:47.405 > checking launch
+03:48:47.405 > checking launch
+03:48:47.405 > checking launch
+03:48:47.410 > checking launch
+03:48:47.410 > checking launch
+03:48:47.410 > checking launch
+03:48:47.417 > checking launch
+03:48:47.417 > checking launch
+03:48:47.417 > checking launch
+03:48:47.417 > checking launch
+03:48:47.427 > checking launch
+03:48:47.427 > checking launch
+03:48:47.427 > checking launch
+03:48:47.427 > checking launch
+03:48:47.435 > checking launch
+03:48:47.435 > checking launch
+03:48:47.435 > checking launch
+03:48:47.443 > checking launch
+03:48:47.443 > checking launch
+03:48:47.443 > checking launch
+03:48:47.443 > accel_av_square_sum: 0.5700
+03:48:47.448 > checking launch
+03:48:47.448 > checking launch
+03:48:47.448 > checking launch
+03:48:47.454 > checking launch
+03:48:47.454 > checking launch
+03:48:47.454 > checking launch
+03:48:47.454 > checking launch
+03:48:47.460 > checking launch
+03:48:47.460 > checking launch
+03:48:47.460 > checking launch
+03:48:47.470 > checking launch
+03:48:47.470 > checking launch
+03:48:47.470 > checking launch
+03:48:47.470 > checking launch
+03:48:47.475 > checking launch
+03:48:47.475 > checking launch
+03:48:47.475 > checking launch
+03:48:47.475 > checking launch
+03:48:47.480 > checking launch
+03:48:47.480 > checking launch
+03:48:47.480 > accel_av_square_sum: 3.5396
+03:48:47.486 > checking launch
+03:48:47.486 > checking launch
+03:48:47.486 > checking launch
+03:48:47.493 > checking launch
+03:48:47.493 > checking launch
+03:48:47.493 > checking launch
+03:48:47.493 > checking launch
+03:48:47.499 > checking launch
+03:48:47.499 > checking launch
+03:48:47.499 > checking launch
+03:48:47.499 > checking launch
+03:48:47.505 > checking launch
+03:48:47.505 > checking launch
+03:48:47.505 > checking launch
+03:48:47.513 > checking launch
+03:48:47.513 > checking launch
+03:48:47.513 > checking launch
+03:48:47.513 > checking launch
+03:48:47.523 > checking launch
+03:48:47.523 > checking launch
+03:48:47.523 > accel_av_square_sum: 4.5881
+03:48:47.528 > checking launch
+03:48:47.528 > launch detected, checking apogee
+03:48:47.533 > launch detected, checking apogee
+03:48:47.533 > launch detected, checking apogee
+03:48:47.539 > launch detected, checking apogee
+03:48:47.539 > launch detected, checking apogee
+03:48:47.544 > launch detected, checking apogee
+03:48:47.544 > launch detected, checking apogee
+03:48:47.559 > launch detected, checking apogee
+03:48:47.585 > launch detected, checking apogee
+03:48:47.585 > launch detected, checking apogee
+03:48:47.590 > launch detected, checking apogee
+03:48:47.590 > launch detected, checking apogee
+03:48:47.603 > launch detected, checking apogee
+03:48:47.603 > launch detected, checking apogee
+03:48:47.608 > launch detected, checking apogee
+03:48:47.608 > launch detected, checking apogee
+03:48:47.613 > launch detected, checking apogee
+03:48:47.613 > launch detected, checking apogee
+03:48:47.619 > launch detected, checking apogee
+03:48:47.624 > launch detected, checking apogee
+03:48:47.624 > launch detected, checking apogee
+03:48:47.629 > launch detected, checking apogee
+03:48:47.629 > launch detected, checking apogee
+03:48:47.635 > launch detected, checking apogee
+03:48:47.635 > launch detected, checking apogee
+03:48:47.640 > launch detected, checking apogee
+03:48:47.640 > launch detected, checking apogee
+03:48:47.693 > launch detected, checking apogee
+03:48:47.694 > launch detected, checking apogee
+03:48:47.699 > launch detected, checking apogee
+03:48:47.699 > launch detected, checking apogee
+03:48:47.704 > launch detected, checking apogee
+03:48:47.704 > launch detected, checking apogee
+03:48:47.710 > launch detected, checking apogee
+03:48:47.710 > launch detected, checking apogee
+03:48:47.715 > launch detected, checking apogee
+03:48:47.715 > launch detected, checking apogee
+03:48:47.721 > launch detected, checking apogee
+03:48:47.726 > launch detected, checking apogee
+03:48:47.726 > launch detected, checking apogee
+03:48:47.731 > launch detected, checking apogee
+03:48:47.731 > launch detected, checking apogee
+03:48:47.737 > launch detected, checking apogee
+03:48:47.737 > launch detected, checking apogee
+03:48:47.742 > launch detected, checking apogee
+03:48:47.742 > launch detected, checking apogee
+03:48:47.747 > launch detected, checking apogee
+03:48:47.747 > launch detected, checking apogee
+03:48:47.788 > launch detected, checking apogee
+03:48:47.788 > launch detected, checking apogee
+03:48:47.793 > launch detected, checking apogee
+03:48:47.793 > launch detected, checking apogee
+03:48:47.798 > launch detected, checking apogee
+03:48:47.798 > launch detected, checking apogee
+03:48:47.804 > launch detected, checking apogee
+03:48:47.804 > launch detected, checking apogee
+03:48:47.809 > launch detected, checking apogee
+03:48:47.809 > launch detected, checking apogee
+03:48:47.815 > launch detected, checking apogee
+03:48:47.820 > launch detected, checking apogee
+03:48:47.820 > launch detected, checking apogee
+03:48:47.826 > launch detected, checking apogee
+03:48:47.826 > launch detected, checking apogee
+03:48:47.831 > launch detected, checking apogee
+03:48:47.831 > launch detected, checking apogee
+03:48:47.836 > launch detected, checking apogee
+03:48:47.836 > launch detected, checking apogee
+03:48:47.842 > launch detected, checking apogee
+03:48:47.842 > launch detected, checking apogee
+03:48:47.847 > launch detected, checking apogee
+03:48:47.855 > launch detected, checking apogee
+03:48:47.855 > launch detected, checking apogee
+03:48:47.871 > launch detected, checking apogee
+03:48:47.878 > launch detected, checking apogee
+03:48:47.878 > launch detected, checking apogee
+03:48:47.884 > launch detected, checking apogee
+03:48:47.884 > launch detected, checking apogee
+03:48:47.889 > launch detected, checking apogee
+03:48:47.889 > launch detected, checking apogee
+03:48:47.894 > launch detected, checking apogee
+03:48:47.894 > launch detected, checking apogee
+03:48:47.905 > launch detected, checking apogee
+03:48:47.905 > launch detected, checking apogee
+03:48:47.910 > launch detected, checking apogee
+03:48:47.915 > launch detected, checking apogee
+03:48:47.915 > launch detected, checking apogee
+03:48:47.921 > launch detected, checking apogee
+03:48:47.921 > launch detected, checking apogee
+03:48:47.926 > launch detected, checking apogee
+03:48:47.926 > launch detected, checking apogee
+03:48:47.931 > launch detected, checking apogee
+03:48:47.931 > launch detected, checking apogee
+03:48:47.939 > launch detected, checking apogee
+03:48:47.939 > launch detected, checking apogee
+03:48:47.944 > launch detected, checking apogee
+03:48:47.950 > launch detected, checking apogee
+03:48:47.950 > launch detected, checking apogee
+03:48:47.956 > launch detected, checking apogee
+03:48:47.956 > launch detected, checking apogee
+03:48:47.961 > launch detected, checking apogee
+03:48:47.961 > launch detected, checking apogee
+03:48:47.966 > launch detected, checking apogee
+03:48:47.966 > launch detected, checking apogee
+03:48:47.972 > launch detected, checking apogee
+03:48:47.977 > launch detected, checking apogee
+03:48:47.977 > launch detected, checking apogee
+03:48:47.982 > launch detected, checking apogee
+03:48:47.982 > launch detected, checking apogee
+03:48:47.988 > launch detected, checking apogee
+03:48:47.988 > launch detected, checking apogee
+03:48:47.994 > launch detected, checking apogee
+03:48:47.994 > launch detected, checking apogee
+03:48:47.999 > launch detected, checking apogee
+03:48:47.999 > launch detected, checking apogee
+03:48:48.005 > launch detected, checking apogee
+03:48:48.010 > launch detected, checking apogee
+03:48:48.010 > launch detected, checking apogee
+03:48:48.016 > launch detected, checking apogee
+03:48:48.016 > launch detected, checking apogee
+03:48:48.021 > launch detected, checking apogee
+03:48:48.021 > launch detected, checking apogee
+03:48:48.027 > launch detected, checking apogee
+03:48:48.027 > launch detected, checking apogee
+03:48:48.032 > launch detected, checking apogee
+03:48:48.032 > launch detected, checking apogee
+03:48:48.037 > launch detected, checking apogee
+03:48:48.043 > launch detected, checking apogee
+03:48:48.043 > launch detected, checking apogee
+03:48:48.048 > launch detected, checking apogee
+03:48:48.048 > launch detected, checking apogee
+03:48:48.053 > launch detected, checking apogee
+03:48:48.053 > launch detected, checking apogee
+03:48:48.059 > launch detected, checking apogee
+03:48:48.059 > launch detected, checking apogee
+03:48:48.064 > launch detected, checking apogee
+03:48:48.069 > launch detected, checking apogee
+03:48:48.069 > launch detected, checking apogee
+03:48:48.075 > launch detected, checking apogee
+03:48:48.075 > launch detected, checking apogee
+03:48:48.090 > launch detected, checking apogee
+03:48:48.103 > launch detected, checking apogee
+03:48:48.103 > launch detected, checking apogee
+03:48:48.108 > launch detected, checking apogee
+03:48:48.108 > launch detected, checking apogee
+03:48:48.113 > launch detected, checking apogee
+03:48:48.113 > launch detected, checking apogee
+03:48:48.120 > launch detected, checking apogee
+03:48:48.120 > launch detected, checking apogee
+03:48:48.125 > launch detected, checking apogee
+03:48:48.125 > launch detected, checking apogee
+03:48:48.141 > launch detected, checking apogee
+03:48:48.146 > launch detected, checking apogee
+03:48:48.146 > launch detected, checking apogee
+03:48:48.162 > launch detected, checking apogee
+03:48:48.162 > launch detected, checking apogee
+03:48:48.167 > launch detected, checking apogee
+03:48:48.167 > launch detected, checking apogee
+03:48:48.173 > launch detected, checking apogee
+03:48:48.173 > launch detected, checking apogee
+03:48:48.178 > launch detected, checking apogee
+03:48:48.178 > launch detected, checking apogee
+03:48:48.183 > launch detected, checking apogee
+03:48:48.189 > launch detected, checking apogee
+03:48:48.189 > launch detected, checking apogee
+03:48:48.194 > launch detected, checking apogee
+03:48:48.194 > launch detected, checking apogee
+03:48:48.239 > launch detected, checking apogee
+03:48:48.239 > launch detected, checking apogee
+03:48:48.244 > launch detected, checking apogee
+03:48:48.244 > launch detected, checking apogee
+03:48:48.249 > launch detected, checking apogee
+03:48:48.249 > launch detected, checking apogee
+03:48:48.255 > launch detected, checking apogee
+03:48:48.255 > launch detected, checking apogee
+03:48:48.260 > launch detected, checking apogee
+03:48:48.260 > launch detected, checking apogee
+03:48:48.265 > launch detected, checking apogee
+03:48:48.271 > launch detected, checking apogee
+03:48:48.271 > launch detected, checking apogee
+03:48:48.276 > launch detected, checking apogee
+03:48:48.276 > launch detected, checking apogee
+03:48:48.282 > launch detected, checking apogee
+03:48:48.282 > launch detected, checking apogee
+03:48:48.288 > launch detected, checking apogee
+03:48:48.288 > launch detected, checking apogee
+03:48:48.293 > launch detected, checking apogee
+03:48:48.293 > launch detected, checking apogee
+03:48:48.298 > launch detected, checking apogee
+03:48:48.304 > launch detected, checking apogee
+03:48:48.304 > launch detected, checking apogee
+03:48:48.309 > launch detected, checking apogee
+03:48:48.309 > launch detected, checking apogee
+03:48:48.323 > launch detected, checking apogee
+03:48:48.323 > launch detected, checking apogee
+03:48:48.328 > launch detected, checking apogee
+03:48:48.328 > launch detected, checking apogee
+03:48:48.334 > launch detected, checking apogee
+03:48:48.339 > launch detected, checking apogee
+03:48:48.339 > launch detected, checking apogee
+03:48:48.345 > launch detected, checking apogee
+03:48:48.345 > launch detected, checking apogee
+03:48:48.350 > launch detected, checking apogee
+03:48:48.350 > launch detected, checking apogee
+03:48:48.355 > launch detected, checking apogee
+03:48:48.355 > launch detected, checking apogee
+03:48:48.361 > launch detected, checking apogee
+03:48:48.361 > launch detected, checking apogee
+03:48:48.366 > launch detected, checking apogee
+03:48:48.371 > launch detected, checking apogee
+03:48:48.371 > launch detected, checking apogee
+03:48:48.377 > launch detected, checking apogee
+03:48:48.377 > launch detected, checking apogee
+03:48:48.382 > launch detected, checking apogee
+03:48:48.382 > launch detected, checking apogee
+03:48:48.387 > launch detected, checking apogee
+03:48:48.387 > launch detected, checking apogee
+03:48:48.393 > launch detected, checking apogee
+03:48:48.393 > launch detected, checking apogee
+03:48:48.398 > launch detected, checking apogee
+03:48:48.403 > launch detected, checking apogee
+03:48:48.403 > launch detected, checking apogee
+03:48:48.409 > launch detected, checking apogee
+03:48:48.409 > launch detected, checking apogee
+03:48:48.414 > launch detected, checking apogee
+03:48:48.414 > launch detected, checking apogee
+03:48:48.419 > launch detected, checking apogee
+03:48:48.419 > launch detected, checking apogee
+03:48:48.425 > launch detected, checking apogee
+03:48:48.438 > launch detected, checking apogee
+03:48:48.438 > launch detected, checking apogee
+03:48:48.443 > launch detected, checking apogee
+03:48:48.443 > launch detected, checking apogee
+03:48:48.448 > launch detected, checking apogee
+03:48:48.448 > launch detected, checking apogee
+03:48:48.454 > launch detected, checking apogee
+03:48:48.454 > launch detected, checking apogee
+03:48:48.459 > launch detected, checking apogee
+03:48:48.459 > launch detected, checking apogee
+03:48:48.464 > launch detected, checking apogee
+03:48:48.470 > launch detected, checking apogee
+03:48:48.470 > launch detected, checking apogee
+03:48:48.475 > launch detected, checking apogee
+03:48:48.475 > launch detected, checking apogee
+03:48:48.480 > launch detected, checking apogee
+03:48:48.480 > launch detected, checking apogee
+03:48:48.486 > launch detected, checking apogee
+03:48:48.486 > launch detected, checking apogee
+03:48:48.491 > launch detected, checking apogee
+03:48:48.491 > launch detected, checking apogee
+03:48:48.497 > launch detected, checking apogee
+03:48:48.502 > launch detected, checking apogee
+03:48:48.502 > launch detected, checking apogee
+03:48:48.507 > launch detected, checking apogee
+03:48:48.507 > launch detected, checking apogee
+03:48:48.513 > launch detected, checking apogee
+03:48:48.513 > launch detected, checking apogee
+03:48:48.518 > launch detected, checking apogee
+03:48:48.518 > launch detected, checking apogee
+03:48:48.526 > launch detected, checking apogee
+03:48:48.531 > launch detected, checking apogee
+03:48:48.531 > launch detected, checking apogee
+03:48:48.537 > launch detected, checking apogee
+03:48:48.537 > launch detected, checking apogee
+03:48:48.565 > launch detected, checking apogee
+03:48:48.565 > launch detected, checking apogee
+03:48:48.570 > launch detected, checking apogee
+03:48:48.570 > launch detected, checking apogee
+03:48:48.575 > launch detected, checking apogee
+03:48:48.575 > launch detected, checking apogee
+03:48:48.581 > launch detected, checking apogee
+03:48:48.581 > launch detected, checking apogee
+03:48:48.586 > launch detected, checking apogee
+03:48:48.586 > launch detected, checking apogee
+03:48:48.591 > launch detected, checking apogee
+03:48:48.597 > launch detected, checking apogee
+03:48:48.597 > launch detected, checking apogee
+03:48:48.602 > launch detected, checking apogee
+03:48:48.602 > launch detected, checking apogee
+03:48:48.609 > launch detected, checking apogee
+03:48:48.609 > launch detected, checking apogee
+03:48:48.617 > launch detected, checking apogee
+03:48:48.617 > launch detected, checking apogee
+03:48:48.622 > launch detected, checking apogee
+03:48:48.622 > launch detected, checking apogee
+03:48:48.628 > launch detected, checking apogee
+03:48:48.633 > launch detected, checking apogee
+03:48:48.633 > launch detected, checking apogee
+03:48:48.638 > launch detected, checking apogee
+03:48:48.638 > launch detected, checking apogee
+03:48:48.644 > launch detected, checking apogee
+03:48:48.644 > launch detected, checking apogee
+03:48:48.649 > launch detected, checking apogee
+03:48:48.649 > launch detected, checking apogee
+03:48:48.654 > launch detected, checking apogee
+03:48:48.666 > launch detected, checking apogee
+03:48:48.666 > launch detected, checking apogee
+03:48:48.671 > launch detected, checking apogee
+03:48:48.671 > launch detected, checking apogee
+03:48:48.676 > launch detected, checking apogee
+03:48:48.676 > launch detected, checking apogee
+03:48:48.682 > launch detected, checking apogee
+03:48:48.682 > launch detected, checking apogee
+03:48:48.687 > launch detected, checking apogee
+03:48:48.687 > launch detected, checking apogee
+03:48:48.692 > launch detected, checking apogee
+03:48:48.698 > launch detected, checking apogee
+03:48:48.698 > launch detected, checking apogee
+03:48:48.703 > launch detected, checking apogee
+03:48:48.703 > launch detected, checking apogee
+03:48:48.710 > launch detected, checking apogee
+03:48:48.710 > launch detected, checking apogee
+03:48:48.716 > launch detected, checking apogee
+03:48:48.716 > launch detected, checking apogee
+03:48:48.721 > launch detected, checking apogee
+03:48:48.721 > launch detected, checking apogee
+03:48:48.726 > launch detected, checking apogee
+03:48:48.732 > launch detected, checking apogee
+03:48:48.732 > launch detected, checking apogee
+03:48:48.747 > launch detected, checking apogee
+03:48:48.763 > launch detected, checking apogee
+03:48:48.768 > launch detected, checking apogee
+03:48:48.768 > launch detected, checking apogee
+03:48:48.773 > launch detected, checking apogee
+03:48:48.773 > launch detected, checking apogee
+03:48:48.779 > launch detected, checking apogee
+03:48:48.794 > launch detected, checking apogee
+03:48:48.794 > launch detected, checking apogee
+03:48:48.800 > launch detected, checking apogee
+03:48:48.800 > launch detected, checking apogee
+03:48:48.805 > launch detected, checking apogee
+03:48:48.805 > launch detected, checking apogee
+03:48:48.811 > launch detected, checking apogee
+03:48:48.811 > launch detected, checking apogee
+03:48:48.816 > launch detected, checking apogee
+03:48:48.816 > launch detected, checking apogee
+03:48:48.821 > launch detected, checking apogee
+03:48:48.827 > launch detected, checking apogee
+03:48:48.827 > launch detected, checking apogee
+03:48:48.834 > launch detected, checking apogee
+03:48:48.834 > launch detected, checking apogee
+03:48:48.839 > launch detected, checking apogee
+03:48:48.839 > launch detected, checking apogee
+03:48:48.845 > launch detected, checking apogee
+03:48:48.845 > launch detected, checking apogee
+03:48:48.850 > launch detected, checking apogee
+03:48:48.850 > launch detected, checking apogee
+03:48:48.855 > launch detected, checking apogee
+03:48:48.862 > launch detected, checking apogee
+03:48:48.862 > launch detected, checking apogee
+03:48:48.868 > launch detected, checking apogee
+03:48:48.868 > launch detected, checking apogee
+03:48:48.873 > launch detected, checking apogee
+03:48:48.873 > launch detected, checking apogee
+03:48:48.878 > launch detected, checking apogee
+03:48:48.878 > launch detected, checking apogee
+03:48:48.884 > launch detected, checking apogee
+03:48:48.889 > launch detected, checking apogee
+03:48:48.889 > launch detected, checking apogee
+03:48:48.894 > launch detected, checking apogee
+03:48:48.894 > launch detected, checking apogee
+03:48:48.900 > launch detected, checking apogee
+03:48:48.900 > launch detected, checking apogee
+03:48:48.905 > launch detected, checking apogee
+03:48:48.905 > launch detected, checking apogee
+03:48:48.910 > launch detected, checking apogee
+03:48:48.910 > launch detected, checking apogee
+03:48:48.926 > launch detected, checking apogee
+03:48:48.931 > launch detected, checking apogee
+03:48:48.936 > launch detected, checking apogee
+03:48:48.936 > launch detected, checking apogee
+03:48:48.942 > launch detected, checking apogee
+03:48:48.942 > launch detected, checking apogee
+03:48:48.947 > launch detected, checking apogee
+03:48:48.947 > launch detected, checking apogee
+03:48:48.978 > launch detected, checking apogee
+03:48:48.984 > launch detected, checking apogee
+03:48:48.984 > launch detected, checking apogee
+03:48:48.989 > launch detected, checking apogee
+03:48:48.989 > launch detected, checking apogee
+03:48:48.994 > launch detected, checking apogee
+03:48:48.994 > launch detected, checking apogee
+03:48:49.000 > launch detected, checking apogee
+03:48:49.005 > launch detected, checking apogee
+03:48:49.005 > launch detected, checking apogee
+03:48:49.010 > launch detected, checking apogee
+03:48:49.010 > launch detected, checking apogee
+03:48:49.016 > launch detected, checking apogee
+03:48:49.016 > launch detected, checking apogee
+03:48:49.021 > launch detected, checking apogee
+03:48:49.021 > launch detected, checking apogee
+03:48:49.030 > launch detected, checking apogee
+03:48:49.030 > launch detected, checking apogee
+03:48:49.035 > launch detected, checking apogee
+03:48:49.040 > launch detected, checking apogee
+03:48:49.040 > launch detected, checking apogee
+03:48:49.045 > launch detected, checking apogee
+03:48:49.045 > launch detected, checking apogee
+03:48:49.051 > launch detected, checking apogee
+03:48:49.051 > launch detected, checking apogee
+03:48:49.056 > launch detected, checking apogee
+03:48:49.056 > launch detected, checking apogee
+03:48:49.062 > launch detected, checking apogee
+03:48:49.062 > launch detected, checking apogee
+03:48:49.067 > launch detected, checking apogee
+03:48:49.072 > launch detected, checking apogee
+03:48:49.072 > launch detected, checking apogee
+03:48:49.078 > launch detected, checking apogee
+03:48:49.078 > launch detected, checking apogee
+03:48:49.083 > launch detected, checking apogee
+03:48:49.083 > launch detected, checking apogee
+03:48:49.089 > launch detected, checking apogee
+03:48:49.089 > launch detected, checking apogee
+03:48:49.094 > launch detected, checking apogee
+03:48:49.099 > launch detected, checking apogee
+03:48:49.099 > launch detected, checking apogee
+03:48:49.105 > launch detected, checking apogee
+03:48:49.105 > launch detected, checking apogee
+03:48:49.110 > launch detected, checking apogee
+03:48:49.110 > launch detected, checking apogee
+03:48:49.115 > launch detected, checking apogee
+03:48:49.115 > launch detected, checking apogee
+03:48:49.121 > launch detected, checking apogee
+03:48:49.121 > launch detected, checking apogee
+03:48:49.126 > launch detected, checking apogee
+03:48:49.138 > launch detected, checking apogee
+03:48:49.138 > launch detected, checking apogee
+03:48:49.143 > launch detected, checking apogee
+03:48:49.143 > launch detected, checking apogee
+03:48:49.148 > launch detected, checking apogee
+03:48:49.148 > launch detected, checking apogee
+03:48:49.156 > launch detected, checking apogee
+03:48:49.156 > launch detected, checking apogee
+03:48:49.161 > launch detected, checking apogee
+03:48:49.161 > launch detected, checking apogee
+03:48:49.240 > launch detected, checking apogee
+03:48:49.240 > launch detected, checking apogee
+03:48:49.245 > launch detected, checking apogee
+03:48:49.245 > launch detected, checking apogee
+03:48:49.250 > launch detected, checking apogee
+03:48:49.250 > launch detected, checking apogee
+03:48:49.256 > launch detected, checking apogee
+03:48:49.256 > launch detected, checking apogee
+03:48:49.261 > launch detected, checking apogee
+03:48:49.261 > launch detected, checking apogee
+03:48:49.266 > launch detected, checking apogee
+03:48:49.272 > launch detected, checking apogee
+03:48:49.272 > launch detected, checking apogee
+03:48:49.277 > launch detected, checking apogee
+03:48:49.277 > launch detected, checking apogee
+03:48:49.282 > launch detected, checking apogee
+03:48:49.282 > launch detected, checking apogee
+03:48:49.288 > launch detected, checking apogee
+03:48:49.288 > launch detected, checking apogee
+03:48:49.293 > launch detected, checking apogee
+03:48:49.293 > launch detected, checking apogee
+03:48:49.298 > launch detected, checking apogee
+03:48:49.304 > launch detected, checking apogee
+03:48:49.304 > launch detected, checking apogee
+03:48:49.309 > launch detected, checking apogee
+03:48:49.309 > launch detected, checking apogee
+03:48:49.315 > launch detected, checking apogee
+03:48:49.315 > launch detected, checking apogee
+03:48:49.322 > launch detected, checking apogee
+03:48:49.322 > launch detected, checking apogee
+03:48:49.327 > launch detected, checking apogee
+03:48:49.332 > launch detected, checking apogee
+03:48:49.332 > launch detected, checking apogee
+03:48:49.338 > launch detected, checking apogee
+03:48:49.338 > launch detected, checking apogee
+03:48:49.346 > launch detected, checking apogee
+03:48:49.346 > launch detected, checking apogee
+03:48:49.351 > launch detected, checking apogee
+03:48:49.351 > launch detected, checking apogee
+03:48:49.363 > launch detected, checking apogee
+03:48:49.363 > launch detected, checking apogee
+03:48:49.368 > launch detected, checking apogee
+03:48:49.373 > launch detected, checking apogee
+03:48:49.373 > launch detected, checking apogee
+03:48:49.378 > launch detected, checking apogee
+03:48:49.378 > launch detected, checking apogee
+03:48:49.384 > launch detected, checking apogee
+03:48:49.384 > launch detected, checking apogee
+03:48:49.389 > launch detected, checking apogee
+03:48:49.389 > launch detected, checking apogee
+03:48:49.402 > launch detected, checking apogee
+03:48:49.402 > launch detected, checking apogee
+03:48:49.408 > launch detected, checking apogee
+03:48:49.413 > launch detected, checking apogee
+03:48:49.413 > launch detected, checking apogee
+03:48:49.418 > launch detected, checking apogee
+03:48:49.418 > launch detected, checking apogee
+03:48:49.424 > launch detected, checking apogee
+03:48:49.424 > launch detected, checking apogee
+03:48:49.429 > launch detected, checking apogee
+03:48:49.429 > launch detected, checking apogee
+03:48:49.435 > launch detected, checking apogee
+03:48:49.448 > launch detected, checking apogee
+03:48:49.448 > launch detected, checking apogee
+03:48:49.453 > launch detected, checking apogee
+03:48:49.453 > launch detected, checking apogee
+03:48:49.458 > launch detected, checking apogee
+03:48:49.458 > launch detected, checking apogee
+03:48:49.464 > launch detected, checking apogee
+03:48:49.464 > launch detected, checking apogee
+03:48:49.470 > launch detected, checking apogee
+03:48:49.470 > launch detected, checking apogee
+03:48:49.475 > launch detected, checking apogee
+03:48:49.480 > launch detected, checking apogee
+03:48:49.480 > launch detected, checking apogee
+03:48:49.486 > launch detected, checking apogee
+03:48:49.486 > launch detected, checking apogee
+03:48:49.491 > launch detected, checking apogee
+03:48:49.491 > launch detected, checking apogee
+03:48:49.496 > launch detected, checking apogee
+03:48:49.496 > launch detected, checking apogee
+03:48:49.502 > launch detected, checking apogee
+03:48:49.502 > launch detected, checking apogee
+03:48:49.507 > launch detected, checking apogee
+03:48:49.512 > launch detected, checking apogee
+03:48:49.512 > launch detected, checking apogee
+03:48:49.518 > launch detected, checking apogee
+03:48:49.518 > launch detected, checking apogee
+03:48:49.526 > launch detected, checking apogee
+03:48:49.526 > launch detected, checking apogee
+03:48:49.531 > launch detected, checking apogee
+03:48:49.531 > launch detected, checking apogee
+03:48:49.537 > launch detected, checking apogee
+03:48:49.542 > launch detected, checking apogee
+03:48:49.542 > launch detected, checking apogee
+03:48:49.547 > launch detected, checking apogee
+03:48:49.547 > launch detected, checking apogee
+03:48:49.554 > launch detected, checking apogee
+03:48:49.554 > launch detected, checking apogee
+03:48:49.565 > launch detected, checking apogee
+03:48:49.565 > launch detected, checking apogee
+03:48:49.570 > launch detected, checking apogee
+03:48:49.570 > launch detected, checking apogee
+03:48:49.576 > launch detected, checking apogee
+03:48:49.581 > launch detected, checking apogee
+03:48:49.581 > launch detected, checking apogee
+03:48:49.587 > launch detected, checking apogee
+03:48:49.587 > launch detected, checking apogee
+03:48:49.592 > launch detected, checking apogee
+03:48:49.592 > launch detected, checking apogee
+03:48:49.597 > launch detected, checking apogee
+03:48:49.597 > launch detected, checking apogee
+03:48:49.603 > launch detected, checking apogee
+03:48:49.603 > launch detected, checking apogee
+03:48:49.608 > launch detected, checking apogee
+03:48:49.613 > launch detected, checking apogee
+03:48:49.613 > launch detected, checking apogee
+03:48:49.619 > launch detected, checking apogee
+03:48:49.619 > launch detected, checking apogee
+03:48:49.624 > launch detected, checking apogee
+03:48:49.624 > launch detected, checking apogee
+03:48:49.630 > launch detected, checking apogee
+03:48:49.630 > launch detected, checking apogee
+03:48:49.635 > launch detected, checking apogee
+03:48:49.640 > launch detected, checking apogee
+03:48:49.640 > launch detected, checking apogee
+03:48:49.646 > launch detected, checking apogee
+03:48:49.646 > launch detected, checking apogee
+03:48:49.657 > launch detected, checking apogee
+03:48:49.657 > launch detected, checking apogee
+03:48:49.662 > launch detected, checking apogee
+03:48:49.662 > launch detected, checking apogee
+03:48:49.667 > launch detected, checking apogee
+03:48:49.667 > launch detected, checking apogee
+03:48:49.673 > launch detected, checking apogee
+03:48:49.678 > launch detected, checking apogee
+03:48:49.678 > launch detected, checking apogee
+03:48:49.683 > launch detected, checking apogee
+03:48:49.683 > launch detected, checking apogee
+03:48:49.696 > launch detected, checking apogee
+03:48:49.696 > launch detected, checking apogee
+03:48:49.702 > launch detected, checking apogee
+03:48:49.702 > launch detected, checking apogee
+03:48:49.707 > launch detected, checking apogee
+03:48:49.707 > launch detected, checking apogee
+03:48:49.712 > launch detected, checking apogee
+03:48:49.718 > launch detected, checking apogee
+03:48:49.718 > launch detected, checking apogee
+03:48:49.723 > launch detected, checking apogee
+03:48:49.723 > launch detected, checking apogee
+03:48:49.735 > launch detected, checking apogee
+03:48:49.735 > launch detected, checking apogee
+03:48:49.741 > launch detected, checking apogee
+03:48:49.741 > launch detected, checking apogee
+03:48:49.746 > launch detected, checking apogee
+03:48:49.751 > launch detected, checking apogee
+03:48:49.751 > launch detected, checking apogee
+03:48:49.757 > launch detected, checking apogee
+03:48:49.757 > launch detected, checking apogee
+03:48:49.762 > launch detected, checking apogee
+03:48:49.762 > launch detected, checking apogee
+03:48:49.768 > launch detected, checking apogee
+03:48:49.768 > launch detected, checking apogee
+03:48:49.773 > launch detected, checking apogee
+03:48:49.773 > launch detected, checking apogee
+03:48:49.778 > launch detected, checking apogee
+03:48:49.784 > launch detected, checking apogee
+03:48:49.784 > launch detected, checking apogee
+03:48:49.790 > launch detected, checking apogee
+03:48:49.790 > launch detected, checking apogee
+03:48:49.795 > launch detected, checking apogee
+03:48:49.795 > launch detected, checking apogee
+03:48:49.801 > launch detected, checking apogee
+03:48:49.801 > launch detected, checking apogee
+03:48:49.806 > launch detected, checking apogee
+03:48:49.806 > launch detected, checking apogee
+03:48:49.811 > launch detected, checking apogee
+03:48:49.817 > launch detected, checking apogee
+03:48:49.817 > launch detected, checking apogee
+03:48:49.822 > launch detected, checking apogee
+03:48:49.822 > launch detected, checking apogee
+03:48:49.827 > launch detected, checking apogee
+03:48:49.827 > launch detected, checking apogee
+03:48:49.833 > launch detected, checking apogee
+03:48:49.833 > launch detected, checking apogee
+03:48:49.838 > launch detected, checking apogee
+03:48:49.843 > launch detected, checking apogee
+03:48:49.843 > launch detected, checking apogee
+03:48:49.849 > launch detected, checking apogee
+03:48:49.849 > launch detected, checking apogee
+03:48:49.854 > launch detected, checking apogee
+03:48:49.854 > launch detected, checking apogee
+03:48:49.863 > launch detected, checking apogee
+03:48:49.863 > launch detected, checking apogee
+03:48:49.868 > launch detected, checking apogee
+03:48:49.868 > launch detected, checking apogee
+03:48:49.874 > launch detected, checking apogee
+03:48:49.879 > launch detected, checking apogee
+03:48:49.879 > launch detected, checking apogee
+03:48:49.884 > launch detected, checking apogee
+03:48:49.884 > launch detected, checking apogee
+03:48:49.890 > launch detected, checking apogee
+03:48:49.890 > launch detected, checking apogee
+03:48:49.895 > launch detected, checking apogee
+03:48:49.895 > launch detected, checking apogee
+03:48:49.900 > launch detected, checking apogee
+03:48:49.900 > launch detected, checking apogee
+03:48:49.906 > launch detected, checking apogee
+03:48:49.911 > launch detected, checking apogee
+03:48:49.911 > launch detected, checking apogee
+03:48:49.917 > launch detected, checking apogee
+03:48:49.917 > launch detected, checking apogee
+03:48:49.922 > launch detected, checking apogee
+03:48:49.922 > launch detected, checking apogee
+03:48:49.927 > launch detected, checking apogee
+03:48:49.927 > launch detected, checking apogee
+03:48:49.933 > launch detected, checking apogee
+03:48:49.938 > launch detected, checking apogee
+03:48:49.938 > launch detected, checking apogee
+03:48:49.943 > launch detected, checking apogee
+03:48:49.943 > launch detected, checking apogee
+03:48:49.949 > launch detected, checking apogee
+03:48:49.949 > launch detected, checking apogee
+03:48:49.954 > launch detected, checking apogee
+03:48:49.954 > launch detected, checking apogee
+03:48:49.962 > launch detected, checking apogee
+03:48:49.962 > launch detected, checking apogee
+03:48:49.968 > launch detected, checking apogee
+03:48:49.973 > launch detected, checking apogee
+03:48:49.973 > launch detected, checking apogee
+03:48:49.978 > launch detected, checking apogee
+03:48:49.978 > launch detected, checking apogee
+03:48:49.985 > launch detected, checking apogee
+03:48:49.985 > launch detected, checking apogee
+03:48:49.991 > launch detected, checking apogee
+03:48:49.991 > launch detected, checking apogee
+03:48:49.996 > launch detected, checking apogee
+03:48:49.996 > launch detected, checking apogee
+03:48:50.001 > launch detected, checking apogee
+03:48:50.008 > launch detected, checking apogee
+03:48:50.008 > launch detected, checking apogee
+03:48:50.014 > launch detected, checking apogee
+03:48:50.014 > launch detected, checking apogee
+03:48:50.019 > launch detected, checking apogee
+03:48:50.019 > launch detected, checking apogee
+03:48:50.024 > launch detected, checking apogee
+03:48:50.024 > launch detected, checking apogee
+03:48:50.030 > launch detected, checking apogee
+03:48:50.035 > launch detected, checking apogee
+03:48:50.035 > launch detected, checking apogee
+03:48:50.046 > launch detected, checking apogee
+03:48:50.046 > launch detected, checking apogee
+03:48:50.051 > launch detected, checking apogee
+03:48:50.051 > launch detected, checking apogee
+03:48:50.057 > launch detected, checking apogee
+03:48:50.057 > launch detected, checking apogee
+03:48:50.065 > launch detected, checking apogee
+03:48:50.065 > launch detected, checking apogee
+03:48:50.071 > launch detected, checking apogee
+03:48:50.076 > launch detected, checking apogee
+03:48:50.076 > launch detected, checking apogee
+03:48:50.085 > launch detected, checking apogee
+03:48:50.085 > launch detected, checking apogee
+03:48:50.090 > launch detected, checking apogee
+03:48:50.090 > launch detected, checking apogee
+03:48:50.113 > launch detected, checking apogee
+03:48:50.113 > launch detected, checking apogee
+03:48:50.118 > launch detected, checking apogee
+03:48:50.118 > launch detected, checking apogee
+03:48:50.123 > launch detected, checking apogee
+03:48:50.123 > launch detected, checking apogee
+03:48:50.128 > launch detected, checking apogee
+03:48:50.128 > launch detected, checking apogee
+03:48:50.134 > launch detected, checking apogee
+03:48:50.134 > launch detected, checking apogee
+03:48:50.139 > launch detected, checking apogee
+03:48:50.144 > launch detected, checking apogee
+03:48:50.144 > launch detected, checking apogee
+03:48:50.150 > launch detected, checking apogee
+03:48:50.150 > launch detected, checking apogee
+03:48:50.158 > launch detected, checking apogee
+03:48:50.158 > launch detected, checking apogee
+03:48:50.164 > launch detected, checking apogee
+03:48:50.164 > launch detected, checking apogee
+03:48:50.169 > launch detected, checking apogee
+03:48:50.169 > launch detected, checking apogee
+03:48:50.174 > launch detected, checking apogee
+03:48:50.180 > launch detected, checking apogee
+03:48:50.180 > launch detected, checking apogee
+03:48:50.185 > launch detected, checking apogee
+03:48:50.185 > launch detected, checking apogee
+03:48:50.191 > launch detected, checking apogee
+03:48:50.191 > launch detected, checking apogee
+03:48:50.197 > launch detected, checking apogee
+03:48:50.197 > launch detected, checking apogee
+03:48:50.202 > launch detected, checking apogee
+03:48:50.207 > launch detected, checking apogee
+03:48:50.207 > launch detected, checking apogee
+03:48:50.213 > launch detected, checking apogee
+03:48:50.213 > launch detected, checking apogee
+03:48:50.218 > launch detected, checking apogee
+03:48:50.218 > launch detected, checking apogee
+03:48:50.224 > launch detected, checking apogee
+03:48:50.224 > launch detected, checking apogee
+03:48:50.229 > launch detected, checking apogee
+03:48:50.229 > launch detected, checking apogee
+03:48:50.234 > launch detected, checking apogee
+03:48:50.240 > launch detected, checking apogee
+03:48:50.240 > launch detected, checking apogee
+03:48:50.247 > launch detected, checking apogee
+03:48:50.247 > launch detected, checking apogee
+03:48:50.252 > launch detected, checking apogee
+03:48:50.252 > launch detected, checking apogee
+03:48:50.259 > launch detected, checking apogee
+03:48:50.259 > launch detected, checking apogee
+03:48:50.264 > launch detected, checking apogee
+03:48:50.264 > launch detected, checking apogee
+03:48:50.270 > launch detected, checking apogee
+03:48:50.275 > launch detected, checking apogee
+03:48:50.275 > launch detected, checking apogee
+03:48:50.280 > launch detected, checking apogee
+03:48:50.280 > launch detected, checking apogee
+03:48:50.291 > launch detected, checking apogee
+03:48:50.291 > launch detected, checking apogee
+03:48:50.296 > launch detected, checking apogee
+03:48:50.296 > launch detected, checking apogee
+03:48:50.302 > launch detected, checking apogee
+03:48:50.307 > launch detected, checking apogee
+03:48:50.307 > launch detected, checking apogee
+03:48:50.312 > launch detected, checking apogee
+03:48:50.312 > launch detected, checking apogee
+03:48:50.326 > launch detected, checking apogee
+03:48:50.326 > launch detected, checking apogee
+03:48:50.331 > launch detected, checking apogee
+03:48:50.331 > launch detected, checking apogee
+03:48:50.336 > launch detected, checking apogee
+03:48:50.336 > launch detected, checking apogee
+03:48:50.342 > launch detected, checking apogee
+03:48:50.347 > launch detected, checking apogee
+03:48:50.347 > launch detected, checking apogee
+03:48:50.353 > launch detected, checking apogee
+03:48:50.353 > launch detected, checking apogee
+03:48:50.358 > launch detected, checking apogee
+03:48:50.358 > launch detected, checking apogee
+03:48:50.364 > launch detected, checking apogee
+03:48:50.364 > launch detected, checking apogee
+03:48:50.369 > launch detected, checking apogee
+03:48:50.369 > launch detected, checking apogee
+03:48:50.374 > launch detected, checking apogee
+03:48:50.380 > launch detected, checking apogee
+03:48:50.380 > launch detected, checking apogee
+03:48:50.385 > launch detected, checking apogee
+03:48:50.385 > launch detected, checking apogee
+03:48:50.390 > launch detected, checking apogee
+03:48:50.390 > launch detected, checking apogee
+03:48:50.396 > launch detected, checking apogee
+03:48:50.396 > launch detected, checking apogee
+03:48:50.401 > launch detected, checking apogee
+03:48:50.406 > launch detected, checking apogee
+03:48:50.406 > launch detected, checking apogee
+03:48:50.412 > launch detected, checking apogee
+03:48:50.412 > launch detected, checking apogee
+03:48:50.418 > launch detected, checking apogee
+03:48:50.418 > launch detected, checking apogee
+03:48:50.423 > launch detected, checking apogee
+03:48:50.423 > launch detected, checking apogee
+03:48:50.428 > launch detected, checking apogee
+03:48:50.428 > launch detected, checking apogee
+03:48:50.434 > launch detected, checking apogee
+03:48:50.439 > launch detected, checking apogee
+03:48:50.439 > launch detected, checking apogee
+03:48:50.447 > launch detected, checking apogee
+03:48:50.447 > launch detected, checking apogee
+03:48:50.452 > launch detected, checking apogee
+03:48:50.452 > launch detected, checking apogee
+03:48:50.457 > launch detected, checking apogee
+03:48:50.457 > launch detected, checking apogee
+03:48:50.463 > launch detected, checking apogee
+03:48:50.463 > launch detected, checking apogee
+03:48:50.468 > launch detected, checking apogee
+03:48:50.476 > launch detected, checking apogee
+03:48:50.476 > launch detected, checking apogee
+03:48:50.481 > launch detected, checking apogee
+03:48:50.481 > launch detected, checking apogee
+03:48:50.487 > launch detected, checking apogee
+03:48:50.487 > launch detected, checking apogee
+03:48:50.492 > launch detected, checking apogee
+03:48:50.492 > launch detected, checking apogee
+03:48:50.500 > launch detected, checking apogee
+03:48:50.505 > launch detected, checking apogee
+03:48:50.505 > launch detected, checking apogee
+03:48:50.511 > launch detected, checking apogee
+03:48:50.511 > launch detected, checking apogee
+03:48:50.516 > launch detected, checking apogee
+03:48:50.516 > launch detected, checking apogee
+03:48:50.521 > launch detected, checking apogee
+03:48:50.521 > launch detected, checking apogee
+03:48:50.527 > launch detected, checking apogee
+03:48:50.527 > launch detected, checking apogee
+03:48:50.551 > launch detected, checking apogee
+03:48:50.551 > launch detected, checking apogee
+03:48:50.558 > launch detected, checking apogee
+03:48:50.558 > launch detected, checking apogee
+03:48:50.563 > launch detected, checking apogee
+03:48:50.563 > launch detected, checking apogee
+03:48:50.571 > launch detected, checking apogee
+03:48:50.571 > launch detected, checking apogee
+03:48:50.576 > launch detected, checking apogee
+03:48:50.576 > launch detected, checking apogee
+03:48:50.582 > launch detected, checking apogee
+03:48:50.587 > launch detected, checking apogee
+03:48:50.587 > launch detected, checking apogee
+03:48:50.592 > launch detected, checking apogee
+03:48:50.592 > launch detected, checking apogee
+03:48:50.598 > launch detected, checking apogee
+03:48:50.598 > launch detected, checking apogee
+03:48:50.603 > launch detected, checking apogee
+03:48:50.603 > launch detected, checking apogee
+03:48:50.609 > launch detected, checking apogee
+03:48:50.609 > launch detected, checking apogee
+03:48:50.615 > launch detected, checking apogee
+03:48:50.620 > launch detected, checking apogee
+03:48:50.620 > launch detected, checking apogee
+03:48:50.625 > launch detected, checking apogee
+03:48:50.625 > launch detected, checking apogee
+03:48:50.631 > launch detected, checking apogee
+03:48:50.631 > launch detected, checking apogee
+03:48:50.637 > launch detected, checking apogee
+03:48:50.637 > launch detected, checking apogee
+03:48:50.642 > launch detected, checking apogee
+03:48:50.647 > launch detected, checking apogee
+03:48:50.647 > launch detected, checking apogee
+03:48:50.653 > launch detected, checking apogee
+03:48:50.653 > launch detected, checking apogee
+03:48:50.658 > launch detected, checking apogee
+03:48:50.658 > launch detected, checking apogee
+03:48:50.663 > launch detected, checking apogee
+03:48:50.663 > launch detected, checking apogee
+03:48:50.669 > launch detected, checking apogee
+03:48:50.669 > launch detected, checking apogee
+03:48:50.674 > launch detected, checking apogee
+03:48:50.679 > launch detected, checking apogee
+03:48:50.679 > launch detected, checking apogee
+03:48:50.694 > launch detected, checking apogee
+03:48:50.694 > launch detected, checking apogee
+03:48:50.700 > launch detected, checking apogee
+03:48:50.700 > launch detected, checking apogee
+03:48:50.705 > launch detected, checking apogee
+03:48:50.705 > launch detected, checking apogee
+03:48:50.710 > launch detected, checking apogee
+03:48:50.716 > launch detected, checking apogee
+03:48:50.716 > launch detected, checking apogee
+03:48:50.721 > launch detected, checking apogee
+03:48:50.721 > launch detected, checking apogee
+03:48:50.727 > launch detected, checking apogee
+03:48:50.727 > launch detected, checking apogee
+03:48:50.733 > launch detected, checking apogee
+03:48:50.733 > launch detected, checking apogee
+03:48:50.738 > launch detected, checking apogee
+03:48:50.738 > launch detected, checking apogee
+03:48:50.743 > launch detected, checking apogee
+03:48:50.749 > launch detected, checking apogee
+03:48:50.749 > launch detected, checking apogee
+03:48:50.754 > launch detected, checking apogee
+03:48:50.754 > launch detected, checking apogee
+03:48:50.766 > launch detected, checking apogee
+03:48:50.766 > launch detected, checking apogee
+03:48:50.771 > launch detected, checking apogee
+03:48:50.771 > launch detected, checking apogee
+03:48:50.777 > launch detected, checking apogee
+03:48:50.782 > launch detected, checking apogee
+03:48:50.782 > launch detected, checking apogee
+03:48:50.788 > launch detected, checking apogee
+03:48:50.788 > launch detected, checking apogee
+03:48:50.803 > launch detected, checking apogee
+03:48:50.803 > launch detected, checking apogee
+03:48:50.812 > launch detected, checking apogee
+03:48:50.812 > launch detected, checking apogee
+03:48:50.817 > launch detected, checking apogee
+03:48:50.817 > launch detected, checking apogee
+03:48:50.823 > launch detected, checking apogee
+03:48:50.828 > launch detected, checking apogee
+03:48:50.828 > launch detected, checking apogee
+03:48:50.833 > launch detected, checking apogee
+03:48:50.833 > launch detected, checking apogee
+03:48:50.839 > launch detected, checking apogee
+03:48:50.839 > launch detected, checking apogee
+03:48:50.844 > launch detected, checking apogee
+03:48:50.844 > launch detected, checking apogee
+03:48:50.849 > launch detected, checking apogee
+03:48:50.849 > launch detected, checking apogee
+03:48:50.855 > launch detected, checking apogee
+03:48:50.860 > launch detected, checking apogee
+03:48:50.860 > launch detected, checking apogee
+03:48:50.872 > launch detected, checking apogee
+03:48:50.872 > launch detected, checking apogee
+03:48:50.878 > launch detected, checking apogee
+03:48:50.878 > launch detected, checking apogee
+03:48:50.883 > launch detected, checking apogee
+03:48:50.883 > launch detected, checking apogee
+03:48:50.889 > launch detected, checking apogee
+03:48:50.899 > launch detected, checking apogee
+03:48:50.899 > launch detected, checking apogee
+03:48:50.905 > launch detected, checking apogee
+03:48:50.905 > launch detected, checking apogee
+03:48:50.910 > launch detected, checking apogee
+03:48:50.910 > launch detected, checking apogee
+03:48:50.916 > launch detected, checking apogee
+03:48:50.916 > launch detected, checking apogee
+03:48:50.921 > launch detected, checking apogee
+03:48:50.921 > launch detected, checking apogee
+03:48:50.926 > launch detected, checking apogee
+03:48:50.932 > launch detected, checking apogee
+03:48:50.932 > launch detected, checking apogee
+03:48:50.937 > launch detected, checking apogee
+03:48:50.937 > launch detected, checking apogee
+03:48:50.942 > launch detected, checking apogee
+03:48:50.942 > launch detected, checking apogee
+03:48:50.949 > launch detected, checking apogee
+03:48:50.949 > launch detected, checking apogee
+03:48:50.954 > launch detected, checking apogee
+03:48:50.954 > launch detected, checking apogee
+03:48:50.959 > launch detected, checking apogee
+03:48:50.965 > launch detected, checking apogee
+03:48:50.965 > launch detected, checking apogee
+03:48:50.970 > launch detected, checking apogee
+03:48:50.970 > launch detected, checking apogee
+03:48:50.975 > launch detected, checking apogee
+03:48:50.975 > launch detected, checking apogee
+03:48:50.981 > launch detected, checking apogee
+03:48:50.981 > launch detected, checking apogee
+03:48:50.986 > launch detected, checking apogee
+03:48:50.992 > launch detected, checking apogee
+03:48:50.992 > launch detected, checking apogee
+03:48:50.997 > launch detected, checking apogee
+03:48:50.997 > launch detected, checking apogee
+03:48:51.003 > launch detected, checking apogee
+03:48:51.003 > launch detected, checking apogee
+03:48:51.011 > launch detected, checking apogee
+03:48:51.011 > launch detected, checking apogee
+03:48:51.016 > launch detected, checking apogee
+03:48:51.016 > launch detected, checking apogee
+03:48:51.022 > launch detected, checking apogee
+03:48:51.027 > launch detected, checking apogee
+03:48:51.027 > launch detected, checking apogee
+03:48:51.032 > launch detected, checking apogee
+03:48:51.032 > launch detected, checking apogee
+03:48:51.038 > launch detected, checking apogee
+03:48:51.038 > launch detected, checking apogee
+03:48:51.043 > launch detected, checking apogee
+03:48:51.043 > launch detected, checking apogee
+03:48:51.048 > launch detected, checking apogee
+03:48:51.048 > launch detected, checking apogee
+03:48:51.054 > launch detected, checking apogee
+03:48:51.059 > launch detected, checking apogee
+03:48:51.059 > launch detected, checking apogee
+03:48:51.064 > launch detected, checking apogee
+03:48:51.064 > launch detected, checking apogee
+03:48:51.070 > launch detected, checking apogee
+03:48:51.070 > launch detected, checking apogee
+03:48:51.075 > launch detected, checking apogee
+03:48:51.075 > launch detected, checking apogee
+03:48:51.080 > launch detected, checking apogee
+03:48:51.086 > launch detected, checking apogee
+03:48:51.086 > launch detected, checking apogee
+03:48:51.091 > launch detected, checking apogee
+03:48:51.091 > launch detected, checking apogee
+03:48:51.101 > launch detected, checking apogee
+03:48:51.101 > launch detected, checking apogee
+03:48:51.107 > launch detected, checking apogee
+03:48:51.107 > launch detected, checking apogee
+03:48:51.112 > launch detected, checking apogee
+03:48:51.112 > launch detected, checking apogee
+03:48:51.118 > launch detected, checking apogee
+03:48:51.123 > launch detected, checking apogee
+03:48:51.123 > launch detected, checking apogee
+03:48:51.128 > launch detected, checking apogee
+03:48:51.128 > launch detected, checking apogee
+03:48:51.134 > launch detected, checking apogee
+03:48:51.134 > launch detected, checking apogee
+03:48:51.148 > launch detected, checking apogee
+03:48:51.148 > launch detected, checking apogee
+03:48:51.153 > launch detected, checking apogee
+03:48:51.153 > launch detected, checking apogee
+03:48:51.158 > launch detected, checking apogee
+03:48:51.164 > launch detected, checking apogee
+03:48:51.164 > launch detected, checking apogee
+03:48:51.170 > launch detected, checking apogee
+03:48:51.170 > launch detected, checking apogee
+03:48:51.175 > launch detected, checking apogee
+03:48:51.175 > launch detected, checking apogee
+03:48:51.180 > launch detected, checking apogee
+03:48:51.180 > launch detected, checking apogee
+03:48:51.186 > launch detected, checking apogee
+03:48:51.191 > launch detected, checking apogee
+03:48:51.191 > launch detected, checking apogee
+03:48:51.196 > launch detected, checking apogee
+03:48:51.196 > launch detected, checking apogee
+03:48:51.202 > launch detected, checking apogee
+03:48:51.202 > launch detected, checking apogee
+03:48:51.207 > launch detected, checking apogee
+03:48:51.207 > launch detected, checking apogee
+03:48:51.213 > launch detected, checking apogee
+03:48:51.213 > launch detected, checking apogee
+03:48:51.218 > launch detected, checking apogee
+03:48:51.223 > launch detected, checking apogee
+03:48:51.223 > launch detected, checking apogee
+03:48:51.229 > launch detected, checking apogee
+03:48:51.229 > launch detected, checking apogee
+03:48:51.234 > launch detected, checking apogee
+03:48:51.234 > launch detected, checking apogee
+03:48:51.239 > launch detected, checking apogee
+03:48:51.239 > launch detected, checking apogee
+03:48:51.245 > launch detected, checking apogee
+03:48:51.245 > launch detected, checking apogee
+03:48:51.250 > launch detected, checking apogee
+03:48:51.255 > launch detected, checking apogee
+03:48:51.255 > launch detected, checking apogee
+03:48:51.261 > launch detected, checking apogee
+03:48:51.261 > launch detected, checking apogee
+03:48:51.267 > launch detected, checking apogee
+03:48:51.267 > launch detected, checking apogee
+03:48:51.273 > launch detected, checking apogee
+03:48:51.273 > launch detected, checking apogee
+03:48:51.278 > launch detected, checking apogee
+03:48:51.283 > launch detected, checking apogee
+03:48:51.283 > launch detected, checking apogee
+03:48:51.295 > launch detected, checking apogee
+03:48:51.295 > launch detected, checking apogee
+03:48:51.300 > launch detected, checking apogee
+03:48:51.300 > launch detected, checking apogee
+03:48:51.307 > launch detected, checking apogee
+03:48:51.307 > launch detected, checking apogee
+03:48:51.312 > launch detected, checking apogee
+03:48:51.312 > launch detected, checking apogee
+03:48:51.318 > launch detected, checking apogee
+03:48:51.323 > launch detected, checking apogee
+03:48:51.323 > launch detected, checking apogee
+03:48:51.328 > launch detected, checking apogee
+03:48:51.328 > launch detected, checking apogee
+03:48:51.334 > launch detected, checking apogee
+03:48:51.334 > launch detected, checking apogee
+03:48:51.340 > launch detected, checking apogee
+03:48:51.340 > launch detected, checking apogee
+03:48:51.345 > launch detected, checking apogee
+03:48:51.345 > launch detected, checking apogee
+03:48:51.350 > launch detected, checking apogee
+03:48:51.359 > launch detected, checking apogee
+03:48:51.359 > launch detected, checking apogee
+03:48:51.367 > launch detected, checking apogee
+03:48:51.367 > launch detected, checking apogee
+03:48:51.372 > launch detected, checking apogee
+03:48:51.372 > launch detected, checking apogee
+03:48:51.377 > launch detected, checking apogee
+03:48:51.377 > launch detected, checking apogee
+03:48:51.383 > launch detected, checking apogee
+03:48:51.388 > launch detected, checking apogee
+03:48:51.388 > launch detected, checking apogee
+03:48:51.393 > launch detected, checking apogee
+03:48:51.393 > launch detected, checking apogee
+03:48:51.399 > launch detected, checking apogee
+03:48:51.399 > launch detected, checking apogee
+03:48:51.404 > launch detected, checking apogee
+03:48:51.404 > launch detected, checking apogee
+03:48:51.409 > launch detected, checking apogee
+03:48:51.409 > launch detected, checking apogee
+03:48:51.415 > launch detected, checking apogee
+03:48:51.424 > launch detected, checking apogee
+03:48:51.424 > launch detected, checking apogee
+03:48:51.431 > launch detected, checking apogee
+03:48:51.431 > launch detected, checking apogee
+03:48:51.437 > launch detected, checking apogee
+03:48:51.437 > launch detected, checking apogee
+03:48:51.462 > launch detected, checking apogee
+03:48:51.462 > launch detected, checking apogee
+03:48:51.467 > launch detected, checking apogee
+03:48:51.467 > launch detected, checking apogee
+03:48:51.480 > launch detected, checking apogee
+03:48:51.480 > launch detected, checking apogee
+03:48:51.493 > launch detected, checking apogee
+03:48:51.493 > launch detected, checking apogee
+03:48:51.498 > launch detected, checking apogee
+03:48:51.498 > launch detected, checking apogee
+03:48:51.504 > launch detected, checking apogee
+03:48:51.519 > launch detected, checking apogee
+03:48:51.526 > launch detected, checking apogee
+03:48:51.526 > launch detected, checking apogee
+03:48:51.531 > launch detected, checking apogee
+03:48:51.531 > launch detected, checking apogee
+03:48:51.536 > launch detected, checking apogee
+03:48:51.536 > launch detected, checking apogee
+03:48:51.542 > launch detected, checking apogee
+03:48:51.542 > launch detected, checking apogee
+03:48:51.553 > launch detected, checking apogee
+03:48:51.553 > launch detected, checking apogee
+03:48:51.558 > launch detected, checking apogee
+03:48:51.565 > launch detected, checking apogee
+03:48:51.565 > launch detected, checking apogee
+03:48:51.571 > launch detected, checking apogee
+03:48:51.571 > launch detected, checking apogee
+03:48:51.586 > launch detected, checking apogee
+03:48:51.591 > launch detected, checking apogee
+03:48:51.592 > launch detected, checking apogee
+03:48:51.597 > launch detected, checking apogee
+03:48:51.597 > launch detected, checking apogee
+03:48:51.602 > launch detected, checking apogee
+03:48:51.602 > launch detected, checking apogee
+03:48:51.608 > launch detected, checking apogee
+03:48:51.608 > launch detected, checking apogee
+03:48:51.613 > launch detected, checking apogee
+03:48:51.613 > launch detected, checking apogee
+03:48:51.643 > launch detected, checking apogee
+03:48:51.643 > launch detected, checking apogee
+03:48:51.648 > launch detected, checking apogee
+03:48:51.648 > launch detected, checking apogee
+03:48:51.653 > launch detected, checking apogee
+03:48:51.653 > launch detected, checking apogee
+03:48:51.659 > launch detected, checking apogee
+03:48:51.659 > launch detected, checking apogee
+03:48:51.664 > launch detected, checking apogee
+03:48:51.664 > launch detected, checking apogee
+03:48:51.670 > launch detected, checking apogee
+03:48:51.675 > launch detected, checking apogee
+03:48:51.675 > launch detected, checking apogee
+03:48:51.680 > launch detected, checking apogee
+03:48:51.680 > launch detected, checking apogee
+03:48:51.686 > launch detected, checking apogee
+03:48:51.686 > launch detected, checking apogee
+03:48:51.695 > launch detected, checking apogee
+03:48:51.695 > launch detected, checking apogee
+03:48:51.700 > launch detected, checking apogee
+03:48:51.700 > launch detected, checking apogee
+03:48:51.706 > launch detected, checking apogee
+03:48:51.711 > launch detected, checking apogee
+03:48:51.711 > launch detected, checking apogee
+03:48:51.724 > launch detected, checking apogee
+03:48:51.724 > launch detected, checking apogee
+03:48:51.729 > launch detected, checking apogee
+03:48:51.729 > launch detected, checking apogee
+03:48:51.740 > launch detected, checking apogee
+03:48:51.740 > launch detected, checking apogee
+03:48:51.745 > launch detected, checking apogee
+03:48:51.750 > launch detected, checking apogee
+03:48:51.750 > launch detected, checking apogee
+03:48:51.756 > launch detected, checking apogee
+03:48:51.756 > launch detected, checking apogee
+03:48:51.761 > launch detected, checking apogee
+03:48:51.761 > launch detected, checking apogee
+03:48:51.766 > launch detected, checking apogee
+03:48:51.766 > launch detected, checking apogee
+03:48:51.776 > launch detected, checking apogee
+03:48:51.776 > launch detected, checking apogee
+03:48:51.781 > launch detected, checking apogee
+03:48:51.786 > launch detected, checking apogee
+03:48:51.786 > launch detected, checking apogee
+03:48:51.792 > launch detected, checking apogee
+03:48:51.792 > launch detected, checking apogee
+03:48:51.799 > launch detected, checking apogee
+03:48:51.799 > launch detected, checking apogee
+03:48:51.805 > launch detected, checking apogee
+03:48:51.805 > launch detected, checking apogee
+03:48:51.811 > launch detected, checking apogee
+03:48:51.811 > launch detected, checking apogee
+03:48:51.817 > launch detected, checking apogee
+03:48:51.822 > launch detected, checking apogee
+03:48:51.822 > launch detected, checking apogee
+03:48:51.827 > launch detected, checking apogee
+03:48:51.827 > launch detected, checking apogee
+03:48:51.833 > launch detected, checking apogee
+03:48:51.833 > launch detected, checking apogee
+03:48:51.838 > launch detected, checking apogee
+03:48:51.838 > launch detected, checking apogee
+03:48:51.843 > launch detected, checking apogee
+03:48:51.849 > launch detected, checking apogee
+03:48:51.849 > launch detected, checking apogee
+03:48:51.854 > launch detected, checking apogee
+03:48:51.854 > launch detected, checking apogee
+03:48:51.861 > launch detected, checking apogee
+03:48:51.861 > launch detected, checking apogee
+03:48:51.867 > launch detected, checking apogee
+03:48:51.867 > launch detected, checking apogee
+03:48:51.874 > launch detected, checking apogee
+03:48:51.874 > launch detected, checking apogee
+03:48:51.879 > launch detected, checking apogee
+03:48:51.889 > launch detected, checking apogee
+03:48:51.889 > launch detected, checking apogee
+03:48:51.898 > launch detected, checking apogee
+03:48:51.898 > launch detected, checking apogee
+03:48:51.903 > launch detected, checking apogee
+03:48:51.903 > launch detected, checking apogee
+03:48:51.909 > launch detected, checking apogee
+03:48:51.909 > launch detected, checking apogee
+03:48:51.918 > launch detected, checking apogee
+03:48:51.918 > launch detected, checking apogee
+03:48:51.924 > launch detected, checking apogee
+03:48:51.929 > launch detected, checking apogee
+03:48:51.929 > launch detected, checking apogee
+03:48:51.942 > launch detected, checking apogee
+03:48:51.942 > launch detected, checking apogee
+03:48:51.953 > launch detected, checking apogee
+03:48:51.953 > launch detected, checking apogee
+03:48:51.959 > launch detected, checking apogee
+03:48:51.959 > launch detected, checking apogee
+03:48:51.964 > launch detected, checking apogee
+03:48:51.970 > launch detected, checking apogee
+03:48:51.970 > launch detected, checking apogee
+03:48:51.975 > launch detected, checking apogee
+03:48:51.975 > launch detected, checking apogee
+03:48:51.980 > launch detected, checking apogee
+03:48:51.980 > launch detected, checking apogee
+03:48:51.986 > launch detected, checking apogee
+03:48:51.986 > launch detected, checking apogee
+03:48:51.991 > launch detected, checking apogee
+03:48:51.991 > launch detected, checking apogee
+03:48:51.997 > launch detected, checking apogee
+03:48:52.002 > launch detected, checking apogee
+03:48:52.002 > launch detected, checking apogee
+03:48:52.010 > launch detected, checking apogee
+03:48:52.010 > launch detected, checking apogee
+03:48:52.018 > launch detected, checking apogee
+03:48:52.018 > launch detected, checking apogee
+03:48:52.024 > launch detected, checking apogee
+03:48:52.024 > launch detected, checking apogee
+03:48:52.029 > launch detected, checking apogee
+03:48:52.029 > launch detected, checking apogee
+03:48:52.038 > launch detected, checking apogee
+03:48:52.047 > launch detected, checking apogee
+03:48:52.047 > launch detected, checking apogee
+03:48:52.053 > launch detected, checking apogee
+03:48:52.053 > launch detected, checking apogee
+03:48:52.066 > launch detected, checking apogee
+03:48:52.066 > launch detected, checking apogee
+03:48:52.072 > launch detected, checking apogee
+03:48:52.072 > launch detected, checking apogee
+03:48:52.080 > launch detected, checking apogee
+03:48:52.085 > launch detected, checking apogee
+03:48:52.085 > launch detected, checking apogee
+03:48:52.091 > launch detected, checking apogee
+03:48:52.091 > launch detected, checking apogee
+03:48:52.096 > launch detected, checking apogee
+03:48:52.096 > launch detected, checking apogee
+03:48:52.101 > launch detected, checking apogee
+03:48:52.101 > launch detected, checking apogee
+03:48:52.108 > launch detected, checking apogee
+03:48:52.108 > launch detected, checking apogee
+03:48:52.114 > launch detected, checking apogee
+03:48:52.128 > launch detected, checking apogee
+03:48:52.128 > launch detected, checking apogee
+03:48:52.134 > launch detected, checking apogee
+03:48:52.134 > launch detected, checking apogee
+03:48:52.139 > launch detected, checking apogee
+03:48:52.139 > launch detected, checking apogee
+03:48:52.144 > launch detected, checking apogee
+03:48:52.144 > launch detected, checking apogee
+03:48:52.153 > launch detected, checking apogee
+03:48:52.153 > launch detected, checking apogee
+03:48:52.159 > launch detected, checking apogee
+03:48:52.164 > launch detected, checking apogee
+03:48:52.164 > launch detected, checking apogee
+03:48:52.171 > launch detected, checking apogee
+03:48:52.171 > launch detected, checking apogee
+03:48:52.178 > launch detected, checking apogee
+03:48:52.178 > launch detected, checking apogee
+03:48:52.192 > launch detected, checking apogee
+03:48:52.192 > launch detected, checking apogee
+03:48:52.197 > launch detected, checking apogee
+03:48:52.202 > launch detected, checking apogee
+03:48:52.202 > launch detected, checking apogee
+03:48:52.208 > launch detected, checking apogee
+03:48:52.208 > launch detected, checking apogee
+03:48:52.213 > launch detected, checking apogee
+03:48:52.213 > launch detected, checking apogee
+03:48:52.218 > launch detected, checking apogee
+03:48:52.218 > launch detected, checking apogee
+03:48:52.224 > launch detected, checking apogee
+03:48:52.224 > launch detected, checking apogee
+03:48:52.229 > launch detected, checking apogee
+03:48:52.239 > launch detected, checking apogee
+03:48:52.239 > launch detected, checking apogee
+03:48:52.244 > launch detected, checking apogee
+03:48:52.244 > launch detected, checking apogee
+03:48:52.249 > launch detected, checking apogee
+03:48:52.249 > launch detected, checking apogee
+03:48:52.255 > launch detected, checking apogee
+03:48:52.255 > launch detected, checking apogee
+03:48:52.260 > launch detected, checking apogee
+03:48:52.260 > launch detected, checking apogee
+03:48:52.265 > launch detected, checking apogee
+03:48:52.271 > launch detected, checking apogee
+03:48:52.271 > launch detected, checking apogee
+03:48:52.281 > launch detected, checking apogee
+03:48:52.281 > launch detected, checking apogee
+03:48:52.286 > launch detected, checking apogee
+03:48:52.286 > launch detected, checking apogee
+03:48:52.291 > launch detected, checking apogee
+03:48:52.291 > launch detected, checking apogee
+03:48:52.297 > launch detected, checking apogee
+03:48:52.302 > launch detected, checking apogee
+03:48:52.302 > launch detected, checking apogee
+03:48:52.308 > launch detected, checking apogee
+03:48:52.308 > launch detected, checking apogee
+03:48:52.313 > launch detected, checking apogee
+03:48:52.313 > launch detected, checking apogee
+03:48:52.318 > launch detected, checking apogee
+03:48:52.318 > launch detected, checking apogee
+03:48:52.333 > launch detected, checking apogee
+03:48:52.347 > launch detected, checking apogee
+03:48:52.347 > launch detected, checking apogee
+03:48:52.352 > launch detected, checking apogee
+03:48:52.352 > launch detected, checking apogee
+03:48:52.357 > launch detected, checking apogee
+03:48:52.357 > launch detected, checking apogee
+03:48:52.363 > launch detected, checking apogee
+03:48:52.363 > launch detected, checking apogee
+03:48:52.368 > launch detected, checking apogee
+03:48:52.368 > launch detected, checking apogee
+03:48:52.373 > launch detected, checking apogee
+03:48:52.379 > launch detected, checking apogee
+03:48:52.379 > launch detected, checking apogee
+03:48:52.384 > launch detected, checking apogee
+03:48:52.384 > launch detected, checking apogee
+03:48:52.389 > launch detected, checking apogee
+03:48:52.389 > launch detected, checking apogee
+03:48:52.401 > launch detected, checking apogee
+03:48:52.401 > launch detected, checking apogee
+03:48:52.406 > launch detected, checking apogee
+03:48:52.406 > launch detected, checking apogee
+03:48:52.411 > launch detected, checking apogee
+03:48:52.421 > launch detected, checking apogee
+03:48:52.421 > launch detected, checking apogee
+03:48:52.431 > launch detected, checking apogee
+03:48:52.431 > launch detected, checking apogee
+03:48:52.436 > launch detected, checking apogee
+03:48:52.436 > launch detected, checking apogee
+03:48:52.443 > launch detected, checking apogee
+03:48:52.443 > launch detected, checking apogee
+03:48:52.448 > launch detected, checking apogee
+03:48:52.453 > launch detected, checking apogee
+03:48:52.454 > launch detected, checking apogee
+03:48:52.459 > launch detected, checking apogee
+03:48:52.459 > launch detected, checking apogee
+03:48:52.466 > launch detected, checking apogee
+03:48:52.466 > launch detected, checking apogee
+03:48:52.475 > launch detected, checking apogee
+03:48:52.475 > launch detected, checking apogee
+03:48:52.490 > launch detected, checking apogee
+03:48:52.502 > launch detected, checking apogee
+03:48:52.502 > launch detected, checking apogee
+03:48:52.507 > launch detected, checking apogee
+03:48:52.507 > launch detected, checking apogee
+03:48:52.516 > launch detected, checking apogee
+03:48:52.516 > launch detected, checking apogee
+03:48:52.521 > launch detected, checking apogee
+03:48:52.521 > launch detected, checking apogee
+03:48:52.529 > launch detected, checking apogee
+03:48:52.529 > launch detected, checking apogee
+03:48:52.535 > launch detected, checking apogee
+03:48:52.541 > launch detected, checking apogee
+03:48:52.541 > launch detected, checking apogee
+03:48:52.547 > launch detected, checking apogee
+03:48:52.547 > launch detected, checking apogee
+03:48:52.552 > launch detected, checking apogee
+03:48:52.552 > launch detected, checking apogee
+03:48:52.557 > launch detected, checking apogee
+03:48:52.557 > launch detected, checking apogee
+03:48:52.563 > launch detected, checking apogee
+03:48:52.563 > launch detected, checking apogee
+03:48:52.568 > launch detected, checking apogee
+03:48:52.573 > launch detected, checking apogee
+03:48:52.573 > launch detected, checking apogee
+03:48:52.579 > launch detected, checking apogee
+03:48:52.579 > launch detected, checking apogee
+03:48:52.584 > launch detected, checking apogee
+03:48:52.584 > launch detected, checking apogee
+03:48:52.589 > launch detected, checking apogee
+03:48:52.589 > launch detected, checking apogee
+03:48:52.595 > launch detected, checking apogee
+03:48:52.600 > launch detected, checking apogee
+03:48:52.600 > launch detected, checking apogee
+03:48:52.606 > launch detected, checking apogee
+03:48:52.606 > launch detected, checking apogee
+03:48:52.611 > launch detected, checking apogee
+03:48:52.611 > launch detected, checking apogee
+03:48:52.616 > launch detected, checking apogee
+03:48:52.616 > launch detected, checking apogee
+03:48:52.622 > launch detected, checking apogee
+03:48:52.622 > launch detected, checking apogee
+03:48:52.627 > launch detected, checking apogee
+03:48:52.632 > launch detected, checking apogee
+03:48:52.632 > launch detected, checking apogee
+03:48:52.642 > launch detected, checking apogee
+03:48:52.642 > launch detected, checking apogee
+03:48:52.647 > launch detected, checking apogee
+03:48:52.647 > launch detected, checking apogee
+03:48:52.653 > launch detected, checking apogee
+03:48:52.653 > launch detected, checking apogee
+03:48:52.658 > launch detected, checking apogee
+03:48:52.658 > launch detected, checking apogee
+03:48:52.663 > launch detected, checking apogee
+03:48:52.669 > launch detected, checking apogee
+03:48:52.669 > launch detected, checking apogee
+03:48:52.674 > launch detected, checking apogee
+03:48:52.674 > launch detected, checking apogee
+03:48:52.679 > launch detected, checking apogee
+03:48:52.679 > launch detected, checking apogee
+03:48:52.685 > launch detected, checking apogee
+03:48:52.685 > launch detected, checking apogee
+03:48:52.690 > launch detected, checking apogee
+03:48:52.705 > launch detected, checking apogee
+03:48:52.711 > launch detected, checking apogee
+03:48:52.711 > launch detected, checking apogee
+03:48:52.716 > launch detected, checking apogee
+03:48:52.716 > launch detected, checking apogee
+03:48:52.722 > launch detected, checking apogee
+03:48:52.727 > launch detected, checking apogee
+03:48:52.727 > launch detected, checking apogee
+03:48:52.732 > launch detected, checking apogee
+03:48:52.732 > launch detected, checking apogee
+03:48:52.738 > launch detected, checking apogee
+03:48:52.738 > launch detected, checking apogee
+03:48:52.743 > launch detected, checking apogee
+03:48:52.743 > launch detected, checking apogee
+03:48:52.748 > launch detected, checking apogee
+03:48:52.748 > launch detected, checking apogee
+03:48:52.754 > launch detected, checking apogee
+03:48:52.759 > launch detected, checking apogee
+03:48:52.759 > launch detected, checking apogee
+03:48:52.764 > launch detected, checking apogee
+03:48:52.764 > launch detected, checking apogee
+03:48:52.770 > launch detected, checking apogee
+03:48:52.770 > launch detected, checking apogee
+03:48:52.775 > launch detected, checking apogee
+03:48:52.775 > launch detected, checking apogee
+03:48:52.781 > launch detected, checking apogee
+03:48:52.786 > launch detected, checking apogee
+03:48:52.786 > launch detected, checking apogee
+03:48:52.791 > launch detected, checking apogee
+03:48:52.791 > launch detected, checking apogee
+03:48:52.798 > launch detected, checking apogee
+03:48:52.798 > launch detected, checking apogee
+03:48:52.814 > launch detected, checking apogee
+03:48:52.825 > launch detected, checking apogee
+03:48:52.825 > launch detected, checking apogee
+03:48:52.830 > launch detected, checking apogee
+03:48:52.830 > launch detected, checking apogee
+03:48:52.835 > launch detected, checking apogee
+03:48:52.835 > launch detected, checking apogee
+03:48:52.841 > launch detected, checking apogee
+03:48:52.841 > launch detected, checking apogee
+03:48:52.846 > launch detected, checking apogee
+03:48:52.846 > launch detected, checking apogee
+03:48:52.855 > launch detected, checking apogee
+03:48:52.860 > launch detected, checking apogee
+03:48:52.860 > launch detected, checking apogee
+03:48:52.875 > launch detected, checking apogee
+03:48:52.875 > launch detected, checking apogee
+03:48:52.881 > launch detected, checking apogee
+03:48:52.886 > launch detected, checking apogee
+03:48:52.886 > launch detected, checking apogee
+03:48:52.891 > launch detected, checking apogee
+03:48:52.891 > launch detected, checking apogee
+03:48:52.897 > launch detected, checking apogee
+03:48:52.897 > launch detected, checking apogee
+03:48:52.902 > launch detected, checking apogee
+03:48:52.902 > launch detected, checking apogee
+03:48:52.907 > launch detected, checking apogee
+03:48:52.913 > launch detected, checking apogee
+03:48:52.914 > launch detected, checking apogee
+03:48:52.919 > launch detected, checking apogee
+03:48:52.919 > launch detected, checking apogee
+03:48:52.924 > launch detected, checking apogee
+03:48:52.924 > launch detected, checking apogee
+03:48:52.929 > launch detected, checking apogee
+03:48:52.929 > launch detected, checking apogee
+03:48:52.935 > launch detected, checking apogee
+03:48:52.935 > launch detected, checking apogee
+03:48:52.940 > launch detected, checking apogee
+03:48:52.946 > launch detected, checking apogee
+03:48:52.946 > launch detected, checking apogee
+03:48:52.951 > launch detected, checking apogee
+03:48:52.951 > launch detected, checking apogee
+03:48:52.956 > launch detected, checking apogee
+03:48:52.956 > launch detected, checking apogee
+03:48:52.962 > launch detected, checking apogee
+03:48:52.962 > launch detected, checking apogee
+03:48:52.967 > launch detected, checking apogee
+03:48:52.967 > launch detected, checking apogee
+03:48:52.973 > launch detected, checking apogee
+03:48:52.978 > launch detected, checking apogee
+03:48:52.978 > launch detected, checking apogee
+03:48:52.983 > launch detected, checking apogee
+03:48:52.983 > launch detected, checking apogee
+03:48:52.989 > launch detected, checking apogee
+03:48:52.989 > launch detected, checking apogee
+03:48:52.996 > launch detected, checking apogee
+03:48:52.996 > launch detected, checking apogee
+03:48:53.001 > launch detected, checking apogee
+03:48:53.006 > launch detected, checking apogee
+03:48:53.006 > launch detected, checking apogee
+03:48:53.012 > launch detected, checking apogee
+03:48:53.012 > launch detected, checking apogee
+03:48:53.018 > launch detected, checking apogee
+03:48:53.018 > launch detected, checking apogee
+03:48:53.023 > launch detected, checking apogee
+03:48:53.023 > launch detected, checking apogee
+03:48:53.028 > launch detected, checking apogee
+03:48:53.028 > launch detected, checking apogee
+03:48:53.034 > launch detected, checking apogee
+03:48:53.039 > launch detected, checking apogee
+03:48:53.039 > launch detected, checking apogee
+03:48:53.044 > launch detected, checking apogee
+03:48:53.044 > launch detected, checking apogee
+03:48:53.050 > launch detected, checking apogee
+03:48:53.050 > launch detected, checking apogee
+03:48:53.055 > launch detected, checking apogee
+03:48:53.055 > launch detected, checking apogee
+03:48:53.060 > launch detected, checking apogee
+03:48:53.060 > launch detected, checking apogee
+03:48:53.066 > launch detected, checking apogee
+03:48:53.071 > launch detected, checking apogee
+03:48:53.071 > launch detected, checking apogee
+03:48:53.087 > launch detected, checking apogee
+03:48:53.097 > launch detected, checking apogee
+03:48:53.097 > launch detected, checking apogee
+03:48:53.102 > launch detected, checking apogee
+03:48:53.102 > launch detected, checking apogee
+03:48:53.109 > launch detected, checking apogee
+03:48:53.109 > launch detected, checking apogee
+03:48:53.114 > launch detected, checking apogee
+03:48:53.114 > launch detected, checking apogee
+03:48:53.119 > launch detected, checking apogee
+03:48:53.119 > launch detected, checking apogee
+03:48:53.125 > launch detected, checking apogee
+03:48:53.130 > launch detected, checking apogee
+03:48:53.130 > launch detected, checking apogee
+03:48:53.135 > launch detected, checking apogee
+03:48:53.135 > launch detected, checking apogee
+03:48:53.141 > launch detected, checking apogee
+03:48:53.141 > launch detected, checking apogee
+03:48:53.146 > launch detected, checking apogee
+03:48:53.146 > launch detected, checking apogee
+03:48:53.151 > launch detected, checking apogee
+03:48:53.151 > launch detected, checking apogee
+03:48:53.157 > launch detected, checking apogee
+03:48:53.162 > launch detected, checking apogee
+03:48:53.162 > launch detected, checking apogee
+03:48:53.171 > launch detected, checking apogee
+03:48:53.171 > launch detected, checking apogee
+03:48:53.176 > launch detected, checking apogee
+03:48:53.176 > launch detected, checking apogee
+03:48:53.181 > launch detected, checking apogee
+03:48:53.181 > launch detected, checking apogee
+03:48:53.187 > launch detected, checking apogee
+03:48:53.199 > launch detected, checking apogee
+03:48:53.199 > launch detected, checking apogee
+03:48:53.204 > launch detected, checking apogee
+03:48:53.204 > launch detected, checking apogee
+03:48:53.209 > launch detected, checking apogee
+03:48:53.209 > launch detected, checking apogee
+03:48:53.215 > launch detected, checking apogee
+03:48:53.215 > launch detected, checking apogee
+03:48:53.220 > launch detected, checking apogee
+03:48:53.220 > launch detected, checking apogee
+03:48:53.225 > launch detected, checking apogee
+03:48:53.231 > launch detected, checking apogee
+03:48:53.231 > launch detected, checking apogee
+03:48:53.236 > launch detected, checking apogee
+03:48:53.236 > launch detected, checking apogee
+03:48:53.246 > launch detected, checking apogee
+03:48:53.246 > launch detected, checking apogee
+03:48:53.252 > launch detected, checking apogee
+03:48:53.252 > launch detected, checking apogee
+03:48:53.258 > launch detected, checking apogee
+03:48:53.258 > launch detected, checking apogee
+03:48:53.264 > launch detected, checking apogee
+03:48:53.269 > launch detected, checking apogee
+03:48:53.269 > launch detected, checking apogee
+03:48:53.274 > launch detected, checking apogee
+03:48:53.274 > launch detected, checking apogee
+03:48:53.281 > launch detected, checking apogee
+03:48:53.281 > launch detected, checking apogee
+03:48:53.290 > launch detected, checking apogee
+03:48:53.290 > launch detected, checking apogee
+03:48:53.295 > launch detected, checking apogee
+03:48:53.301 > launch detected, checking apogee
+03:48:53.301 > launch detected, checking apogee
+03:48:53.306 > launch detected, checking apogee
+03:48:53.306 > launch detected, checking apogee
+03:48:53.311 > launch detected, checking apogee
+03:48:53.311 > launch detected, checking apogee
+03:48:53.317 > launch detected, checking apogee
+03:48:53.317 > launch detected, checking apogee
+03:48:53.324 > launch detected, checking apogee
+03:48:53.324 > launch detected, checking apogee
+03:48:53.329 > launch detected, checking apogee
+03:48:53.336 > launch detected, checking apogee
+03:48:53.336 > launch detected, checking apogee
+03:48:53.342 > launch detected, checking apogee
+03:48:53.342 > launch detected, checking apogee
+03:48:53.347 > launch detected, checking apogee
+03:48:53.347 > launch detected, checking apogee
+03:48:53.352 > launch detected, checking apogee
+03:48:53.352 > launch detected, checking apogee
+03:48:53.358 > launch detected, checking apogee
+03:48:53.358 > launch detected, checking apogee
+03:48:53.363 > launch detected, checking apogee
+03:48:53.369 > launch detected, checking apogee
+03:48:53.369 > launch detected, checking apogee
+03:48:53.374 > launch detected, checking apogee
+03:48:53.374 > launch detected, checking apogee
+03:48:53.382 > launch detected, checking apogee
+03:48:53.382 > launch detected, checking apogee
+03:48:53.388 > launch detected, checking apogee
+03:48:53.388 > launch detected, checking apogee
+03:48:53.393 > launch detected, checking apogee
+03:48:53.398 > launch detected, checking apogee
+03:48:53.398 > launch detected, checking apogee
+03:48:53.404 > launch detected, checking apogee
+03:48:53.404 > launch detected, checking apogee
+03:48:53.409 > launch detected, checking apogee
+03:48:53.409 > launch detected, checking apogee
+03:48:53.414 > launch detected, checking apogee
+03:48:53.414 > launch detected, checking apogee
+03:48:53.420 > launch detected, checking apogee
+03:48:53.420 > launch detected, checking apogee
+03:48:53.425 > launch detected, checking apogee
+03:48:53.430 > launch detected, checking apogee
+03:48:53.430 > launch detected, checking apogee
+03:48:53.436 > launch detected, checking apogee
+03:48:53.436 > launch detected, checking apogee
+03:48:53.441 > launch detected, checking apogee
+03:48:53.441 > launch detected, checking apogee
+03:48:53.449 > launch detected, checking apogee
+03:48:53.449 > launch detected, checking apogee
+03:48:53.464 > launch detected, checking apogee
+03:48:53.471 > launch detected, checking apogee
+03:48:53.471 > launch detected, checking apogee
+03:48:53.476 > launch detected, checking apogee
+03:48:53.476 > launch detected, checking apogee
+03:48:53.481 > launch detected, checking apogee
+03:48:53.481 > launch detected, checking apogee
+03:48:53.487 > launch detected, checking apogee
+03:48:53.487 > launch detected, checking apogee
+03:48:53.492 > launch detected, checking apogee
+03:48:53.492 > launch detected, checking apogee
+03:48:53.497 > launch detected, checking apogee
+03:48:53.503 > launch detected, checking apogee
+03:48:53.503 > launch detected, checking apogee
+03:48:53.508 > launch detected, checking apogee
+03:48:53.508 > launch detected, checking apogee
+03:48:53.513 > launch detected, checking apogee
+03:48:53.513 > launch detected, checking apogee
+03:48:53.519 > launch detected, checking apogee
+03:48:53.519 > launch detected, checking apogee
+03:48:53.528 > launch detected, checking apogee
+03:48:53.528 > launch detected, checking apogee
+03:48:53.534 > launch detected, checking apogee
+03:48:53.542 > launch detected, checking apogee
+03:48:53.542 > launch detected, checking apogee
+03:48:53.547 > launch detected, checking apogee
+03:48:53.547 > launch detected, checking apogee
+03:48:53.553 > launch detected, checking apogee
+03:48:53.553 > launch detected, checking apogee
+03:48:53.558 > launch detected, checking apogee
+03:48:53.558 > launch detected, checking apogee
+03:48:53.564 > launch detected, checking apogee
+03:48:53.569 > launch detected, checking apogee
+03:48:53.569 > launch detected, checking apogee
+03:48:53.574 > launch detected, checking apogee
+03:48:53.574 > launch detected, checking apogee
+03:48:53.580 > launch detected, checking apogee
+03:48:53.580 > launch detected, checking apogee
+03:48:53.585 > launch detected, checking apogee
+03:48:53.585 > launch detected, checking apogee
+03:48:53.590 > launch detected, checking apogee
+03:48:53.590 > launch detected, checking apogee
+03:48:53.596 > launch detected, checking apogee
+03:48:53.602 > launch detected, checking apogee
+03:48:53.602 > launch detected, checking apogee
+03:48:53.608 > launch detected, checking apogee
+03:48:53.608 > launch detected, checking apogee
+03:48:53.613 > launch detected, checking apogee
+03:48:53.613 > launch detected, checking apogee
+03:48:53.619 > launch detected, checking apogee
+03:48:53.619 > launch detected, checking apogee
+03:48:53.624 > launch detected, checking apogee
+03:48:53.624 > launch detected, checking apogee
+03:48:53.629 > launch detected, checking apogee
+03:48:53.635 > launch detected, checking apogee
+03:48:53.635 > launch detected, checking apogee
+03:48:53.640 > launch detected, checking apogee
+03:48:53.640 > launch detected, checking apogee
+03:48:53.645 > launch detected, checking apogee
+03:48:53.645 > launch detected, checking apogee
+03:48:53.651 > launch detected, checking apogee
+03:48:53.651 > launch detected, checking apogee
+03:48:53.656 > launch detected, checking apogee
+03:48:53.667 > launch detected, checking apogee
+03:48:53.667 > launch detected, checking apogee
+03:48:53.672 > launch detected, checking apogee
+03:48:53.672 > launch detected, checking apogee
+03:48:53.677 > launch detected, checking apogee
+03:48:53.677 > launch detected, checking apogee
+03:48:53.683 > launch detected, checking apogee
+03:48:53.683 > launch detected, checking apogee
+03:48:53.688 > launch detected, checking apogee
+03:48:53.688 > launch detected, checking apogee
+03:48:53.693 > launch detected, checking apogee
+03:48:53.699 > launch detected, checking apogee
+03:48:53.699 > launch detected, checking apogee
+03:48:53.704 > launch detected, checking apogee
+03:48:53.704 > launch detected, checking apogee
+03:48:53.709 > launch detected, checking apogee
+03:48:53.709 > launch detected, checking apogee
+03:48:53.715 > launch detected, checking apogee
+03:48:53.715 > launch detected, checking apogee
+03:48:53.720 > launch detected, checking apogee
+03:48:53.720 > launch detected, checking apogee
+03:48:53.725 > launch detected, checking apogee
+03:48:53.731 > launch detected, checking apogee
+03:48:53.731 > launch detected, checking apogee
+03:48:53.736 > launch detected, checking apogee
+03:48:53.736 > launch detected, checking apogee
+03:48:53.741 > launch detected, checking apogee
+03:48:53.741 > launch detected, checking apogee
+03:48:53.747 > launch detected, checking apogee
+03:48:53.747 > launch detected, checking apogee
+03:48:53.752 > launch detected, checking apogee
+03:48:53.758 > launch detected, checking apogee
+03:48:53.758 > launch detected, checking apogee
+03:48:53.763 > launch detected, checking apogee
+03:48:53.763 > launch detected, checking apogee
+03:48:53.768 > launch detected, checking apogee
+03:48:53.768 > launch detected, checking apogee
+03:48:53.774 > launch detected, checking apogee
+03:48:53.774 > launch detected, checking apogee
+03:48:53.789 > launch detected, checking apogee
+03:48:53.789 > launch detected, checking apogee
+03:48:53.794 > launch detected, checking apogee
+03:48:53.803 > launch detected, checking apogee
+03:48:53.803 > launch detected, checking apogee
+03:48:53.808 > launch detected, checking apogee
+03:48:53.808 > launch detected, checking apogee
+03:48:53.813 > launch detected, checking apogee
+03:48:53.813 > launch detected, checking apogee
+03:48:53.819 > launch detected, checking apogee
+03:48:53.819 > launch detected, checking apogee
+03:48:53.826 > launch detected, checking apogee
+03:48:53.826 > launch detected, checking apogee
+03:48:53.832 > launch detected, checking apogee
+03:48:53.837 > launch detected, checking apogee
+03:48:53.837 > launch detected, checking apogee
+03:48:53.842 > launch detected, checking apogee
+03:48:53.842 > launch detected, checking apogee
+03:48:53.848 > launch detected, checking apogee
+03:48:53.848 > launch detected, checking apogee
+03:48:53.853 > launch detected, checking apogee
+03:48:53.853 > launch detected, checking apogee
+03:48:53.858 > launch detected, checking apogee
+03:48:53.864 > launch detected, checking apogee
+03:48:53.864 > launch detected, checking apogee
+03:48:53.869 > launch detected, checking apogee
+03:48:53.869 > launch detected, checking apogee
+03:48:53.874 > launch detected, checking apogee
+03:48:53.874 > launch detected, checking apogee
+03:48:53.880 > launch detected, checking apogee
+03:48:53.880 > launch detected, checking apogee
+03:48:53.885 > launch detected, checking apogee
+03:48:53.885 > launch detected, checking apogee
+03:48:53.890 > launch detected, checking apogee
+03:48:53.896 > launch detected, checking apogee
+03:48:53.896 > launch detected, checking apogee
+03:48:53.901 > launch detected, checking apogee
+03:48:53.901 > launch detected, checking apogee
+03:48:53.907 > launch detected, checking apogee
+03:48:53.907 > launch detected, checking apogee
+03:48:53.912 > launch detected, checking apogee
+03:48:53.912 > launch detected, checking apogee
+03:48:53.917 > launch detected, checking apogee
+03:48:53.917 > launch detected, checking apogee
+03:48:53.923 > launch detected, checking apogee
+03:48:53.928 > launch detected, checking apogee
+03:48:53.928 > launch detected, checking apogee
+03:48:53.935 > launch detected, checking apogee
+03:48:53.935 > launch detected, checking apogee
+03:48:53.940 > launch detected, checking apogee
+03:48:53.940 > launch detected, checking apogee
+03:48:53.947 > launch detected, checking apogee
+03:48:53.947 > launch detected, checking apogee
+03:48:53.962 > launch detected, checking apogee
+03:48:53.967 > launch detected, checking apogee
+03:48:53.967 > launch detected, checking apogee
+03:48:53.974 > launch detected, checking apogee
+03:48:53.978 > launch detected, checking apogee
+03:48:53.978 > launch detected, checking apogee
+03:48:53.984 > launch detected, checking apogee
+03:48:53.984 > launch detected, checking apogee
+03:48:53.991 > launch detected, checking apogee
+03:48:53.991 > launch detected, checking apogee
+03:48:53.996 > launch detected, checking apogee
+03:48:53.996 > launch detected, checking apogee
+03:48:54.002 > launch detected, checking apogee
+03:48:54.007 > launch detected, checking apogee
+03:48:54.007 > launch detected, checking apogee
+03:48:54.012 > launch detected, checking apogee
+03:48:54.012 > launch detected, checking apogee
+03:48:54.018 > launch detected, checking apogee
+03:48:54.018 > launch detected, checking apogee
+03:48:54.023 > launch detected, checking apogee
+03:48:54.023 > launch detected, checking apogee
+03:48:54.028 > launch detected, checking apogee
+03:48:54.028 > launch detected, checking apogee
+03:48:54.034 > launch detected, checking apogee
+03:48:54.039 > launch detected, checking apogee
+03:48:54.039 > launch detected, checking apogee
+03:48:54.045 > launch detected, checking apogee
+03:48:54.045 > launch detected, checking apogee
+03:48:54.050 > launch detected, checking apogee
+03:48:54.050 > launch detected, checking apogee
+03:48:54.057 > launch detected, checking apogee
+03:48:54.057 > launch detected, checking apogee
+03:48:54.062 > launch detected, checking apogee
+03:48:54.062 > launch detected, checking apogee
+03:48:54.067 > launch detected, checking apogee
+03:48:54.076 > launch detected, checking apogee
+03:48:54.076 > launch detected, checking apogee
+03:48:54.081 > launch detected, checking apogee
+03:48:54.081 > launch detected, checking apogee
+03:48:54.087 > launch detected, checking apogee
+03:48:54.087 > launch detected, checking apogee
+03:48:54.092 > launch detected, checking apogee
+03:48:54.092 > launch detected, checking apogee
+03:48:54.097 > launch detected, checking apogee
+03:48:54.113 > launch detected, checking apogee
+03:48:54.113 > launch detected, checking apogee
+03:48:54.118 > launch detected, checking apogee
+03:48:54.118 > launch detected, checking apogee
+03:48:54.127 > launch detected, checking apogee
+03:48:54.132 > launch detected, checking apogee
+03:48:54.132 > launch detected, checking apogee
+03:48:54.137 > launch detected, checking apogee
+03:48:54.137 > launch detected, checking apogee
+03:48:54.143 > launch detected, checking apogee
+03:48:54.143 > launch detected, checking apogee
+03:48:54.148 > launch detected, checking apogee
+03:48:54.148 > launch detected, checking apogee
+03:48:54.153 > launch detected, checking apogee
+03:48:54.159 > launch detected, checking apogee
+03:48:54.159 > launch detected, checking apogee
+03:48:54.174 > launch detected, checking apogee
+03:48:54.185 > launch detected, checking apogee
+03:48:54.185 > launch detected, checking apogee
+03:48:54.190 > launch detected, checking apogee
+03:48:54.190 > launch detected, checking apogee
+03:48:54.195 > launch detected, checking apogee
+03:48:54.195 > launch detected, checking apogee
+03:48:54.201 > launch detected, checking apogee
+03:48:54.201 > launch detected, checking apogee
+03:48:54.206 > launch detected, checking apogee
+03:48:54.206 > launch detected, checking apogee
+03:48:54.211 > launch detected, checking apogee
+03:48:54.217 > launch detected, checking apogee
+03:48:54.217 > launch detected, checking apogee
+03:48:54.222 > launch detected, checking apogee
+03:48:54.222 > launch detected, checking apogee
+03:48:54.227 > launch detected, checking apogee
+03:48:54.227 > launch detected, checking apogee
+03:48:54.239 > launch detected, checking apogee
+03:48:54.239 > launch detected, checking apogee
+03:48:54.244 > launch detected, checking apogee
+03:48:54.244 > launch detected, checking apogee
+03:48:54.260 > launch detected, checking apogee
+03:48:54.265 > launch detected, checking apogee
+03:48:54.265 > launch detected, checking apogee
+03:48:54.271 > launch detected, checking apogee
+03:48:54.271 > launch detected, checking apogee
+03:48:54.276 > launch detected, checking apogee
+03:48:54.281 > launch detected, checking apogee
+03:48:54.281 > launch detected, checking apogee
+03:48:54.287 > launch detected, checking apogee
+03:48:54.287 > launch detected, checking apogee
+03:48:54.292 > launch detected, checking apogee
+03:48:54.292 > launch detected, checking apogee
+03:48:54.297 > launch detected, checking apogee
+03:48:54.297 > launch detected, checking apogee
+03:48:54.303 > launch detected, checking apogee
+03:48:54.303 > launch detected, checking apogee
+03:48:54.318 > launch detected, checking apogee
+03:48:54.323 > launch detected, checking apogee
+03:48:54.323 > launch detected, checking apogee
+03:48:54.328 > launch detected, checking apogee
+03:48:54.328 > launch detected, checking apogee
+03:48:54.334 > launch detected, checking apogee
+03:48:54.334 > launch detected, checking apogee
+03:48:54.341 > launch detected, checking apogee
+03:48:54.341 > launch detected, checking apogee
+03:48:54.346 > launch detected, checking apogee
+03:48:54.346 > launch detected, checking apogee
+03:48:54.352 > launch detected, checking apogee
+03:48:54.357 > launch detected, checking apogee
+03:48:54.357 > launch detected, checking apogee
+03:48:54.362 > launch detected, checking apogee
+03:48:54.362 > launch detected, checking apogee
+03:48:54.378 > launch detected, checking apogee
+03:48:54.387 > launch detected, checking apogee
+03:48:54.387 > launch detected, checking apogee
+03:48:54.393 > launch detected, checking apogee
+03:48:54.402 > launch detected, checking apogee
+03:48:54.402 > launch detected, checking apogee
+03:48:54.412 > launch detected, checking apogee
+03:48:54.412 > launch detected, checking apogee
+03:48:54.421 > launch detected, checking apogee
+03:48:54.421 > launch detected, checking apogee
+03:48:54.427 > launch detected, checking apogee
+03:48:54.427 > launch detected, checking apogee
+03:48:54.432 > launch detected, checking apogee
+03:48:54.448 > launch detected, checking apogee
+03:48:54.453 > launch detected, checking apogee
+03:48:54.458 > launch detected, checking apogee
+03:48:54.458 > launch detected, checking apogee
+03:48:54.465 > launch detected, checking apogee
+03:48:54.465 > launch detected, checking apogee
+03:48:54.478 > launch detected, checking apogee
+03:48:54.478 > launch detected, checking apogee
+03:48:54.490 > launch detected, checking apogee
+03:48:54.490 > launch detected, checking apogee
+03:48:54.495 > launch detected, checking apogee
+03:48:54.495 > launch detected, checking apogee
+03:48:54.501 > launch detected, checking apogee
+03:48:54.506 > launch detected, checking apogee
+03:48:54.506 > launch detected, checking apogee
+03:48:54.511 > launch detected, checking apogee
+03:48:54.511 > launch detected, checking apogee
+03:48:54.517 > launch detected, checking apogee
+03:48:54.517 > launch detected, checking apogee
+03:48:54.524 > launch detected, checking apogee
+03:48:54.524 > launch detected, checking apogee
+03:48:54.529 > launch detected, checking apogee
+03:48:54.538 > launch detected, checking apogee
+03:48:54.538 > launch detected, checking apogee
+03:48:54.543 > launch detected, checking apogee
+03:48:54.543 > launch detected, checking apogee
+03:48:54.548 > launch detected, checking apogee
+03:48:54.548 > launch detected, checking apogee
+03:48:54.554 > launch detected, checking apogee
+03:48:54.554 > launch detected, checking apogee
+03:48:54.559 > launch detected, checking apogee
+03:48:54.559 > launch detected, checking apogee
+03:48:54.564 > launch detected, checking apogee
+03:48:54.570 > launch detected, checking apogee
+03:48:54.570 > launch detected, checking apogee
+03:48:54.575 > launch detected, checking apogee
+03:48:54.575 > launch detected, checking apogee
+03:48:54.580 > launch detected, checking apogee
+03:48:54.580 > launch detected, checking apogee
+03:48:54.586 > launch detected, checking apogee
+03:48:54.586 > launch detected, checking apogee
+03:48:54.591 > launch detected, checking apogee
+03:48:54.591 > launch detected, checking apogee
+03:48:54.596 > launch detected, checking apogee
+03:48:54.602 > launch detected, checking apogee
+03:48:54.602 > launch detected, checking apogee
+03:48:54.613 > launch detected, checking apogee
+03:48:54.613 > launch detected, checking apogee
+03:48:54.626 > launch detected, checking apogee
+03:48:54.626 > launch detected, checking apogee
+03:48:54.631 > launch detected, checking apogee
+03:48:54.631 > launch detected, checking apogee
+03:48:54.643 > launch detected, checking apogee
+03:48:54.648 > launch detected, checking apogee
+03:48:54.648 > launch detected, checking apogee
+03:48:54.670 > launch detected, checking apogee
+03:48:54.670 > launch detected, checking apogee
+03:48:54.675 > launch detected, checking apogee
+03:48:54.675 > launch detected, checking apogee
+03:48:54.680 > launch detected, checking apogee
+03:48:54.680 > launch detected, checking apogee
+03:48:54.686 > launch detected, checking apogee
+03:48:54.686 > launch detected, checking apogee
+03:48:54.691 > launch detected, checking apogee
+03:48:54.691 > launch detected, checking apogee
+03:48:54.696 > launch detected, checking apogee
+03:48:54.702 > launch detected, checking apogee
+03:48:54.702 > launch detected, checking apogee
+03:48:54.707 > launch detected, checking apogee
+03:48:54.707 > launch detected, checking apogee
+03:48:54.723 > launch detected, checking apogee
+03:48:54.723 > launch detected, checking apogee
+03:48:54.728 > launch detected, checking apogee
+03:48:54.728 > launch detected, checking apogee
+03:48:54.736 > launch detected, checking apogee
+03:48:54.736 > launch detected, checking apogee
+03:48:54.742 > launch detected, checking apogee
+03:48:54.747 > launch detected, checking apogee
+03:48:54.747 > launch detected, checking apogee
+03:48:54.759 > launch detected, checking apogee
+03:48:54.759 > launch detected, checking apogee
+03:48:54.768 > launch detected, checking apogee
+03:48:54.768 > launch detected, checking apogee
+03:48:54.774 > launch detected, checking apogee
+03:48:54.774 > launch detected, checking apogee
+03:48:54.779 > launch detected, checking apogee
+03:48:54.784 > launch detected, checking apogee
+03:48:54.784 > launch detected, checking apogee
+03:48:54.790 > launch detected, checking apogee
+03:48:54.790 > launch detected, checking apogee
+03:48:54.795 > launch detected, checking apogee
+03:48:54.795 > launch detected, checking apogee
+03:48:54.801 > launch detected, checking apogee
+03:48:54.801 > launch detected, checking apogee
+03:48:54.807 > launch detected, checking apogee
+03:48:54.807 > launch detected, checking apogee
+03:48:54.812 > launch detected, checking apogee
+03:48:54.817 > launch detected, checking apogee
+03:48:54.817 > launch detected, checking apogee
+03:48:54.823 > launch detected, checking apogee
+03:48:54.823 > launch detected, checking apogee
+03:48:54.828 > launch detected, checking apogee
+03:48:54.828 > launch detected, checking apogee
+03:48:54.833 > launch detected, checking apogee
+03:48:54.833 > launch detected, checking apogee
+03:48:54.839 > launch detected, checking apogee
+03:48:54.839 > launch detected, checking apogee
+03:48:54.844 > launch detected, checking apogee
+03:48:54.849 > launch detected, checking apogee
+03:48:54.849 > launch detected, checking apogee
+03:48:54.855 > launch detected, checking apogee
+03:48:54.855 > launch detected, checking apogee
+03:48:54.860 > launch detected, checking apogee
+03:48:54.860 > launch detected, checking apogee
+03:48:54.865 > launch detected, checking apogee
+03:48:54.865 > launch detected, checking apogee
+03:48:54.871 > launch detected, checking apogee
+03:48:54.877 > launch detected, checking apogee
+03:48:54.877 > launch detected, checking apogee
+03:48:54.882 > launch detected, checking apogee
+03:48:54.882 > launch detected, checking apogee
+03:48:54.887 > launch detected, checking apogee
+03:48:54.887 > launch detected, checking apogee
+03:48:54.893 > launch detected, checking apogee
+03:48:54.893 > launch detected, checking apogee
+03:48:54.898 > launch detected, checking apogee
+03:48:54.898 > launch detected, checking apogee
+03:48:54.907 > launch detected, checking apogee
+03:48:54.912 > launch detected, checking apogee
+03:48:54.912 > launch detected, checking apogee
+03:48:54.918 > launch detected, checking apogee
+03:48:54.918 > launch detected, checking apogee
+03:48:54.923 > launch detected, checking apogee
+03:48:54.923 > launch detected, checking apogee
+03:48:54.928 > launch detected, checking apogee
+03:48:54.928 > launch detected, checking apogee
+03:48:54.937 > launch detected, checking apogee
+03:48:54.937 > launch detected, checking apogee
+03:48:54.943 > launch detected, checking apogee
+03:48:54.957 > launch detected, checking apogee
+03:48:54.957 > launch detected, checking apogee
+03:48:54.963 > launch detected, checking apogee
+03:48:54.963 > launch detected, checking apogee
+03:48:54.978 > launch detected, checking apogee
+03:48:54.990 > launch detected, checking apogee
+03:48:54.990 > launch detected, checking apogee
+03:48:54.995 > launch detected, checking apogee
+03:48:54.995 > launch detected, checking apogee
+03:48:55.000 > launch detected, checking apogee
+03:48:55.000 > launch detected, checking apogee
+03:48:55.006 > launch detected, checking apogee
+03:48:55.006 > launch detected, checking apogee
+03:48:55.011 > launch detected, checking apogee
+03:48:55.011 > launch detected, checking apogee
+03:48:55.016 > launch detected, checking apogee
+03:48:55.022 > launch detected, checking apogee
+03:48:55.022 > launch detected, checking apogee
+03:48:55.027 > launch detected, checking apogee
+03:48:55.027 > launch detected, checking apogee
+03:48:55.032 > launch detected, checking apogee
+03:48:55.032 > launch detected, checking apogee
+03:48:55.038 > launch detected, checking apogee
+03:48:55.038 > launch detected, checking apogee
+03:48:55.043 > launch detected, checking apogee
+03:48:55.043 > launch detected, checking apogee
+03:48:55.048 > launch detected, checking apogee
+03:48:55.060 > launch detected, checking apogee
+03:48:55.060 > launch detected, checking apogee
+03:48:55.066 > launch detected, checking apogee
+03:48:55.066 > launch detected, checking apogee
+03:48:55.071 > launch detected, checking apogee
+03:48:55.071 > launch detected, checking apogee
+03:48:55.078 > launch detected, checking apogee
+03:48:55.078 > launch detected, checking apogee
+03:48:55.083 > launch detected, checking apogee
+03:48:55.097 > launch detected, checking apogee
+03:48:55.097 > launch detected, checking apogee
+03:48:55.102 > launch detected, checking apogee
+03:48:55.102 > launch detected, checking apogee
+03:48:55.107 > launch detected, checking apogee
+03:48:55.107 > launch detected, checking apogee
+03:48:55.113 > launch detected, checking apogee
+03:48:55.113 > launch detected, checking apogee
+03:48:55.118 > launch detected, checking apogee
+03:48:55.118 > launch detected, checking apogee
+03:48:55.123 > launch detected, checking apogee
+03:48:55.129 > launch detected, checking apogee
+03:48:55.129 > launch detected, checking apogee
+03:48:55.135 > launch detected, checking apogee
+03:48:55.135 > launch detected, checking apogee
+03:48:55.161 > launch detected, checking apogee
+03:48:55.161 > launch detected, checking apogee
+03:48:55.166 > launch detected, checking apogee
+03:48:55.166 > launch detected, checking apogee
+03:48:55.171 > launch detected, checking apogee
+03:48:55.171 > launch detected, checking apogee
+03:48:55.177 > launch detected, checking apogee
+03:48:55.177 > launch detected, checking apogee
+03:48:55.182 > launch detected, checking apogee
+03:48:55.182 > launch detected, checking apogee
+03:48:55.187 > launch detected, checking apogee
+03:48:55.193 > launch detected, checking apogee
+03:48:55.193 > launch detected, checking apogee
+03:48:55.198 > launch detected, checking apogee
+03:48:55.198 > launch detected, checking apogee
+03:48:55.203 > launch detected, checking apogee
+03:48:55.203 > launch detected, checking apogee
+03:48:55.209 > launch detected, checking apogee
+03:48:55.209 > launch detected, checking apogee
+03:48:55.214 > launch detected, checking apogee
+03:48:55.214 > launch detected, checking apogee
+03:48:55.219 > launch detected, checking apogee
+03:48:55.225 > launch detected, checking apogee
+03:48:55.225 > launch detected, checking apogee
+03:48:55.230 > launch detected, checking apogee
+03:48:55.230 > launch detected, checking apogee
+03:48:55.235 > launch detected, checking apogee
+03:48:55.235 > launch detected, checking apogee
+03:48:55.241 > launch detected, checking apogee
+03:48:55.241 > launch detected, checking apogee
+03:48:55.246 > launch detected, checking apogee
+03:48:55.251 > launch detected, checking apogee
+03:48:55.251 > launch detected, checking apogee
+03:48:55.257 > launch detected, checking apogee
+03:48:55.257 > launch detected, checking apogee
+03:48:55.262 > launch detected, checking apogee
+03:48:55.262 > launch detected, checking apogee
+03:48:55.267 > launch detected, checking apogee
+03:48:55.267 > launch detected, checking apogee
+03:48:55.273 > launch detected, checking apogee
+03:48:55.273 > launch detected, checking apogee
+03:48:55.278 > launch detected, checking apogee
+03:48:55.284 > launch detected, checking apogee
+03:48:55.284 > launch detected, checking apogee
+03:48:55.289 > launch detected, checking apogee
+03:48:55.289 > launch detected, checking apogee
+03:48:55.294 > launch detected, checking apogee
+03:48:55.294 > launch detected, checking apogee
+03:48:55.300 > launch detected, checking apogee
+03:48:55.300 > launch detected, checking apogee
+03:48:55.305 > launch detected, checking apogee
+03:48:55.305 > launch detected, checking apogee
+03:48:55.310 > launch detected, checking apogee
+03:48:55.325 > launch detected, checking apogee
+03:48:55.331 > launch detected, checking apogee
+03:48:55.331 > launch detected, checking apogee
+03:48:55.336 > launch detected, checking apogee
+03:48:55.336 > launch detected, checking apogee
+03:48:55.341 > launch detected, checking apogee
+03:48:55.347 > launch detected, checking apogee
+03:48:55.347 > launch detected, checking apogee
+03:48:55.352 > launch detected, checking apogee
+03:48:55.352 > launch detected, checking apogee
+03:48:55.358 > launch detected, checking apogee
+03:48:55.358 > launch detected, checking apogee
+03:48:55.363 > launch detected, checking apogee
+03:48:55.363 > launch detected, checking apogee
+03:48:55.368 > launch detected, checking apogee
+03:48:55.374 > launch detected, checking apogee
+03:48:55.374 > launch detected, checking apogee
+03:48:55.379 > launch detected, checking apogee
+03:48:55.379 > launch detected, checking apogee
+03:48:55.384 > launch detected, checking apogee
+03:48:55.384 > launch detected, checking apogee
+03:48:55.398 > launch detected, checking apogee
+03:48:55.398 > launch detected, checking apogee
+03:48:55.404 > launch detected, checking apogee
+03:48:55.404 > launch detected, checking apogee
+03:48:55.409 > launch detected, checking apogee
+03:48:55.414 > launch detected, checking apogee
+03:48:55.414 > launch detected, checking apogee
+03:48:55.419 > launch detected, checking apogee
+03:48:55.419 > launch detected, checking apogee
+03:48:55.425 > launch detected, checking apogee
+03:48:55.425 > launch detected, checking apogee
+03:48:55.431 > launch detected, checking apogee
+03:48:55.431 > launch detected, checking apogee
+03:48:55.438 > launch detected, checking apogee
+03:48:55.438 > launch detected, checking apogee
+03:48:55.443 > launch detected, checking apogee
+03:48:55.459 > launch detected, checking apogee
+03:48:55.459 > launch detected, checking apogee
+03:48:55.465 > launch detected, checking apogee
+03:48:55.465 > launch detected, checking apogee
+03:48:55.470 > launch detected, checking apogee
+03:48:55.470 > launch detected, checking apogee
+03:48:55.475 > launch detected, checking apogee
+03:48:55.481 > launch detected, checking apogee
+03:48:55.481 > launch detected, checking apogee
+03:48:55.486 > launch detected, checking apogee
+03:48:55.486 > launch detected, checking apogee
+03:48:55.492 > launch detected, checking apogee
+03:48:55.492 > launch detected, checking apogee
+03:48:55.497 > launch detected, checking apogee
+03:48:55.497 > launch detected, checking apogee
+03:48:55.502 > launch detected, checking apogee
+03:48:55.502 > launch detected, checking apogee
+03:48:55.508 > launch detected, checking apogee
+03:48:55.513 > launch detected, checking apogee
+03:48:55.513 > launch detected, checking apogee
+03:48:55.518 > launch detected, checking apogee
+03:48:55.518 > launch detected, checking apogee
+03:48:55.533 > launch detected, checking apogee
+03:48:55.533 > launch detected, checking apogee
+03:48:55.539 > launch detected, checking apogee
+03:48:55.539 > launch detected, checking apogee
+03:48:55.548 > launch detected, checking apogee
+03:48:55.554 > launch detected, checking apogee
+03:48:55.554 > launch detected, checking apogee
+03:48:55.559 > launch detected, checking apogee
+03:48:55.559 > launch detected, checking apogee
+03:48:55.564 > launch detected, checking apogee
+03:48:55.564 > launch detected, checking apogee
+03:48:55.569 > launch detected, checking apogee
+03:48:55.569 > launch detected, checking apogee
+03:48:55.575 > launch detected, checking apogee
+03:48:55.575 > launch detected, checking apogee
+03:48:55.580 > launch detected, checking apogee
+03:48:55.585 > launch detected, checking apogee
+03:48:55.585 > launch detected, checking apogee
+03:48:55.591 > launch detected, checking apogee
+03:48:55.591 > launch detected, checking apogee
+03:48:55.596 > launch detected, checking apogee
+03:48:55.596 > launch detected, checking apogee
+03:48:55.601 > launch detected, checking apogee
+03:48:55.601 > launch detected, checking apogee
+03:48:55.607 > launch detected, checking apogee
+03:48:55.607 > launch detected, checking apogee
+03:48:55.612 > launch detected, checking apogee
+03:48:55.618 > launch detected, checking apogee
+03:48:55.618 > launch detected, checking apogee
+03:48:55.629 > launch detected, checking apogee
+03:48:55.629 > launch detected, checking apogee
+03:48:55.634 > launch detected, checking apogee
+03:48:55.634 > launch detected, checking apogee
+03:48:55.639 > launch detected, checking apogee
+03:48:55.639 > launch detected, checking apogee
+03:48:55.645 > launch detected, checking apogee
+03:48:55.650 > launch detected, checking apogee
+03:48:55.650 > launch detected, checking apogee
+03:48:55.657 > launch detected, checking apogee
+03:48:55.657 > launch detected, checking apogee
+03:48:55.662 > launch detected, checking apogee
+03:48:55.662 > launch detected, checking apogee
+03:48:55.669 > launch detected, checking apogee
+03:48:55.669 > launch detected, checking apogee
+03:48:55.674 > launch detected, checking apogee
+03:48:55.674 > launch detected, checking apogee
+03:48:55.680 > launch detected, checking apogee
+03:48:55.690 > launch detected, checking apogee
+03:48:55.690 > launch detected, checking apogee
+03:48:55.696 > launch detected, checking apogee
+03:48:55.696 > launch detected, checking apogee
+03:48:55.706 > launch detected, checking apogee
+03:48:55.706 > launch detected, checking apogee
+03:48:55.711 > launch detected, checking apogee
+03:48:55.711 > launch detected, checking apogee
+03:48:55.717 > launch detected, checking apogee
+03:48:55.717 > launch detected, checking apogee
+03:48:55.722 > launch detected, checking apogee
+03:48:55.728 > launch detected, checking apogee
+03:48:55.728 > launch detected, checking apogee
+03:48:55.733 > launch detected, checking apogee
+03:48:55.733 > launch detected, checking apogee
+03:48:55.738 > launch detected, checking apogee
+03:48:55.738 > launch detected, checking apogee
+03:48:55.744 > launch detected, checking apogee
+03:48:55.744 > launch detected, checking apogee
+03:48:55.749 > launch detected, checking apogee
+03:48:55.755 > launch detected, checking apogee
+03:48:55.755 > launch detected, checking apogee
+03:48:55.760 > launch detected, checking apogee
+03:48:55.760 > launch detected, checking apogee
+03:48:55.765 > launch detected, checking apogee
+03:48:55.765 > launch detected, checking apogee
+03:48:55.771 > launch detected, checking apogee
+03:48:55.771 > launch detected, checking apogee
+03:48:55.776 > launch detected, checking apogee
+03:48:55.776 > launch detected, checking apogee
+03:48:55.781 > launch detected, checking apogee
+03:48:55.786 > launch detected, checking apogee
+03:48:55.786 > launch detected, checking apogee
+03:48:55.792 > launch detected, checking apogee
+03:48:55.792 > launch detected, checking apogee
+03:48:55.797 > launch detected, checking apogee
+03:48:55.797 > launch detected, checking apogee
+03:48:55.803 > launch detected, checking apogee
+03:48:55.803 > launch detected, checking apogee
+03:48:55.808 > launch detected, checking apogee
+03:48:55.808 > launch detected, checking apogee
+03:48:55.813 > launch detected, checking apogee
+03:48:55.820 > launch detected, checking apogee
+03:48:55.820 > launch detected, checking apogee
+03:48:55.825 > launch detected, checking apogee
+03:48:55.825 > launch detected, checking apogee
+03:48:55.831 > launch detected, checking apogee
+03:48:55.831 > launch detected, checking apogee
+03:48:55.836 > launch detected, checking apogee
+03:48:55.836 > launch detected, checking apogee
+03:48:55.842 > launch detected, checking apogee
+03:48:55.847 > launch detected, checking apogee
+03:48:55.847 > launch detected, checking apogee
+03:48:55.852 > launch detected, checking apogee
+03:48:55.852 > launch detected, checking apogee
+03:48:55.858 > launch detected, checking apogee
+03:48:55.858 > launch detected, checking apogee
+03:48:55.863 > launch detected, checking apogee
+03:48:55.863 > launch detected, checking apogee
+03:48:55.868 > launch detected, checking apogee
+03:48:55.868 > launch detected, checking apogee
+03:48:55.874 > launch detected, checking apogee
+03:48:55.879 > launch detected, checking apogee
+03:48:55.879 > launch detected, checking apogee
+03:48:55.884 > launch detected, checking apogee
+03:48:55.884 > launch detected, checking apogee
+03:48:55.890 > launch detected, checking apogee
+03:48:55.890 > launch detected, checking apogee
+03:48:55.895 > launch detected, checking apogee
+03:48:55.895 > launch detected, checking apogee
+03:48:55.900 > launch detected, checking apogee
+03:48:55.900 > launch detected, checking apogee
+03:48:55.906 > launch detected, checking apogee
+03:48:55.911 > launch detected, checking apogee
+03:48:55.911 > launch detected, checking apogee
+03:48:55.916 > launch detected, checking apogee
+03:48:55.916 > launch detected, checking apogee
+03:48:55.922 > launch detected, checking apogee
+03:48:55.922 > launch detected, checking apogee
+03:48:55.927 > launch detected, checking apogee
+03:48:55.927 > launch detected, checking apogee
+03:48:55.932 > launch detected, checking apogee
+03:48:55.938 > launch detected, checking apogee
+03:48:55.938 > launch detected, checking apogee
+03:48:55.950 > launch detected, checking apogee
+03:48:55.950 > launch detected, checking apogee
+03:48:55.957 > launch detected, checking apogee
+03:48:55.957 > launch detected, checking apogee
+03:48:55.963 > launch detected, checking apogee
+03:48:55.963 > launch detected, checking apogee
+03:48:55.968 > launch detected, checking apogee
+03:48:55.968 > launch detected, checking apogee
+03:48:55.974 > launch detected, checking apogee
+03:48:55.979 > launch detected, checking apogee
+03:48:55.979 > launch detected, checking apogee
+03:48:55.984 > launch detected, checking apogee
+03:48:55.984 > launch detected, checking apogee
+03:48:55.990 > launch detected, checking apogee
+03:48:55.990 > launch detected, checking apogee
+03:48:55.995 > launch detected, checking apogee
+03:48:55.995 > launch detected, checking apogee
+03:48:56.000 > launch detected, checking apogee
+03:48:56.000 > launch detected, checking apogee
+03:48:56.006 > launch detected, checking apogee
+03:48:56.021 > launch detected, checking apogee
+03:48:56.028 > launch detected, checking apogee
+03:48:56.029 > launch detected, checking apogee
+03:48:56.034 > launch detected, checking apogee
+03:48:56.034 > launch detected, checking apogee
+03:48:56.039 > launch detected, checking apogee
+03:48:56.039 > launch detected, checking apogee
+03:48:56.044 > launch detected, checking apogee
+03:48:56.044 > launch detected, checking apogee
+03:48:56.050 > launch detected, checking apogee
+03:48:56.050 > launch detected, checking apogee
+03:48:56.055 > launch detected, checking apogee
+03:48:56.061 > launch detected, checking apogee
+03:48:56.061 > launch detected, checking apogee
+03:48:56.070 > launch detected, checking apogee
+03:48:56.070 > launch detected, checking apogee
+03:48:56.075 > launch detected, checking apogee
+03:48:56.075 > launch detected, checking apogee
+03:48:56.081 > launch detected, checking apogee
+03:48:56.081 > launch detected, checking apogee
+03:48:56.086 > launch detected, checking apogee
+03:48:56.086 > launch detected, checking apogee
+03:48:56.094 > launch detected, checking apogee
+03:48:56.099 > launch detected, checking apogee
+03:48:56.099 > launch detected, checking apogee
+03:48:56.105 > launch detected, checking apogee
+03:48:56.105 > launch detected, checking apogee
+03:48:56.110 > launch detected, checking apogee
+03:48:56.110 > launch detected, checking apogee
+03:48:56.115 > launch detected, checking apogee
+03:48:56.115 > launch detected, checking apogee
+03:48:56.121 > launch detected, checking apogee
+03:48:56.126 > launch detected, checking apogee
+03:48:56.126 > launch detected, checking apogee
+03:48:56.132 > launch detected, checking apogee
+03:48:56.132 > launch detected, checking apogee
+03:48:56.138 > launch detected, checking apogee
+03:48:56.138 > launch detected, checking apogee
+03:48:56.143 > launch detected, checking apogee
+03:48:56.143 > launch detected, checking apogee
+03:48:56.148 > launch detected, checking apogee
+03:48:56.148 > launch detected, checking apogee
+03:48:56.153 > launch detected, checking apogee
+03:48:56.159 > launch detected, checking apogee
+03:48:56.159 > launch detected, checking apogee
+03:48:56.164 > launch detected, checking apogee
+03:48:56.164 > launch detected, checking apogee
+03:48:56.170 > launch detected, checking apogee
+03:48:56.170 > launch detected, checking apogee
+03:48:56.175 > launch detected, checking apogee
+03:48:56.175 > launch detected, checking apogee
+03:48:56.181 > launch detected, checking apogee
+03:48:56.181 > launch detected, checking apogee
+03:48:56.187 > launch detected, checking apogee
+03:48:56.192 > launch detected, checking apogee
+03:48:56.192 > launch detected, checking apogee
+03:48:56.197 > launch detected, checking apogee
+03:48:56.197 > launch detected, checking apogee
+03:48:56.203 > launch detected, checking apogee
+03:48:56.203 > launch detected, checking apogee
+03:48:56.208 > launch detected, checking apogee
+03:48:56.208 > launch detected, checking apogee
+03:48:56.213 > launch detected, checking apogee
+03:48:56.219 > launch detected, checking apogee
+03:48:56.219 > launch detected, checking apogee
+03:48:56.224 > launch detected, checking apogee
+03:48:56.224 > launch detected, checking apogee
+03:48:56.229 > launch detected, checking apogee
+03:48:56.229 > launch detected, checking apogee
+03:48:56.235 > launch detected, checking apogee
+03:48:56.235 > launch detected, checking apogee
+03:48:56.243 > launch detected, checking apogee
+03:48:56.243 > launch detected, checking apogee
+03:48:56.255 > launch detected, checking apogee
+03:48:56.260 > launch detected, checking apogee
+03:48:56.260 > launch detected, checking apogee
+03:48:56.266 > launch detected, checking apogee
+03:48:56.266 > launch detected, checking apogee
+03:48:56.271 > launch detected, checking apogee
+03:48:56.271 > launch detected, checking apogee
+03:48:56.276 > launch detected, checking apogee
+03:48:56.276 > launch detected, checking apogee
+03:48:56.282 > launch detected, checking apogee
+03:48:56.282 > launch detected, checking apogee
+03:48:56.287 > launch detected, checking apogee
+03:48:56.292 > launch detected, checking apogee
+03:48:56.292 > launch detected, checking apogee
+03:48:56.298 > launch detected, checking apogee
+03:48:56.298 > launch detected, checking apogee
+03:48:56.303 > launch detected, checking apogee
+03:48:56.303 > launch detected, checking apogee
+03:48:56.308 > launch detected, checking apogee
+03:48:56.308 > launch detected, checking apogee
+03:48:56.314 > launch detected, checking apogee
+03:48:56.319 > launch detected, checking apogee
+03:48:56.319 > launch detected, checking apogee
+03:48:56.324 > launch detected, checking apogee
+03:48:56.324 > launch detected, checking apogee
+03:48:56.330 > launch detected, checking apogee
+03:48:56.330 > launch detected, checking apogee
+03:48:56.335 > launch detected, checking apogee
+03:48:56.335 > launch detected, checking apogee
+03:48:56.341 > launch detected, checking apogee
+03:48:56.341 > launch detected, checking apogee
+03:48:56.346 > launch detected, checking apogee
+03:48:56.351 > launch detected, checking apogee
+03:48:56.351 > launch detected, checking apogee
+03:48:56.357 > launch detected, checking apogee
+03:48:56.357 > launch detected, checking apogee
+03:48:56.362 > launch detected, checking apogee
+03:48:56.362 > launch detected, checking apogee
+03:48:56.367 > launch detected, checking apogee
+03:48:56.367 > launch detected, checking apogee
+03:48:56.373 > launch detected, checking apogee
+03:48:56.373 > launch detected, checking apogee
+03:48:56.378 > launch detected, checking apogee
+03:48:56.383 > launch detected, checking apogee
+03:48:56.383 > launch detected, checking apogee
+03:48:56.389 > launch detected, checking apogee
+03:48:56.389 > launch detected, checking apogee
+03:48:56.394 > launch detected, checking apogee
+03:48:56.394 > launch detected, checking apogee
+03:48:56.399 > launch detected, checking apogee
+03:48:56.399 > launch detected, checking apogee
+03:48:56.405 > launch detected, checking apogee
+03:48:56.410 > launch detected, checking apogee
+03:48:56.410 > launch detected, checking apogee
+03:48:56.415 > launch detected, checking apogee
+03:48:56.415 > launch detected, checking apogee
+03:48:56.422 > launch detected, checking apogee
+03:48:56.422 > launch detected, checking apogee
+03:48:56.427 > launch detected, checking apogee
+03:48:56.427 > launch detected, checking apogee
+03:48:56.432 > launch detected, checking apogee
+03:48:56.432 > launch detected, checking apogee
+03:48:56.438 > launch detected, checking apogee
+03:48:56.443 > launch detected, checking apogee
+03:48:56.443 > launch detected, checking apogee
+03:48:56.448 > launch detected, checking apogee
+03:48:56.448 > launch detected, checking apogee
+03:48:56.454 > launch detected, checking apogee
+03:48:56.454 > launch detected, checking apogee
+03:48:56.459 > launch detected, checking apogee
+03:48:56.459 > launch detected, checking apogee
+03:48:56.464 > launch detected, checking apogee
+03:48:56.464 > launch detected, checking apogee
+03:48:56.477 > launch detected, checking apogee
+03:48:56.482 > launch detected, checking apogee
+03:48:56.482 > launch detected, checking apogee
+03:48:56.491 > launch detected, checking apogee
+03:48:56.491 > launch detected, checking apogee
+03:48:56.499 > launch detected, checking apogee
+03:48:56.499 > launch detected, checking apogee
+03:48:56.505 > launch detected, checking apogee
+03:48:56.505 > launch detected, checking apogee
+03:48:56.513 > launch detected, checking apogee
+03:48:56.518 > launch detected, checking apogee
+03:48:56.519 > launch detected, checking apogee
+03:48:56.524 > launch detected, checking apogee
+03:48:56.524 > launch detected, checking apogee
+03:48:56.529 > reached apogee by timer
+03:48:56.529 > launch detected, checking apogee
+03:48:56.545 > reached apogee

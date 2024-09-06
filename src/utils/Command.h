@@ -9,5 +9,7 @@ const char END_LOG = 'p';
 const char INCREASE_OPEN_SERVO_ANGLE = 'm';  // debug only
 const char DECREASE_OPEN_SERVO_ANGLE = 'n';  // debug only
 const char INCREASE_CLOSE_SERVO_ANGLE = 'q'; // debug only
-const char DECREASE_CLOSE_SERVO_ANGLE = 'r';
+const char DECREASE_CLOSE_SERVO_ANGLE = 'r'; // debug only
+const char LAUNCH_DETECTED = 'x';
+const char APOGEE_DETECTED = 'y';
 } // namespace Command

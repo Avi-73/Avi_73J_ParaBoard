@@ -1,7 +1,9 @@
 #ifndef ACTUATOR_CONTROLLER_H
 #define ACTUATOR_CONTROLLER_H
 
-#include "utils/ActuatorController/Servo/Servo.h"
+#include "utils/Config.h"
+#include "utils/DataLogger/DataLogger.h"
+#include <ESP32Servo.h>
 
 class ActuatorController {
 public:
@@ -15,8 +17,8 @@ public:
 
 private:
   Servo servo;
-  uint8_t servo_open_angle = 0;
-  uint8_t servo_close_angle = 90;
+  uint8_t servo_open_angle;
+  uint8_t servo_close_angle;
 };
 
 #endif

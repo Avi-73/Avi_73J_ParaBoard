@@ -1,0 +1,59 @@
+03:46:19.623 > ets Jul 29 2019 12:21:46
+03:46:19.625 > 
+03:46:19.625 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+03:46:19.629 > configsip: 0, SPIWP:0xee
+03:46:19.629 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+03:46:19.634 > mode:DIO, clock div:2
+03:46:19.640 > load:0x3fff0030,len:4604
+03:46:19.640 > ho 0 tail 12 room 4
+03:46:19.645 > load:0x40078000,len:15468
+03:46:19.645 > load:0x40080400,len:4
+03:46:19.645 > ho 8 tail 4 room 4
+03:46:19.660 > load:0x40080404,len:3180
+03:46:19.660 > entry 0x400805b8
+03:46:19.827 > E (206) esp_core_dump_flash: C��V�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR&��,M�&�RH(�+�V␖�,ZY���][O���������RH�SD Card Initialized.
+03:46:19.896 > [    89][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+03:46:19.901 > [    96][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+03:46:19.907 > [   103][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+03:46:19.920 > [   116][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.931 > [   123][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.937 > [   130][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.942 > [   137][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.948 > [   144][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.959 > [   151][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.964 > [   158][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.970 > [   164][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.975 > [   171][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.986 > [   178][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.992 > [   185][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:19.997 > [   192][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:20.003 > [   199][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:20.014 > [   206][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:46:21.761 > d
+03:46:22.746 > o
+03:46:23.477 > c
+03:46:23.922 > o
+03:46:24.113 > c
+03:46:24.256 > o
+03:46:24.351 > c
+03:46:24.478 > o
+03:46:24.573 > c
+03:46:24.669 > o
+03:46:24.780 > c
+03:46:24.875 > o
+03:47:27.624 > c
+03:47:28.483 > o
+03:47:28.943 > c
+03:47:29.261 > o
+03:47:29.516 > c
+03:47:29.659 > o
+03:47:29.786 > c
+03:47:29.897 > o
+03:47:30.024 > c
+03:47:30.104 > o
+03:47:30.215 > c
+03:47:30.310 > o
+03:47:30.453 > c
+03:47:30.580 > o
+03:47:31.391 > c
+03:47:32.646 > o

@@ -1,0 +1,3 @@
+03:18:33.723 > [␀␘HH��4][D][esp32-hal-cpu.c:211] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+03:18:33.743 > CAN Driver installed
+03:18:33.743 > CAN Driver started

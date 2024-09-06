@@ -2,7 +2,6 @@
 #define DATA_LOGGER_H
 
 #include "utils/SensorData.h"
-#include "utils/SensorManager/SensorManager.h"
 #include <SdFat.h>
 
 class DataLogger {
@@ -12,9 +11,10 @@ public:
   void end();
 
 private:
-  SdFat sd;
-  SdFile file;
-  char filename[20];
+  SdFat32 sd;
+  File32 file;
+  char filename[13];
+  bool can_open_file;
 };
 
-#endif
+#endif // DATA_LOGGER_H

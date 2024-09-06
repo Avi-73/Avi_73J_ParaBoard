@@ -1,0 +1,354 @@
+04:28:58.002 > E (190) esp_core_dump_flash: Cφ�V�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O␒&&YN��9a'
+04:28:58.007 > Image checksum='ffffffff'
+04:28:58.016 > CAN Driver installed
+04:28:58.016 > CAN Driver started
+04:28:58.031 > SD Card Initialized.
+04:28:58.044 > [    61][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+04:28:58.049 > [    68][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+04:28:58.054 > [    74][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+04:28:58.068 > [    87][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.074 > [    94][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.079 > [   101][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.090 > [   108][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.096 > [   116][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.102 > [   123][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.107 > [   130][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.118 > [   136][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.123 > [   143][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.129 > [   150][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.135 > [   157][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.145 > [   164][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.151 > [   171][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:58.157 > [   178][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:28:59.827 > o
+04:29:01.927 > d
+04:29:02.612 > c
+04:29:03.996 > o
+04:29:04.330 > c
+04:29:05.524 > l
+04:29:06.017 > checking launch
+04:29:06.018 > checking launch
+04:29:06.018 > checking launch
+04:29:06.018 > checking launch
+04:29:06.022 > checking launch
+04:29:06.022 > pressure_diff: -122433
+04:29:06.022 > checking launch
+04:29:06.032 > checking launch
+04:29:06.032 > checking launch
+04:29:06.032 > checking launch
+04:29:06.032 > checking launch
+04:29:06.037 > pressure_diff: 20423
+04:29:06.037 > checking launch
+04:29:06.037 > checking launch
+04:29:06.050 > checking launch
+04:29:06.050 > checking launch
+04:29:06.050 > checking launch
+04:29:06.050 > pressure_diff: 4
+04:29:06.055 > checking launch
+04:29:06.055 > checking launch
+04:29:06.055 > checking launch
+04:29:06.062 > checking launch
+04:29:06.062 > checking launch
+04:29:06.062 > accel_av_square_sum: 1.5426
+04:29:06.067 > pressure_diff: 0
+04:29:06.067 > checking launch
+04:29:06.067 > checking launch
+04:29:06.067 > checking launch
+04:29:06.072 > checking launch
+04:29:06.072 > checking launch
+04:29:06.072 > pressure_diff: -9
+04:29:06.072 > checking launch
+04:29:06.077 > checking launch
+04:29:06.077 > checking launch
+04:29:06.077 > checking launch
+04:29:06.083 > checking launch
+04:29:06.083 > pressure_diff: -3
+04:29:06.083 > checking launch
+04:29:06.083 > checking launch
+04:29:06.091 > checking launch
+04:29:06.091 > checking launch
+04:29:06.091 > checking launch
+04:29:06.091 > pressure_diff: 0
+04:29:06.096 > checking launch
+04:29:06.096 > checking launch
+04:29:06.096 > checking launch
+04:29:06.102 > checking launch
+04:29:06.102 > checking launch
+04:29:06.102 > accel_av_square_sum: 1.4011
+04:29:06.109 > pressure_diff: 0
+04:29:06.109 > checking launch
+04:29:06.109 > checking launch
+04:29:06.109 > checking launch
+04:29:06.115 > checking launch
+04:29:06.115 > checking launch
+04:29:06.115 > pressure_diff: 15
+04:29:06.120 > checking launch
+04:29:06.120 > checking launch
+04:29:06.120 > checking launch
+04:29:06.120 > checking launch
+04:29:06.126 > checking launch
+04:29:06.126 > pressure_diff: 3
+04:29:06.126 > checking launch
+04:29:06.126 > checking launch
+04:29:06.131 > checking launch
+04:29:06.131 > checking launch
+04:29:06.131 > checking launch
+04:29:06.144 > pressure_diff: 0
+04:29:06.144 > checking launch
+04:29:06.144 > checking launch
+04:29:06.144 > checking launch
+04:29:06.150 > checking launch
+04:29:06.150 > checking launch
+04:29:06.150 > accel_av_square_sum: 1.3998
+04:29:06.157 > pressure_diff: 12
+04:29:06.157 > checking launch
+04:29:06.157 > checking launch
+04:29:06.157 > checking launch
+04:29:06.167 > checking launch
+04:29:06.167 > checking launch
+04:29:06.167 > pressure_diff: 7
+04:29:06.172 > checking launch
+04:29:06.172 > checking launch
+04:29:06.172 > checking launch
+04:29:06.172 > checking launch
+04:29:06.178 > checking launch
+04:29:06.178 > pressure_diff: 0
+04:29:06.178 > checking launch
+04:29:06.178 > checking launch
+04:29:06.183 > checking launch
+04:29:06.183 > checking launch
+04:29:06.183 > checking launch
+04:29:06.189 > pressure_diff: -1
+04:29:06.189 > checking launch
+04:29:06.189 > checking launch
+04:29:06.189 > checking launch
+04:29:06.194 > checking launch
+04:29:06.194 > checking launch
+04:29:06.194 > accel_av_square_sum: 1.4004
+04:29:06.200 > pressure_diff: -8
+04:29:06.200 > checking launch
+04:29:06.200 > checking launch
+04:29:06.205 > checking launch
+04:29:06.205 > checking launch
+04:29:06.205 > checking launch
+04:29:06.205 > pressure_diff: 0
+04:29:06.210 > checking launch
+04:29:06.210 > checking launch
+04:29:06.210 > checking launch
+04:29:06.210 > checking launch
+04:29:06.216 > checking launch
+04:29:06.216 > pressure_diff: 0
+04:29:06.216 > checking launch
+04:29:06.247 > checking launch
+04:29:06.247 > checking launch
+04:29:06.247 > checking launch
+04:29:06.253 > checking launch
+04:29:06.253 > pressure_diff: -28
+04:29:06.253 > checking launch
+04:29:06.253 > checking launch
+04:29:06.259 > checking launch
+04:29:06.259 > checking launch
+04:29:06.259 > checking launch
+04:29:06.259 > accel_av_square_sum: 1.3976
+04:29:06.273 > pressure_diff: -7
+04:29:06.273 > checking launch
+04:29:06.273 > checking launch
+04:29:06.286 > checking launch
+04:29:06.286 > checking launch
+04:29:06.286 > checking launch
+04:29:06.292 > pressure_diff: 11
+04:29:06.292 > checking launch
+04:29:06.292 > checking launch
+04:29:06.292 > checking launch
+04:29:06.307 > checking launch
+04:29:06.323 > checking launch
+04:29:06.323 > pressure_diff: 2
+04:29:06.329 > checking launch
+04:29:06.329 > checking launch
+04:29:06.329 > checking launch
+04:29:06.329 > checking launch
+04:29:06.334 > checking launch
+04:29:06.334 > pressure_diff: 6
+04:29:06.334 > checking launch
+04:29:06.340 > checking launch
+04:29:06.340 > checking launch
+04:29:06.340 > checking launch
+04:29:06.340 > checking launch
+04:29:06.354 > accel_av_square_sum: 1.4007
+04:29:06.354 > pressure_diff: 4
+04:29:06.354 > checking launch
+04:29:06.359 > checking launch
+04:29:06.359 > checking launch
+04:29:06.359 > checking launch
+04:29:06.359 > checking launch
+04:29:06.364 > pressure_diff: 2
+04:29:06.364 > checking launch
+04:29:06.364 > checking launch
+04:29:06.370 > checking launch
+04:29:06.370 > checking launch
+04:29:06.370 > checking launch
+04:29:06.370 > pressure_diff: 0
+04:29:06.375 > checking launch
+04:29:06.375 > checking launch
+04:29:06.375 > checking launch
+04:29:06.375 > checking launch
+04:29:06.381 > checking launch
+04:29:06.381 > pressure_diff: 3
+04:29:06.381 > checking launch
+04:29:06.397 > checking launch
+04:29:06.397 > checking launch
+04:29:06.397 > checking launch
+04:29:06.402 > checking launch
+04:29:06.402 > accel_av_square_sum: 1.3996
+04:29:06.402 > pressure_diff: 9
+04:29:06.408 > checking launch
+04:29:06.408 > checking launch
+04:29:06.408 > checking launch
+04:29:06.408 > checking launch
+04:29:06.413 > checking launch
+04:29:06.413 > pressure_diff: 0
+04:29:06.413 > checking launch
+04:29:06.413 > checking launch
+04:29:06.418 > checking launch
+04:29:06.418 > checking launch
+04:29:06.418 > checking launch
+04:29:06.424 > pressure_diff: 0
+04:29:06.424 > checking launch
+04:29:06.424 > checking launch
+04:29:06.424 > checking launch
+04:29:06.429 > checking launch
+04:29:06.429 > checking launch
+04:29:06.429 > pressure_diff: -15
+04:29:06.429 > checking launch
+04:29:06.434 > checking launch
+04:29:06.434 > checking launch
+04:29:06.434 > checking launch
+04:29:06.440 > checking launch
+04:29:06.440 > accel_av_square_sum: 1.3986
+04:29:06.440 > pressure_diff: 0
+04:29:06.445 > checking launch
+04:29:06.445 > checking launch
+04:29:06.445 > checking launch
+04:29:06.445 > checking launch
+04:29:06.459 > checking launch
+04:29:06.459 > pressure_diff: 0
+04:29:06.459 > checking launch
+04:29:06.467 > checking launch
+04:29:06.468 > checking launch
+04:29:06.468 > checking launch
+04:29:06.468 > checking launch
+04:29:06.474 > pressure_diff: -6
+04:29:06.474 > checking launch
+04:29:06.474 > checking launch
+04:29:06.474 > checking launch
+04:29:06.480 > checking launch
+04:29:06.480 > checking launch
+04:29:06.480 > pressure_diff: 0
+04:29:06.485 > checking launch
+04:29:06.485 > checking launch
+04:29:06.485 > checking launch
+04:29:06.485 > checking launch
+04:29:06.491 > checking launch
+04:29:06.491 > accel_av_square_sum: 1.3999
+04:29:06.491 > pressure_diff: 0
+04:29:06.496 > checking launch
+04:29:06.496 > checking launch
+04:29:06.496 > checking launch
+04:29:06.496 > checking launch
+04:29:06.501 > checking launch
+04:29:06.501 > pressure_diff: 2
+04:29:06.501 > checking launch
+04:29:06.516 > checking launch
+04:29:06.516 > checking launch
+04:29:06.516 > checking launch
+04:29:06.532 > checking launch
+04:29:06.532 > pressure_diff: 1
+04:29:06.532 > checking launch
+04:29:06.537 > checking launch
+04:29:06.537 > checking launch
+04:29:06.537 > checking launch
+04:29:06.537 > checking launch
+04:29:06.543 > pressure_diff: 8
+04:29:06.543 > checking launch
+04:29:06.543 > checking launch
+04:29:06.543 > checking launch
+04:29:06.548 > checking launch
+04:29:06.548 > checking launch
+04:29:06.548 > accel_av_square_sum: 1.3993
+04:29:06.553 > pressure_diff: 5
+04:29:06.553 > checking launch
+04:29:06.553 > checking launch
+04:29:06.559 > checking launch
+04:29:06.559 > checking launch
+04:29:06.559 > checking launch
+04:29:06.559 > pressure_diff: 0
+04:29:06.564 > checking launch
+04:29:06.564 > checking launch
+04:29:06.564 > checking launch
+04:29:06.580 > checking launch
+04:29:06.580 > checking launch
+04:29:06.591 > pressure_diff: 0
+04:29:06.591 > checking launch
+04:29:06.591 > checking launch
+04:29:06.591 > checking launch
+04:29:06.607 > p
+04:29:11.588 > E (27300) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+04:29:11.598 > E (27300) task_wdt:  - Log Task (CPU 0)
+04:29:11.604 > E (27300) task_wdt: Tasks currently running:
+04:29:11.609 > E (27300) task_wdt: CPU 0: IDLE0
+04:29:11.609 > E (27300) task_wdt: CPU 1: State Control T
+04:29:11.614 > E (27300) task_wdt: Aborting.
+04:29:11.614 > E (27300) task_wdt: Print CPU 0 (current core) backtrace
+04:29:11.619 > 
+04:29:11.619 > 
+04:29:11.619 > 
+04:29:11.619 > 
+04:29:11.625 > Backtrace: 0x40086e6b:0x3ffbc880 0x400e244a:0x3ffbc8a0 0x400895f7:0x3ffbc8c0 0x4008ae76:0x3ffbc8e0
+04:29:11.630 > 
+04:29:11.630 > 
+04:29:11.630 > 
+04:29:11.630 > 
+04:29:11.630 > ELF file SHA256: 773537db4150f092
+04:29:11.645 > 
+04:29:11.804 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+04:29:11.809 > Debug exception reason: BREAK instr 
+04:29:11.815 > Core  0 register dump:
+04:29:11.815 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+04:29:11.826 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+04:29:11.831 > A6      : 0x00000000  A7      : 0x3ffbc7c0  A8      : 0x00000800  A9      : 0x3ffbf05c  
+04:29:11.842 > A10     : 0x00000000  A11     : 0x16f9c8b7  A12     : 0x16f9c8b7  A13     : 0x00060b21  
+04:29:11.847 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+04:29:11.852 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+04:29:11.863 > 
+04:29:11.863 > 
+04:29:11.863 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+04:29:11.868 > 
+04:29:11.874 > 
+04:29:11.874 > 
+04:29:11.874 > 
+04:29:11.874 > ELF file SHA256: 773537db4150f092
+04:29:11.874 > 
+04:29:11.874 > Re-entered core dump! Exception happened during core dump!
+04:29:11.889 > Rebooting...
+04:29:12.073 > E (190) esp_core_dump_flash: Cφ�V�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O␒&&YN��9a'
+04:29:12.078 > Image checksum='ffffffff'
+04:29:12.087 > CAN Driver installed
+04:29:12.087 > CAN Driver started
+04:29:12.102 > SD Card Initialized.
+04:29:12.114 > [    61][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+04:29:12.119 > [    68][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+04:29:12.125 > [    74][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+04:29:12.138 > [    87][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.144 > [    94][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.149 > [   101][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.160 > [   108][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.166 > [   115][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.172 > [   122][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.177 > [   129][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.188 > [   136][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.194 > [   143][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.199 > [   150][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.205 > [   157][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.216 > [   164][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.221 > [   171][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:29:12.227 > [   178][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

@@ -1,0 +1,16 @@
+ets Jul 29 2019 12:21:46
+04:18:37.478 > 
+04:18:37.478 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+04:18:37.499 > waiting for download
+04:18:38.023 > ␁UU␀␀␀␀��␁␄␀␒ UU␀␀␀␀��␁␄␀␒ UU␀␀␀␀��␁␄␀␒ UU␀␀␀␀�␁␀ets Jul 29 2019 12:21:46
+04:18:44.308 > 
+04:18:44.308 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+04:18:44.329 > waiting for download
+04:18:45.036 > ␁ ␁␇ets Jul 29 2019 12:21:46
+04:19:09.250 > 
+04:19:09.250 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+04:19:09.254 > waiting for download
+04:19:09.795 > ␁␀␁␇ets Jul 29 2019 12:21:46
+04:19:16.064 > 
+04:19:16.070 > rst:0x1 (POWERON_RESET),boot:0x1 (DOWNLOAD_BOOT(UART0/UART1/SDIO_FEI_REO_V2))
+04:19:16.085 > waiting for download

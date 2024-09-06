@@ -5,6 +5,8 @@
 void DataLogger::begin() {
   if (!sd.begin(SD_CS, SD_SCK_MHZ(25))) {
     Serial.println("[ERR] Cannot Initialize SD Card.");
+    can_open_file = false;
+    return;
   }
   Serial.println("SD Card Initialized.");
 
@@ -20,14 +22,30 @@ void DataLogger::begin() {
   snprintf(filename, sizeof(filename), "dat%d.csv", count);
   if (!file.open(filename, O_RDWR | O_CREAT | O_AT_END)) {
     Serial.println("[ERR] Cannot Create File.");
+    can_open_file = false;
+  } else {
+    can_open_file = true;
+    file.println("timestamp,accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,pressure");
+    file.sync();
   }
-  file.println("timestamp,accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,pressure");
 }
 
 void DataLogger::logData(const LogData &data) {
-  file.printf("%d,%d,%d,%d,%d,%d,%d,%d\n", data.timestamp, data.accelAndGyroData.accel[0],
+  if (!can_open_file) {
+    return;
+  }
+  file.printf("%d,%.4f,%.4f,%.4f,%.4f,%.4f,%.4f,%d\n", data.timestamp, data.accelAndGyroData.accel[0],
               data.accelAndGyroData.accel[1], data.accelAndGyroData.accel[2], data.accelAndGyroData.gyro[0],
               data.accelAndGyroData.gyro[1], data.accelAndGyroData.gyro[2], data.pressureData.pressure);
+
+  if (!file.sync()) {
+    // Serial.println("Sync error");
+  }
 }
 
-void DataLogger::end() { file.close(); }
+void DataLogger::end() {
+  if (!can_open_file) {
+    return;
+  }
+  file.close();
+}

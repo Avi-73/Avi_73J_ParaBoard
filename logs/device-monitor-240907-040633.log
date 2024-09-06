@@ -1,0 +1,22 @@
+04:06:33.956 > E (191) esp_core_dump_flash: Cφ�V�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O␒&&YN��9a'
+04:06:33.962 > Image checksum='ffffffff'
+04:06:33.970 > CAN Driver installed
+04:06:33.970 > CAN Driver started
+04:06:34.050 > SD Card Initialized.
+04:06:34.050 > [   118][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+04:06:34.060 > [   125][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+04:06:34.066 > [   132][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+04:06:34.080 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.085 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.091 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.102 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.107 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.113 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.119 > [   187][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.129 > [   194][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.135 > [   201][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.140 > [   208][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.146 > [   214][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.157 > [   221][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.162 > [   228][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+04:06:34.168 > [   235][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

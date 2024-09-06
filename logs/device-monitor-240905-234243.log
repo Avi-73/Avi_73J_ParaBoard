@@ -1,0 +1,18 @@
+23:42:43.647 > E (185) esp_core_dump_flash: C��␘��"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�&S&&��X�RH(�+�V␖�,ZY���][O���������RH�[ERR] Cannot Initialize SD Card.
+23:42:43.725 > SD Card Initialized.
+23:42:43.725 > [ERR] Cannot Create File.
+23:42:43.730 > SERVO_PIN: 26
+23:42:43.730 > [   101][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.736 > [   113][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.747 > [   120][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.752 > [   127][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.759 > [   134][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.764 > [   141][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.775 > [   148][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.780 > [   155][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.786 > [   162][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.791 > [   168][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.802 > [   175][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.808 > [   182][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.813 > [   189][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+23:42:43.819 > [   196][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

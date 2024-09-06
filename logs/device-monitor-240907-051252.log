@@ -1,0 +1,1159 @@
+05:12:52.771 > E (191) esp_core_dump_flash: C␡����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�&֦,��&YRH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+05:12:52.785 > CAN Driver started
+05:12:52.801 > SD Card Initialized.
+05:12:52.816 > [    65][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:12:52.821 > [    71][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:12:52.827 > [    78][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:12:52.841 > [    91][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.846 > [    98][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.852 > [   105][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.862 > [   112][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.868 > [   119][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.874 > [   126][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.879 > [   133][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.890 > [   140][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.896 > [   147][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.901 > [   154][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.906 > [   161][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.917 > [   167][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.923 > [   174][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:52.928 > [   181][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:57.939 > E (10454) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:12:57.944 > E (10454) task_wdt:  - IDLE0 (CPU 0)
+05:12:57.950 > E (10454) task_wdt: Tasks currently running:
+05:12:57.955 > E (10454) task_wdt: CPU 0: State Control T
+05:12:57.955 > E (10454) task_wdt: CPU 1: IDLE1
+05:12:57.960 > E (10454) task_wdt: Aborting.
+05:12:57.960 > E (10454) task_wdt: Print CPU 0 (current core) backtrace
+05:12:57.966 > 
+05:12:57.966 > 
+05:12:57.966 > 
+05:12:57.966 > 
+05:12:57.966 > Backtrace: 0x400de070:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:12:57.976 > 
+05:12:57.976 > 
+05:12:57.976 > 
+05:12:57.976 > 
+05:12:57.976 > ELF file SHA256: 33916b02d2e38f41
+05:12:57.992 > 
+05:12:58.151 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:12:58.156 > Debug exception reason: BREAK instr 
+05:12:58.156 > Core  0 register dump:
+05:12:58.161 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:12:58.167 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:12:58.177 > A6      : 0x00000000  A7      : 0x3ffb42d0  A8      : 0x00000020  A9      : 0x3ffbf05c  
+05:12:58.183 > A10     : 0x00000000  A11     : 0xd530a1ff  A12     : 0xd530a1ff  A13     : 0x00060521  
+05:12:58.193 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:12:58.199 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:12:58.209 > 
+05:12:58.209 > 
+05:12:58.209 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:12:58.215 > 
+05:12:58.215 > 
+05:12:58.215 > 
+05:12:58.215 > 
+05:12:58.215 > ELF file SHA256: 33916b02d2e38f41
+05:12:58.220 > 
+05:12:58.220 > Re-entered core dump! Exception happened during core dump!
+05:12:58.235 > Rebooting...
+05:12:58.415 > E (189) esp_core_dump_flash: C␡��e dump data check failed:
+05:12:58.420 > Calculated checksum='00d9289a'
+05:12:58.420 > Image checksum='ffffffff'
+05:12:58.429 > CAN Driver installed
+05:12:58.429 > CAN Driver started
+05:12:58.445 > SD Card Initialized.
+05:12:58.460 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:12:58.465 > [    69][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:12:58.471 > [    76][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:12:58.484 > [    89][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.490 > [    96][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.495 > [   103][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.506 > [   110][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.512 > [   117][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.517 > [   124][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.523 > [   131][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.534 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.539 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.545 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.550 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.561 > [   165][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.567 > [   172][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:12:58.572 > [   179][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:03.583 > E (10453) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:03.588 > E (10453) task_wdt:  - IDLE0 (CPU 0)
+05:13:03.593 > E (10453) task_wdt: Tasks currently running:
+05:13:03.599 > E (10453) task_wdt: CPU 0: State Control T
+05:13:03.599 > E (10453) task_wdt: CPU 1: IDLE1
+05:13:03.604 > E (10453) task_wdt: Aborting.
+05:13:03.604 > E (10453) task_wdt: Print CPU 0 (current core) backtrace
+05:13:03.609 > 
+05:13:03.609 > 
+05:13:03.609 > 
+05:13:03.609 > 
+05:13:03.609 > Backtrace: 0x400de147:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:03.620 > 
+05:13:03.620 > 
+05:13:03.620 > 
+05:13:03.620 > 
+05:13:03.620 > ELF file SHA256: 33916b02d2e38f41
+05:13:03.636 > 
+05:13:03.795 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:03.805 > Debug exception reason: BREAK instr 
+05:13:03.805 > Core  0 register dump:
+05:13:03.811 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:03.816 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:03.822 > A6      : 0x00000000  A7      : 0x3ffb42d0  A8      : 0x00000020  A9      : 0x3ffbf05c  
+05:13:03.832 > A10     : 0x00000000  A11     : 0xce282707  A12     : 0xce282707  A13     : 0x00060521  
+05:13:03.837 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:03.848 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:03.854 > 
+05:13:03.854 > 
+05:13:03.854 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:03.864 > 
+05:13:03.864 > 
+05:13:03.864 > 
+05:13:03.864 > 
+05:13:03.864 > ELF file SHA256: 33916b02d2e38f41
+05:13:03.864 > 
+05:13:03.870 > Re-entered core dump! Exception happened during core dump!
+05:13:03.870 > Rebooting...
+05:13:04.061 > E (189) esp_core_dump_flash: C?��e dump data check failed:
+05:13:04.069 > Calculated checksum='00d9289a'
+05:13:04.069 > Image checksum='ffffffff'
+05:13:04.078 > CAN Driver installed
+05:13:04.078 > CAN Driver started
+05:13:04.094 > SD Card Initialized.
+05:13:04.108 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:04.114 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:04.119 > [    76][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:04.133 > [    89][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.138 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.144 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.155 > [   110][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.161 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.166 > [   124][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.172 > [   131][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.182 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.188 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.193 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.199 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.210 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.215 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:04.221 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.231 > E (10453) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:09.237 > E (10453) task_wdt:  - IDLE0 (CPU 0)
+05:13:09.242 > E (10453) task_wdt: Tasks currently running:
+05:13:09.247 > E (10453) task_wdt: CPU 0: State Control T
+05:13:09.247 > E (10453) task_wdt: CPU 1: IDLE1
+05:13:09.253 > E (10453) task_wdt: Aborting.
+05:13:09.253 > E (10453) task_wdt: Print CPU 0 (current core) backtrace
+05:13:09.258 > 
+05:13:09.258 > 
+05:13:09.258 > 
+05:13:09.258 > 
+05:13:09.258 > Backtrace: 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:09.274 > 
+05:13:09.274 > 
+05:13:09.274 > 
+05:13:09.274 > 
+05:13:09.274 > ELF file SHA256: 33916b02d2e38f41
+05:13:09.289 > 
+05:13:09.448 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:09.453 > Debug exception reason: BREAK instr 
+05:13:09.453 > Core  0 register dump:
+05:13:09.459 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:09.464 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:09.476 > A6      : 0x00000000  A7      : 0x3ffb4270  A8      : 0x00000200  A9      : 0x3ffbf05c  
+05:13:09.480 > A10     : 0x00000000  A11     : 0x5dda009b  A12     : 0x5dda009b  A13     : 0x00060921  
+05:13:09.485 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:09.496 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:09.501 > 
+05:13:09.501 > 
+05:13:09.501 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:09.512 > 
+05:13:09.512 > 
+05:13:09.512 > 
+05:13:09.512 > 
+05:13:09.512 > ELF file SHA256: 33916b02d2e38f41
+05:13:09.517 > 
+05:13:09.517 > Re-entered core dump! Exception happened during core dump!
+05:13:09.533 > Rebooting...
+05:13:09.712 > E (189) esp_core_dump_flash: C?����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR'V��V�,�RH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+05:13:09.726 > CAN Driver started
+05:13:09.742 > SD Card Initialized.
+05:13:09.756 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:09.762 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:09.767 > [    76][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:09.781 > [    89][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.786 > [    96][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.792 > [   103][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.803 > [   110][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.809 > [   117][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.814 > [   124][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.820 > [   131][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.830 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.836 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.841 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.847 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.858 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.863 > [   172][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:09.869 > [   179][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:14.879 > E (10453) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:14.885 > E (10453) task_wdt:  - IDLE0 (CPU 0)
+05:13:14.890 > E (10453) task_wdt: Tasks currently running:
+05:13:14.895 > E (10453) task_wdt: CPU 0: State Control T
+05:13:14.895 > E (10453) task_wdt: CPU 1: IDLE1
+05:13:14.901 > E (10453) task_wdt: Aborting.
+05:13:14.901 > E (10453) task_wdt: Print CPU 0 (current core) backtrace
+05:13:14.906 > 
+05:13:14.906 > 
+05:13:14.906 > 
+05:13:14.906 > 
+05:13:14.906 > Backtrace: 0x4000bfed:0x3ffb4320 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:14.922 > 
+05:13:14.922 > 
+05:13:14.922 > 
+05:13:14.922 > 
+05:13:14.922 > ELF file SHA256: 33916b02d2e38f41
+05:13:14.937 > 
+05:13:15.102 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:15.108 > Debug exception reason: BREAK instr 
+05:13:15.108 > Core  0 register dump:
+05:13:15.113 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:15.118 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:15.129 > A6      : 0x00000000  A7      : 0x3ffb4260  A8      : 0x00000800  A9      : 0x3ffbf05c  
+05:13:15.134 > A10     : 0x00000000  A11     : 0x7bdb8290  A12     : 0x7bdb8290  A13     : 0x00060b21  
+05:13:15.140 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:15.150 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:15.156 > 
+05:13:15.156 > 
+05:13:15.156 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:15.166 > 
+05:13:15.166 > 
+05:13:15.166 > 
+05:13:15.166 > 
+05:13:15.166 > ELF file SHA256: 33916b02d2e38f41
+05:13:15.172 > 
+05:13:15.172 > Re-entered core dump! Exception happened during core dump!
+05:13:15.187 > Rebooting...
+05:13:15.366 > E (189) esp_core_dump_flash: C␡�xe dump data check failed:
+05:13:15.372 > Calculated checksum='c975121b'
+05:13:15.372 > Image checksum='ffffffff'
+05:13:15.380 > CAN Driver installed
+05:13:15.380 > CAN Driver started
+05:13:15.396 > SD Card Initialized.
+05:13:15.411 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:15.416 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:15.422 > [    76][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:15.436 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.441 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.447 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.457 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.463 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.469 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.474 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.485 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.491 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.496 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.502 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.512 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.518 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:15.524 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:20.534 > E (10453) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:20.539 > E (10453) task_wdt:  - IDLE0 (CPU 0)
+05:13:20.545 > E (10453) task_wdt: Tasks currently running:
+05:13:20.550 > E (10453) task_wdt: CPU 0: State Control T
+05:13:20.550 > E (10453) task_wdt: CPU 1: IDLE1
+05:13:20.555 > E (10453) task_wdt: Aborting.
+05:13:20.555 > E (10453) task_wdt: Print CPU 0 (current core) backtrace
+05:13:20.561 > 
+05:13:20.561 > 
+05:13:20.561 > 
+05:13:20.561 > 
+05:13:20.561 > Backtrace: 0x40088f4d:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:20.571 > 
+05:13:20.571 > 
+05:13:20.571 > 
+05:13:20.571 > 
+05:13:20.571 > ELF file SHA256: 33916b02d2e38f41
+05:13:20.587 > 
+05:13:20.746 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:20.752 > Debug exception reason: BREAK instr 
+05:13:20.757 > Core  0 register dump:
+05:13:20.757 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:20.767 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:20.773 > A6      : 0x00000000  A7      : 0x3ffb42d0  A8      : 0x00000020  A9      : 0x3ffbf05c  
+05:13:20.783 > A10     : 0x00000000  A11     : 0x801b1cef  A12     : 0x801b1cef  A13     : 0x00060521  
+05:13:20.789 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:20.799 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:20.805 > 
+05:13:20.805 > 
+05:13:20.805 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:20.815 > 
+05:13:20.815 > 
+05:13:20.815 > 
+05:13:20.815 > 
+05:13:20.815 > ELF file SHA256: 33916b02d2e38f41
+05:13:20.815 > 
+05:13:20.815 > Re-entered core dump! Exception happened during core dump!
+05:13:20.821 > Rebooting...
+05:13:21.012 > E (189) esp_core_dump_flash: C?��e dump data check failed:
+05:13:21.019 > Calculated checksum='00d9289a'
+05:13:21.019 > Image checksum='ffffffff'
+05:13:21.028 > CAN Driver installed
+05:13:21.028 > CAN Driver started
+05:13:21.044 > SD Card Initialized.
+05:13:21.058 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:21.064 > [    69][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:21.069 > [    76][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:21.083 > [    89][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.088 > [    96][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.094 > [   103][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.105 > [   110][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.111 > [   117][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.116 > [   124][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.122 > [   131][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.132 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.138 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.143 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.149 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.160 > [   165][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.165 > [   172][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:21.171 > [   179][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.181 > E (10453) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:26.187 > E (10453) task_wdt:  - IDLE0 (CPU 0)
+05:13:26.192 > E (10453) task_wdt: Tasks currently running:
+05:13:26.197 > E (10453) task_wdt: CPU 0: State Control T
+05:13:26.197 > E (10453) task_wdt: CPU 1: IDLE1
+05:13:26.203 > E (10453) task_wdt: Aborting.
+05:13:26.203 > E (10453) task_wdt: Print CPU 0 (current core) backtrace
+05:13:26.208 > 
+05:13:26.208 > 
+05:13:26.208 > 
+05:13:26.208 > 
+05:13:26.208 > Backtrace: 0x4000bfed:0x3ffb4320 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:26.224 > 
+05:13:26.224 > 
+05:13:26.224 > 
+05:13:26.224 > 
+05:13:26.224 > ELF file SHA256: 33916b02d2e38f41
+05:13:26.240 > 
+05:13:26.399 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:26.404 > Debug exception reason: BREAK instr 
+05:13:26.409 > Core  0 register dump:
+05:13:26.409 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:26.420 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:26.425 > A6      : 0x00000000  A7      : 0x3ffb4260  A8      : 0x00000800  A9      : 0x3ffbf05c  
+05:13:26.436 > A10     : 0x00000000  A11     : 0x33261d67  A12     : 0x33261d67  A13     : 0x00060b21  
+05:13:26.441 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:26.452 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:26.457 > 
+05:13:26.457 > 
+05:13:26.457 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:26.468 > 
+05:13:26.468 > 
+05:13:26.468 > 
+05:13:26.468 > 
+05:13:26.468 > ELF file SHA256: 33916b02d2e38f41
+05:13:26.468 > 
+05:13:26.468 > Re-entered core dump! Exception happened during core dump!
+05:13:26.473 > Rebooting...
+05:13:26.664 > E (189) esp_core_dump_flash: C␡��e dump data check failed:
+05:13:26.672 > Calculated checksum='c975121b'
+05:13:26.672 > Image checksum='ffffffff'
+05:13:26.681 > CAN Driver installed
+05:13:26.681 > CAN Driver started
+05:13:26.696 > SD Card Initialized.
+05:13:26.712 > [    64][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:26.717 > [    71][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:26.723 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:26.736 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.742 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.747 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.758 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.764 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.770 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.775 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.786 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.791 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.797 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.808 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.813 > [   167][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.819 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:26.824 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:31.836 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:31.841 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:13:31.846 > E (10455) task_wdt: Tasks currently running:
+05:13:31.851 > E (10455) task_wdt: CPU 0: State Control T
+05:13:31.851 > E (10455) task_wdt: CPU 1: IDLE1
+05:13:31.857 > E (10455) task_wdt: Aborting.
+05:13:31.857 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:13:31.862 > 
+05:13:31.862 > 
+05:13:31.862 > 
+05:13:31.862 > 
+05:13:31.862 > Backtrace: 0x400de10c:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:31.873 > 
+05:13:31.873 > 
+05:13:31.873 > 
+05:13:31.873 > 
+05:13:31.873 > ELF file SHA256: 33916b02d2e38f41
+05:13:31.888 > 
+05:13:32.053 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:32.058 > Debug exception reason: BREAK instr 
+05:13:32.058 > Core  0 register dump:
+05:13:32.064 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:32.069 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:32.080 > A6      : 0x00000000  A7      : 0x3ffb42d0  A8      : 0x00000020  A9      : 0x3ffbf05c  
+05:13:32.085 > A10     : 0x00000000  A11     : 0x5a8c28ef  A12     : 0x5a8c28ef  A13     : 0x00060521  
+05:13:32.090 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:32.101 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:32.106 > 
+05:13:32.106 > 
+05:13:32.106 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:32.117 > 
+05:13:32.117 > 
+05:13:32.117 > 
+05:13:32.117 > 
+05:13:32.117 > ELF file SHA256: 33916b02d2e38f41
+05:13:32.122 > 
+05:13:32.122 > Re-entered core dump! Exception happened during core dump!
+05:13:32.137 > Rebooting...
+05:13:32.316 > E (189) esp_core_dump_flash: C␡����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O␒&&YN��9a'
+05:13:32.330 > Image checksum='ffffffff'
+05:13:32.330 > CAN Driver installed
+05:13:32.330 > CAN Driver started
+05:13:32.346 > SD Card Initialized.
+05:13:32.362 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:32.367 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:32.373 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:32.387 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.392 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.398 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.408 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.414 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.420 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.425 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.436 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.441 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.447 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.453 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.463 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.469 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:32.474 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:37.485 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:37.490 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:13:37.497 > E (10455) task_wdt: Tasks currently running:
+05:13:37.502 > E (10455) task_wdt: CPU 0: State Control T
+05:13:37.502 > E (10455) task_wdt: CPU 1: IDLE1
+05:13:37.507 > E (10455) task_wdt: Aborting.
+05:13:37.507 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:13:37.512 > 
+05:13:37.512 > 
+05:13:37.512 > 
+05:13:37.512 > 
+05:13:37.512 > Backtrace: 0x4000bfed:0x3ffb4320 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:37.528 > 
+05:13:37.528 > 
+05:13:37.528 > 
+05:13:37.528 > 
+05:13:37.528 > ELF file SHA256: 33916b02d2e38f41
+05:13:37.543 > 
+05:13:37.718 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:37.723 > Debug exception reason: BREAK instr 
+05:13:37.729 > Core  0 register dump:
+05:13:37.729 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:37.734 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:37.745 > A6      : 0x00000000  A7      : 0x3ffb4260  A8      : 0x00000800  A9      : 0x3ffbf05c  
+05:13:37.750 > A10     : 0x00000000  A11     : 0xb8508f01  A12     : 0xb8508f01  A13     : 0x00060b21  
+05:13:37.761 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:37.766 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:37.777 > 
+05:13:37.777 > 
+05:13:37.777 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:37.782 > 
+05:13:37.782 > 
+05:13:37.782 > 
+05:13:37.782 > 
+05:13:37.782 > ELF file SHA256: 33916b02d2e38f41
+05:13:37.788 > 
+05:13:37.788 > Re-entered core dump! Exception happened during core dump!
+05:13:37.803 > Rebooting...
+05:13:37.983 > E (189) esp_core_dump_flash: C?����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OҬ�SS&�L�RH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+05:13:37.997 > CAN Driver started
+05:13:38.012 > SD Card Initialized.
+05:13:38.028 > [    64][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:38.034 > [    71][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:38.039 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:38.053 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.058 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.064 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.075 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.081 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.086 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.097 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.103 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.108 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.113 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.124 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.130 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.135 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:38.141 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.152 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:43.157 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:13:43.163 > E (10455) task_wdt: Tasks currently running:
+05:13:43.168 > E (10455) task_wdt: CPU 0: State Control T
+05:13:43.168 > E (10455) task_wdt: CPU 1: IDLE1
+05:13:43.173 > E (10455) task_wdt: Aborting.
+05:13:43.173 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:13:43.179 > 
+05:13:43.179 > 
+05:13:43.179 > 
+05:13:43.179 > 
+05:13:43.179 > Backtrace: 0x400d1f97:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:43.184 > 
+05:13:43.184 > 
+05:13:43.184 > 
+05:13:43.184 > 
+05:13:43.199 > ELF file SHA256: 33916b02d2e38f41
+05:13:43.199 > 
+05:13:43.368 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:43.373 > Debug exception reason: BREAK instr 
+05:13:43.373 > Core  0 register dump:
+05:13:43.378 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:43.384 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:43.397 > A6      : 0x00000000  A7      : 0x3ffb4330  A8      : 0x00000002  A9      : 0x3ffbf05c  
+05:13:43.400 > A10     : 0x00000000  A11     : 0x2d3f5941  A12     : 0x2d3f5941  A13     : 0x00060121  
+05:13:43.405 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:43.415 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:43.421 > 
+05:13:43.421 > 
+05:13:43.421 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:43.431 > 
+05:13:43.431 > 
+05:13:43.431 > 
+05:13:43.431 > 
+05:13:43.431 > ELF file SHA256: 33916b02d2e38f41
+05:13:43.437 > 
+05:13:43.437 > Re-entered core dump! Exception happened during core dump!
+05:13:43.452 > Rebooting...
+05:13:43.631 > E (189) esp_core_dump_flash: C?����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O��,YM��dc'
+05:13:43.636 > Image checksum='ffffffff'
+05:13:43.645 > CAN Driver installed
+05:13:43.645 > CAN Driver started
+05:13:43.661 > SD Card Initialized.
+05:13:43.676 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:43.682 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:43.687 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:43.701 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.706 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.712 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.723 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.729 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.734 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.740 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.750 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.756 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.761 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.767 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.778 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.783 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:43.789 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:48.800 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:48.805 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:13:48.810 > E (10455) task_wdt: Tasks currently running:
+05:13:48.815 > E (10455) task_wdt: CPU 0: State Control T
+05:13:48.815 > E (10455) task_wdt: CPU 1: IDLE1
+05:13:48.821 > E (10455) task_wdt: Aborting.
+05:13:48.821 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:13:48.826 > 
+05:13:48.826 > 
+05:13:48.826 > 
+05:13:48.826 > 
+05:13:48.826 > Backtrace: 0x4000bfed:0x3ffb4320 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:48.842 > 
+05:13:48.842 > 
+05:13:48.842 > 
+05:13:48.842 > 
+05:13:48.842 > ELF file SHA256: 33916b02d2e38f41
+05:13:48.857 > 
+05:13:49.024 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:49.029 > Debug exception reason: BREAK instr 
+05:13:49.029 > Core  0 register dump:
+05:13:49.035 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:49.040 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:49.051 > A6      : 0x00000000  A7      : 0x3ffb4260  A8      : 0x00000800  A9      : 0x3ffbf05c  
+05:13:49.056 > A10     : 0x00000000  A11     : 0x5451c7b8  A12     : 0x5451c7b8  A13     : 0x00060b21  
+05:13:49.061 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:49.072 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:49.077 > 
+05:13:49.077 > 
+05:13:49.077 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:49.088 > 
+05:13:49.088 > 
+05:13:49.088 > 
+05:13:49.088 > 
+05:13:49.088 > ELF file SHA256: 33916b02d2e38f41
+05:13:49.093 > 
+05:13:49.093 > Re-entered core dump! Exception happened during core dump!
+05:13:49.109 > Rebooting...
+05:13:49.288 > E (189) esp_core_dump_flash: C?����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OҬ�SS&�L�RH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+05:13:49.302 > CAN Driver started
+05:13:49.317 > SD Card Initialized.
+05:13:49.333 > [    64][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:49.338 > [    71][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:49.344 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:49.358 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.363 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.369 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.379 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.385 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.391 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.396 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.407 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.413 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.418 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.429 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.434 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.440 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:49.445 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:54.457 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:13:54.462 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:13:54.468 > E (10455) task_wdt: Tasks currently running:
+05:13:54.473 > E (10455) task_wdt: CPU 0: State Control T
+05:13:54.473 > E (10455) task_wdt: CPU 1: IDLE1
+05:13:54.478 > E (10455) task_wdt: Aborting.
+05:13:54.478 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:13:54.483 > 
+05:13:54.483 > 
+05:13:54.483 > 
+05:13:54.483 > 
+05:13:54.483 > Backtrace: 0x4000bfed:0x3ffb4320 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:13:54.499 > 
+05:13:54.499 > 
+05:13:54.499 > 
+05:13:54.499 > 
+05:13:54.499 > ELF file SHA256: 33916b02d2e38f41
+05:13:54.515 > 
+05:13:54.685 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:13:54.689 > Debug exception reason: BREAK instr 
+05:13:54.689 > Core  0 register dump:
+05:13:54.695 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:13:54.700 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:13:54.711 > A6      : 0x00000000  A7      : 0x3ffb4260  A8      : 0x00000800  A9      : 0x3ffbf05c  
+05:13:54.716 > A10     : 0x00000000  A11     : 0x425108da  A12     : 0x425108da  A13     : 0x00060b21  
+05:13:54.721 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:13:54.732 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:13:54.737 > 
+05:13:54.737 > 
+05:13:54.737 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:13:54.748 > 
+05:13:54.748 > 
+05:13:54.748 > 
+05:13:54.748 > 
+05:13:54.748 > ELF file SHA256: 33916b02d2e38f41
+05:13:54.753 > 
+05:13:54.753 > Re-entered core dump! Exception happened during core dump!
+05:13:54.768 > Rebooting...
+05:13:54.948 > E (189) esp_core_dump_flash: C?��e dump data check failed:
+05:13:54.953 > Calculated checksum='c975121b'
+05:13:54.953 > Image checksum='ffffffff'
+05:13:54.962 > CAN Driver installed
+05:13:54.962 > CAN Driver started
+05:13:54.977 > SD Card Initialized.
+05:13:54.993 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:13:54.998 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:13:55.004 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:13:55.017 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.023 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.028 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.039 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.045 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.051 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.056 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.067 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.072 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.078 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.083 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.094 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.100 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:13:55.105 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.116 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:14:00.121 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:14:00.127 > E (10455) task_wdt: Tasks currently running:
+05:14:00.132 > E (10455) task_wdt: CPU 0: State Control T
+05:14:00.132 > E (10455) task_wdt: CPU 1: IDLE1
+05:14:00.137 > E (10455) task_wdt: Aborting.
+05:14:00.137 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:14:00.143 > 
+05:14:00.143 > 
+05:14:00.143 > 
+05:14:00.143 > 
+05:14:00.143 > Backtrace: 0x400de10a:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:14:00.153 > 
+05:14:00.153 > 
+05:14:00.153 > 
+05:14:00.153 > 
+05:14:00.153 > ELF file SHA256: 33916b02d2e38f41
+05:14:00.169 > 
+05:14:00.328 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:14:00.333 > Debug exception reason: BREAK instr 
+05:14:00.339 > Core  0 register dump:
+05:14:00.339 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:14:00.349 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:14:00.355 > A6      : 0x00000000  A7      : 0x3ffb42d0  A8      : 0x00000020  A9      : 0x3ffbf05c  
+05:14:00.365 > A10     : 0x00000000  A11     : 0xb393cfbb  A12     : 0xb393cfbb  A13     : 0x00060521  
+05:14:00.371 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:14:00.381 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:14:00.387 > 
+05:14:00.387 > 
+05:14:00.387 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:14:00.397 > 
+05:14:00.397 > 
+05:14:00.397 > 
+05:14:00.397 > 
+05:14:00.397 > ELF file SHA256: 33916b02d2e38f41
+05:14:00.397 > 
+05:14:00.397 > Re-entered core dump! Exception happened during core dump!
+05:14:00.403 > Rebooting...
+05:14:00.594 > E (189) esp_core_dump_flash: C␡����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O␒&&YN��9a'
+05:14:00.610 > Image checksum='ffffffff'
+05:14:00.610 > CAN Driver installed
+05:14:00.610 > CAN Driver started
+05:14:00.625 > SD Card Initialized.
+05:14:00.641 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:14:00.647 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:14:00.652 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:14:00.666 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.671 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.677 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.688 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.694 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.699 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.705 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.715 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.721 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.726 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.732 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.743 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.748 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:00.754 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:05.765 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:14:05.770 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:14:05.775 > E (10455) task_wdt: Tasks currently running:
+05:14:05.781 > E (10455) task_wdt: CPU 0: State Control T
+05:14:05.781 > E (10455) task_wdt: CPU 1: IDLE1
+05:14:05.786 > E (10455) task_wdt: Aborting.
+05:14:05.786 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:14:05.791 > 
+05:14:05.791 > 
+05:14:05.791 > 
+05:14:05.791 > 
+05:14:05.791 > Backtrace: 0x4000bfed:0x3ffb4320 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:14:05.807 > 
+05:14:05.807 > 
+05:14:05.807 > 
+05:14:05.807 > 
+05:14:05.807 > ELF file SHA256: 33916b02d2e38f41
+05:14:05.822 > 
+05:14:05.982 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:14:05.992 > Debug exception reason: BREAK instr 
+05:14:05.992 > Core  0 register dump:
+05:14:05.998 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:14:06.003 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:14:06.008 > A6      : 0x00000000  A7      : 0x3ffb4260  A8      : 0x00000800  A9      : 0x3ffbf05c  
+05:14:06.019 > A10     : 0x00000000  A11     : 0x31d4df1a  A12     : 0x31d4df1a  A13     : 0x00060b21  
+05:14:06.024 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:14:06.035 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:14:06.040 > 
+05:14:06.040 > 
+05:14:06.040 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:14:06.051 > 
+05:14:06.051 > 
+05:14:06.051 > 
+05:14:06.051 > 
+05:14:06.051 > ELF file SHA256: 33916b02d2e38f41
+05:14:06.051 > 
+05:14:06.056 > Re-entered core dump! Exception happened during core dump!
+05:14:06.056 > Rebooting...
+05:14:06.247 > E (189) esp_core_dump_flash: C?����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OҬ�SS&�L�RH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+05:14:06.264 > CAN Driver started
+05:14:06.280 > SD Card Initialized.
+05:14:06.295 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:14:06.301 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:14:06.306 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:14:06.320 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.326 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.331 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.342 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.352 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.353 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.360 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.372 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.376 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.382 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.395 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.397 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.406 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:06.408 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:11.419 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:14:11.424 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:14:11.429 > E (10455) task_wdt: Tasks currently running:
+05:14:11.435 > E (10455) task_wdt: CPU 0: State Control T
+05:14:11.435 > E (10455) task_wdt: CPU 1: IDLE1
+05:14:11.440 > E (10455) task_wdt: Aborting.
+05:14:11.440 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:14:11.445 > 
+05:14:11.445 > 
+05:14:11.445 > 
+05:14:11.445 > 
+05:14:11.445 > Backtrace: 0x400de102:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:14:11.456 > 
+05:14:11.456 > 
+05:14:11.456 > 
+05:14:11.456 > 
+05:14:11.456 > ELF file SHA256: 33916b02d2e38f41
+05:14:11.472 > 
+05:14:11.631 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:14:11.641 > Debug exception reason: BREAK instr 
+05:14:11.641 > Core  0 register dump:
+05:14:11.646 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:14:11.652 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:14:11.657 > A6      : 0x00000000  A7      : 0x3ffb42d0  A8      : 0x00000020  A9      : 0x3ffbf05c  
+05:14:11.668 > A10     : 0x00000000  A11     : 0x4904c374  A12     : 0x4904c374  A13     : 0x00060521  
+05:14:11.673 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:14:11.684 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:14:11.689 > 
+05:14:11.689 > 
+05:14:11.689 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:14:11.700 > 
+05:14:11.700 > 
+05:14:11.700 > 
+05:14:11.700 > 
+05:14:11.700 > ELF file SHA256: 33916b02d2e38f41
+05:14:11.700 > 
+05:14:11.705 > Re-entered core dump! Exception happened during core dump!
+05:14:11.705 > Rebooting...
+05:14:11.896 > E (189) esp_core_dump_flash: C␡����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O␒&&YN��9a'
+05:14:11.913 > Image checksum='ffffffff'
+05:14:11.913 > CAN Driver installed
+05:14:11.913 > CAN Driver started
+05:14:11.928 > SD Card Initialized.
+05:14:11.944 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:14:11.949 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:14:11.955 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:14:11.968 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:11.974 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:11.980 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:11.990 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:11.996 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.002 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.013 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.018 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.023 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.029 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.040 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.045 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.051 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:12.056 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.068 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:14:17.073 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:14:17.078 > E (10455) task_wdt: Tasks currently running:
+05:14:17.084 > E (10455) task_wdt: CPU 0: State Control T
+05:14:17.084 > E (10455) task_wdt: CPU 1: IDLE1
+05:14:17.089 > E (10455) task_wdt: Aborting.
+05:14:17.089 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:14:17.095 > 
+05:14:17.095 > 
+05:14:17.095 > 
+05:14:17.095 > 
+05:14:17.095 > Backtrace: 0x4000bfed:0x3ffb4320 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:14:17.110 > 
+05:14:17.110 > 
+05:14:17.110 > 
+05:14:17.110 > 
+05:14:17.110 > ELF file SHA256: 33916b02d2e38f41
+05:14:17.126 > 
+05:14:17.286 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:14:17.291 > Debug exception reason: BREAK instr 
+05:14:17.296 > Core  0 register dump:
+05:14:17.296 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:14:17.307 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:14:17.312 > A6      : 0x00000000  A7      : 0x3ffb4260  A8      : 0x00000800  A9      : 0x3ffbf05c  
+05:14:17.323 > A10     : 0x00000000  A11     : 0x3e61633b  A12     : 0x3e61633b  A13     : 0x00060b21  
+05:14:17.328 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:14:17.338 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:14:17.344 > 
+05:14:17.344 > 
+05:14:17.344 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:14:17.355 > 
+05:14:17.355 > 
+05:14:17.355 > 
+05:14:17.355 > 
+05:14:17.355 > ELF file SHA256: 33916b02d2e38f41
+05:14:17.355 > 
+05:14:17.355 > Re-entered core dump! Exception happened during core dump!
+05:14:17.360 > Rebooting...
+05:14:17.551 > E (189) esp_core_dump_flash: C?��e dump data check failed:
+05:14:17.559 > Calculated checksum='c975121b'
+05:14:17.559 > Image checksum='ffffffff'
+05:14:17.567 > CAN Driver installed
+05:14:17.567 > CAN Driver started
+05:14:17.583 > SD Card Initialized.
+05:14:17.598 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:14:17.604 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:14:17.609 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:14:17.623 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.628 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.634 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.645 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.651 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.656 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.662 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.673 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.678 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.683 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.689 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.700 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.705 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:17.711 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:22.722 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:14:22.727 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:14:22.732 > E (10455) task_wdt: Tasks currently running:
+05:14:22.738 > E (10455) task_wdt: CPU 0: State Control T
+05:14:22.738 > E (10455) task_wdt: CPU 1: IDLE1
+05:14:22.743 > E (10455) task_wdt: Aborting.
+05:14:22.743 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:14:22.748 > 
+05:14:22.748 > 
+05:14:22.748 > 
+05:14:22.748 > 
+05:14:22.748 > Backtrace: 0x40088fca:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:14:22.759 > 
+05:14:22.759 > 
+05:14:22.775 > 
+05:14:22.775 > 
+05:14:22.775 > ELF file SHA256: 33916b02d2e38f41
+05:14:22.775 > 
+05:14:22.940 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:14:22.946 > Debug exception reason: BREAK instr 
+05:14:22.946 > Core  0 register dump:
+05:14:22.951 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:14:22.956 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:14:22.967 > A6      : 0x00000000  A7      : 0x3ffb4290  A8      : 0x00000080  A9      : 0x3ffbf05c  
+05:14:22.972 > A10     : 0x00000000  A11     : 0x6f8b989f  A12     : 0x6f8b989f  A13     : 0x00060721  
+05:14:22.978 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:14:22.988 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:14:22.994 > 
+05:14:22.994 > 
+05:14:22.994 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:14:23.004 > 
+05:14:23.004 > 
+05:14:23.004 > 
+05:14:23.004 > 
+05:14:23.004 > ELF file SHA256: 33916b02d2e38f41
+05:14:23.010 > 
+05:14:23.010 > Re-entered core dump! Exception happened during core dump!
+05:14:23.025 > Rebooting...
+05:14:23.204 > E (189) esp_core_dump_flash: C?����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O�,,��XLLNRH(�+�V␖�,ZY���][O���������RH�CAN Driver installed
+05:14:23.218 > CAN Driver started
+05:14:23.233 > SD Card Initialized.
+05:14:23.249 > [    64][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:14:23.254 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:14:23.260 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:14:23.274 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.279 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.285 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.295 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.301 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.307 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.312 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.323 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.329 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.334 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.345 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.350 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.356 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:23.362 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.372 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:14:28.378 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:14:28.383 > E (10455) task_wdt: Tasks currently running:
+05:14:28.388 > E (10455) task_wdt: CPU 0: State Control T
+05:14:28.388 > E (10455) task_wdt: CPU 1: IDLE1
+05:14:28.394 > E (10455) task_wdt: Aborting.
+05:14:28.394 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:14:28.399 > 
+05:14:28.399 > 
+05:14:28.399 > 
+05:14:28.399 > 
+05:14:28.399 > Backtrace: 0x4000bfed:0x3ffb4320 0x4008b0f4:0x3ffb4330 0x40088feb:0x3ffb4350 0x400de068:0x3ffb4390 0x400d1f2d:0x3ffb43d0 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:14:28.415 > 
+05:14:28.415 > 
+05:14:28.415 > 
+05:14:28.415 > 
+05:14:28.415 > ELF file SHA256: 33916b02d2e38f41
+05:14:28.430 > 
+05:14:28.598 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:14:28.604 > Debug exception reason: BREAK instr 
+05:14:28.604 > Core  0 register dump:
+05:14:28.609 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:14:28.614 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:14:28.625 > A6      : 0x00000000  A7      : 0x3ffb4260  A8      : 0x00000800  A9      : 0x3ffbf05c  
+05:14:28.630 > A10     : 0x00000000  A11     : 0xda4bd0a4  A12     : 0xda4bd0a4  A13     : 0x00060b21  
+05:14:28.636 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:14:28.647 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:14:28.652 > 
+05:14:28.652 > 
+05:14:28.652 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:14:28.662 > 
+05:14:28.662 > 
+05:14:28.662 > 
+05:14:28.662 > 
+05:14:28.662 > ELF file SHA256: 33916b02d2e38f41
+05:14:28.668 > 
+05:14:28.668 > Re-entered core dump! Exception happened during core dump!
+05:14:28.683 > Rebooting...
+05:14:28.862 > E (189) esp_core_dump_flash: C?��e dump data check failed:
+05:14:28.867 > Calculated checksum='c975121b'
+05:14:28.867 > Image checksum='ffffffff'
+05:14:28.876 > CAN Driver installed
+05:14:28.876 > CAN Driver started
+05:14:28.892 > SD Card Initialized.
+05:14:28.908 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:14:28.913 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:14:28.918 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:14:28.932 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.937 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.943 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.954 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.960 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.965 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.971 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.982 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.987 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.993 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:28.998 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:29.009 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:29.015 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:29.020 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.031 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:14:34.036 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:14:34.041 > E (10455) task_wdt: Tasks currently running:
+05:14:34.047 > E (10455) task_wdt: CPU 0: State Control T
+05:14:34.047 > E (10455) task_wdt: CPU 1: IDLE1
+05:14:34.052 > E (10455) task_wdt: Aborting.
+05:14:34.052 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:14:34.057 > 
+05:14:34.057 > 
+05:14:34.057 > 
+05:14:34.057 > 
+05:14:34.057 > Backtrace: 0x400d1f9c:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:14:34.063 > 
+05:14:34.063 > 
+05:14:34.063 > 
+05:14:34.063 > 
+05:14:34.078 > ELF file SHA256: 33916b02d2e38f41
+05:14:34.078 > 
+05:14:34.237 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:14:34.242 > Debug exception reason: BREAK instr 
+05:14:34.242 > Core  0 register dump:
+05:14:34.248 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:14:34.253 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:14:34.264 > A6      : 0x00000000  A7      : 0x3ffb4330  A8      : 0x00000002  A9      : 0x3ffbf05c  
+05:14:34.269 > A10     : 0x00000000  A11     : 0x40fbd4e4  A12     : 0x40fbd4e4  A13     : 0x00060121  
+05:14:34.280 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:14:34.285 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:14:34.290 > 
+05:14:34.296 > 
+05:14:34.296 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:14:34.301 > 
+05:14:34.301 > 
+05:14:34.301 > 
+05:14:34.301 > 
+05:14:34.301 > ELF file SHA256: 33916b02d2e38f41
+05:14:34.307 > 
+05:14:34.307 > Re-entered core dump! Exception happened during core dump!
+05:14:34.322 > Rebooting...
+05:14:34.501 > E (189) esp_core_dump_flash: C?��e dump data check failed:
+05:14:34.506 > Calculated checksum='bcd5dddc'
+05:14:34.506 > Image checksum='ffffffff'
+05:14:34.515 > CAN Driver installed
+05:14:34.515 > CAN Driver started
+05:14:34.530 > SD Card Initialized.
+05:14:34.547 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:14:34.552 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:14:34.557 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:14:34.571 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.576 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.582 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.593 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.599 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.604 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.610 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.621 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.626 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.632 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.643 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.648 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.653 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:34.659 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:39.670 > E (10455) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+05:14:39.675 > E (10455) task_wdt:  - IDLE0 (CPU 0)
+05:14:39.680 > E (10455) task_wdt: Tasks currently running:
+05:14:39.686 > E (10455) task_wdt: CPU 0: State Control T
+05:14:39.686 > E (10455) task_wdt: CPU 1: IDLE1
+05:14:39.691 > E (10455) task_wdt: Aborting.
+05:14:39.691 > E (10455) task_wdt: Print CPU 0 (current core) backtrace
+05:14:39.696 > 
+05:14:39.696 > 
+05:14:39.696 > 
+05:14:39.696 > 
+05:14:39.696 > Backtrace: 0x400d1f97:0x3ffb43f0 0x4008ae76:0x3ffb4410
+05:14:39.702 > 
+05:14:39.702 > 
+05:14:39.702 > 
+05:14:39.702 > 
+05:14:39.718 > ELF file SHA256: 33916b02d2e38f41
+05:14:39.718 > 
+05:14:39.877 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+05:14:39.882 > Debug exception reason: BREAK instr 
+05:14:39.887 > Core  0 register dump:
+05:14:39.887 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2d70  
+05:14:39.898 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+05:14:39.903 > A6      : 0x00000000  A7      : 0x3ffb4330  A8      : 0x00000002  A9      : 0x3ffbf05c  
+05:14:39.914 > A10     : 0x00000000  A11     : 0xa5a3b93e  A12     : 0xa5a3b93e  A13     : 0x00060121  
+05:14:39.919 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+05:14:39.925 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+05:14:39.936 > 
+05:14:39.936 > 
+05:14:39.936 > Backtrace: 0x40083efd:0x3ffc2d70 0x40080303:0x3ffc2da0 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+05:14:39.941 > 
+05:14:39.941 > 
+05:14:39.941 > 
+05:14:39.946 > 
+05:14:39.946 > ELF file SHA256: 33916b02d2e38f41
+05:14:39.946 > 
+05:14:39.946 > Re-entered core dump! Exception happened during core dump!
+05:14:39.961 > Rebooting...
+05:14:40.143 > E (189) esp_core_dump_flash: C?����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][O��,YM��dc'
+05:14:40.148 > Image checksum='ffffffff'
+05:14:40.157 > CAN Driver installed
+05:14:40.157 > CAN Driver started
+05:14:40.172 > SD Card Initialized.
+05:14:40.188 > [    63][E][esp32-hal-periman.c:180] perimanGetPinBus(): Invalid pin: 255
+05:14:40.193 > [    70][E][esp32-hal-periman.c:122] perimanSetPinBus(): Invalid pin: 255
+05:14:40.199 > [    77][E][esp32-hal-ledc.c:101] ledcAttachChannel(): Pin 255 is already attached to another bus and failed to detach
+05:14:40.213 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.218 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.224 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.234 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.241 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.246 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.251 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.262 > [   138][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.268 > [   145][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.273 > [   152][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.284 > [   159][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.290 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.295 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+05:14:40.301 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

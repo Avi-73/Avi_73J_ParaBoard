@@ -1,0 +1,39 @@
+22:50:33.529 > E (183) esp_core_dump_flash: C���␋␒VW␋␗␒V,W,�,ZY�-HV�-[Y��
+22:50:33.534 > Calculated checksum='2f3abc3d'
+22:50:33.534 > Image checksum='ffffffff'
+22:50:33.606 > [ERR] Cannot Initialize SD Card.
+22:50:33.606 > SD Card Initialized.
+22:50:33.606 > [ERR] Cannot Create File.
+22:50:33.612 > SERVO_PIN: 26
+22:50:33.612 > [   100][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.617 > [   112][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.628 > [   119][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.633 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.639 > [   133][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.645 > [   140][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.656 > [   147][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.661 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.667 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.672 > [   167][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.683 > [   174][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.688 > [   181][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.694 > [   188][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:33.699 > [   195][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+22:50:43.524 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+22:50:43.529 > Debug exception reason: Stack canary watchpoint triggered (Conditions Chec) 
+22:50:43.535 > Core  1 register dump:
+22:50:43.535 > PC      : 0x4008af76  PS      : 0x00060836  A0      : 0x8008cdb4  A1      : 0x3ffb2b50  
+22:50:43.545 > A2      : 0x3ffb0300  A3      : 0xffffffff  A4      : 0x00060820  A5      : 0x4156185a  
+22:50:43.551 > A6      : 0x3ffb2cb0  A7      : 0x3ffb2cb4  A8      : 0x800f6b3c  A9      : 0x3ffb2c50  
+22:50:43.561 > A10     : 0x3ffb9468  A11     : 0x00000001  A12     : 0x3ffb96d4  A13     : 0x411275e8  
+22:50:43.567 > A14     : 0x00000927  A15     : 0xffc70000  SAR     : 0x0000001c  EXCCAUSE: 0x00000001  
+22:50:43.577 > EXCVADDR: 0x00000000  LBEG    : 0x40086961  LEND    : 0x40086971  LCOUNT  : 0xffffffff  
+22:50:43.583 > 
+22:50:43.583 > 
+22:50:43.583 > Backtrace: 0x4008af73:0x3ffb2b50 0x4008cdb1:0x3ffb2b80 0x4008cf15:0x3ffb2ba0 0x4008397a:0x3ffb2bc0 0x40083731:0x3ffb2bf0 0x4008375d:0x3ffb2c10 0x4008ddb7:0x3ffb2c30 0x400f6323:0x3ffb2c50 0x400f6b39:0x3ffb2c70 0x400f5617:0x3ffb2cb0 0x400efa41:0x3ffb2d40 0x400f539e:0x3ffb3060 0x400f53da:0x3ffb30f0 0x400d4f16:0x3ffb3130 0x400d4f95:0x3ffb31b0 0x400d27ae:0x3ffb3200 0x400d1cf7:0x3ffb3260 0x4008ae76:0x3ffb32b0
+22:50:43.630 > 
+22:50:43.630 > 
+22:50:43.630 > 
+22:50:43.630 > 
+22:50:43.630 > ELF file SHA256: 950ad21fa8983033
+22:50:43.630 > 

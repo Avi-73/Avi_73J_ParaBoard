@@ -1,0 +1,7 @@
+09:54:27.376 > E (167) esp_core_dump_flash: ���e dump data check failed:
+09:54:27.381 > Calculated checksum='18cc472b'
+09:54:27.381 > Image checksum='ffffffff'
+09:54:27.390 > CAN Driver installed
+09:54:27.390 > CAN Driver started
+09:54:29.850 > send: a
+09:54:29.851 > twai_state: 1, tx_err_counter: 0, rx_err_counter: 0, tx_failed_count: 0, rx_missed_count: 0, rx_overrun_count: 0, arb_lost_count: 0, bus_error_count: 0

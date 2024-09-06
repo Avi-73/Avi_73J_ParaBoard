@@ -1,0 +1,94 @@
+03:19:50.649 > ets Jul 29 2019 12:21:46
+03:19:50.649 > 
+03:19:50.649 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+03:19:50.654 > configsip: 0, SPIWP:0xee
+03:19:50.654 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+03:19:50.659 > mode:DIO, clock div:2
+03:19:50.665 > load:0x3fff0030,len:4604
+03:19:50.665 > ho 0 tail 12 room 4
+03:19:50.670 > load:0x40078000,len:15468
+03:19:50.670 > load:0x40080400,len:4
+03:19:50.670 > ho 8 tail 4 room 4
+03:19:50.686 > load:0x40080404,len:3180
+03:19:50.686 > entry 0x400805b8
+03:19:50.851 > E (204) esp_core_dump_flash: C�����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR&��,M�&�RH(�+�V␖�,ZY���][O���������RH�SD Card Initialized.
+03:19:50.919 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.925 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.936 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.941 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.947 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.953 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.964 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.969 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.974 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.980 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.991 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:50.996 > [   167][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:51.002 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:51.007 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:56.875 > E (12177) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+03:19:56.880 > E (12177) task_wdt:  - Log Task (CPU 0)
+03:19:56.885 > E (12177) task_wdt: Tasks currently running:
+03:19:56.891 > E (12177) task_wdt: CPU 0: IDLE0
+03:19:56.891 > E (12177) task_wdt: CPU 1: State Control T
+03:19:56.896 > E (12177) task_wdt: Aborting.
+03:19:56.901 > E (12177) task_wdt: Print CPU 0 (current core) backtrace
+03:19:56.907 > 
+03:19:56.907 > 
+03:19:56.907 > 
+03:19:56.907 > 
+03:19:56.907 > Backtrace: 0x40086e6b:0x3ffbc880 0x400dfa5a:0x3ffbc8a0 0x400895f7:0x3ffbc8c0 0x4008ae76:0x3ffbc8e0
+03:19:56.912 > 
+03:19:56.912 > 
+03:19:56.912 > 
+03:19:56.912 > 
+03:19:56.912 > ELF file SHA256: a76a65be846d1edf
+03:19:56.928 > 
+03:19:57.086 > Guru Meditation Error: Core  0 panic'ed (Unhandled debug exception). 
+03:19:57.092 > Debug exception reason: BREAK instr 
+03:19:57.097 > Core  0 register dump:
+03:19:57.097 > PC      : 0x40083f00  PS      : 0x00000016  A0      : 0x40080306  A1      : 0x3ffc2be0  
+03:19:57.108 > A2      : 0x00000000  A3      : 0x70000005  A4      : 0x00000000  A5      : 0x00000000  
+03:19:57.113 > A6      : 0x00000000  A7      : 0x3ffbc7c0  A8      : 0x00000080  A9      : 0x3ffbf03c  
+03:19:57.124 > A10     : 0x00000000  A11     : 0x95fdc750  A12     : 0x95fdc750  A13     : 0x00060721  
+03:19:57.129 > A14     : 0xfffbfff0  A15     : 0x00000046  SAR     : 0x00000000  EXCCAUSE: 0x00000001  
+03:19:57.140 > EXCVADDR: 0x00000000  LBEG    : 0x40086344  LEND    : 0x4008635a  LCOUNT  : 0xffffffff  
+03:19:57.145 > 
+03:19:57.145 > 
+03:19:57.145 > Backtrace: 0x40083efd:0x3ffc2be0 0x40080303:0x3ffc2c10 0x65a5a5a2:0xa5a5a5a5 |<-CORRUPTED
+03:19:57.156 > 
+03:19:57.156 > 
+03:19:57.156 > 
+03:19:57.156 > 
+03:19:57.156 > ELF file SHA256: a76a65be846d1edf
+03:19:57.156 > 
+03:19:57.156 > Re-entered core dump! Exception happened during core dump!
+03:19:57.162 > Rebooting...
+03:19:57.162 > ets Jul 29 2019 12:21:46
+03:19:57.167 > 
+03:19:57.167 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+03:19:57.173 > configsip: 0, SPIWP:0xee
+03:19:57.173 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+03:19:57.178 > mode:DIO, clock div:2
+03:19:57.183 > load:0x3fff0030,len:4604
+03:19:57.183 > ho 0 tail 12 room 4
+03:19:57.189 > load:0x40078000,len:15468
+03:19:57.189 > load:0x40080400,len:4
+03:19:57.189 > ho 8 tail 4 room 4
+03:19:57.205 > load:0x40080404,len:3180
+03:19:57.205 > entry 0x400805b8
+03:19:57.369 > E (204) esp_core_dump_flash: C�����"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OR&��,M�&�RH(�+�V␖�,ZY���][O���������RH�SD Card Initialized.
+03:19:57.437 > [    90][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.442 > [    97][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.453 > [   104][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.459 > [   111][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.465 > [   118][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.470 > [   125][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.481 > [   132][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.487 > [   139][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.492 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.498 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.508 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.514 > [   166][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.519 > [   173][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+03:19:57.525 > [   180][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.

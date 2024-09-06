@@ -1,0 +1,43 @@
+01:54:36.123 > E (186) esp_core_dump_flash: Cφ�j�"յ��"�х�␚�����2������jR4␕�kV␗+␖W␖␖�,ZY���][OҬ�&NXL��'
+01:54:36.128 > Image checksum='ffffffff'
+01:54:36.143 > SD Card Initialized.
+01:54:36.171 > SERVO_PIN: 26
+01:54:36.171 > [    70][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.176 > [    77][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.182 > [    84][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.192 > [    91][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.199 > [    98][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.204 > [   105][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.210 > [   112][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.220 > [   119][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.226 > [   126][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.231 > [   133][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.237 > [   140][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.248 > [   146][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.253 > [   153][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:36.258 > [   160][E][esp32-hal-gpio.c:176] __digitalWrite(): IO 0 is not set as GPIO.
+01:54:38.626 > Queue send success
+01:54:38.626 > fetch data
+01:54:38.626 > Queue send success
+01:54:38.626 > logData time: 3ms
+01:54:38.631 > Queue send success
+01:54:38.631 > Queue send success
+01:54:38.631 > Queue send success
+01:54:38.636 > Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+01:54:38.642 > Debug exception reason: Stack canary watchpoint triggered (State Control T) 
+01:54:38.647 > Core  1 register dump:
+01:54:38.652 > PC      : 0x4008af76  PS      : 0x00060236  A0      : 0x8008cdb4  A1      : 0x3ffb3030  
+01:54:38.658 > A2      : 0x3ffb0300  A3      : 0xffffffff  A4      : 0x00060223  A5      : 0x3f409c78  
+01:54:38.664 > A6      : 0xb33fffff  A7      : 0xb33fffff  A8      : 0x00000000  A9      : 0x00000001  
+01:54:38.674 > A10     : 0x007b0300  A11     : 0x3ffb0300  A12     : 0x00000001  A13     : 0x3f409c78  
+01:54:38.679 > A14     : 0x00000003  A15     : 0x00060023  SAR     : 0x00000004  EXCCAUSE: 0x00000001  
+01:54:38.690 > EXCVADDR: 0x00000000  LBEG    : 0x40086961  LEND    : 0x40086971  LCOUNT  : 0xfffffffc  
+01:54:38.695 > 
+01:54:38.695 > 
+01:54:38.695 > Backtrace: 0x4008af73:0x3ffb3030 0x4008cdb1:0x3ffb3060 0x4008cdde:0x3ffb3080 0x4008cf1c:0x3ffb30a0 0x4008397a:0x3ffb30c0 0x40083731:0x3ffb30f0 0x4008b628:0x3ffb3110 0x40088b65:0x3ffb3130 0x40088d78:0x3ffb3150 0x400843d2:0x3ffb3170 0x4008441a:0x3ffb3190 0x40084575:0x3ffb31d0 0x400e6199:0x3ffb31f0 0x400e5383:0x3ffb3220 0x400e5001:0x3ffb3240 0x400866b1:0x3ffb3260 0x40085ab9:0x3ffb3280 0x40085b3e:0x3ffb32a0 0x40086087:0x3ffb32d0 0x400f9567:0x3ffb3300 0x400f519a:0x3ffb3320 0x400f5305:0x3ffb3640 0x400fdb6d:0x3ffb3670 0x400e854d:0x3ffb36a0 0x400e8579:0x3ffb36d0 0x400fcf45:0x3ffb3720 0x400d2699:0x3ffb3750 0x400d212b:0x3ffb3770 0x4008ae76:0x3ffb3790
+01:54:38.764 > 
+01:54:38.764 > 
+01:54:38.764 > 
+01:54:38.764 > 
+01:54:38.764 > ELF file SHA256: 98d65ff51593656f
+01:54:38.764 > 
